@@ -1,6 +1,4 @@
-
 from os import path
-
 
 class SyscallPattern():
     def __init__(self, pattern):

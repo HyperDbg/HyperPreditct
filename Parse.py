@@ -10,11 +10,10 @@ def is_hex(s):
      # if s is long, then it is faster to check against a set
      return all(c in hex_digits for c in s)
 
-
 def merge_logs():
     syscall_set = set()
     ### Merging and filtering logs ###
-    with open("main-log.txt", "w") as MainLog:
+    with open(".\\outputs\\main-log.txt", "w") as MainLog:
 
         for item in glob.glob(".\\logs\\*") :
             LogFile = open(item, 'r')
@@ -51,7 +50,7 @@ def merge_logs():
 '''
 ### Reading main log, line by line and make dictionary ###
 
-FinalLog = open("main-log.txt", 'r') 
+FinalLog = open(".\\outputs\\main-log.txt", 'r') 
 print("Loading data from main log...")
 while True:
     # Get next line from file
@@ -87,8 +86,6 @@ while True:
 
 
 print("Length of unique processes : " + str(len(DataDictionary)))
-
-
 
 # Print header
 print("---------------------- List of top used syscalls ----------------------")

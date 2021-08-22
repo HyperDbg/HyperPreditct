@@ -15,22 +15,25 @@ def printAllPatternDict(allPattternRates):
 def jsonize(allPattternRatesDict, fileName):
     newDict = dict()
     for targetSyscall in allPattternRatesDict.keys():
-        newDict[("%0.4X " % targetSyscall)] = dict()
+        newDict[("%0.4X" % targetSyscall)] = dict()
         for patternRange in allPattternRatesDict[targetSyscall].keys():
-            newDict[("%0.4X " % targetSyscall)][patternRange] = dict()
+            newDict[("%0.4X" % targetSyscall)][patternRange] = dict()
             for pattern in  allPattternRatesDict[targetSyscall][patternRange].keys():
-                newDict[("%0.4X " % targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
+                newDict[("%0.4X" % targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
 
-    print(newDict)
+    
+    # print(newDict)
+    print(json.dumps(newDict, sort_keys=True, indent=4))
+
     with open(fileName,"w") as f:
-        json.dump(newDict,f)
+        json.dump(newDict, f, sort_keys=True, indent=4)
 
 
 def main():
-    syscallList = merge_logs(LogPath=".\\logs", MainLogPath="main-log.txt")
+    syscallList = merge_logs(LogPath=".\\logs", MainLogPath=".\\outputs\\main-log.txt")
     syscallAnalyzer = SyscallAnalyzer(syscallList)
     allPattternRates = syscallAnalyzer.analyzeAll(5, searchNext = True)
-    jsonize(allPattternRates, "output.json")
+    jsonize(allPattternRates, ".\\outputs\\output.json")
     # printPatternDict(patternRate)
     # print(allPattternRates)
     # json_object = json.dumps(allPattternRates, indent = 4) 

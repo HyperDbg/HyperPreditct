@@ -23,7 +23,6 @@ class SyscallAnalyzer:
             i += 1
         return dict(sorted(patternsRateDict.items(), key=lambda item: item[1]))
 
-
     # This function gets a syscall number and patternLength and returns a dictionary 
     # containing all possible patterns before the syscall and their rates of occurrence
     # in the self.syscallsList.
@@ -80,6 +79,5 @@ class SyscallAnalyzer:
                 allPattternRates[targetSyscall] = dict()
                 for i in range(1, patternLength + 1):
                     allPattternRates[targetSyscall][i] = self.analyzePrevious(targetSyscall, i)
-
 
         return allPattternRates

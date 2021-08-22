@@ -1,7 +1,6 @@
 import glob
 import string
 
-
 ### Util function 
 def is_hex(s):
      hex_digits = set(string.hexdigits)
