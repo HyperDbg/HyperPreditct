@@ -1,4 +1,4 @@
-from scanner import *
+from Scanner import *
 from SyscallAnalyzer import *
 import json 
 
