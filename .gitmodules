@@ -1,0 +1,3 @@
+[submodule "windows-syscalls"]
+	path = windows-syscalls
+	url = https://github.com/HyperDbg/windows-syscalls
