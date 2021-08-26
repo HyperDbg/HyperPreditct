@@ -67,17 +67,14 @@ class SyscallAnalyzer:
         return SyscallPattern(syscallsList)
 
     # Calls analyze for all syscalls.
-    def analyzeAll(self, patternLength, searchNext):
+    def analyzeAll(self, patternLength):
         allPattternRates = dict()
-        if searchNext:
-            for targetSyscall in self.syscallsSet:
-                allPattternRates[targetSyscall] = dict()
-                for i in range(1, patternLength + 1):
-                    allPattternRates[targetSyscall][i] = self.analyzeNext(targetSyscall, i)
-        else:
-            for targetSyscall in self.syscallsSet:
-                allPattternRates[targetSyscall] = dict()
-                for i in range(1, patternLength + 1):
-                    allPattternRates[targetSyscall][i] = self.analyzePrevious(targetSyscall, i)
+    
+        for targetSyscall in self.syscallsSet:
+            allPattternRates[targetSyscall] = dict()
+            for i in range(1, patternLength + 1):
+                allPattternRates[targetSyscall][i] = self.analyzeNext(targetSyscall, i)
+            for i in range(1, patternLength + 1):
+                allPattternRates[targetSyscall][-i] = self.analyzePrevious(targetSyscall, i)
 
         return allPattternRates
