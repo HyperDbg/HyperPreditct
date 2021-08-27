@@ -1,4 +1,5 @@
 from os import path
+from SyscallNameConversion import *
 
 class SyscallPattern():
     def __init__(self, pattern):
@@ -13,12 +14,12 @@ class SyscallPattern():
     def __str__(self) :
         return self.getString()
 
-
     def getString(self):        
         str = ""
         i = 0 
         for syscall in self.pattern:
-            str += "%0.4X" % syscall
+            #str += "%0.4X" % syscall
+            str += convertSyscallNumberToFunctionName(syscall)
             if i != len(self.pattern)-1:
                 str += " "
             i +=1

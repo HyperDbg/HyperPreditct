@@ -31,10 +31,11 @@ def jsonize(allPattternRatesDict, fileName):
 
 def main():
     syscallList = merge_logs(LogPath=".\\logs", MainLogPath=".\\outputs\\main-log.txt")
+    
     syscallAnalyzer = SyscallAnalyzer(syscallList)
     allPattternRates = syscallAnalyzer.analyzeAll(5)
     jsonize(allPattternRates, ".\\outputs\\output.json")
-
+    
     
     # printPatternDict(patternRate)
     # print(allPattternRates)
