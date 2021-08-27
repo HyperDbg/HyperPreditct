@@ -8,15 +8,42 @@ def readDataFromFile():
     global listOfSyscalls
     global readData
     
-    tempStorage = []
+    tempStorage1 = []
+    tempStorage2 = []
 
     if readData == False:
         file =  open('.\\windows-syscalls\\x64\\csv\\nt.csv', newline= '')
-        tempStorage = csv.reader(file)
+        tempStorage1 = csv.reader(file)
+        file2 =  open('.\\windows-syscalls\\x64\\csv\\win32k.csv', newline= '')
+        tempStorage2 = csv.reader(file2)
         readData = True
+    
+    firstColumn = True
+    
+    # save into global variables (nt) 
+    for row in tempStorage1 :
+    
+        if firstColumn :
+            firstColumn = False
+            continue
+            
+        if row[30] == '' :
+            continue
+            
+        listOfSyscalls.append(row)
+    
+    firstColumn = True
 
-    # save into global variables    
-    for row in tempStorage :
+    # save into global variables (win32k)    
+    for row in tempStorage2 :
+    
+        if firstColumn :
+            firstColumn = False
+            continue
+            
+        if row[30] == '' :
+            continue
+            
         listOfSyscalls.append(row)
 
 def readAllFunctions():
@@ -32,19 +59,11 @@ def convertSyscallNumberToFunctionName(SyscallNum):
     
     global listOfSyscalls
     
-    firstColumn = True
     
     # read the data
     readDataFromFile()
 
     for row in listOfSyscalls:
-        if firstColumn :
-            firstColumn = False
-            continue
-            
-        if row[30] == '' :
-            continue
-            
         if int(row[30], 16) == SyscallNum :
                 return row[0]
     return 'FunctionNotFound'   

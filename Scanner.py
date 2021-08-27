@@ -39,7 +39,8 @@ def merge_logs(LogPath, MainLogPath):
                     # print(Line.strip())
                     Tmp = Line.strip().split('-')
                     MainLog.writelines(Tmp[2] + '\n')
-                    syscall_list.append(int(Tmp[2], 16))
+                    append_syscall_list = int(Tmp[2], 16) & 0xffff
+                    syscall_list.append(append_syscall_list)
     
             LogFile.close()
             return syscall_list
