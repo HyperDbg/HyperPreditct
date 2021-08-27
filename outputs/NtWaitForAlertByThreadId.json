@@ -3,7 +3,6 @@
         "-5": {
             "NtAllocateVirtualMemory NtClose NtClose NtQueryValueKey NtClose": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory NtQueryVirtualMemory": 1,
-            "NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory NtQueryVirtualMemory NtQuerySection": 2,
             "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory NtQuerySection": 1,
             "NtReleaseWorkerFactoryWorker NtOpenSection NtQueryObject NtClose NtReleaseWorkerFactoryWorker": 1,
             "NtSetInformationProcess NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory": 1
@@ -11,7 +10,6 @@
         "-4": {
             "NtAllocateVirtualMemory NtClose NtClose NtQueryValueKey": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory": 1,
-            "NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory NtQueryVirtualMemory": 2,
             "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory": 1,
             "NtReleaseWorkerFactoryWorker NtOpenSection NtQueryObject NtClose": 1,
             "NtSetInformationProcess NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory": 1
@@ -19,7 +17,6 @@
         "-3": {
             "NtAllocateVirtualMemory NtClose NtClose": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter": 1,
-            "NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory": 2,
             "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtReleaseWorkerFactoryWorker NtOpenSection NtQueryObject": 1,
             "NtSetInformationProcess NtQueryPerformanceCounter NtProtectVirtualMemory": 1
@@ -27,7 +24,6 @@
         "-2": {
             "NtAllocateVirtualMemory NtClose": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtProtectVirtualMemory NtQueryPerformanceCounter": 2,
             "NtQueryPerformanceCounter NtProtectVirtualMemory": 1,
             "NtReleaseWorkerFactoryWorker NtOpenSection": 1,
             "NtSetInformationProcess NtQueryPerformanceCounter": 1

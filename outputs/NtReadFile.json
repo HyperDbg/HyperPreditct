@@ -1,45 +1,25 @@
 {
     "NtReadFile": {
         "-5": {
-            "NtCreateFile NtClose NtReadFile NtReadFile NtReadFile": 2390,
-            "NtCreateFile NtQueryDirectoryFileEx NtAllocateVirtualMemory NtClose NtReadFile": 2,
-            "NtCreateFile NtQueryDirectoryFileEx NtClose NtReadFile NtReadFile": 4,
             "NtCreateFile NtQueryDirectoryFileEx NtOpenFile NtFreeVirtualMemory NtClose": 1,
             "NtCreateFile NtQueryDirectoryFileEx NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtQueryInformationFile NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory NtQueryVirtualMemory": 1,
-            "NtReadFile NtCreateFile NtClose NtReadFile NtReadFile": 2390,
-            "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtAllocateVirtualMemory NtClose": 2,
-            "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtClose NtReadFile": 4,
             "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtOpenFile NtFreeVirtualMemory": 1,
-            "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtOpenFile NtProtectVirtualMemory": 1,
-            "NtReadFile NtReadFile NtCreateFile NtClose NtReadFile": 2390,
-            "NtReadFile NtReadFile NtCreateFile NtQueryDirectoryFileEx NtAllocateVirtualMemory": 2,
-            "NtReadFile NtReadFile NtCreateFile NtQueryDirectoryFileEx NtClose": 4,
-            "NtReadFile NtReadFile NtCreateFile NtQueryDirectoryFileEx NtOpenFile": 2
+            "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtOpenFile NtProtectVirtualMemory": 1
         },
         "-4": {
-            "NtCreateFile NtClose NtReadFile NtReadFile": 2390,
             "NtCreateFile NtQueryDirectoryFileEx NtAllocateVirtualMemory NtClose": 2,
-            "NtCreateFile NtQueryDirectoryFileEx NtClose NtReadFile": 4,
             "NtCreateFile NtQueryDirectoryFileEx NtOpenFile NtFreeVirtualMemory": 1,
             "NtCreateFile NtQueryDirectoryFileEx NtOpenFile NtProtectVirtualMemory": 1,
             "NtQueryInformationFile NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory": 1,
-            "NtReadFile NtCreateFile NtClose NtReadFile": 2390,
-            "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtAllocateVirtualMemory": 2,
-            "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtClose": 4,
-            "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtOpenFile": 2,
-            "NtReadFile NtReadFile NtCreateFile NtClose": 2390,
-            "NtReadFile NtReadFile NtCreateFile NtQueryDirectoryFileEx": 8
+            "NtReadFile NtCreateFile NtQueryDirectoryFileEx NtOpenFile": 2
         },
         "-3": {
-            "NtCreateFile NtClose NtReadFile": 2390,
             "NtCreateFile NtQueryDirectoryFileEx NtAllocateVirtualMemory": 2,
             "NtCreateFile NtQueryDirectoryFileEx NtClose": 4,
             "NtCreateFile NtQueryDirectoryFileEx NtOpenFile": 2,
             "NtQueryInformationFile NtCreateFile NtFlushInstructionCache": 1,
-            "NtReadFile NtCreateFile NtClose": 2390,
-            "NtReadFile NtCreateFile NtQueryDirectoryFileEx": 8,
-            "NtReadFile NtReadFile NtCreateFile": 2398
+            "NtReadFile NtCreateFile NtQueryDirectoryFileEx": 8
         },
         "-2": {
             "NtCreateFile NtClose": 2390,
@@ -63,49 +43,28 @@
             "NtClose NtCreateFile": 2390,
             "NtClose NtQueryDirectoryFileEx": 6,
             "NtQueryInformationFile NtClose": 1,
-            "NtReadFile NtClose": 2398,
             "NtReadFile NtReadFile": 2398
         },
         "3": {
             "NtClose NtAllocateVirtualMemory NtQueryDirectoryFileEx": 2,
-            "NtClose NtCreateFile NtReadFile": 2390,
             "NtClose NtQueryDirectoryFileEx NtClose": 2,
             "NtClose NtQueryDirectoryFileEx NtCreateFile": 4,
             "NtQueryInformationFile NtClose NtQueryInformationThread": 1,
-            "NtReadFile NtClose NtAllocateVirtualMemory": 2,
-            "NtReadFile NtClose NtCreateFile": 2390,
-            "NtReadFile NtClose NtQueryDirectoryFileEx": 6,
-            "NtReadFile NtReadFile NtClose": 2398
+            "NtReadFile NtClose NtAllocateVirtualMemory": 2
         },
         "4": {
             "NtClose NtAllocateVirtualMemory NtQueryDirectoryFileEx NtCreateFile": 2,
-            "NtClose NtCreateFile NtReadFile NtReadFile": 2390,
-            "NtClose NtQueryDirectoryFileEx NtClose NtFreeVirtualMemory": 2,
-            "NtClose NtQueryDirectoryFileEx NtCreateFile NtReadFile": 4,
             "NtQueryInformationFile NtClose NtQueryInformationThread NtReadVirtualMemory": 1,
             "NtReadFile NtClose NtAllocateVirtualMemory NtQueryDirectoryFileEx": 2,
-            "NtReadFile NtClose NtCreateFile NtReadFile": 2390,
             "NtReadFile NtClose NtQueryDirectoryFileEx NtClose": 2,
-            "NtReadFile NtClose NtQueryDirectoryFileEx NtCreateFile": 4,
-            "NtReadFile NtReadFile NtClose NtAllocateVirtualMemory": 2,
-            "NtReadFile NtReadFile NtClose NtCreateFile": 2390,
-            "NtReadFile NtReadFile NtClose NtQueryDirectoryFileEx": 6
+            "NtReadFile NtReadFile NtClose NtAllocateVirtualMemory": 2
         },
         "5": {
-            "NtClose NtAllocateVirtualMemory NtQueryDirectoryFileEx NtCreateFile NtReadFile": 2,
-            "NtClose NtCreateFile NtReadFile NtReadFile NtReadFile": 2390,
             "NtClose NtQueryDirectoryFileEx NtClose NtFreeVirtualMemory NtOpenFile": 1,
             "NtClose NtQueryDirectoryFileEx NtClose NtFreeVirtualMemory NtUserInvalidateRect": 1,
-            "NtClose NtQueryDirectoryFileEx NtCreateFile NtReadFile NtReadFile": 4,
             "NtQueryInformationFile NtClose NtQueryInformationThread NtReadVirtualMemory NtQueryVirtualMemory": 1,
             "NtReadFile NtClose NtAllocateVirtualMemory NtQueryDirectoryFileEx NtCreateFile": 2,
-            "NtReadFile NtClose NtCreateFile NtReadFile NtReadFile": 2390,
-            "NtReadFile NtClose NtQueryDirectoryFileEx NtClose NtFreeVirtualMemory": 2,
-            "NtReadFile NtClose NtQueryDirectoryFileEx NtCreateFile NtReadFile": 4,
-            "NtReadFile NtReadFile NtClose NtAllocateVirtualMemory NtQueryDirectoryFileEx": 2,
-            "NtReadFile NtReadFile NtClose NtCreateFile NtReadFile": 2390,
-            "NtReadFile NtReadFile NtClose NtQueryDirectoryFileEx NtClose": 2,
-            "NtReadFile NtReadFile NtClose NtQueryDirectoryFileEx NtCreateFile": 4
+            "NtReadFile NtReadFile NtClose NtAllocateVirtualMemory NtQueryDirectoryFileEx": 2
         }
     }
 }

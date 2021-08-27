@@ -1,55 +1,31 @@
 {
     "NtUserGetQueueStatusReadonly": {
         "-5": {
-            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
-            "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
             "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtClearEvent NtUserSetTimer NtUserPeekMessage": 1,
-            "NtUserCallNoParam NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 1,
             "NtUserCallNoParam NtProtectVirtualMemory NtProtectVirtualMemory NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam NtAssociateWaitCompletionPacket": 1,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 1,
-            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
             "NtUserGetQueueStatusReadonly NtUserCallNoParam NtProtectVirtualMemory NtProtectVirtualMemory NtAssociateWaitCompletionPacket": 1,
             "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam NtProtectVirtualMemory NtProtectVirtualMemory": 1
         },
         "-4": {
-            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 1,
-            "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
             "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtClearEvent NtUserSetTimer": 1,
-            "NtUserCallNoParam NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
             "NtUserCallNoParam NtProtectVirtualMemory NtProtectVirtualMemory NtAssociateWaitCompletionPacket": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly": 1,
             "NtUserGetQueueStatusReadonly NtUserCallNoParam NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam NtProtectVirtualMemory": 1
         },
         "-3": {
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 2,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtClearEvent": 1,
-            "NtUserCallNoParam NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly": 1,
             "NtUserCallNoParam NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtAssociateWaitCompletionPacket": 1,
             "NtUserGetQueueStatusReadonly NtUserCallNoParam NtProtectVirtualMemory": 1,
             "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam": 1
         },
         "-2": {
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 2,
             "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserCallNoParam NtAssociateWaitCompletionPacket": 1,
             "NtUserCallNoParam NtProtectVirtualMemory": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly": 2,
             "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
-            "NtUserGetQueueStatusReadonly NtUserCallNoParam": 2,
             "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1
         },
         "-1": {
@@ -66,12 +42,8 @@
         },
         "2": {
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 2,
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
             "NtAssociateWaitCompletionPacket NtUserCallNoParam": 1,
-            "NtUserCallNoParam NtContinueEx": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly": 2,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 2,
             "NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
             "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1
         },
@@ -80,39 +52,20 @@
             "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
             "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAssociateWaitCompletionPacket": 1,
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
-            "NtAssociateWaitCompletionPacket NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
-            "NtUserCallNoParam NtContinueEx NtCallbackReturn": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam": 2,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 2,
-            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
             "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1
         },
         "4": {
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 1,
             "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAssociateWaitCompletionPacket NtUserCallNoParam": 1,
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
-            "NtAssociateWaitCompletionPacket NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
-            "NtUserCallNoParam NtContinueEx NtCallbackReturn NtUserDispatchMessage": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtContinueEx": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
             "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAssociateWaitCompletionPacket": 1,
-            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
             "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 1
         },
         "5": {
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
             "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAssociateWaitCompletionPacket NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
-            "NtAssociateWaitCompletionPacket NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
-            "NtUserCallNoParam NtContinueEx NtCallbackReturn NtUserDispatchMessage NtGdiCreateRectRgn": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtContinueEx NtCallbackReturn": 1,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
             "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAssociateWaitCompletionPacket NtUserCallNoParam": 1,
-            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
             "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1
         }
     }

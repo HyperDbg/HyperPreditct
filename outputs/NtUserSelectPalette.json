@@ -56,8 +56,7 @@
             "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap NtFreeVirtualMemory NtGdiExtGetObjectW": 1,
             "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiExtGetObjectW": 24,
             "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserGetDC NtGdiCreateDIBitmapInternal": 16,
-            "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserGetDC NtProtectVirtualMemory": 1,
-            "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap": 41
+            "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserGetDC NtProtectVirtualMemory": 1
         }
     }
 }

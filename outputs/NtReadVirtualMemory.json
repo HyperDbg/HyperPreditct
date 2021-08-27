@@ -54,7 +54,6 @@
             "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtCreateFile": 1,
             "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtProtectVirtualMemory": 1,
             "NtSuspendThread NtClose NtQueryInformationThread NtResumeThread": 1,
-            "NtSuspendThread NtClose NtSetInformationThread NtResumeThread": 1,
             "NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory": 1
         },
         "5": {
@@ -62,7 +61,6 @@
             "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtCreateFile NtQueryInformationFile": 1,
             "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtSuspendThread NtClose NtQueryInformationThread NtResumeThread NtWriteVirtualMemory": 1,
-            "NtSuspendThread NtClose NtSetInformationThread NtResumeThread NtQueryInformationProcess": 1,
             "NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory": 1
         }
     }

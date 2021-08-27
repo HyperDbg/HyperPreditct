@@ -22,14 +22,18 @@ def jsonizeAll(allPattternRatesDict, fileName):
             for pattern in  allPattternRatesDict[targetSyscall][patternRange].keys():
                 newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
                 
-def jsonize(allPattternRatesDict, folderName):
+def jsonize(allPattternRatesDict, folderName, maximumResults):
     newDict = dict()
     for targetSyscall in allPattternRatesDict.keys():
         newDict = dict()
         newDict[convertSyscallNumberToFunctionName(targetSyscall)] = dict()
         for patternRange in allPattternRatesDict[targetSyscall].keys():
             newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange] = dict()
+            controlMaximum = 0
             for pattern in  allPattternRatesDict[targetSyscall][patternRange].keys():
+                controlMaximum += 1
+                if controlMaximum > maximumResults :
+                    break
                 newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
         
         with open(folderName + '\\' + convertSyscallNumberToFunctionName(targetSyscall) + '.json', "w") as f:
@@ -42,10 +46,9 @@ def main():
     syscallList = merge_logs(LogPath=".\\logs", MainLogPath=".\\outputs\\main-log.txt")
     syscallAnalyzer = SyscallAnalyzer(syscallList)
     allPattternRates = syscallAnalyzer.analyzeAll(5)
-    jsonize(allPattternRates, ".\\outputs")
-    jsonizeAll(allPattternRates, ".\\outputs\\output.json")
+    jsonize(allPattternRates, ".\\outputs", 5)
     
-    
+    #jsonizeAll(allPattternRates, ".\\outputs\\output.json")
     # printPatternDict(patternRate)
     # print(allPattternRates)
     # json_object = json.dumps(allPattternRates, indent = 4) 

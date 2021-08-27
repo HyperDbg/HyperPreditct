@@ -2,7 +2,6 @@
     "NtDuplicateToken": {
         "-5": {
             "NtOpenProcessToken NtUserGetProcessUIContextInformation NtUserCallOneParam NtUserGetThreadDesktop NtProtectVirtualMemory": 6,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtCallbackReturn NtContinueEx NtCallbackReturn": 6,
             "NtOpenProcessTokenEx NtOpenThreadTokenEx NtQueryInformationProcess NtUserGetProcessUIContextInformation NtClose": 1,
             "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetKeyboardLayout NtUserQueryInputContext NtUserSetFocus": 1,
             "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetThreadState NtProtectVirtualMemory NtProtectVirtualMemory": 1,
@@ -10,7 +9,6 @@
         },
         "-4": {
             "NtOpenProcessToken NtUserGetProcessUIContextInformation NtUserCallOneParam NtUserGetThreadDesktop": 6,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtCallbackReturn NtContinueEx": 6,
             "NtOpenProcessTokenEx NtOpenThreadTokenEx NtQueryInformationProcess NtUserGetProcessUIContextInformation": 1,
             "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetKeyboardLayout NtUserQueryInputContext": 1,
             "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetThreadState NtProtectVirtualMemory": 1,

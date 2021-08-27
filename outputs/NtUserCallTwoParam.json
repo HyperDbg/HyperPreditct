@@ -1,16 +1,13 @@
 {
     "NtUserCallTwoParam": {
         "-5": {
-            "NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution": 12,
             "NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam": 1,
             "NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory": 1,
             "NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserRegisterWindowMessage": 1,
             "NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserRegisterWindowMessage NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtQueryInformationProcess": 6,
-            "NtUserRegisterWindowMessage NtUserCallTwoParam NtUserRegisterWindowMessage NtProtectVirtualMemory NtProtectVirtualMemory": 6
+            "NtUserRegisterWindowMessage NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtQueryInformationProcess": 6
         },
         "-4": {
-            "NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 13,
             "NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam NtFreeVirtualMemory": 1,
             "NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 1,
@@ -18,7 +15,6 @@
             "NtUserRegisterWindowMessage NtUserCallTwoParam NtUserRegisterWindowMessage NtProtectVirtualMemory": 6
         },
         "-3": {
-            "NtDelayExecution NtUserCallTwoParam NtDelayExecution": 13,
             "NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam": 1,
             "NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 1,
             "NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory": 1,

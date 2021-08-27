@@ -4,7 +4,6 @@
             "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtGdiQueryFontAssocInfo NtAllocateVirtualMemory": 5,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetCharSet NtGdiIntersectClipRect NtUserGetDC": 1,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1,
-            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn": 6,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDC": 1,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn NtContinueEx": 1
         },
@@ -12,7 +11,6 @@
             "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtGdiQueryFontAssocInfo": 5,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetCharSet NtGdiIntersectClipRect": 1,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 1,
-            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextMetricsW NtUserGetDC": 6,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn": 1
         },
@@ -20,7 +18,6 @@
             "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo": 5,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetCharSet": 1,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 1,
-            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextMetricsW": 6,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtProtectVirtualMemory": 1,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtUserGetDC": 1
         },
@@ -37,7 +34,6 @@
             "NtUserReleaseDC": 9
         },
         "2": {
-            "NtGdiGetDeviceCaps NtGdiGetDeviceCaps": 5,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1,
             "NtUserReleaseDC NtContinueEx": 2,
             "NtUserReleaseDC NtUserCreateWindowEx": 2,
@@ -45,31 +41,25 @@
             "NtUserReleaseDC NtUserPostMessage": 4
         },
         "3": {
-            "NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtUserReleaseDC": 5,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 1,
             "NtUserReleaseDC NtContinueEx NtCallbackReturn": 2,
             "NtUserReleaseDC NtUserCreateWindowEx NtContinueEx": 1,
             "NtUserReleaseDC NtUserCreateWindowEx NtUserFindExistingCursorIcon": 1,
-            "NtUserReleaseDC NtUserGetThreadState NtUserUpdateInputContext": 1,
-            "NtUserReleaseDC NtUserPostMessage NtContinueEx": 4
+            "NtUserReleaseDC NtUserGetThreadState NtUserUpdateInputContext": 1
         },
         "4": {
-            "NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtUserReleaseDC NtAllocateVirtualMemory": 5,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtUserReleaseDC": 1,
             "NtUserReleaseDC NtContinueEx NtCallbackReturn NtUserSetScrollInfo": 2,
             "NtUserReleaseDC NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 1,
             "NtUserReleaseDC NtUserCreateWindowEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 1,
-            "NtUserReleaseDC NtUserGetThreadState NtUserUpdateInputContext NtUserAssociateInputContext": 1,
-            "NtUserReleaseDC NtUserPostMessage NtContinueEx NtCallbackReturn": 4
+            "NtUserReleaseDC NtUserGetThreadState NtUserUpdateInputContext NtUserAssociateInputContext": 1
         },
         "5": {
-            "NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtUserReleaseDC NtAllocateVirtualMemory NtFreeVirtualMemory": 5,
             "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtUserReleaseDC NtUserGetThreadState": 1,
             "NtUserReleaseDC NtContinueEx NtCallbackReturn NtUserSetScrollInfo NtUserGetProp": 2,
             "NtUserReleaseDC NtUserCreateWindowEx NtContinueEx NtCallbackReturn NtContinueEx": 1,
             "NtUserReleaseDC NtUserCreateWindowEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserCreateWindowEx": 1,
-            "NtUserReleaseDC NtUserGetThreadState NtUserUpdateInputContext NtUserAssociateInputContext NtQueryObject": 1,
-            "NtUserReleaseDC NtUserPostMessage NtContinueEx NtCallbackReturn NtUserSetWindowPos": 4
+            "NtUserReleaseDC NtUserGetThreadState NtUserUpdateInputContext NtUserAssociateInputContext NtQueryObject": 1
         }
     }
 }

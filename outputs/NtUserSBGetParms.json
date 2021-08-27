@@ -1,51 +1,29 @@
 {
     "NtUserSBGetParms": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtUserBuildHwndList NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow": 6,
             "NtSetEvent NtQueryInformationProcess NtUserSystemParametersInfo NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1,
-            "NtUserGetProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 16,
-            "NtUserGetProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsNonClientDpiScalingEnabled": 5,
-            "NtUserGetProp NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp": 16,
-            "NtUserGetProp NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp": 5,
             "NtUserSetScrollInfo NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtUserSetScrollInfo NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp": 10,
             "NtUserSetScrollInfo NtClose NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
             "NtUserSetScrollInfo NtUserMessageCall NtClose NtQueryVolumeInformationFile NtQueryVolumeInformationFile": 1,
-            "NtUserSetScrollInfo NtUserNotifyWinEvent NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserSetScrollInfo NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+            "NtUserSetScrollInfo NtUserNotifyWinEvent NtCallbackReturn NtContinueEx NtCallbackReturn": 1
         },
         "-4": {
-            "NtCallbackReturn NtContinueEx NtUserBuildHwndList NtUserIsChildWindowDpiMessageEnabled": 6,
             "NtSetEvent NtQueryInformationProcess NtUserSystemParametersInfo NtUserRegisterWindowMessage": 1,
-            "NtUserGetProp NtUserGetProp NtCallbackReturn NtContinueEx": 21,
-            "NtUserGetProp NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow NtUserGetProp": 16,
-            "NtUserGetProp NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 5,
             "NtUserSetScrollInfo NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserSetScrollInfo NtCallbackReturn NtContinueEx NtUserMessageCall": 10,
             "NtUserSetScrollInfo NtClose NtQueryDirectoryFileEx NtUserNotifyWinEvent": 1,
             "NtUserSetScrollInfo NtUserMessageCall NtClose NtQueryVolumeInformationFile": 1,
-            "NtUserSetScrollInfo NtUserNotifyWinEvent NtCallbackReturn NtContinueEx": 1,
-            "NtUserSetScrollInfo NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+            "NtUserSetScrollInfo NtUserNotifyWinEvent NtCallbackReturn NtContinueEx": 1
         },
         "-3": {
-            "NtCallbackReturn NtContinueEx NtUserBuildHwndList": 6,
             "NtSetEvent NtQueryInformationProcess NtUserSystemParametersInfo": 1,
-            "NtUserGetProp NtUserGetProp NtCallbackReturn": 21,
-            "NtUserGetProp NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow": 16,
-            "NtUserGetProp NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 5,
-            "NtUserSetScrollInfo NtCallbackReturn NtContinueEx": 11,
             "NtUserSetScrollInfo NtClose NtQueryDirectoryFileEx": 1,
             "NtUserSetScrollInfo NtUserMessageCall NtClose": 1,
             "NtUserSetScrollInfo NtUserNotifyWinEvent NtCallbackReturn": 1,
             "NtUserSetScrollInfo NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
         },
         "-2": {
-            "NtCallbackReturn NtContinueEx": 6,
             "NtSetEvent NtQueryInformationProcess": 1,
-            "NtUserGetProp NtUserGetProp": 21,
-            "NtUserGetProp NtUserIsChildWindowDpiMessageEnabled": 16,
             "NtUserGetProp NtUserIsNonClientDpiScalingEnabled": 5,
-            "NtUserSetScrollInfo NtCallbackReturn": 11,
             "NtUserSetScrollInfo NtClose": 1,
             "NtUserSetScrollInfo NtUserMessageCall": 1,
             "NtUserSetScrollInfo NtUserNotifyWinEvent": 3

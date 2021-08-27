@@ -2,7 +2,6 @@
     "NtAlertThreadByThreadId": {
         "-5": {
             "NtProtectVirtualMemory NtSetInformationProcess NtWaitForAlertByThreadId NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtProtectVirtualMemory NtSetInformationProcess NtWaitForAlertByThreadId NtProtectVirtualMemory NtQueryPerformanceCounter": 2,
             "NtProtectVirtualMemory NtSetInformationProcess NtWaitForAlertByThreadId NtQueryPerformanceCounter NtProtectVirtualMemory": 1,
             "NtWaitForAlertByThreadId NtAllocateVirtualMemory NtClose NtClose NtQueryValueKey": 1,
             "NtWaitForAlertByThreadId NtReleaseWorkerFactoryWorker NtOpenSection NtQueryObject NtClose": 1,
@@ -60,7 +59,6 @@
         "5": {
             "NtAllocateVirtualMemory NtCreateEvent NtDuplicateObject NtReleaseWorkerFactoryWorker NtWaitForSingleObject": 1,
             "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtSetInformationProcess NtProtectVirtualMemory": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtSetInformationProcess NtWaitForWorkViaWorkerFactory": 2,
             "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtSetInformationProcess NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory": 1,
             "NtQuerySystemInformationEx NtOpenKeyEx NtMapViewOfSection NtProtectVirtualMemory NtMapViewOfSection": 1,
             "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtSetInformationProcess NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory": 1

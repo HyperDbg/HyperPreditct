@@ -1,47 +1,30 @@
 {
     "NtUserGetObjectInformation": {
         "-5": {
-            "NtUserGetProcessWindowStation NtSetEvent NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 6,
             "NtUserGetProcessWindowStation NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtOpenKeyEx NtQueryKey": 1,
             "NtUserGetThreadDesktop NtClose NtOpenMutant NtQueryObject NtUserGetObjectInformation": 1,
-            "NtUserGetThreadDesktop NtUserChangeWindowMessageFilterEx NtUserChangeWindowMessageFilterEx NtCallbackReturn NtContinueEx": 2,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserGetClassName NtCallbackReturn NtContinueEx": 1,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserGetClassName NtUserGetClassName NtCallbackReturn": 11,
             "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 4,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtUserIsTopLevelWindow NtUserSetProp": 16,
             "NtUserGetThreadDesktop NtUserSetWinEventHook NtQueryInformationProcess NtClose NtAccessCheck": 1,
             "NtUserGetThreadDesktop NtWaitForSingleObject NtOpenMutant NtQueryObject NtQueryInformationProcess": 1
         },
         "-4": {
-            "NtUserGetProcessWindowStation NtSetEvent NtAllocateVirtualMemory NtFreeVirtualMemory": 6,
             "NtUserGetProcessWindowStation NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtOpenKeyEx": 1,
             "NtUserGetThreadDesktop NtClose NtOpenMutant NtQueryObject": 1,
-            "NtUserGetThreadDesktop NtUserChangeWindowMessageFilterEx NtUserChangeWindowMessageFilterEx NtCallbackReturn": 2,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserGetClassName NtCallbackReturn": 1,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserGetClassName NtUserGetClassName": 11,
             "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtProtectVirtualMemory": 1,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled": 4,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtUserIsTopLevelWindow": 16,
             "NtUserGetThreadDesktop NtUserSetWinEventHook NtQueryInformationProcess NtClose": 1,
             "NtUserGetThreadDesktop NtWaitForSingleObject NtOpenMutant NtQueryObject": 1
         },
         "-3": {
-            "NtUserGetProcessWindowStation NtSetEvent NtAllocateVirtualMemory": 6,
             "NtUserGetProcessWindowStation NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1,
             "NtUserGetThreadDesktop NtClose NtOpenMutant": 1,
             "NtUserGetThreadDesktop NtUserChangeWindowMessageFilterEx NtUserChangeWindowMessageFilterEx": 2,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserGetClassName": 12,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo": 21,
             "NtUserGetThreadDesktop NtUserSetWinEventHook NtQueryInformationProcess": 1,
             "NtUserGetThreadDesktop NtWaitForSingleObject NtOpenMutant": 1
         },
         "-2": {
-            "NtUserGetProcessWindowStation NtSetEvent": 6,
             "NtUserGetProcessWindowStation NtUserGetKeyboardLayout": 1,
             "NtUserGetThreadDesktop NtClose": 1,
             "NtUserGetThreadDesktop NtUserChangeWindowMessageFilterEx": 2,
-            "NtUserGetThreadDesktop NtUserRemoveProp": 33,
             "NtUserGetThreadDesktop NtUserSetWinEventHook": 1,
             "NtUserGetThreadDesktop NtWaitForSingleObject": 1
         },
@@ -68,30 +51,21 @@
             "NtQueryInformationProcess NtQueryObject NtOpenMutant": 2,
             "NtQueryInformationProcess NtQueryObject NtOpenSection": 1,
             "NtQueryInformationProcess NtQueryObject NtQueryKey": 2,
-            "NtQueryObject NtOpenMutant NtClose": 1,
-            "NtUserGetGUIThreadInfo NtConnectPort NtRequestWaitReplyPort": 6,
-            "NtUserGetProp NtUserGetProp NtUserGetProp": 28
+            "NtQueryObject NtOpenMutant NtClose": 1
         },
         "4": {
-            "NtOpenSection NtMapViewOfSection NtOpenSection NtOpenSection": 5,
             "NtQueryInformationProcess NtQueryObject NtOpenMutant NtClose": 1,
             "NtQueryInformationProcess NtQueryObject NtOpenMutant NtWaitForSingleObject": 1,
             "NtQueryInformationProcess NtQueryObject NtOpenSection NtMapViewOfSection": 1,
             "NtQueryInformationProcess NtQueryObject NtQueryKey NtQueryKey": 2,
-            "NtQueryObject NtOpenMutant NtClose NtUserGetThreadDesktop": 1,
-            "NtUserGetGUIThreadInfo NtConnectPort NtRequestWaitReplyPort NtRequestWaitReplyPort": 6,
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserIsTopLevelWindow": 28
+            "NtQueryObject NtOpenMutant NtClose NtUserGetThreadDesktop": 1
         },
         "5": {
-            "NtOpenSection NtMapViewOfSection NtOpenSection NtOpenSection NtUnmapViewOfSectionEx": 5,
             "NtQueryInformationProcess NtQueryObject NtOpenMutant NtClose NtUserRegisterClassExWOW": 1,
             "NtQueryInformationProcess NtQueryObject NtOpenMutant NtWaitForSingleObject NtUserGetThreadDesktop": 1,
             "NtQueryInformationProcess NtQueryObject NtOpenSection NtMapViewOfSection NtUnmapViewOfSectionEx": 1,
             "NtQueryInformationProcess NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx": 2,
-            "NtQueryObject NtOpenMutant NtClose NtUserGetThreadDesktop NtUserGetObjectInformation": 1,
-            "NtUserGetGUIThreadInfo NtConnectPort NtRequestWaitReplyPort NtRequestWaitReplyPort NtQueryInformationToken": 6,
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 22,
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 6
+            "NtQueryObject NtOpenMutant NtClose NtUserGetThreadDesktop NtUserGetObjectInformation": 1
         }
     }
 }

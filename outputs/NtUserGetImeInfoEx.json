@@ -3,15 +3,12 @@
         "-5": {
             "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr NtCallbackReturn": 1,
             "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr NtUserGetClassName": 1,
-            "NtClose NtAccessCheck NtClose NtDuplicateToken NtOpenProcessTokenEx": 6,
             "NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject NtUserAssociateInputContext": 1,
             "NtUserAssociateInputContext NtUserQueryInputContext NtUserCallHwndParam NtUserGetImeInfoEx NtOpenKeyEx": 1,
-            "NtUserQueryWindow NtUserNotifyIMEStatus NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserGetInputLocaleInfo": 1,
-            "NtUserReleaseDC NtGdiGetTextCharsetInfo NtGdiIntersectClipRect NtUserGetDC NtUserGetImeInfoEx": 2
+            "NtUserQueryWindow NtUserNotifyIMEStatus NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserGetInputLocaleInfo": 1
         },
         "-4": {
             "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr": 2,
-            "NtClose NtAccessCheck NtClose NtDuplicateToken": 6,
             "NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject": 1,
             "NtUserAssociateInputContext NtUserQueryInputContext NtUserCallHwndParam NtUserGetImeInfoEx": 1,
             "NtUserQueryWindow NtUserNotifyIMEStatus NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1,
@@ -19,7 +16,6 @@
         },
         "-3": {
             "NtCallbackReturn NtContinueEx NtUserMessageCall": 2,
-            "NtClose NtAccessCheck NtClose": 6,
             "NtOpenKeyEx NtQueryKey NtQueryKey": 1,
             "NtUserAssociateInputContext NtUserQueryInputContext NtUserCallHwndParam": 1,
             "NtUserQueryWindow NtUserNotifyIMEStatus NtUserGetKeyboardLayout": 1,
@@ -27,7 +23,6 @@
         },
         "-2": {
             "NtCallbackReturn NtContinueEx": 2,
-            "NtClose NtAccessCheck": 6,
             "NtOpenKeyEx NtQueryKey": 1,
             "NtUserAssociateInputContext NtUserQueryInputContext": 1,
             "NtUserQueryWindow NtUserNotifyIMEStatus": 1,
@@ -35,7 +30,6 @@
         },
         "-1": {
             "NtCallbackReturn": 2,
-            "NtClose": 6,
             "NtOpenKeyEx": 1,
             "NtUserAssociateInputContext": 1,
             "NtUserQueryWindow": 1,
@@ -43,7 +37,6 @@
         },
         "1": {
             "NtContinueEx": 1,
-            "NtProtectVirtualMemory": 6,
             "NtUserCallHwndParam": 1,
             "NtUserGetClassInfoEx": 1,
             "NtUserGetDC": 2,
@@ -51,7 +44,6 @@
         },
         "2": {
             "NtContinueEx NtCallbackReturn": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 6,
             "NtUserCallHwndParam NtUserQueryInputContext": 1,
             "NtUserGetClassInfoEx NtUserCreateWindowEx": 1,
             "NtUserGetDC NtGdiIntersectClipRect": 2,
@@ -59,30 +51,22 @@
         },
         "3": {
             "NtContinueEx NtCallbackReturn NtUserInvalidateRect": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 5,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetThreadState": 1,
             "NtUserCallHwndParam NtUserQueryInputContext NtUserAssociateInputContext": 1,
             "NtUserGetClassInfoEx NtUserCreateWindowEx NtContinueEx": 1,
-            "NtUserGetDC NtGdiIntersectClipRect NtGdiGetTextCharsetInfo": 2,
-            "NtUserGetKeyboardLayoutList NtUserGetDC NtUserReleaseDC": 2
+            "NtUserGetDC NtGdiIntersectClipRect NtGdiGetTextCharsetInfo": 2
         },
         "4": {
             "NtContinueEx NtCallbackReturn NtUserInvalidateRect NtContinueEx": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 5,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetThreadState NtUserFindExistingCursorIcon": 1,
             "NtUserCallHwndParam NtUserQueryInputContext NtUserAssociateInputContext NtUserGetImeInfoEx": 1,
             "NtUserGetClassInfoEx NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 1,
-            "NtUserGetDC NtGdiIntersectClipRect NtGdiGetTextCharsetInfo NtUserReleaseDC": 2,
             "NtUserGetKeyboardLayoutList NtUserGetDC NtUserReleaseDC NtContinueEx": 1,
             "NtUserGetKeyboardLayoutList NtUserGetDC NtUserReleaseDC NtUserGetDC": 1
         },
         "5": {
             "NtContinueEx NtCallbackReturn NtUserInvalidateRect NtContinueEx NtCallbackReturn": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetThreadState": 5,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetThreadState NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 1,
             "NtUserCallHwndParam NtUserQueryInputContext NtUserAssociateInputContext NtUserGetImeInfoEx NtContinueEx": 1,
             "NtUserGetClassInfoEx NtUserCreateWindowEx NtContinueEx NtCallbackReturn NtUserGetIconSize": 1,
-            "NtUserGetDC NtGdiIntersectClipRect NtGdiGetTextCharsetInfo NtUserReleaseDC NtUserGetImeInfoEx": 2,
             "NtUserGetKeyboardLayoutList NtUserGetDC NtUserReleaseDC NtContinueEx NtCallbackReturn": 1,
             "NtUserGetKeyboardLayoutList NtUserGetDC NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect": 1
         }

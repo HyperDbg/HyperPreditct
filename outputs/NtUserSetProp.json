@@ -4,7 +4,6 @@
             "NtUserGetProp NtUserGetProp NtUserGetWindowDC NtUserRemoveProp NtUserGetProp": 6,
             "NtUserGetProp NtUserGetProp NtUserSBGetParms NtCallbackReturn NtContinueEx": 5,
             "NtUserGetProp NtUserGetProp NtUserSBGetParms NtSetEvent NtQueryInformationProcess": 1,
-            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtUserSetScrollInfo NtCallbackReturn": 7,
             "NtUserGetProp NtUserGetProp NtUserSBGetParms NtUserSetScrollInfo NtClose": 1,
             "NtUserGetProp NtUserGetProp NtUserSBGetParms NtUserSetScrollInfo NtUserMessageCall": 1
         },

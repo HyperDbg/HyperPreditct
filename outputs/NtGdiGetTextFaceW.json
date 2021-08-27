@@ -40,7 +40,6 @@
             "NtGdiSelectFont NtProtectVirtualMemory": 3,
             "NtGdiSelectFont NtQueryInformationProcess": 3,
             "NtQueryInformationThread NtQueryObject": 1,
-            "NtUserFindExistingCursorIcon NtUserGetDC": 4,
             "NtUserReleaseDC NtUserGetDC": 1,
             "NtUserReleaseDC NtUserInvalidateRect": 1
         },
@@ -48,7 +47,6 @@
             "NtGdiSelectFont NtProtectVirtualMemory NtProtectVirtualMemory": 3,
             "NtGdiSelectFont NtQueryInformationProcess NtSetInformationProcess": 3,
             "NtQueryInformationThread NtQueryObject NtOpenSection": 1,
-            "NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateCompatibleBitmap": 4,
             "NtUserReleaseDC NtUserGetDC NtUserSetWindowPos": 1,
             "NtUserReleaseDC NtUserInvalidateRect NtUserShowWindow": 1
         },
@@ -56,7 +54,6 @@
             "NtGdiSelectFont NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetDeviceCaps": 3,
             "NtGdiSelectFont NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3,
             "NtQueryInformationThread NtQueryObject NtOpenSection NtMapViewOfSection": 1,
-            "NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC": 4,
             "NtUserReleaseDC NtUserGetDC NtUserSetWindowPos NtUserMessageCall": 1,
             "NtUserReleaseDC NtUserInvalidateRect NtUserShowWindow NtContinueEx": 1
         },
@@ -64,7 +61,6 @@
             "NtGdiSelectFont NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetDeviceCaps NtGdiDeleteObjectApp": 3,
             "NtGdiSelectFont NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3,
             "NtQueryInformationThread NtQueryObject NtOpenSection NtMapViewOfSection NtQuerySection": 1,
-            "NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap": 4,
             "NtUserReleaseDC NtUserGetDC NtUserSetWindowPos NtUserMessageCall NtContinueEx": 1,
             "NtUserReleaseDC NtUserInvalidateRect NtUserShowWindow NtContinueEx NtCallbackReturn": 1
         }

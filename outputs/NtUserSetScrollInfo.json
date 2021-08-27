@@ -2,30 +2,24 @@
     "NtUserSetScrollInfo": {
         "-5": {
             "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserMessageCall": 2,
-            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp NtCallbackReturn": 14,
             "NtCallbackReturn NtContinueEx NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 2,
             "NtClose NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
             "NtUserMessageCall NtClose NtQueryVolumeInformationFile NtQueryVolumeInformationFile NtQueryInformationFile": 1,
-            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtClose": 2
+            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1
         },
         "-4": {
             "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2,
-            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp": 14,
             "NtCallbackReturn NtContinueEx NtUserReleaseDC NtGdiGetTextExtentExW": 2,
             "NtClose NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
             "NtUserMessageCall NtClose NtQueryVolumeInformationFile NtQueryVolumeInformationFile": 1,
-            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx NtCallbackReturn": 1
         },
         "-3": {
             "NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
-            "NtCallbackReturn NtContinueEx NtUserMessageCall": 14,
             "NtCallbackReturn NtContinueEx NtUserReleaseDC": 2,
             "NtClose NtQueryDirectoryFileEx NtUserNotifyWinEvent": 2,
             "NtUserMessageCall NtClose NtQueryVolumeInformationFile": 1,
-            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx": 1
         },
         "-2": {
             "NtCallbackReturn NtContinueEx": 18,

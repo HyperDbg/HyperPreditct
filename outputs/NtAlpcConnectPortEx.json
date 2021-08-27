@@ -4,7 +4,6 @@
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtCreateWaitCompletionPacket NtQueryObject NtAlpcSendWaitReceivePort": 1,
             "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx NtQueryKey": 1,
             "NtDuplicateObject NtQuerySystemInformation NtQueryInformationProcess NtQuerySystemInformation NtQuerySystemInformation": 1,
-            "NtQueryInformationToken NtDuplicateObject NtCreateEvent NtClose NtQueryValueKey": 2,
             "NtQueryInformationToken NtOpenThreadToken NtOpenThreadToken NtOpenThreadToken NtClose": 1,
             "NtSetTimer2 NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket": 1
         },
@@ -12,7 +11,6 @@
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtCreateWaitCompletionPacket NtQueryObject": 1,
             "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 1,
             "NtDuplicateObject NtQuerySystemInformation NtQueryInformationProcess NtQuerySystemInformation": 1,
-            "NtQueryInformationToken NtDuplicateObject NtCreateEvent NtClose": 2,
             "NtQueryInformationToken NtOpenThreadToken NtOpenThreadToken NtOpenThreadToken": 1,
             "NtSetTimer2 NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket": 1
         },
@@ -20,7 +18,6 @@
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtCreateWaitCompletionPacket": 1,
             "NtClose NtQueryValueKey NtSetInformationKey": 1,
             "NtDuplicateObject NtQuerySystemInformation NtQueryInformationProcess": 1,
-            "NtQueryInformationToken NtDuplicateObject NtCreateEvent": 2,
             "NtQueryInformationToken NtOpenThreadToken NtOpenThreadToken": 1,
             "NtSetTimer2 NtSetInformationWorkerFactory NtSetInformationWorkerFactory": 1
         },
@@ -28,7 +25,6 @@
             "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
             "NtClose NtQueryValueKey": 1,
             "NtDuplicateObject NtQuerySystemInformation": 1,
-            "NtQueryInformationToken NtDuplicateObject": 2,
             "NtQueryInformationToken NtOpenThreadToken": 1,
             "NtSetTimer2 NtSetInformationWorkerFactory": 1
         },
@@ -53,7 +49,6 @@
         },
         "3": {
             "NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtCreateEvent": 1,
-            "NtAlpcQueryInformation NtAllocateVirtualMemory NtAlpcSendWaitReceivePort": 2,
             "NtAlpcQueryInformation NtOpenThreadToken NtSetInformationThread": 1,
             "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort": 1,
             "NtAlpcQueryInformation NtQueryInformationProcess NtUserSetWinEventHook": 1,
@@ -61,7 +56,6 @@
         },
         "4": {
             "NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtCreateEvent NtAllocateVirtualMemory": 1,
-            "NtAlpcQueryInformation NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
             "NtAlpcQueryInformation NtOpenThreadToken NtSetInformationThread NtAlpcCreateSecurityContext": 1,
             "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort NtUserGetQueueStatus": 1,
             "NtAlpcQueryInformation NtQueryInformationProcess NtUserSetWinEventHook NtUserGetGUIThreadInfo": 1,
@@ -69,7 +63,6 @@
         },
         "5": {
             "NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtCreateEvent NtAllocateVirtualMemory NtCreateTimer": 1,
-            "NtAlpcQueryInformation NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
             "NtAlpcQueryInformation NtOpenThreadToken NtSetInformationThread NtAlpcCreateSecurityContext NtSetInformationThread": 1,
             "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort NtUserGetQueueStatus NtUserPeekMessage": 1,
             "NtAlpcQueryInformation NtQueryInformationProcess NtUserSetWinEventHook NtUserGetGUIThreadInfo NtQueryWnfStateData": 1,

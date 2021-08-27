@@ -3,7 +3,6 @@
         "-5": {
             "NtUserGetIconSize NtCallbackReturn NtContinueEx NtUserCreateWindowEx NtUserGetClassInfoEx": 1,
             "NtUserGetIconSize NtUserMessageCall NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr": 1,
-            "NtUserGetIconSize NtUserMessageCall NtSetEvent NtCallbackReturn NtContinueEx": 4,
             "NtUserGetIconSize NtUserMessageCall NtSetEvent NtGdiGetBitmapDimension NtGdiExtGetObjectW": 1,
             "NtUserGetIconSize NtUserSetClassLongPtr NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp": 1,
             "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap": 4
@@ -11,7 +10,6 @@
         "-4": {
             "NtUserGetIconSize NtCallbackReturn NtContinueEx NtUserCreateWindowEx": 1,
             "NtUserGetIconSize NtUserMessageCall NtCallbackReturn NtContinueEx": 1,
-            "NtUserGetIconSize NtUserMessageCall NtSetEvent NtCallbackReturn": 4,
             "NtUserGetIconSize NtUserMessageCall NtSetEvent NtGdiGetBitmapDimension": 1,
             "NtUserGetIconSize NtUserSetClassLongPtr NtCallbackReturn NtContinueEx": 1,
             "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 4

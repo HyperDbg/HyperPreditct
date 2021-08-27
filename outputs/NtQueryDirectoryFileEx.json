@@ -1,68 +1,32 @@
 {
     "NtQueryDirectoryFileEx": {
         "-5": {
-            "NtAllocateVirtualMemory NtClose NtReadFile NtReadFile NtReadFile": 2,
             "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile NtUserReleaseDC": 1,
-            "NtClose NtReadFile NtReadFile NtReadFile NtCreateFile": 6,
             "NtOpenFile NtFreeVirtualMemory NtClose NtQueryDirectoryFileEx NtClose": 1,
             "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtFlushInstructionCache NtWriteVirtualMemory": 1,
-            "NtOpenFile NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess NtQueryInformationProcess": 1,
-            "NtOpenFile NtQueryAttributesFile NtUserReleaseDC NtUserGetDC NtCallbackReturn": 2,
-            "NtOpenFile NtSetInformationProcess NtQueryInformationProcess NtQueryAttributesFile NtSetInformationProcess": 2,
-            "NtOpenFile NtUserMessageCall NtUserReleaseDC NtGdiDeleteObjectApp NtGdiSelectBitmap": 1,
             "NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile NtUserReleaseDC NtUserGetDC": 1,
-            "NtQueryDirectoryFileEx NtOpenFile NtSetInformationProcess NtQueryInformationProcess NtQueryAttributesFile": 2,
-            "NtQueryDirectoryFileEx NtOpenFile NtUserMessageCall NtUserReleaseDC NtGdiDeleteObjectApp": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx NtOpenFile NtUserMessageCall NtUserReleaseDC": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx NtAllocateVirtualMemory": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx NtAllocateVirtualMemory": 1
         },
         "-4": {
-            "NtAllocateVirtualMemory NtClose NtReadFile NtReadFile": 2,
             "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile": 1,
-            "NtClose NtReadFile NtReadFile NtReadFile": 6,
             "NtOpenFile NtFreeVirtualMemory NtClose NtQueryDirectoryFileEx": 1,
             "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtFlushInstructionCache": 1,
-            "NtOpenFile NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtOpenFile NtQueryAttributesFile NtUserReleaseDC NtUserGetDC": 2,
-            "NtOpenFile NtSetInformationProcess NtQueryInformationProcess NtQueryAttributesFile": 2,
             "NtOpenFile NtUserMessageCall NtUserReleaseDC NtGdiDeleteObjectApp": 1,
-            "NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile NtUserReleaseDC": 1,
-            "NtQueryDirectoryFileEx NtOpenFile NtSetInformationProcess NtQueryInformationProcess": 2,
-            "NtQueryDirectoryFileEx NtOpenFile NtUserMessageCall NtUserReleaseDC": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx NtOpenFile NtUserMessageCall": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx": 2,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+            "NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile NtUserReleaseDC": 1
         },
         "-3": {
-            "NtAllocateVirtualMemory NtClose NtReadFile": 2,
             "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtOpenFile": 1,
-            "NtClose NtReadFile NtReadFile": 6,
             "NtOpenFile NtFreeVirtualMemory NtClose": 1,
             "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtOpenFile NtQueryAttributesFile NtSetInformationProcess": 1,
-            "NtOpenFile NtQueryAttributesFile NtUserReleaseDC": 2,
-            "NtOpenFile NtSetInformationProcess NtQueryInformationProcess": 2,
             "NtOpenFile NtUserMessageCall NtUserReleaseDC": 1,
-            "NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile": 1,
-            "NtQueryDirectoryFileEx NtOpenFile NtSetInformationProcess": 2,
-            "NtQueryDirectoryFileEx NtOpenFile NtUserMessageCall": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx NtOpenFile": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 4
+            "NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile": 1
         },
         "-2": {
-            "NtAllocateVirtualMemory NtClose": 2,
             "NtAllocateVirtualMemory NtQueryDirectoryFileEx": 1,
-            "NtClose NtReadFile": 6,
             "NtOpenFile NtFreeVirtualMemory": 1,
             "NtOpenFile NtProtectVirtualMemory": 1,
-            "NtOpenFile NtQueryAttributesFile": 3,
-            "NtOpenFile NtSetInformationProcess": 2,
             "NtOpenFile NtUserMessageCall": 1,
-            "NtQueryDirectoryFileEx NtOpenFile": 4,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent": 4
+            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1
         },
         "-1": {
             "NtAllocateVirtualMemory": 3,
@@ -81,70 +45,30 @@
         "2": {
             "NtAllocateVirtualMemory NtQueryDirectoryFileEx": 1,
             "NtAllocateVirtualMemory NtUserNotifyWinEvent": 1,
-            "NtClose NtFreeVirtualMemory": 2,
-            "NtClose NtQueryInformationProcess": 2,
-            "NtClose NtUserNotifyWinEvent": 2,
-            "NtClose NtUserSetScrollInfo": 2,
-            "NtCreateFile NtReadFile": 8,
             "NtQueryDirectoryFileEx NtAllocateVirtualMemory": 1,
             "NtQueryDirectoryFileEx NtClose": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1,
-            "NtQueryDirectoryFileEx NtUserNotifyWinEvent": 2,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent": 3
+            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1
         },
         "3": {
-            "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtUserNotifyWinEvent": 1,
             "NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
             "NtClose NtFreeVirtualMemory NtOpenFile": 1,
             "NtClose NtFreeVirtualMemory NtUserInvalidateRect": 1,
-            "NtClose NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtClose NtQueryInformationProcess NtUserNotifyWinEvent": 1,
-            "NtClose NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
             "NtClose NtUserSetScrollInfo NtUserGetProp": 1,
-            "NtClose NtUserSetScrollInfo NtUserSBGetParms": 1,
-            "NtCreateFile NtReadFile NtReadFile": 8,
-            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent": 1,
-            "NtQueryDirectoryFileEx NtClose NtQueryInformationProcess": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx NtClose": 1,
-            "NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 3
+            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent": 1
         },
         "4": {
-            "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
             "NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
             "NtClose NtFreeVirtualMemory NtOpenFile NtQueryDirectoryFileEx": 1,
             "NtClose NtFreeVirtualMemory NtUserInvalidateRect NtUserMessageCall": 1,
-            "NtClose NtQueryInformationProcess NtSetInformationProcess NtQueryInformationThread": 1,
-            "NtClose NtQueryInformationProcess NtUserNotifyWinEvent NtUserMessageCall": 1,
-            "NtClose NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
             "NtClose NtUserSetScrollInfo NtUserGetProp NtUserIsTopLevelWindow": 1,
-            "NtClose NtUserSetScrollInfo NtUserSBGetParms NtUserGetProp": 1,
-            "NtCreateFile NtReadFile NtReadFile NtReadFile": 8,
-            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
-            "NtQueryDirectoryFileEx NtClose NtQueryInformationProcess NtUserNotifyWinEvent": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx NtClose NtQueryInformationProcess": 1,
-            "NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx": 2,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1
+            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent": 1
         },
         "5": {
-            "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
             "NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
             "NtClose NtFreeVirtualMemory NtOpenFile NtQueryDirectoryFileEx NtCreateFile": 1,
             "NtClose NtFreeVirtualMemory NtUserInvalidateRect NtUserMessageCall NtAllocateVirtualMemory": 1,
-            "NtClose NtQueryInformationProcess NtSetInformationProcess NtQueryInformationThread NtQueryObject": 1,
-            "NtClose NtQueryInformationProcess NtUserNotifyWinEvent NtUserMessageCall NtContinueEx": 1,
-            "NtClose NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
             "NtClose NtUserSetScrollInfo NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 1,
-            "NtClose NtUserSetScrollInfo NtUserSBGetParms NtUserGetProp NtUserGetProp": 1,
-            "NtCreateFile NtReadFile NtReadFile NtReadFile NtClose": 8,
-            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
-            "NtQueryDirectoryFileEx NtClose NtQueryInformationProcess NtUserNotifyWinEvent NtUserMessageCall": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx NtClose NtQueryInformationProcess NtUserNotifyWinEvent": 1,
-            "NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx": 1,
-            "NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx NtClose": 2,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1
+            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1
         }
     }
 }

@@ -1,52 +1,29 @@
 {
     "NtSubscribeWnfStateChange": {
         "-5": {
-            "NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket NtCreateEvent NtQueryWnfStateData": 6,
             "NtQueryWnfStateData NtAllocateVirtualMemory NtUserSetTimer NtUserCallHwndSafe NtProtectVirtualMemory": 1,
             "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory NtAssociateWaitCompletionPacket": 1,
             "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtTraceControl": 1,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket": 6,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtAllocateVirtualMemory NtUserSetTimer": 1,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory": 2,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtAssociateWaitCompletionPacket": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook": 1,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 5,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtUserReleaseDC NtGdiGetDeviceCaps": 1,
-            "NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook NtQueryInformationProcess NtAlpcQueryInformation": 1,
-            "NtQueryWnfStateData NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp": 5,
-            "NtQueryWnfStateData NtUserReleaseDC NtGdiGetDeviceCaps NtUserGetDC NtMapViewOfSection": 1
+            "NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook NtQueryInformationProcess NtAlpcQueryInformation": 1
         },
         "-4": {
-            "NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket NtCreateEvent": 6,
             "NtQueryWnfStateData NtAllocateVirtualMemory NtUserSetTimer NtUserCallHwndSafe": 1,
             "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory": 1,
             "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 1,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent": 6,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtAllocateVirtualMemory": 1,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtProtectVirtualMemory": 2,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtUserGetGUIThreadInfo": 1,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtUserIsNonClientDpiScalingEnabled": 5,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtUserReleaseDC": 1,
-            "NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook NtQueryInformationProcess": 1,
-            "NtQueryWnfStateData NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 5,
-            "NtQueryWnfStateData NtUserReleaseDC NtGdiGetDeviceCaps NtUserGetDC": 1
+            "NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook NtQueryInformationProcess": 1
         },
         "-3": {
-            "NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket": 6,
             "NtQueryWnfStateData NtAllocateVirtualMemory NtUserSetTimer": 1,
             "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory": 2,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtAssociateWaitCompletionPacket": 6,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 16,
             "NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook": 1,
             "NtQueryWnfStateData NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 5,
             "NtQueryWnfStateData NtUserReleaseDC NtGdiGetDeviceCaps": 1
         },
         "-2": {
-            "NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent": 6,
             "NtQueryWnfStateData NtAllocateVirtualMemory": 1,
             "NtQueryWnfStateData NtProtectVirtualMemory": 2,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange": 22,
             "NtQueryWnfStateData NtUserGetGUIThreadInfo": 1,
             "NtQueryWnfStateData NtUserIsNonClientDpiScalingEnabled": 5,
             "NtQueryWnfStateData NtUserReleaseDC": 1
@@ -73,19 +50,15 @@
         "4": {
             "NtQueryWnfStateData NtQueryInformationToken NtQueryInformationToken NtQueryObject": 6,
             "NtQueryWnfStateData NtQueryObject NtCreateMutant NtWaitForSingleObject": 4,
-            "NtQueryWnfStateData NtSetTimer2 NtQueryObject NtCreateMutant": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtQueryInformationToken": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtQueryObject": 4,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSetTimer2": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 6
         },
         "5": {
             "NtQueryWnfStateData NtQueryInformationToken NtQueryInformationToken NtQueryObject NtQueryKey": 6,
             "NtQueryWnfStateData NtQueryObject NtCreateMutant NtWaitForSingleObject NtQueryObject": 4,
-            "NtQueryWnfStateData NtSetTimer2 NtQueryObject NtCreateMutant NtWaitForSingleObject": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtQueryInformationToken NtQueryInformationToken": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtQueryObject NtCreateMutant": 4,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSetTimer2 NtQueryObject": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 6
         }
     }

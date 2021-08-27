@@ -1,13 +1,10 @@
 {
     "NtUserQueryWindow": {
         "-5": {
-            "NtUserCallNoParam NtUserSetTimer NtUserKillTimer NtUserQueryWindow NtUserGetKeyboardLayout": 1,
             "NtUserCallNoParam NtUserSetTimer NtUserKillTimer NtUserSetImeOwnerWindow NtUserSetWindowLong": 1,
             "NtUserGetKeyboardLayout NtUserGetThreadState NtUserGetThreadState NtCallbackReturn NtContinueEx": 1,
             "NtUserNotifyIMEStatus NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserGetInputLocaleInfo NtUserSetTimer": 1,
-            "NtUserQueryWindow NtUserCallNoParam NtUserSetTimer NtUserKillTimer NtUserQueryWindow": 1,
             "NtUserQueryWindow NtUserCallNoParam NtUserSetTimer NtUserKillTimer NtUserSetImeOwnerWindow": 1,
-            "NtUserQueryWindow NtUserQueryWindow NtUserCallNoParam NtUserSetTimer NtUserKillTimer": 1,
             "NtUserSetWindowLong NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1
         },
         "-4": {
@@ -15,15 +12,12 @@
             "NtUserCallNoParam NtUserSetTimer NtUserKillTimer NtUserSetImeOwnerWindow": 1,
             "NtUserGetKeyboardLayout NtUserGetThreadState NtUserGetThreadState NtCallbackReturn": 1,
             "NtUserNotifyIMEStatus NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserGetInputLocaleInfo": 1,
-            "NtUserQueryWindow NtUserCallNoParam NtUserSetTimer NtUserKillTimer": 2,
-            "NtUserQueryWindow NtUserQueryWindow NtUserCallNoParam NtUserSetTimer": 1,
             "NtUserSetWindowLong NtCallbackReturn NtContinueEx NtCallbackReturn": 1
         },
         "-3": {
             "NtUserCallNoParam NtUserSetTimer NtUserKillTimer": 2,
             "NtUserGetKeyboardLayout NtUserGetThreadState NtUserGetThreadState": 1,
             "NtUserNotifyIMEStatus NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1,
-            "NtUserQueryWindow NtUserCallNoParam NtUserSetTimer": 2,
             "NtUserQueryWindow NtUserQueryWindow NtUserCallNoParam": 1,
             "NtUserSetWindowLong NtCallbackReturn NtContinueEx": 1
         },
@@ -31,7 +25,6 @@
             "NtUserCallNoParam NtUserSetTimer": 2,
             "NtUserGetKeyboardLayout NtUserGetThreadState": 1,
             "NtUserNotifyIMEStatus NtUserGetKeyboardLayout": 1,
-            "NtUserQueryWindow NtUserCallNoParam": 2,
             "NtUserQueryWindow NtUserQueryWindow": 1,
             "NtUserSetWindowLong NtCallbackReturn": 1
         },
@@ -47,47 +40,34 @@
             "NtUserCallHwndLockSafe": 1,
             "NtUserGetImeInfoEx": 1,
             "NtUserKillTimer": 1,
-            "NtUserQueryWindow": 3,
             "NtUserSetWindowLong": 1
         },
         "2": {
-            "NtContinueEx NtCallbackReturn": 1,
             "NtUserCallHwndLockSafe NtContinueEx": 1,
             "NtUserGetImeInfoEx NtUserGetClassInfoEx": 1,
             "NtUserKillTimer NtUserSetTimer": 1,
-            "NtUserQueryWindow NtContinueEx": 1,
             "NtUserQueryWindow NtUserCallHwndLockSafe": 1,
-            "NtUserQueryWindow NtUserQueryWindow": 1,
             "NtUserSetWindowLong NtUserSetImeOwnerWindow": 1
         },
         "3": {
-            "NtContinueEx NtCallbackReturn NtQueryInformationProcess": 1,
             "NtUserCallHwndLockSafe NtContinueEx NtCallbackReturn": 1,
             "NtUserGetImeInfoEx NtUserGetClassInfoEx NtUserCreateWindowEx": 1,
             "NtUserKillTimer NtUserSetTimer NtUserCallNoParam": 1,
-            "NtUserQueryWindow NtContinueEx NtCallbackReturn": 1,
             "NtUserQueryWindow NtUserCallHwndLockSafe NtContinueEx": 1,
-            "NtUserQueryWindow NtUserQueryWindow NtContinueEx": 1,
             "NtUserSetWindowLong NtUserSetImeOwnerWindow NtUserKillTimer": 1
         },
         "4": {
-            "NtContinueEx NtCallbackReturn NtQueryInformationProcess NtSetInformationProcess": 1,
             "NtUserCallHwndLockSafe NtContinueEx NtCallbackReturn NtUserGetDC": 1,
             "NtUserGetImeInfoEx NtUserGetClassInfoEx NtUserCreateWindowEx NtContinueEx": 1,
             "NtUserKillTimer NtUserSetTimer NtUserCallNoParam NtUserQueryWindow": 1,
-            "NtUserQueryWindow NtContinueEx NtCallbackReturn NtQueryInformationProcess": 1,
             "NtUserQueryWindow NtUserCallHwndLockSafe NtContinueEx NtCallbackReturn": 1,
-            "NtUserQueryWindow NtUserQueryWindow NtContinueEx NtCallbackReturn": 1,
             "NtUserSetWindowLong NtUserSetImeOwnerWindow NtUserKillTimer NtUserSetTimer": 1
         },
         "5": {
-            "NtContinueEx NtCallbackReturn NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
             "NtUserCallHwndLockSafe NtContinueEx NtCallbackReturn NtUserGetDC NtGdiIntersectClipRect": 1,
             "NtUserGetImeInfoEx NtUserGetClassInfoEx NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 1,
             "NtUserKillTimer NtUserSetTimer NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow": 1,
-            "NtUserQueryWindow NtContinueEx NtCallbackReturn NtQueryInformationProcess NtSetInformationProcess": 1,
             "NtUserQueryWindow NtUserCallHwndLockSafe NtContinueEx NtCallbackReturn NtUserGetDC": 1,
-            "NtUserQueryWindow NtUserQueryWindow NtContinueEx NtCallbackReturn NtQueryInformationProcess": 1,
             "NtUserSetWindowLong NtUserSetImeOwnerWindow NtUserKillTimer NtUserSetTimer NtUserCallNoParam": 1
         }
     }

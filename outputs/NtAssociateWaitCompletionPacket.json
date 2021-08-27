@@ -1,57 +1,30 @@
 {
     "NtAssociateWaitCompletionPacket": {
         "-5": {
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly": 1,
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtProtectVirtualMemory": 1,
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtProtectVirtualMemory NtProtectVirtualMemory NtClearEvent": 1,
             "NtCreateWaitCompletionPacket NtAllocateVirtualMemory NtDuplicateObject NtCreateWaitCompletionPacket NtQueryObject": 1,
             "NtCreateWaitCompletionPacket NtCreateEvent NtCreateTimer NtCreateTimer NtAllocateVirtualMemory": 1,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket NtCreateTimer2": 20,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtCreateWorkerFactory NtCreateIoCompletion NtQuerySystemInformationEx": 14,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtSetInformationWorkerFactory NtCreateWorkerFactory NtCreateIoCompletion": 6,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket": 12,
-            "NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket NtCreateEvent NtQueryWnfStateData NtClose": 6,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
             "NtUserGetQueueStatusReadonly NtProtectVirtualMemory NtProtectVirtualMemory NtClearEvent NtUserSetTimer": 1
         },
         "-4": {
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly": 1,
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtProtectVirtualMemory": 1,
             "NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtCreateWaitCompletionPacket NtAllocateVirtualMemory NtDuplicateObject NtCreateWaitCompletionPacket": 1,
             "NtCreateWaitCompletionPacket NtCreateEvent NtCreateTimer NtCreateTimer": 1,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket": 20,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtCreateWorkerFactory NtCreateIoCompletion": 14,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtSetInformationWorkerFactory NtCreateWorkerFactory": 6,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket": 12,
-            "NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket NtCreateEvent NtQueryWnfStateData": 6,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
             "NtUserGetQueueStatusReadonly NtProtectVirtualMemory NtProtectVirtualMemory NtClearEvent": 1
         },
         "-3": {
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 2,
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly": 1,
             "NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtProtectVirtualMemory": 1,
             "NtCreateWaitCompletionPacket NtAllocateVirtualMemory NtDuplicateObject": 1,
             "NtCreateWaitCompletionPacket NtCreateEvent NtCreateTimer": 1,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtAssociateWaitCompletionPacket": 20,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtCreateWorkerFactory": 14,
-            "NtCreateWaitCompletionPacket NtCreateTimer2 NtSetInformationWorkerFactory": 6,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetInformationWorkerFactory": 12,
-            "NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket NtCreateEvent": 6,
-            "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 1,
             "NtUserGetQueueStatusReadonly NtProtectVirtualMemory NtProtectVirtualMemory": 1
         },
         "-2": {
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 3,
             "NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly": 1,
             "NtCreateWaitCompletionPacket NtAllocateVirtualMemory": 1,
             "NtCreateWaitCompletionPacket NtCreateEvent": 1,
-            "NtCreateWaitCompletionPacket NtCreateTimer2": 40,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory": 12,
-            "NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket": 6,
             "NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
             "NtUserGetQueueStatusReadonly NtProtectVirtualMemory": 1
         },
@@ -65,74 +38,37 @@
         "1": {
             "NtAssociateWaitCompletionPacket": 4,
             "NtCreateEvent": 1,
-            "NtCreateTimer2": 20,
             "NtProtectVirtualMemory": 1,
             "NtQueryVirtualMemory": 1,
-            "NtSetInformationWorkerFactory": 20,
-            "NtSubscribeWnfStateChange": 6,
-            "NtTraceControl": 12,
             "NtUserCallNoParam": 1
         },
         "2": {
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 3,
             "NtAssociateWaitCompletionPacket NtProtectVirtualMemory": 1,
             "NtCreateEvent NtQueryObject": 1,
-            "NtCreateTimer2 NtCreateWaitCompletionPacket": 20,
             "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtQueryVirtualMemory NtProtectVirtualMemory": 1,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory": 20,
-            "NtSubscribeWnfStateChange NtQueryWnfStateData": 6,
-            "NtTraceControl NtTraceControl": 12,
             "NtUserCallNoParam NtUserGetQueueStatusReadonly": 1
         },
         "3": {
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 2,
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtProtectVirtualMemory": 1,
             "NtAssociateWaitCompletionPacket NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtCreateEvent NtQueryObject NtCreateWaitCompletionPacket": 1,
-            "NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket": 20,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallNoParam": 1,
-            "NtQueryVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtProtectVirtualMemory": 6,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetInformationWorkerFactory": 12,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetTimer2": 2,
-            "NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 6,
-            "NtTraceControl NtTraceControl NtTraceControl": 12,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1
+            "NtQueryVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
         },
         "4": {
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtProtectVirtualMemory": 1,
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtAssociateWaitCompletionPacket NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallNoParam": 1,
             "NtCreateEvent NtQueryObject NtCreateWaitCompletionPacket NtQueryObject": 1,
-            "NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket NtSetInformationWorkerFactory": 20,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
             "NtQueryVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtQueryWnfStateData": 1,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtProtectVirtualMemory NtQueryObject": 6,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket": 12,
             "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetTimer2 NtAlpcConnectPortEx": 1,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetTimer2 NtOpenProcessToken": 1,
-            "NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 6,
-            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 12,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam": 1
+            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetTimer2 NtOpenProcessToken": 1
         },
         "5": {
             "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtProtectVirtualMemory": 1,
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallNoParam": 1,
-            "NtAssociateWaitCompletionPacket NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
             "NtCreateEvent NtQueryObject NtCreateWaitCompletionPacket NtQueryObject NtCreateWaitCompletionPacket": 1,
-            "NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket NtSetInformationWorkerFactory NtSetInformationWorkerFactory": 20,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
             "NtQueryVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtProtectVirtualMemory NtQueryObject NtOpenSection": 6,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket NtTraceControl": 12,
             "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetTimer2 NtAlpcConnectPortEx NtAlpcQueryInformation": 1,
-            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetTimer2 NtOpenProcessToken NtQueryInformationToken": 1,
-            "NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 6,
-            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl NtAllocateVirtualMemory": 12,
-            "NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 1
+            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtSetTimer2 NtOpenProcessToken NtQueryInformationToken": 1
         }
     }
 }

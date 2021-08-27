@@ -1,7 +1,6 @@
 {
     "NtCreateTimer2": {
         "-5": {
-            "NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket NtCreateTimer2 NtCreateWorkerFactory NtCreateIoCompletion": 14,
             "NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket NtCreateTimer2 NtSetInformationWorkerFactory NtCreateWorkerFactory": 6,
             "NtCreateWorkerFactory NtCreateIoCompletion NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6,
             "NtCreateWorkerFactory NtCreateIoCompletion NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort": 2,

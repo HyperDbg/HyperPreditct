@@ -1,42 +1,30 @@
 {
     "NtUserSetTimer": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserCreateWindowEx": 2,
             "NtOpenEvent NtQueryObject NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo NtUserGetThreadState": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSetWindowLong NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserCallHwndSafe NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow": 1,
             "NtUserCallHwndSafe NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtAlpcSendWaitReceivePort": 1,
-            "NtUserKillTimer NtUserQueryWindow NtUserGetKeyboardLayout NtUserGetThreadState NtUserGetThreadState": 1,
             "NtUserKillTimer NtUserSetImeOwnerWindow NtUserSetWindowLong NtUserQueryWindow NtUserSetWindowLong": 1,
             "NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage": 1
         },
         "-4": {
-            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2,
             "NtOpenEvent NtQueryObject NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSetWindowLong NtProtectVirtualMemory": 1,
-            "NtUserCallHwndSafe NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 1,
             "NtUserCallHwndSafe NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserKillTimer NtUserQueryWindow NtUserGetKeyboardLayout NtUserGetThreadState": 1,
             "NtUserKillTimer NtUserSetImeOwnerWindow NtUserSetWindowLong NtUserQueryWindow": 1,
             "NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState": 1
         },
         "-3": {
-            "NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
             "NtOpenEvent NtQueryObject NtUserGetGUIThreadInfo": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSetWindowLong": 1,
-            "NtUserCallHwndSafe NtCallbackReturn NtContinueEx": 1,
             "NtUserCallHwndSafe NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserKillTimer NtUserQueryWindow NtUserGetKeyboardLayout": 1,
             "NtUserKillTimer NtUserSetImeOwnerWindow NtUserSetWindowLong": 1,
             "NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState": 1
         },
         "-2": {
-            "NtCallbackReturn NtContinueEx": 2,
             "NtOpenEvent NtQueryObject": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserCallHwndSafe NtCallbackReturn": 1,
             "NtUserCallHwndSafe NtProtectVirtualMemory": 1,
-            "NtUserKillTimer NtUserQueryWindow": 1,
             "NtUserKillTimer NtUserSetImeOwnerWindow": 1,
             "NtUserPeekMessage NtUserPeekMessage": 1
         },
@@ -45,7 +33,6 @@
             "NtOpenEvent": 1,
             "NtProtectVirtualMemory": 1,
             "NtUserCallHwndSafe": 2,
-            "NtUserKillTimer": 2,
             "NtUserPeekMessage": 1
         },
         "1": {
@@ -53,47 +40,35 @@
             "NtClearEvent": 1,
             "NtProtectVirtualMemory": 1,
             "NtQueryObject": 1,
-            "NtUserCallNoParam": 2,
-            "NtUserGetInputLocaleInfo": 1,
-            "NtUserMessageCall": 2
+            "NtUserGetInputLocaleInfo": 1
         },
         "2": {
             "NtAllocateVirtualMemory NtQueryWnfStateData": 1,
             "NtClearEvent NtProtectVirtualMemory": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtQueryObject NtOpenEvent": 1,
-            "NtUserCallNoParam NtUserQueryWindow": 2,
-            "NtUserGetInputLocaleInfo NtUserGetKeyboardLayout": 1,
-            "NtUserMessageCall NtContinueEx": 2
+            "NtUserGetInputLocaleInfo NtUserGetKeyboardLayout": 1
         },
         "3": {
             "NtAllocateVirtualMemory NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
             "NtClearEvent NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallHwndSafe": 1,
             "NtQueryObject NtOpenEvent NtContinueEx": 1,
-            "NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow": 2,
-            "NtUserGetInputLocaleInfo NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn": 2
+            "NtUserGetInputLocaleInfo NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1
         },
         "4": {
             "NtAllocateVirtualMemory NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 1,
             "NtClearEvent NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetQueueStatusReadonly": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallHwndSafe NtAllocateReserveObject": 1,
-            "NtQueryObject NtOpenEvent NtContinueEx NtCallbackReturn": 1,
             "NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow NtUserCallHwndLockSafe": 1,
-            "NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow NtUserQueryWindow": 1,
-            "NtUserGetInputLocaleInfo NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserNotifyIMEStatus": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 2
+            "NtUserGetInputLocaleInfo NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserNotifyIMEStatus": 1
         },
         "5": {
             "NtAllocateVirtualMemory NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
             "NtClearEvent NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetQueueStatusReadonly NtAssociateWaitCompletionPacket": 1,
             "NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallHwndSafe NtAllocateReserveObject NtProtectVirtualMemory": 1,
-            "NtQueryObject NtOpenEvent NtContinueEx NtCallbackReturn NtUserMessageCall": 1,
             "NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow NtUserCallHwndLockSafe NtContinueEx": 1,
-            "NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow NtUserQueryWindow NtContinueEx": 1,
-            "NtUserGetInputLocaleInfo NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserNotifyIMEStatus NtUserQueryWindow": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtUserMessageCall": 2
+            "NtUserGetInputLocaleInfo NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserNotifyIMEStatus NtUserQueryWindow": 1
         }
     }
 }

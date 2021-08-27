@@ -5,67 +5,33 @@
             "NtUserGetQueueStatus NtAlpcSendWaitReceivePort NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx": 1,
             "NtUserGetQueueStatus NtCallbackReturn NtContinueEx NtUserRemoveProp NtUserGetProp": 1,
             "NtUserGetQueueStatus NtUserPeekMessage NtUserGetQueueStatus NtCallbackReturn NtContinueEx": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage NtUserReleaseDC NtGdiPolyPatBlt": 1,
-            "NtUserPeekMessage NtUserGetProp NtCallbackReturn NtContinueEx NtClearEvent": 1,
-            "NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage NtUserReleaseDC": 1,
-            "NtUserPeekMessage NtUserPeekMessage NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect NtUserGetDC": 1,
-            "NtUserPostThreadMessage NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect NtUserGetDC NtUserReleaseDC": 1
+            "NtUserPostThreadMessage NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1
         },
         "-4": {
             "NtUserGetProp NtCallbackReturn NtContinueEx NtClearEvent": 1,
             "NtUserGetQueueStatus NtAlpcSendWaitReceivePort NtQueryInformationProcess NtAlpcQueryInformation": 1,
             "NtUserGetQueueStatus NtCallbackReturn NtContinueEx NtUserRemoveProp": 1,
             "NtUserGetQueueStatus NtUserPeekMessage NtUserGetQueueStatus NtCallbackReturn": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage NtUserReleaseDC": 1,
-            "NtUserPeekMessage NtUserGetProp NtCallbackReturn NtContinueEx": 1,
-            "NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserPeekMessage NtUserInvalidateRect NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect": 1,
-            "NtUserPostThreadMessage NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect NtUserGetDC": 1
+            "NtUserPostThreadMessage NtCallbackReturn NtContinueEx NtCallbackReturn": 1
         },
         "-3": {
             "NtUserGetProp NtCallbackReturn NtContinueEx": 1,
             "NtUserGetQueueStatus NtAlpcSendWaitReceivePort NtQueryInformationProcess": 1,
             "NtUserGetQueueStatus NtCallbackReturn NtContinueEx": 1,
             "NtUserGetQueueStatus NtUserPeekMessage NtUserGetQueueStatus": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage": 1,
-            "NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserGetProp NtCallbackReturn": 1,
-            "NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtUserPeekMessage NtUserInvalidateRect NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserPeekMessage NtUserInvalidateRect": 1,
-            "NtUserPeekMessage NtUserReleaseDC NtGdiPolyPatBlt": 1,
-            "NtUserPostThreadMessage NtCallbackReturn NtContinueEx": 1,
-            "NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect": 1
+            "NtUserPostThreadMessage NtCallbackReturn NtContinueEx": 1
         },
         "-2": {
             "NtUserGetProp NtCallbackReturn": 1,
             "NtUserGetQueueStatus NtAlpcSendWaitReceivePort": 1,
             "NtUserGetQueueStatus NtCallbackReturn": 1,
             "NtUserGetQueueStatus NtUserPeekMessage": 1,
-            "NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtUserInvalidateRect NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserGetProp": 1,
-            "NtUserPeekMessage NtUserGetThreadState": 1,
-            "NtUserPeekMessage NtUserInvalidateRect": 1,
-            "NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserReleaseDC": 1,
-            "NtUserPostThreadMessage NtCallbackReturn": 1,
-            "NtUserReleaseDC NtGdiPolyPatBlt": 1
+            "NtUserPostThreadMessage NtCallbackReturn": 1
         },
         "-1": {
             "NtUserGetProp": 1,
-            "NtUserGetQueueStatus": 3,
             "NtUserGetThreadState": 1,
             "NtUserInvalidateRect": 1,
-            "NtUserPeekMessage": 5,
             "NtUserPostThreadMessage": 1,
             "NtUserReleaseDC": 1
         },
@@ -74,71 +40,35 @@
             "NtClose": 1,
             "NtUserDestroyWindow": 1,
             "NtUserGetDC": 1,
-            "NtUserGetQueueStatus": 1,
-            "NtUserGetThreadState": 1,
-            "NtUserInvalidateRect": 1,
-            "NtUserPeekMessage": 5,
-            "NtUserSetTimer": 1
+            "NtUserGetQueueStatus": 1
         },
         "2": {
             "NtClearEvent NtContinueEx": 1,
             "NtClose NtUserRegisterClassExWOW": 1,
             "NtUserDestroyWindow NtContinueEx": 1,
-            "NtUserGetDC NtGdiIntersectClipRect": 1,
             "NtUserGetQueueStatus NtUserPeekMessage": 1,
-            "NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtUserInvalidateRect NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserGetDC": 1,
-            "NtUserPeekMessage NtUserGetThreadState": 1,
-            "NtUserPeekMessage NtUserInvalidateRect": 1,
-            "NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserSetTimer": 1,
-            "NtUserSetTimer NtClearEvent": 1
+            "NtUserPeekMessage NtUserGetDC": 1
         },
         "3": {
             "NtClearEvent NtContinueEx NtCallbackReturn": 1,
             "NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx": 1,
             "NtUserDestroyWindow NtContinueEx NtCallbackReturn": 1,
-            "NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt": 1,
             "NtUserGetQueueStatus NtUserPeekMessage NtClose": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage": 1,
-            "NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserGetDC NtGdiIntersectClipRect": 1,
-            "NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtUserPeekMessage NtUserInvalidateRect NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState": 1,
-            "NtUserPeekMessage NtUserSetTimer NtClearEvent": 1,
-            "NtUserSetTimer NtClearEvent NtProtectVirtualMemory": 1
+            "NtUserPeekMessage NtUserGetDC NtGdiIntersectClipRect": 1
         },
         "4": {
             "NtClearEvent NtContinueEx NtCallbackReturn NtUserGetProp": 1,
             "NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx NtUserMessageCall": 1,
             "NtUserDestroyWindow NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt NtUserReleaseDC": 1,
             "NtUserGetQueueStatus NtUserPeekMessage NtClose NtUserRegisterClassExWOW": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt": 1,
-            "NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtUserPeekMessage NtUserSetTimer NtClearEvent NtProtectVirtualMemory": 1,
-            "NtUserSetTimer NtClearEvent NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtUserPeekMessage NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt": 1
         },
         "5": {
             "NtClearEvent NtContinueEx NtCallbackReturn NtUserGetProp NtUserPeekMessage": 1,
             "NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx NtUserMessageCall NtContinueEx": 1,
             "NtUserDestroyWindow NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt NtUserReleaseDC NtUserGetDC": 1,
             "NtUserGetQueueStatus NtUserPeekMessage NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage NtUserPeekMessage NtUserSetTimer": 1,
-            "NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState": 1,
-            "NtUserPeekMessage NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt NtUserReleaseDC": 1,
-            "NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserInvalidateRect NtUserPeekMessage NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState NtUserPeekMessage": 1,
-            "NtUserPeekMessage NtUserSetTimer NtClearEvent NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserSetTimer NtClearEvent NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetQueueStatusReadonly": 1
+            "NtUserPeekMessage NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt NtUserReleaseDC": 1
         }
     }
 }

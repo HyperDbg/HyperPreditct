@@ -41,29 +41,21 @@
             "NtClose NtQueryObject NtQueryKey": 1,
             "NtClose NtTraceControl NtTraceControl": 4,
             "NtQueryObject NtOpenSection NtMapViewOfSection": 1,
-            "NtTraceControl NtTraceControl NtAllocateVirtualMemory": 1,
-            "NtTraceControl NtTraceControl NtUserGetProp": 5
+            "NtTraceControl NtTraceControl NtAllocateVirtualMemory": 1
         },
         "4": {
             "NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtUserRegisterClassExWOW": 1,
             "NtClose NtQueryObject NtQueryKey NtQueryKey": 1,
             "NtClose NtTraceControl NtTraceControl NtQueryInformationThread": 1,
-            "NtClose NtTraceControl NtTraceControl NtQueryObject": 2,
             "NtClose NtTraceControl NtTraceControl NtQuerySecurityAttributesToken": 1,
-            "NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject": 1,
-            "NtTraceControl NtTraceControl NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtTraceControl NtTraceControl NtUserGetProp NtUserGetProp": 5
+            "NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject": 1
         },
         "5": {
-            "NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtUserRegisterClassExWOW NtProtectVirtualMemory": 1,
             "NtClose NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx": 1,
             "NtClose NtTraceControl NtTraceControl NtQueryInformationThread NtQueryObject": 1,
             "NtClose NtTraceControl NtTraceControl NtQueryObject NtCreateMutant": 1,
-            "NtClose NtTraceControl NtTraceControl NtQueryObject NtQueryKey": 1,
             "NtClose NtTraceControl NtTraceControl NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 1,
-            "NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject NtQueryKey": 1,
-            "NtTraceControl NtTraceControl NtAllocateVirtualMemory NtAllocateVirtualMemory NtOpenKeyEx": 1,
-            "NtTraceControl NtTraceControl NtUserGetProp NtUserGetProp NtUserIsTopLevelWindow": 5
+            "NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject NtQueryKey": 1
         }
     }
 }

@@ -1,32 +1,25 @@
 {
     "NtLockFile": {
         "-5": {
-            "NtLockFile NtLockFile NtLockFile NtUnlockFile NtLockFile": 1,
-            "NtLockFile NtLockFile NtUnlockFile NtLockFile NtUnlockFile": 1,
             "NtLockFile NtQueryInformationFile NtCreateEvent NtQueryObject NtQueryInformationToken": 1,
             "NtLockFile NtUnlockFile NtLockFile NtUnlockFile NtLockFile": 1,
             "NtQueryInformationFile NtCreateEvent NtQueryObject NtQueryInformationToken NtMapViewOfSection": 1,
             "NtUnlockFile NtLockFile NtLockFile NtQueryInformationFile NtCreateEvent": 1,
-            "NtUnlockFile NtLockFile NtUnlockFile NtLockFile NtLockFile": 1,
-            "NtUnlockFile NtLockFile NtUnlockFile NtLockFile NtUnlockFile": 2
+            "NtUnlockFile NtLockFile NtUnlockFile NtLockFile NtLockFile": 1
         },
         "-4": {
-            "NtLockFile NtLockFile NtLockFile NtUnlockFile": 1,
             "NtLockFile NtLockFile NtUnlockFile NtLockFile": 1,
             "NtLockFile NtQueryInformationFile NtCreateEvent NtQueryObject": 1,
             "NtLockFile NtUnlockFile NtLockFile NtUnlockFile": 1,
             "NtQueryInformationFile NtCreateEvent NtQueryObject NtQueryInformationToken": 1,
-            "NtUnlockFile NtLockFile NtLockFile NtQueryInformationFile": 1,
-            "NtUnlockFile NtLockFile NtUnlockFile NtLockFile": 3
+            "NtUnlockFile NtLockFile NtLockFile NtQueryInformationFile": 1
         },
         "-3": {
-            "NtLockFile NtLockFile NtLockFile": 1,
             "NtLockFile NtLockFile NtUnlockFile": 1,
             "NtLockFile NtQueryInformationFile NtCreateEvent": 1,
             "NtLockFile NtUnlockFile NtLockFile": 1,
             "NtQueryInformationFile NtCreateEvent NtQueryObject": 1,
-            "NtUnlockFile NtLockFile NtLockFile": 1,
-            "NtUnlockFile NtLockFile NtUnlockFile": 3
+            "NtUnlockFile NtLockFile NtLockFile": 1
         },
         "-2": {
             "NtLockFile NtLockFile": 2,
@@ -55,28 +48,21 @@
             "NtLockFile NtLockFile NtUnlockFile": 1,
             "NtLockFile NtUnlockFile NtAllocateVirtualMemory": 1,
             "NtLockFile NtUnlockFile NtLockFile": 1,
-            "NtUnlockFile NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUnlockFile NtLockFile NtLockFile": 1,
-            "NtUnlockFile NtLockFile NtUnlockFile": 3
+            "NtUnlockFile NtLockFile NtLockFile": 1
         },
         "4": {
             "NtLockFile NtLockFile NtLockFile NtUnlockFile": 1,
             "NtLockFile NtLockFile NtUnlockFile NtAllocateVirtualMemory": 1,
             "NtLockFile NtUnlockFile NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtLockFile NtUnlockFile NtLockFile NtUnlockFile": 1,
-            "NtUnlockFile NtAllocateVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUnlockFile NtLockFile NtLockFile NtLockFile": 1,
-            "NtUnlockFile NtLockFile NtUnlockFile NtLockFile": 3
+            "NtUnlockFile NtLockFile NtLockFile NtLockFile": 1
         },
         "5": {
             "NtLockFile NtLockFile NtLockFile NtUnlockFile NtAllocateVirtualMemory": 1,
             "NtLockFile NtLockFile NtUnlockFile NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtLockFile NtUnlockFile NtAllocateVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory": 1,
             "NtLockFile NtUnlockFile NtLockFile NtUnlockFile NtLockFile": 1,
-            "NtUnlockFile NtAllocateVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtUnlockFile NtLockFile NtLockFile NtLockFile NtLockFile": 1,
-            "NtUnlockFile NtLockFile NtUnlockFile NtLockFile NtLockFile": 1,
-            "NtUnlockFile NtLockFile NtUnlockFile NtLockFile NtUnlockFile": 2
+            "NtUnlockFile NtLockFile NtUnlockFile NtLockFile NtLockFile": 1
         }
     }
 }

@@ -5,7 +5,6 @@
             "NtCompareObjects NtAllocateVirtualMemory NtReadVirtualMemory NtQueryInformationProcess NtCompareObjects": 1,
             "NtCompareObjects NtUnmapViewOfSection NtCompareObjects NtSetInformationProcess NtQueryInformationProcess": 1,
             "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtWriteVirtualMemory": 2,
             "NtUnmapViewOfSection NtCompareObjects NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1
         },
         "-4": {
@@ -57,7 +56,6 @@
         "4": {
             "NtCompareObjects NtQueryInformationProcess NtReadVirtualMemory NtAllocateVirtualMemory": 1,
             "NtCompareObjects NtQueryInformationProcess NtReadVirtualMemory NtWriteVirtualMemory": 1,
-            "NtDuplicateObject NtQueryInformationThread NtClose NtOpenProcess": 2,
             "NtQueryInformationProcess NtReadVirtualMemory NtAllocateVirtualMemory NtCompareObjects": 1,
             "NtQueryInformationProcess NtReadVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory": 1,
             "NtUnmapViewOfSection NtCompareObjects NtCompareObjects NtQueryInformationProcess": 1
@@ -65,7 +63,6 @@
         "5": {
             "NtCompareObjects NtQueryInformationProcess NtReadVirtualMemory NtAllocateVirtualMemory NtCompareObjects": 1,
             "NtCompareObjects NtQueryInformationProcess NtReadVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory": 1,
-            "NtDuplicateObject NtQueryInformationThread NtClose NtOpenProcess NtQueryInformationProcess": 2,
             "NtQueryInformationProcess NtReadVirtualMemory NtAllocateVirtualMemory NtCompareObjects NtCompareObjects": 1,
             "NtQueryInformationProcess NtReadVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory": 1,
             "NtUnmapViewOfSection NtCompareObjects NtCompareObjects NtQueryInformationProcess NtReadVirtualMemory": 1

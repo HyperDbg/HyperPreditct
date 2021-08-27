@@ -1,73 +1,36 @@
 {
     "NtQueryInformationFile": {
         "-5": {
-            "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx NtMapViewOfSection": 1,
-            "NtCreateEvent NtQueryObject NtQueryInformationToken NtMapViewOfSection NtCreateSection": 1,
-            "NtCreateFile NtAllocateVirtualMemory NtClose NtQuerySecurityObject NtQuerySecurityObject": 5,
-            "NtCreateFile NtClose NtQuerySecurityObject NtQuerySecurityObject NtOpenFile": 1,
             "NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory NtQueryVirtualMemory NtReadVirtualMemory": 1,
             "NtCreateFile NtOpenSection NtQueryObject NtMapViewOfSection NtClose": 1,
             "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtCreateSemaphore": 1,
             "NtOpenFile NtQueryInformationProcess NtClose NtDeviceIoControlFile NtDeviceIoControlFile": 1,
-            "NtOpenFile NtQueryInformationProcess NtUserRemoveProp NtUserGetProp NtCallbackReturn": 1,
-            "NtQueryInformationFile NtCreateFile NtAllocateVirtualMemory NtClose NtQuerySecurityObject": 5,
-            "NtQueryInformationFile NtCreateFile NtClose NtQuerySecurityObject NtQuerySecurityObject": 1,
-            "NtQueryVolumeInformationFile NtSetInformationObject NtQueryObject NtCreateFile NtAllocateVirtualMemory": 1,
-            "NtReadFile NtQueryInformationFile NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory": 1,
-            "NtSetInformationFile NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile NtSetInformationObject": 1
+            "NtReadFile NtQueryInformationFile NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory": 1
         },
         "-4": {
-            "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 1,
-            "NtCreateEvent NtQueryObject NtQueryInformationToken NtMapViewOfSection": 1,
-            "NtCreateFile NtAllocateVirtualMemory NtClose NtQuerySecurityObject": 5,
-            "NtCreateFile NtClose NtQuerySecurityObject NtQuerySecurityObject": 1,
             "NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory NtQueryVirtualMemory": 1,
             "NtCreateFile NtOpenSection NtQueryObject NtMapViewOfSection": 1,
             "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 1,
             "NtOpenFile NtQueryInformationProcess NtClose NtDeviceIoControlFile": 1,
-            "NtOpenFile NtQueryInformationProcess NtUserRemoveProp NtUserGetProp": 1,
-            "NtQueryInformationFile NtCreateFile NtAllocateVirtualMemory NtClose": 5,
-            "NtQueryInformationFile NtCreateFile NtClose NtQuerySecurityObject": 1,
-            "NtQueryVolumeInformationFile NtSetInformationObject NtQueryObject NtCreateFile": 1,
-            "NtReadFile NtQueryInformationFile NtCreateFile NtFlushInstructionCache": 1,
-            "NtSetInformationFile NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile": 1
+            "NtReadFile NtQueryInformationFile NtCreateFile NtFlushInstructionCache": 1
         },
         "-3": {
-            "NtClose NtQueryValueKey NtSetInformationKey": 1,
-            "NtCreateEvent NtQueryObject NtQueryInformationToken": 1,
-            "NtCreateFile NtAllocateVirtualMemory NtClose": 5,
-            "NtCreateFile NtClose NtQuerySecurityObject": 1,
             "NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory": 1,
             "NtCreateFile NtOpenSection NtQueryObject": 1,
             "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtOpenFile NtQueryInformationProcess NtClose": 1,
-            "NtOpenFile NtQueryInformationProcess NtUserRemoveProp": 1,
-            "NtQueryInformationFile NtCreateFile NtAllocateVirtualMemory": 5,
-            "NtQueryInformationFile NtCreateFile NtClose": 1,
-            "NtQueryVolumeInformationFile NtSetInformationObject NtQueryObject": 1,
-            "NtReadFile NtQueryInformationFile NtCreateFile": 1,
-            "NtSetInformationFile NtQueryVolumeInformationFile NtQueryInformationFile": 1
+            "NtReadFile NtQueryInformationFile NtCreateFile": 1
         },
         "-2": {
-            "NtClose NtQueryValueKey": 1,
-            "NtCreateEvent NtQueryObject": 1,
-            "NtCreateFile NtAllocateVirtualMemory": 5,
-            "NtCreateFile NtClose": 1,
             "NtCreateFile NtFlushInstructionCache": 1,
             "NtCreateFile NtOpenSection": 1,
             "NtOpenFile NtProtectVirtualMemory": 1,
-            "NtOpenFile NtQueryInformationProcess": 2,
-            "NtQueryInformationFile NtCreateFile": 6,
             "NtQueryVolumeInformationFile NtSetInformationObject": 1,
-            "NtReadFile NtQueryInformationFile": 1,
-            "NtSetInformationFile NtQueryVolumeInformationFile": 1
+            "NtReadFile NtQueryInformationFile": 1
         },
         "-1": {
             "NtClose": 1,
             "NtCreateEvent": 1,
-            "NtCreateFile": 8,
-            "NtOpenFile": 3,
-            "NtQueryInformationFile": 6,
             "NtQueryVolumeInformationFile": 1,
             "NtReadFile": 1,
             "NtSetInformationFile": 1
@@ -75,69 +38,37 @@
         "1": {
             "NtAllocateVirtualMemory": 1,
             "NtClose": 1,
-            "NtCreateSection": 6,
-            "NtLockFile": 1,
             "NtOpenProcessToken": 1,
-            "NtQueryInformationFile": 6,
-            "NtQueryVolumeInformationFile": 4,
             "NtReadFile": 1,
             "NtSetInformationFile": 1
         },
         "2": {
             "NtAllocateVirtualMemory NtQuerySecurityObject": 1,
             "NtClose NtQueryInformationThread": 1,
-            "NtCreateSection NtMapViewOfSection": 6,
-            "NtLockFile NtLockFile": 1,
             "NtOpenProcessToken NtQueryInformationToken": 1,
-            "NtQueryInformationFile NtCreateSection": 6,
-            "NtQueryVolumeInformationFile NtAlpcSendWaitReceivePort": 1,
             "NtQueryVolumeInformationFile NtClose": 1,
-            "NtQueryVolumeInformationFile NtQueryVolumeInformationFile": 1,
-            "NtQueryVolumeInformationFile NtSetInformationFile": 1,
-            "NtReadFile NtQueryInformationFile": 1,
-            "NtSetInformationFile NtSetInformationFile": 1
+            "NtReadFile NtQueryInformationFile": 1
         },
         "3": {
             "NtAllocateVirtualMemory NtQuerySecurityObject NtClose": 1,
             "NtClose NtQueryInformationThread NtReadVirtualMemory": 1,
-            "NtCreateSection NtMapViewOfSection NtQuerySystemInformation": 6,
-            "NtLockFile NtLockFile NtUnlockFile": 1,
             "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken": 1,
-            "NtQueryInformationFile NtCreateSection NtMapViewOfSection": 6,
-            "NtQueryVolumeInformationFile NtAlpcSendWaitReceivePort NtClose": 1,
             "NtQueryVolumeInformationFile NtClose NtProtectVirtualMemory": 1,
-            "NtQueryVolumeInformationFile NtQueryVolumeInformationFile NtClose": 1,
-            "NtQueryVolumeInformationFile NtSetInformationFile NtQueryInformationFile": 1,
-            "NtReadFile NtQueryInformationFile NtClose": 1,
-            "NtSetInformationFile NtSetInformationFile NtSetInformationFile": 1
+            "NtReadFile NtQueryInformationFile NtClose": 1
         },
         "4": {
             "NtAllocateVirtualMemory NtQuerySecurityObject NtClose NtOpenThreadToken": 1,
             "NtClose NtQueryInformationThread NtReadVirtualMemory NtQueryVirtualMemory": 1,
-            "NtCreateSection NtMapViewOfSection NtQuerySystemInformation NtQueryLicenseValue": 6,
-            "NtLockFile NtLockFile NtUnlockFile NtLockFile": 1,
             "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken NtClose": 1,
-            "NtQueryInformationFile NtCreateSection NtMapViewOfSection NtQuerySystemInformation": 6,
-            "NtQueryVolumeInformationFile NtAlpcSendWaitReceivePort NtClose NtClose": 1,
             "NtQueryVolumeInformationFile NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryVolumeInformationFile NtQueryVolumeInformationFile NtClose NtUserMessageCall": 1,
-            "NtQueryVolumeInformationFile NtSetInformationFile NtQueryInformationFile NtSetInformationFile": 1,
-            "NtReadFile NtQueryInformationFile NtClose NtQueryInformationThread": 1,
-            "NtSetInformationFile NtSetInformationFile NtSetInformationFile NtQuerySystemInformation": 1
+            "NtReadFile NtQueryInformationFile NtClose NtQueryInformationThread": 1
         },
         "5": {
             "NtAllocateVirtualMemory NtQuerySecurityObject NtClose NtOpenThreadToken NtOpenProcessToken": 1,
             "NtClose NtQueryInformationThread NtReadVirtualMemory NtQueryVirtualMemory NtWriteVirtualMemory": 1,
-            "NtCreateSection NtMapViewOfSection NtQuerySystemInformation NtQueryLicenseValue NtTraceControl": 6,
-            "NtLockFile NtLockFile NtUnlockFile NtLockFile NtUnlockFile": 1,
             "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken NtClose NtQueryObject": 1,
-            "NtQueryInformationFile NtCreateSection NtMapViewOfSection NtQuerySystemInformation NtQueryLicenseValue": 6,
-            "NtQueryVolumeInformationFile NtAlpcSendWaitReceivePort NtClose NtClose NtUnmapViewOfSection": 1,
             "NtQueryVolumeInformationFile NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryVolumeInformationFile NtQueryVolumeInformationFile NtClose NtUserMessageCall NtUserSetScrollInfo": 1,
-            "NtQueryVolumeInformationFile NtSetInformationFile NtQueryInformationFile NtSetInformationFile NtSetInformationFile": 1,
-            "NtReadFile NtQueryInformationFile NtClose NtQueryInformationThread NtReadVirtualMemory": 1,
-            "NtSetInformationFile NtSetInformationFile NtSetInformationFile NtQuerySystemInformation NtQueryInformationProcess": 1
+            "NtReadFile NtQueryInformationFile NtClose NtQueryInformationThread NtReadVirtualMemory": 1
         }
     }
 }

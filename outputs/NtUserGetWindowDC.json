@@ -3,7 +3,6 @@
         "-5": {
             "NtUserGetProp NtUserGetScrollBarInfo NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 2,
             "NtUserGetProp NtUserGetScrollBarInfo NtUserGetProp NtUserSBGetParms NtCallbackReturn": 1,
-            "NtUserGetProp NtUserGetScrollBarInfo NtUserGetProp NtUserSBGetParms NtUserGetProp": 21,
             "NtUserReleaseDC NtUserGetProp NtUserGetWindowDC NtUserGetProp NtUserGetScrollBarInfo": 1,
             "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 5,
             "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsNonClientDpiScalingEnabled": 1
@@ -49,19 +48,14 @@
             "NtUserGetProp NtUserGetProp NtUserSetProp NtUserIsTopLevelWindow": 6,
             "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserIsTopLevelWindow": 2,
             "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserReleaseDC": 6,
-            "NtUserGetProp NtUserReleaseDC NtUserGetWindowDC NtUserGetProp": 1,
-            "NtUserGetProp NtUserReleaseDC NtUserSetWindowLongPtr NtContinueEx": 15
+            "NtUserGetProp NtUserReleaseDC NtUserGetWindowDC NtUserGetProp": 1
         },
         "5": {
             "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
             "NtUserGetProp NtUserGetProp NtUserSetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtUserGetProp NtUserGetProp NtUserSetProp NtUserIsTopLevelWindow NtUserSystemParametersInfo": 5,
-            "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 2,
             "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserReleaseDC NtContinueEx": 1,
-            "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserReleaseDC NtUserGetProp": 4,
             "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserReleaseDC NtUserSetWindowPos": 1,
-            "NtUserGetProp NtUserReleaseDC NtUserGetWindowDC NtUserGetProp NtUserGetProp": 1,
-            "NtUserGetProp NtUserReleaseDC NtUserSetWindowLongPtr NtContinueEx NtCallbackReturn": 15
+            "NtUserGetProp NtUserReleaseDC NtUserGetWindowDC NtUserGetProp NtUserGetProp": 1
         }
     }
 }
