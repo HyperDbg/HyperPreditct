@@ -1,0 +1,34 @@
+{
+    "NtUserSetWindowCompositionAttribute": {
+        "-5": {
+            "NtUserGetClassName NtCallbackReturn NtContinueEx NtUserMessageCall NtCallbackReturn": 1
+        },
+        "-4": {
+            "NtUserGetClassName NtCallbackReturn NtContinueEx NtUserMessageCall": 1
+        },
+        "-3": {
+            "NtUserGetClassName NtCallbackReturn NtContinueEx": 1
+        },
+        "-2": {
+            "NtUserGetClassName NtCallbackReturn": 1
+        },
+        "-1": {
+            "NtUserGetClassName": 1
+        },
+        "1": {
+            "NtUserSetWindowLongPtr": 1
+        },
+        "2": {
+            "NtUserSetWindowLongPtr NtUserMessageCall": 1
+        },
+        "3": {
+            "NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx": 1
+        },
+        "4": {
+            "NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx NtCallbackReturn": 1
+        },
+        "5": {
+            "NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx NtCallbackReturn NtContinueEx": 1
+        }
+    }
+}

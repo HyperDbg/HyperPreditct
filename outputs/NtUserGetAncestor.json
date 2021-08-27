@@ -1,0 +1,41 @@
+{
+    "NtUserGetAncestor": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp NtUserSetWindowLongPtr": 1,
+            "NtUserCallHwndParam NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 5
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp": 1,
+            "NtUserCallHwndParam NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo": 5
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 1,
+            "NtUserCallHwndParam NtCallbackReturn NtContinueEx": 5
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 1,
+            "NtUserCallHwndParam NtCallbackReturn": 5
+        },
+        "-1": {
+            "NtCallbackReturn": 1,
+            "NtUserCallHwndParam": 5
+        },
+        "1": {
+            "NtUserSetWindowPos": 6
+        },
+        "2": {
+            "NtUserSetWindowPos NtContinueEx": 6
+        },
+        "3": {
+            "NtUserSetWindowPos NtContinueEx NtCallbackReturn": 6
+        },
+        "4": {
+            "NtUserSetWindowPos NtContinueEx NtCallbackReturn NtContinueEx": 1,
+            "NtUserSetWindowPos NtContinueEx NtCallbackReturn NtUserGetDC": 5
+        },
+        "5": {
+            "NtUserSetWindowPos NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
+            "NtUserSetWindowPos NtContinueEx NtCallbackReturn NtUserGetDC NtGdiGetTextMetricsW": 5
+        }
+    }
+}

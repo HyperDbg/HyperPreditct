@@ -1,0 +1,69 @@
+{
+    "NtOpenKey": {
+        "-5": {
+            "NtClose NtQueryValueKey NtOpenKey NtProtectVirtualMemory NtQueryVirtualMemory": 6,
+            "NtOpenDirectoryObject NtClose NtQueryObject NtOpenFile NtQuerySystemInformation": 6,
+            "NtProtectVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory NtQuerySystemInformation NtQueryInformationProcess": 6,
+            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtQueryInformationProcess NtQueryInformationProcess NtOpenKey": 6,
+            "NtQueryValueKey NtSetInformationKey NtOpenKeyEx NtQueryKey NtQueryKey": 1
+        },
+        "-4": {
+            "NtClose NtQueryValueKey NtOpenKey NtProtectVirtualMemory": 6,
+            "NtOpenDirectoryObject NtClose NtQueryObject NtOpenFile": 6,
+            "NtProtectVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory NtQuerySystemInformation": 6,
+            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtQueryInformationProcess NtQueryInformationProcess": 6,
+            "NtQueryValueKey NtSetInformationKey NtOpenKeyEx NtQueryKey": 1
+        },
+        "-3": {
+            "NtClose NtQueryValueKey NtOpenKey": 6,
+            "NtOpenDirectoryObject NtClose NtQueryObject": 6,
+            "NtProtectVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtQueryInformationProcess": 6,
+            "NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 1
+        },
+        "-2": {
+            "NtClose NtQueryValueKey": 6,
+            "NtOpenDirectoryObject NtClose": 6,
+            "NtProtectVirtualMemory NtQueryVirtualMemory": 6,
+            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 6,
+            "NtQueryValueKey NtSetInformationKey": 1
+        },
+        "-1": {
+            "NtClose": 6,
+            "NtOpenDirectoryObject": 6,
+            "NtProtectVirtualMemory": 6,
+            "NtQuerySecurityAttributesToken": 6,
+            "NtQueryValueKey": 1
+        },
+        "1": {
+            "NtQueryInformationProcess": 6,
+            "NtQueryValueKey": 19
+        },
+        "2": {
+            "NtQueryInformationProcess NtQueryInformationProcess": 6,
+            "NtQueryValueKey NtClose": 13,
+            "NtQueryValueKey NtQueryValueKey": 6
+        },
+        "3": {
+            "NtQueryInformationProcess NtQueryInformationProcess NtQuerySecurityAttributesToken": 6,
+            "NtQueryValueKey NtClose NtAllocateVirtualMemory": 1,
+            "NtQueryValueKey NtClose NtOpenKey": 6,
+            "NtQueryValueKey NtClose NtQueryInformationProcess": 6,
+            "NtQueryValueKey NtQueryValueKey NtClose": 6
+        },
+        "4": {
+            "NtQueryInformationProcess NtQueryInformationProcess NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 6,
+            "NtQueryValueKey NtClose NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtQueryValueKey NtClose NtOpenKey NtQueryInformationProcess": 6,
+            "NtQueryValueKey NtClose NtQueryInformationProcess NtQuerySystemInformation": 6,
+            "NtQueryValueKey NtQueryValueKey NtClose NtProtectVirtualMemory": 6
+        },
+        "5": {
+            "NtQueryInformationProcess NtQueryInformationProcess NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtOpenKey": 6,
+            "NtQueryValueKey NtClose NtAllocateVirtualMemory NtAllocateVirtualMemory NtQueryValueKey": 1,
+            "NtQueryValueKey NtClose NtOpenKey NtQueryInformationProcess NtQueryInformationProcess": 6,
+            "NtQueryValueKey NtClose NtQueryInformationProcess NtQuerySystemInformation NtQuerySystemInformation": 6,
+            "NtQueryValueKey NtQueryValueKey NtClose NtProtectVirtualMemory NtQueryInformationThread": 6
+        }
+    }
+}

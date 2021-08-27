@@ -1,0 +1,37 @@
+{
+    "NtUserGetSystemMenu": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserSetCursorIconData": 1,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp NtUserSetWindowLongPtr": 5
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 1,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp": 5
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp": 1,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 5
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 6
+        },
+        "-1": {
+            "NtCallbackReturn": 6
+        },
+        "1": {
+            "NtOpenKeyEx": 6
+        },
+        "2": {
+            "NtOpenKeyEx NtOpenKeyEx": 6
+        },
+        "3": {
+            "NtOpenKeyEx NtOpenKeyEx NtOpenFile": 6
+        },
+        "4": {
+            "NtOpenKeyEx NtOpenKeyEx NtOpenFile NtCreateSection": 6
+        },
+        "5": {
+            "NtOpenKeyEx NtOpenKeyEx NtOpenFile NtCreateSection NtMapViewOfSection": 6
+        }
+    }
+}

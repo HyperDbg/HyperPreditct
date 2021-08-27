@@ -1,0 +1,58 @@
+{
+    "NtAllocateVirtualMemoryEx": {
+        "-5": {
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation NtQuerySystemInformation": 12,
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess": 12,
+            "NtAllocateVirtualMemoryEx NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess NtClose": 12,
+            "NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess NtClose NtQueryValueKey": 12
+        },
+        "-4": {
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation": 12,
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation NtQuerySystemInformation": 12,
+            "NtAllocateVirtualMemoryEx NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess": 12,
+            "NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess NtClose": 12
+        },
+        "-3": {
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 12,
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation": 12,
+            "NtAllocateVirtualMemoryEx NtQuerySystemInformation NtQuerySystemInformation": 12,
+            "NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess": 12
+        },
+        "-2": {
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 24,
+            "NtAllocateVirtualMemoryEx NtQuerySystemInformation": 12,
+            "NtQuerySystemInformation NtQuerySystemInformation": 12
+        },
+        "-1": {
+            "NtAllocateVirtualMemoryEx": 36,
+            "NtQuerySystemInformation": 12
+        },
+        "1": {
+            "NtAllocateVirtualMemoryEx": 36,
+            "NtQuerySystemInformation": 12
+        },
+        "2": {
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 24,
+            "NtAllocateVirtualMemoryEx NtQuerySystemInformation": 12,
+            "NtQuerySystemInformation NtAllocateVirtualMemory": 12
+        },
+        "3": {
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 12,
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation": 12,
+            "NtAllocateVirtualMemoryEx NtQuerySystemInformation NtAllocateVirtualMemory": 12,
+            "NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory": 12
+        },
+        "4": {
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation": 12,
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation NtAllocateVirtualMemory": 12,
+            "NtAllocateVirtualMemoryEx NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory": 12,
+            "NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 12
+        },
+        "5": {
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation NtAllocateVirtualMemory": 12,
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory": 12,
+            "NtAllocateVirtualMemoryEx NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 12,
+            "NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtQuerySystemInformation": 12
+        }
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "NtGdiStrokePath": {
+        "-5": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtGdiEndPath": 2
+        },
+        "-4": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 2
+        },
+        "-3": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 2
+        },
+        "-2": {
+            "NtSetInformationProcess NtQueryInformationProcess": 2
+        },
+        "-1": {
+            "NtSetInformationProcess": 2
+        },
+        "1": {
+            "NtGdiBeginPath": 2
+        },
+        "2": {
+            "NtGdiBeginPath NtGdiEndPath": 2
+        },
+        "3": {
+            "NtGdiBeginPath NtGdiEndPath NtGdiEndPath": 1,
+            "NtGdiBeginPath NtGdiEndPath NtGdiPolyPatBlt": 1
+        },
+        "4": {
+            "NtGdiBeginPath NtGdiEndPath NtGdiEndPath NtQueryInformationProcess": 1,
+            "NtGdiBeginPath NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall": 1
+        },
+        "5": {
+            "NtGdiBeginPath NtGdiEndPath NtGdiEndPath NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtGdiBeginPath NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall NtQueryInformationThread": 1
+        }
+    }
+}

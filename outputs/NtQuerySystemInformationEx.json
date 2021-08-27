@@ -1,0 +1,102 @@
+{
+    "NtQuerySystemInformationEx": {
+        "-5": {
+            "NtAlertThreadByThreadId NtWaitForAlertByThreadId NtReleaseWorkerFactoryWorker NtOpenSection NtQueryObject": 1,
+            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation NtQuerySystemInformation NtAllocateVirtualMemory": 12,
+            "NtProtectVirtualMemory NtSetEvent NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 6,
+            "NtQueryInformationThread NtAllocateVirtualMemory NtClose NtClose NtQueryValueKey": 6,
+            "NtQuerySystemInformationEx NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation NtQuerySystemInformation": 6,
+            "NtQuerySystemInformationEx NtQueryInformationThread NtAllocateVirtualMemory NtClose NtClose": 6,
+            "NtReleaseWorkerFactoryWorker NtOpenSection NtQueryObject NtProtectVirtualMemory NtSetInformationWorkerFactory": 5
+        },
+        "-4": {
+            "NtAlertThreadByThreadId NtWaitForAlertByThreadId NtReleaseWorkerFactoryWorker NtOpenSection": 1,
+            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation NtQuerySystemInformation": 12,
+            "NtProtectVirtualMemory NtSetEvent NtSetInformationVirtualMemory NtApphelpCacheControl": 6,
+            "NtQueryInformationThread NtAllocateVirtualMemory NtClose NtClose": 6,
+            "NtQuerySystemInformationEx NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation": 6,
+            "NtQuerySystemInformationEx NtQueryInformationThread NtAllocateVirtualMemory NtClose": 6,
+            "NtReleaseWorkerFactoryWorker NtOpenSection NtQueryObject NtProtectVirtualMemory": 5
+        },
+        "-3": {
+            "NtAlertThreadByThreadId NtWaitForAlertByThreadId NtReleaseWorkerFactoryWorker": 1,
+            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation": 12,
+            "NtProtectVirtualMemory NtSetEvent NtSetInformationVirtualMemory": 6,
+            "NtQueryInformationThread NtAllocateVirtualMemory NtClose": 6,
+            "NtQuerySystemInformationEx NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6,
+            "NtQuerySystemInformationEx NtQueryInformationThread NtAllocateVirtualMemory": 6,
+            "NtReleaseWorkerFactoryWorker NtOpenSection NtQueryObject": 5
+        },
+        "-2": {
+            "NtAlertThreadByThreadId NtWaitForAlertByThreadId": 1,
+            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtCreateWaitCompletionPacket NtCreateEvent": 12,
+            "NtProtectVirtualMemory NtSetEvent": 6,
+            "NtQueryInformationThread NtAllocateVirtualMemory": 6,
+            "NtQuerySystemInformationEx NtAlpcSendWaitReceivePort": 2,
+            "NtQuerySystemInformationEx NtCreateWaitCompletionPacket": 6,
+            "NtQuerySystemInformationEx NtQueryInformationThread": 6,
+            "NtReleaseWorkerFactoryWorker NtOpenSection": 5
+        },
+        "-1": {
+            "NtAlertThreadByThreadId": 1,
+            "NtAlpcSendWaitReceivePort": 2,
+            "NtCreateWaitCompletionPacket": 12,
+            "NtProtectVirtualMemory": 6,
+            "NtQueryInformationThread": 6,
+            "NtQuerySystemInformationEx": 14,
+            "NtReleaseWorkerFactoryWorker": 5
+        },
+        "1": {
+            "NtCreateIoCompletion": 20,
+            "NtMapViewOfSection": 7,
+            "NtOpenKeyEx": 1,
+            "NtQueryInformationThread": 4,
+            "NtQuerySystemInformationEx": 14
+        },
+        "2": {
+            "NtCreateIoCompletion NtCreateWorkerFactory": 20,
+            "NtMapViewOfSection NtMapViewOfSection": 7,
+            "NtOpenKeyEx NtMapViewOfSection": 1,
+            "NtQueryInformationThread NtMapViewOfSection": 4,
+            "NtQuerySystemInformationEx NtCreateIoCompletion": 14
+        },
+        "3": {
+            "NtCreateIoCompletion NtCreateWorkerFactory NtCreateTimer2": 14,
+            "NtCreateIoCompletion NtCreateWorkerFactory NtSetInformationWorkerFactory": 6,
+            "NtMapViewOfSection NtMapViewOfSection NtClose": 7,
+            "NtOpenKeyEx NtMapViewOfSection NtProtectVirtualMemory": 1,
+            "NtQueryInformationThread NtMapViewOfSection NtMapViewOfSection": 3,
+            "NtQueryInformationThread NtMapViewOfSection NtSetInformationThread": 1,
+            "NtQuerySystemInformationEx NtCreateIoCompletion NtCreateWorkerFactory": 14
+        },
+        "4": {
+            "NtCreateIoCompletion NtCreateWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket": 14,
+            "NtCreateIoCompletion NtCreateWorkerFactory NtSetInformationWorkerFactory NtCreateTimer2": 6,
+            "NtMapViewOfSection NtMapViewOfSection NtClose NtClose": 6,
+            "NtMapViewOfSection NtMapViewOfSection NtClose NtQueryInformationThread": 1,
+            "NtOpenKeyEx NtMapViewOfSection NtProtectVirtualMemory NtMapViewOfSection": 1,
+            "NtQueryInformationThread NtMapViewOfSection NtMapViewOfSection NtSetInformationThread": 3,
+            "NtQueryInformationThread NtMapViewOfSection NtSetInformationThread NtMapViewOfSection": 1,
+            "NtQuerySystemInformationEx NtCreateIoCompletion NtCreateWorkerFactory NtCreateTimer2": 8,
+            "NtQuerySystemInformationEx NtCreateIoCompletion NtCreateWorkerFactory NtSetInformationWorkerFactory": 6
+        },
+        "5": {
+            "NtCreateIoCompletion NtCreateWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket": 14,
+            "NtCreateIoCompletion NtCreateWorkerFactory NtSetInformationWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket": 6,
+            "NtMapViewOfSection NtMapViewOfSection NtClose NtClose NtQueryWnfStateData": 6,
+            "NtMapViewOfSection NtMapViewOfSection NtClose NtQueryInformationThread NtClose": 1,
+            "NtOpenKeyEx NtMapViewOfSection NtProtectVirtualMemory NtMapViewOfSection NtClose": 1,
+            "NtQueryInformationThread NtMapViewOfSection NtMapViewOfSection NtSetInformationThread NtClose": 3,
+            "NtQueryInformationThread NtMapViewOfSection NtSetInformationThread NtMapViewOfSection NtClose": 1,
+            "NtQuerySystemInformationEx NtCreateIoCompletion NtCreateWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket": 8,
+            "NtQuerySystemInformationEx NtCreateIoCompletion NtCreateWorkerFactory NtSetInformationWorkerFactory NtCreateTimer2": 6
+        }
+    }
+}

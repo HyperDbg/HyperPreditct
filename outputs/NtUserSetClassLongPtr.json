@@ -1,0 +1,34 @@
+{
+    "NtUserSetClassLongPtr": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserSetCursorIconData": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 1
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp": 1
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 1
+        },
+        "-1": {
+            "NtCallbackReturn": 1
+        },
+        "1": {
+            "NtUserGetIconSize": 1
+        },
+        "2": {
+            "NtUserGetIconSize NtUserGetIconInfo": 1
+        },
+        "3": {
+            "NtUserGetIconSize NtUserGetIconInfo NtUserFindExistingCursorIcon": 1
+        },
+        "4": {
+            "NtUserGetIconSize NtUserGetIconInfo NtUserFindExistingCursorIcon NtUserGetDC": 1
+        },
+        "5": {
+            "NtUserGetIconSize NtUserGetIconInfo NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateCompatibleBitmap": 1
+        }
+    }
+}

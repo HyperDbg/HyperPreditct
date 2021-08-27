@@ -1,0 +1,44 @@
+{
+    "NtUserCallHwndLock": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserMessageCall": 2,
+            "NtUserInvalidateRect NtAllocateVirtualMemory NtUserGetThreadState NtCallbackReturn NtContinueEx": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2,
+            "NtUserInvalidateRect NtAllocateVirtualMemory NtUserGetThreadState NtCallbackReturn": 1
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
+            "NtUserInvalidateRect NtAllocateVirtualMemory NtUserGetThreadState": 1
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 2,
+            "NtUserInvalidateRect NtAllocateVirtualMemory": 1
+        },
+        "-1": {
+            "NtCallbackReturn": 2,
+            "NtUserInvalidateRect": 1
+        },
+        "1": {
+            "NtQueryInformationProcess": 1,
+            "NtUserMessageCall": 2
+        },
+        "2": {
+            "NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtUserMessageCall NtContinueEx": 2
+        },
+        "3": {
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn": 2
+        },
+        "4": {
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMoveWindow": 2
+        },
+        "5": {
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtUserSetWindowPos": 1,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMoveWindow NtUserMessageCall": 2
+        }
+    }
+}

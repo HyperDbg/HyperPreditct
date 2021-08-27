@@ -1,0 +1,44 @@
+{
+    "NtClearEvent": {
+        "-5": {
+            "NtUserPeekMessage NtUserPostThreadMessage NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
+            "NtUserSetTimer NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState NtUserGetThreadState": 1
+        },
+        "-4": {
+            "NtUserPeekMessage NtUserPostThreadMessage NtCallbackReturn NtContinueEx": 1,
+            "NtUserSetTimer NtUserPeekMessage NtUserPeekMessage NtUserGetThreadState": 1
+        },
+        "-3": {
+            "NtUserPeekMessage NtUserPostThreadMessage NtCallbackReturn": 1,
+            "NtUserSetTimer NtUserPeekMessage NtUserPeekMessage": 1
+        },
+        "-2": {
+            "NtUserPeekMessage NtUserPostThreadMessage": 1,
+            "NtUserSetTimer NtUserPeekMessage": 1
+        },
+        "-1": {
+            "NtUserPeekMessage": 1,
+            "NtUserSetTimer": 1
+        },
+        "1": {
+            "NtContinueEx": 1,
+            "NtProtectVirtualMemory": 1
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtUserGetProp": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetQueueStatusReadonly": 1
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserPeekMessage": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetQueueStatusReadonly NtAssociateWaitCompletionPacket": 1
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserPeekMessage NtUserPeekMessage": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetQueueStatusReadonly NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1
+        }
+    }
+}

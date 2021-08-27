@@ -1,0 +1,34 @@
+{
+    "NtWaitForMultipleObjects32": {
+        "-5": {
+            "NtOpenKeyEx NtQueryKey NtQueryObject NtOpenKeyEx NtQueryInformationToken": 1
+        },
+        "-4": {
+            "NtOpenKeyEx NtQueryKey NtQueryObject NtOpenKeyEx": 1
+        },
+        "-3": {
+            "NtOpenKeyEx NtQueryKey NtQueryObject": 1
+        },
+        "-2": {
+            "NtOpenKeyEx NtQueryKey": 1
+        },
+        "-1": {
+            "NtOpenKeyEx": 1
+        },
+        "1": {
+            "NtQueryInformationToken": 1
+        },
+        "2": {
+            "NtQueryInformationToken NtOpenKeyEx": 1
+        },
+        "3": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject": 1
+        },
+        "4": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject NtQueryKey": 1
+        },
+        "5": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject NtQueryKey NtQueryKey": 1
+        }
+    }
+}

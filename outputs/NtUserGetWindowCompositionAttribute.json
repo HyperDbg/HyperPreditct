@@ -1,0 +1,49 @@
+{
+    "NtUserGetWindowCompositionAttribute": {
+        "-5": {
+            "NtGdiHfontCreate NtGdiHfontCreate NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn NtContinueEx": 3,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtTraceControl": 5,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtUserIsNonClientDpiScalingEnabled": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserMessageCall NtCallbackReturn": 2
+        },
+        "-4": {
+            "NtGdiHfontCreate NtGdiHfontCreate NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn": 3,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp": 6,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserMessageCall": 2
+        },
+        "-3": {
+            "NtGdiHfontCreate NtGdiHfontCreate NtUserSystemParametersInfo": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 11
+        },
+        "-2": {
+            "NtGdiHfontCreate NtGdiHfontCreate": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 11
+        },
+        "-1": {
+            "NtGdiHfontCreate": 1,
+            "NtUserIsNonClientDpiScalingEnabled": 11
+        },
+        "1": {
+            "NtUserGetProp": 6,
+            "NtUserSetWindowLongPtr": 6
+        },
+        "2": {
+            "NtUserGetProp NtUserCalcMenuBar": 6,
+            "NtUserSetWindowLongPtr NtUserGetProp": 6
+        },
+        "3": {
+            "NtUserGetProp NtUserCalcMenuBar NtUserGetProp": 6,
+            "NtUserSetWindowLongPtr NtUserGetProp NtUserMessageCall": 6
+        },
+        "4": {
+            "NtUserGetProp NtUserCalcMenuBar NtUserGetProp NtUserIsTopLevelWindow": 6,
+            "NtUserSetWindowLongPtr NtUserGetProp NtUserMessageCall NtContinueEx": 6
+        },
+        "5": {
+            "NtUserGetProp NtUserCalcMenuBar NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 6,
+            "NtUserSetWindowLongPtr NtUserGetProp NtUserMessageCall NtContinueEx NtCallbackReturn": 6
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "NtUserUpdateInputContext": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr NtCallbackReturn": 6,
+            "NtUserGetThreadState NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr": 6,
+            "NtUserGetThreadState NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 1
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 6,
+            "NtUserGetThreadState NtUserReleaseDC NtGdiGetTextExtentExW": 1
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 6,
+            "NtUserGetThreadState NtUserReleaseDC": 1
+        },
+        "-1": {
+            "NtCallbackReturn": 6,
+            "NtUserGetThreadState": 1
+        },
+        "1": {
+            "NtContinueEx": 6,
+            "NtUserAssociateInputContext": 1
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 6,
+            "NtUserAssociateInputContext NtQueryObject": 1
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtContinueEx": 6,
+            "NtUserAssociateInputContext NtQueryObject NtQueryKey": 1
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 6,
+            "NtUserAssociateInputContext NtQueryObject NtQueryKey NtQueryKey": 1
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 6,
+            "NtUserAssociateInputContext NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx": 1
+        }
+    }
+}

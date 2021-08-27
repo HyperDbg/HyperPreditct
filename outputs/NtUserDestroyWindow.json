@@ -1,0 +1,34 @@
+{
+    "NtUserDestroyWindow": {
+        "-5": {
+            "NtUserPeekMessage NtUserGetQueueStatus NtAlpcSendWaitReceivePort NtQueryInformationProcess NtAlpcQueryInformation": 1
+        },
+        "-4": {
+            "NtUserPeekMessage NtUserGetQueueStatus NtAlpcSendWaitReceivePort NtQueryInformationProcess": 1
+        },
+        "-3": {
+            "NtUserPeekMessage NtUserGetQueueStatus NtAlpcSendWaitReceivePort": 1
+        },
+        "-2": {
+            "NtUserPeekMessage NtUserGetQueueStatus": 1
+        },
+        "-1": {
+            "NtUserPeekMessage": 1
+        },
+        "1": {
+            "NtContinueEx": 1
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 1
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtContinueEx": 1
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 1
+        }
+    }
+}

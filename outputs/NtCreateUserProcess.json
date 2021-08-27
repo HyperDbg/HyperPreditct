@@ -1,0 +1,34 @@
+{
+    "NtCreateUserProcess": {
+        "-5": {
+            "NtOpenKeyEx NtOpenKeyEx NtQueryKey NtQueryObject NtProtectVirtualMemory": 1
+        },
+        "-4": {
+            "NtOpenKeyEx NtOpenKeyEx NtQueryKey NtQueryObject": 1
+        },
+        "-3": {
+            "NtOpenKeyEx NtOpenKeyEx NtQueryKey": 1
+        },
+        "-2": {
+            "NtOpenKeyEx NtOpenKeyEx": 1
+        },
+        "-1": {
+            "NtOpenKeyEx": 1
+        },
+        "1": {
+            "NtQueryInformationProcess": 1
+        },
+        "2": {
+            "NtQueryInformationProcess NtOpenKeyEx": 1
+        },
+        "3": {
+            "NtQueryInformationProcess NtOpenKeyEx NtOpenProcessToken": 1
+        },
+        "4": {
+            "NtQueryInformationProcess NtOpenKeyEx NtOpenProcessToken NtQueryInformationToken": 1
+        },
+        "5": {
+            "NtQueryInformationProcess NtOpenKeyEx NtOpenProcessToken NtQueryInformationToken NtOpenKeyEx": 1
+        }
+    }
+}

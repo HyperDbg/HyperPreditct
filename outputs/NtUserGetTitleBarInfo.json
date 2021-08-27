@@ -1,0 +1,48 @@
+{
+    "NtUserGetTitleBarInfo": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserMessageCall NtUserIsNonClientDpiScalingEnabled": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserCalcMenuBar NtUserGetProp": 5
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserMessageCall": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserCalcMenuBar": 5
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 5
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 1,
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 5
+        },
+        "-1": {
+            "NtCallbackReturn": 1,
+            "NtUserIsNonClientDpiScalingEnabled": 5
+        },
+        "1": {
+            "NtUserBuildHwndList": 3,
+            "NtUserGetDCEx": 3
+        },
+        "2": {
+            "NtUserBuildHwndList NtUserGetProp": 3,
+            "NtUserGetDCEx NtGdiExcludeClipRect": 2,
+            "NtUserGetDCEx NtProtectVirtualMemory": 1
+        },
+        "3": {
+            "NtUserBuildHwndList NtUserGetProp NtUserIsTopLevelWindow": 3,
+            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn": 2,
+            "NtUserGetDCEx NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "4": {
+            "NtUserBuildHwndList NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 3,
+            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC": 2,
+            "NtUserGetDCEx NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExcludeClipRect": 1
+        },
+        "5": {
+            "NtUserBuildHwndList NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled NtUserGetProp": 3,
+            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC NtContinueEx": 2,
+            "NtUserGetDCEx NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExcludeClipRect NtGdiExtSelectClipRgn": 1
+        }
+    }
+}

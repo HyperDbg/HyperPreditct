@@ -1,0 +1,67 @@
+{
+    "NtGdiDrawStream": {
+        "-5": {
+            "NtGdiDrawStream NtGdiDrawStream NtGdiDrawStream NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtGdiDrawStream NtGdiDrawStream NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtGdiDrawStream NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtUserGetProp": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtUserGetProp NtGdiSelectBitmap": 1,
+            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1
+        },
+        "-4": {
+            "NtGdiDrawStream NtGdiDrawStream NtGdiDrawStream NtProtectVirtualMemory": 1,
+            "NtGdiDrawStream NtGdiDrawStream NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtGdiDrawStream NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtUserGetProp": 1,
+            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1
+        },
+        "-3": {
+            "NtGdiDrawStream NtGdiDrawStream NtGdiDrawStream": 1,
+            "NtGdiDrawStream NtGdiDrawStream NtProtectVirtualMemory": 1,
+            "NtGdiDrawStream NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtUserGetProp NtUserGetProp NtUserGetProp": 1
+        },
+        "-2": {
+            "NtGdiDrawStream NtGdiDrawStream": 2,
+            "NtGdiDrawStream NtProtectVirtualMemory": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserGetProp NtUserGetProp": 1
+        },
+        "-1": {
+            "NtGdiDrawStream": 3,
+            "NtProtectVirtualMemory": 1,
+            "NtUserGetProp": 1
+        },
+        "1": {
+            "NtGdiDrawStream": 3,
+            "NtUserGetProp": 2
+        },
+        "2": {
+            "NtGdiDrawStream NtGdiDrawStream": 2,
+            "NtGdiDrawStream NtUserGetProp": 1,
+            "NtUserGetProp NtGdiBitBlt": 1,
+            "NtUserGetProp NtUserGetProp": 1
+        },
+        "3": {
+            "NtGdiDrawStream NtGdiDrawStream NtGdiDrawStream": 1,
+            "NtGdiDrawStream NtGdiDrawStream NtUserGetProp": 1,
+            "NtGdiDrawStream NtUserGetProp NtUserGetProp": 1,
+            "NtUserGetProp NtGdiBitBlt NtGdiSelectBitmap": 1,
+            "NtUserGetProp NtUserGetProp NtUserGetProp": 1
+        },
+        "4": {
+            "NtGdiDrawStream NtGdiDrawStream NtGdiDrawStream NtUserGetProp": 1,
+            "NtGdiDrawStream NtGdiDrawStream NtUserGetProp NtUserGetProp": 1,
+            "NtGdiDrawStream NtUserGetProp NtUserGetProp NtUserGetProp": 1,
+            "NtUserGetProp NtGdiBitBlt NtGdiSelectBitmap NtGdiDeleteObjectApp": 1,
+            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1
+        },
+        "5": {
+            "NtGdiDrawStream NtGdiDrawStream NtGdiDrawStream NtUserGetProp NtUserGetProp": 1,
+            "NtGdiDrawStream NtGdiDrawStream NtUserGetProp NtUserGetProp NtUserGetProp": 1,
+            "NtGdiDrawStream NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
+            "NtUserGetProp NtGdiBitBlt NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 1,
+            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1
+        }
+    }
+}

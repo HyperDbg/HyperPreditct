@@ -1,0 +1,44 @@
+{
+    "NtGdiGetCharSet": {
+        "-5": {
+            "NtGdiIntersectClipRect NtUserGetDC NtUserReleaseDC NtGdiIntersectClipRect NtUserGetDC": 1,
+            "NtUserGetDC NtQueryValueKey NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 5
+        },
+        "-4": {
+            "NtGdiIntersectClipRect NtUserGetDC NtUserReleaseDC NtGdiIntersectClipRect": 1,
+            "NtUserGetDC NtQueryValueKey NtQueryValueKey NtSetInformationKey": 5
+        },
+        "-3": {
+            "NtGdiIntersectClipRect NtUserGetDC NtUserReleaseDC": 1,
+            "NtUserGetDC NtQueryValueKey NtQueryValueKey": 5
+        },
+        "-2": {
+            "NtGdiIntersectClipRect NtUserGetDC": 1,
+            "NtUserGetDC NtQueryValueKey": 5
+        },
+        "-1": {
+            "NtGdiIntersectClipRect": 1,
+            "NtUserGetDC": 5
+        },
+        "1": {
+            "NtAllocateVirtualMemory": 5,
+            "NtGdiGetRealizationInfo": 1
+        },
+        "2": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1
+        },
+        "3": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtGdiQueryFontAssocInfo": 5,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 1
+        },
+        "4": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtGdiQueryFontAssocInfo NtGdiGetRealizationInfo": 5,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 1
+        },
+        "5": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtGdiQueryFontAssocInfo NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW": 5,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1
+        }
+    }
+}

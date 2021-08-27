@@ -1,0 +1,54 @@
+{
+    "NtUnmapViewOfSectionEx": {
+        "-5": {
+            "NtClose NtClose NtClose NtMapViewOfSection NtOpenSection": 1,
+            "NtMapViewOfSection NtOpenSection NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation": 1,
+            "NtOpenSection NtOpenSection NtMapViewOfSection NtOpenSection NtUserGetObjectInformation": 5,
+            "NtOpenSection NtOpenSection NtMapViewOfSection NtOpenSection NtUserSystemParametersInfo": 1
+        },
+        "-4": {
+            "NtClose NtClose NtClose NtMapViewOfSection": 1,
+            "NtMapViewOfSection NtOpenSection NtQueryObject NtQueryInformationProcess": 1,
+            "NtOpenSection NtOpenSection NtMapViewOfSection NtOpenSection": 6
+        },
+        "-3": {
+            "NtClose NtClose NtClose": 1,
+            "NtMapViewOfSection NtOpenSection NtQueryObject": 1,
+            "NtOpenSection NtOpenSection NtMapViewOfSection": 6
+        },
+        "-2": {
+            "NtClose NtClose": 1,
+            "NtMapViewOfSection NtOpenSection": 1,
+            "NtOpenSection NtOpenSection": 6
+        },
+        "-1": {
+            "NtClose": 1,
+            "NtMapViewOfSection": 1,
+            "NtOpenSection": 6
+        },
+        "1": {
+            "NtClose": 7,
+            "NtQueryInformationThread": 1
+        },
+        "2": {
+            "NtClose NtMapViewOfSection": 6,
+            "NtClose NtReleaseMutant": 1,
+            "NtQueryInformationThread NtReadVirtualMemory": 1
+        },
+        "3": {
+            "NtClose NtMapViewOfSection NtMapViewOfSection": 6,
+            "NtClose NtReleaseMutant NtClose": 1,
+            "NtQueryInformationThread NtReadVirtualMemory NtQueryVirtualMemory": 1
+        },
+        "4": {
+            "NtClose NtMapViewOfSection NtMapViewOfSection NtUserGetDC": 6,
+            "NtClose NtReleaseMutant NtClose NtQueryObject": 1,
+            "NtQueryInformationThread NtReadVirtualMemory NtQueryVirtualMemory NtWriteVirtualMemory": 1
+        },
+        "5": {
+            "NtClose NtMapViewOfSection NtMapViewOfSection NtUserGetDC NtGdiGetDeviceCaps": 6,
+            "NtClose NtReleaseMutant NtClose NtQueryObject NtQueryKey": 1,
+            "NtQueryInformationThread NtReadVirtualMemory NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache": 1
+        }
+    }
+}

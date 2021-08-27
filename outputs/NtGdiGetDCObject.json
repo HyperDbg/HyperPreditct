@@ -1,0 +1,63 @@
+{
+    "NtGdiGetDCObject": {
+        "-5": {
+            "NtGdiCreateCompatibleDC NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiGetDCforBitmap NtGdiCreateDIBSection NtUserReleaseDC": 1,
+            "NtGdiSelectBitmap NtGdiSaveDC NtGdiGetDCforBitmap NtGdiSelectBitmap NtGdiCreateDIBitmapInternal": 7,
+            "NtGdiSelectBitmap NtGdiSaveDC NtGdiGetDCforBitmap NtGdiSelectBitmap NtUserReleaseDC": 34,
+            "NtUserGetDC NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 1
+        },
+        "-4": {
+            "NtGdiCreateCompatibleDC NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiGetDCforBitmap NtGdiCreateDIBSection": 1,
+            "NtGdiSelectBitmap NtGdiSaveDC NtGdiGetDCforBitmap NtGdiSelectBitmap": 41,
+            "NtUserGetDC NtClose NtQueryValueKey NtSetInformationKey": 1
+        },
+        "-3": {
+            "NtGdiCreateCompatibleDC NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiGetDCforBitmap": 1,
+            "NtGdiSelectBitmap NtGdiSaveDC NtGdiGetDCforBitmap": 41,
+            "NtUserGetDC NtClose NtQueryValueKey": 1
+        },
+        "-2": {
+            "NtGdiCreateCompatibleDC NtUserRegisterWindowMessage": 5,
+            "NtGdiSelectBitmap NtGdiCreateCompatibleDC": 1,
+            "NtGdiSelectBitmap NtGdiSaveDC": 41,
+            "NtUserGetDC NtClose": 1
+        },
+        "-1": {
+            "NtGdiCreateCompatibleDC": 5,
+            "NtGdiSelectBitmap": 42,
+            "NtUserGetDC": 1
+        },
+        "1": {
+            "NtGdiExtGetObjectW": 1,
+            "NtUserCreateWindowEx": 5,
+            "NtUserSelectPalette": 42
+        },
+        "2": {
+            "NtGdiExtGetObjectW NtUserReleaseDC": 1,
+            "NtUserCreateWindowEx NtContinueEx": 5,
+            "NtUserSelectPalette NtAllocateVirtualMemory": 1,
+            "NtUserSelectPalette NtGdiSetDIBitsToDeviceInternal": 41
+        },
+        "3": {
+            "NtGdiExtGetObjectW NtUserReleaseDC NtUserGetClassName": 1,
+            "NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 5,
+            "NtUserSelectPalette NtAllocateVirtualMemory NtGdiSetDIBitsToDeviceInternal": 1,
+            "NtUserSelectPalette NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette": 41
+        },
+        "4": {
+            "NtGdiExtGetObjectW NtUserReleaseDC NtUserGetClassName NtUserGetThreadState": 1,
+            "NtUserCreateWindowEx NtContinueEx NtCallbackReturn NtUserMessageCall": 5,
+            "NtUserSelectPalette NtAllocateVirtualMemory NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette": 1,
+            "NtUserSelectPalette NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap": 41
+        },
+        "5": {
+            "NtGdiExtGetObjectW NtUserReleaseDC NtUserGetClassName NtUserGetThreadState NtTraceControl": 1,
+            "NtUserCreateWindowEx NtContinueEx NtCallbackReturn NtUserMessageCall NtContinueEx": 5,
+            "NtUserSelectPalette NtAllocateVirtualMemory NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap": 1,
+            "NtUserSelectPalette NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap NtGdiRestoreDC": 41
+        }
+    }
+}

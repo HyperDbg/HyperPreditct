@@ -1,0 +1,60 @@
+{
+    "NtGdiEnumFonts": {
+        "-5": {
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp": 3,
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts": 3,
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserSetCursorIconData": 3,
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts NtCallbackReturn NtContinueEx": 3
+        },
+        "-4": {
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtCallbackReturn NtContinueEx": 3,
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts NtAllocateVirtualMemory": 3,
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 3,
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts NtCallbackReturn": 3
+        },
+        "-3": {
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtCallbackReturn": 3,
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts": 3,
+            "NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp": 3,
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts": 3
+        },
+        "-2": {
+            "NtAllocateVirtualMemory NtGdiEnumFonts": 6,
+            "NtCallbackReturn NtContinueEx": 3,
+            "NtGdiEnumFonts NtAllocateVirtualMemory": 3
+        },
+        "-1": {
+            "NtAllocateVirtualMemory": 6,
+            "NtCallbackReturn": 3,
+            "NtGdiEnumFonts": 3
+        },
+        "1": {
+            "NtAllocateVirtualMemory": 6,
+            "NtGdiEnumFonts": 3,
+            "NtGdiHfontCreate": 3
+        },
+        "2": {
+            "NtAllocateVirtualMemory NtGdiEnumFonts": 6,
+            "NtGdiEnumFonts NtAllocateVirtualMemory": 3,
+            "NtGdiHfontCreate NtGdiGetTextMetricsW": 3
+        },
+        "3": {
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts": 3,
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiHfontCreate": 3,
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts": 3,
+            "NtGdiHfontCreate NtGdiGetTextMetricsW NtGdiGetTextFaceW": 3
+        },
+        "4": {
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts NtAllocateVirtualMemory": 3,
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiHfontCreate NtGdiGetTextMetricsW": 3,
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts NtGdiHfontCreate": 3,
+            "NtGdiHfontCreate NtGdiGetTextMetricsW NtGdiGetTextFaceW NtGdiSelectFont": 3
+        },
+        "5": {
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts": 3,
+            "NtAllocateVirtualMemory NtGdiEnumFonts NtGdiHfontCreate NtGdiGetTextMetricsW NtGdiGetTextFaceW": 3,
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts NtGdiHfontCreate NtGdiGetTextMetricsW": 3,
+            "NtGdiHfontCreate NtGdiGetTextMetricsW NtGdiGetTextFaceW NtGdiSelectFont NtProtectVirtualMemory": 3
+        }
+    }
+}

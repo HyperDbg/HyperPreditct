@@ -1,0 +1,44 @@
+{
+    "NtUserGetKeyboardState": {
+        "-5": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState NtUserGetGUIThreadInfo NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState": 1
+        },
+        "-4": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryWnfStateData NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState NtUserGetGUIThreadInfo NtUserGetThreadState NtUserGetThreadState": 1
+        },
+        "-3": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryWnfStateData": 1,
+            "NtUserGetThreadState NtUserGetGUIThreadInfo NtUserGetThreadState": 1
+        },
+        "-2": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState NtUserGetGUIThreadInfo": 1
+        },
+        "-1": {
+            "NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState": 1
+        },
+        "1": {
+            "NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState": 1
+        },
+        "2": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState NtUserGetThreadState": 1
+        },
+        "3": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo": 1
+        },
+        "4": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtUserGetInputLocaleInfo": 1,
+            "NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo": 1
+        },
+        "5": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtUserGetInputLocaleInfo NtUserGetGUIThreadInfo": 1,
+            "NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo NtQueryObject": 1
+        }
+    }
+}

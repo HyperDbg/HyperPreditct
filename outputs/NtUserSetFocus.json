@@ -1,0 +1,34 @@
+{
+    "NtUserSetFocus": {
+        "-5": {
+            "NtUserGetThreadState NtUserGetThreadState NtCallbackReturn NtContinueEx NtUserReleaseDC": 1
+        },
+        "-4": {
+            "NtUserGetThreadState NtUserGetThreadState NtCallbackReturn NtContinueEx": 1
+        },
+        "-3": {
+            "NtUserGetThreadState NtUserGetThreadState NtCallbackReturn": 1
+        },
+        "-2": {
+            "NtUserGetThreadState NtUserGetThreadState": 1
+        },
+        "-1": {
+            "NtUserGetThreadState": 1
+        },
+        "1": {
+            "NtUserQueryInputContext": 1
+        },
+        "2": {
+            "NtUserQueryInputContext NtUserGetKeyboardLayout": 1
+        },
+        "3": {
+            "NtUserQueryInputContext NtUserGetKeyboardLayout NtOpenThreadTokenEx": 1
+        },
+        "4": {
+            "NtUserQueryInputContext NtUserGetKeyboardLayout NtOpenThreadTokenEx NtOpenProcessTokenEx": 1
+        },
+        "5": {
+            "NtUserQueryInputContext NtUserGetKeyboardLayout NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken": 1
+        }
+    }
+}

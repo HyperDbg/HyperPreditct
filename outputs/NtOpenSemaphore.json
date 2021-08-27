@@ -1,0 +1,43 @@
+{
+    "NtOpenSemaphore": {
+        "-5": {
+            "NtQueryObject NtWaitForSingleObject NtCreateMutant NtQueryObject NtQueryWnfStateData": 5,
+            "NtQueryObject NtWaitForSingleObject NtCreateMutant NtQueryObject NtSetTimer2": 6,
+            "NtQueryObject NtWaitForSingleObject NtCreateMutant NtQueryObject NtTraceControl": 1
+        },
+        "-4": {
+            "NtQueryObject NtWaitForSingleObject NtCreateMutant NtQueryObject": 12
+        },
+        "-3": {
+            "NtQueryObject NtWaitForSingleObject NtCreateMutant": 12
+        },
+        "-2": {
+            "NtQueryObject NtWaitForSingleObject": 12
+        },
+        "-1": {
+            "NtQueryObject": 12
+        },
+        "1": {
+            "NtQueryObject": 7,
+            "NtWaitForSingleObject": 5
+        },
+        "2": {
+            "NtQueryObject NtCreateSemaphore": 7,
+            "NtWaitForSingleObject NtReleaseSemaphore": 5
+        },
+        "3": {
+            "NtQueryObject NtCreateSemaphore NtReleaseMutant": 7,
+            "NtWaitForSingleObject NtReleaseSemaphore NtReleaseSemaphore": 5
+        },
+        "4": {
+            "NtQueryObject NtCreateSemaphore NtReleaseMutant NtQueryObject": 1,
+            "NtQueryObject NtCreateSemaphore NtReleaseMutant NtTraceControl": 6,
+            "NtWaitForSingleObject NtReleaseSemaphore NtReleaseSemaphore NtClose": 5
+        },
+        "5": {
+            "NtQueryObject NtCreateSemaphore NtReleaseMutant NtQueryObject NtOpenSection": 1,
+            "NtQueryObject NtCreateSemaphore NtReleaseMutant NtTraceControl NtTraceControl": 6,
+            "NtWaitForSingleObject NtReleaseSemaphore NtReleaseSemaphore NtClose NtReleaseMutant": 5
+        }
+    }
+}

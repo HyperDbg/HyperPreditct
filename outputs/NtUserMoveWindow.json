@@ -1,0 +1,49 @@
+{
+    "NtUserMoveWindow": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserCallHwndLock NtCallbackReturn": 2,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowPos NtUserInvalidateRect": 2,
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtCallbackReturn NtContinueEx": 1,
+            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr NtCallbackReturn": 1,
+            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr NtUserSetWindowLongPtr": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserCallHwndLock": 2,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowPos": 2,
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtCallbackReturn": 1,
+            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr": 2
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 4,
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1,
+            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx": 2
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 4,
+            "NtUserReleaseDC NtUserGetDC": 1,
+            "NtUserSetWindowLongPtr NtCallbackReturn": 2
+        },
+        "-1": {
+            "NtCallbackReturn": 4,
+            "NtUserReleaseDC": 1,
+            "NtUserSetWindowLongPtr": 2
+        },
+        "1": {
+            "NtUserMessageCall": 7
+        },
+        "2": {
+            "NtUserMessageCall NtContinueEx": 7
+        },
+        "3": {
+            "NtUserMessageCall NtContinueEx NtCallbackReturn": 7
+        },
+        "4": {
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetProp": 6,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall": 1
+        },
+        "5": {
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetProp NtUserMessageCall": 6,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall NtContinueEx": 1
+        }
+    }
+}

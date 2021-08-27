@@ -1,0 +1,44 @@
+{
+    "NtUserCallOneParam": {
+        "-5": {
+            "NtTestAlert NtSetInformationThread NtTestAlert NtSetEvent NtSetInformationWorkerFactory": 1,
+            "NtUserGetThreadDesktop NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread NtApphelpCacheControl": 6
+        },
+        "-4": {
+            "NtTestAlert NtSetInformationThread NtTestAlert NtSetEvent": 1,
+            "NtUserGetThreadDesktop NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread": 6
+        },
+        "-3": {
+            "NtTestAlert NtSetInformationThread NtTestAlert": 1,
+            "NtUserGetThreadDesktop NtProtectVirtualMemory NtProtectVirtualMemory": 6
+        },
+        "-2": {
+            "NtTestAlert NtSetInformationThread": 1,
+            "NtUserGetThreadDesktop NtProtectVirtualMemory": 6
+        },
+        "-1": {
+            "NtTestAlert": 1,
+            "NtUserGetThreadDesktop": 6
+        },
+        "1": {
+            "NtQueryInformationToken": 1,
+            "NtUserGetProcessUIContextInformation": 6
+        },
+        "2": {
+            "NtQueryInformationToken NtOpenKeyEx": 1,
+            "NtUserGetProcessUIContextInformation NtOpenProcessToken": 6
+        },
+        "3": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject": 1,
+            "NtUserGetProcessUIContextInformation NtOpenProcessToken NtDuplicateToken": 6
+        },
+        "4": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject NtQueryKey": 1,
+            "NtUserGetProcessUIContextInformation NtOpenProcessToken NtDuplicateToken NtAccessCheck": 6
+        },
+        "5": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject NtQueryKey NtQueryKey": 1,
+            "NtUserGetProcessUIContextInformation NtOpenProcessToken NtDuplicateToken NtAccessCheck NtClose": 6
+        }
+    }
+}

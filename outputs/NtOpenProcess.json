@@ -1,0 +1,53 @@
+{
+    "NtOpenProcess": {
+        "-5": {
+            "NtClose NtQueryInformationThread NtDuplicateObject NtCompareObjects NtSetInformationProcess": 2,
+            "NtClose NtTraceControl NtQueryLicenseValue NtQuerySystemInformation NtMapViewOfSection": 6,
+            "NtUserRegisterWindowMessage NtUserFindWindowEx NtSetInformationProcess NtQueryInformationProcess NtSetEvent": 1
+        },
+        "-4": {
+            "NtClose NtQueryInformationThread NtDuplicateObject NtCompareObjects": 2,
+            "NtClose NtTraceControl NtQueryLicenseValue NtQuerySystemInformation": 6,
+            "NtUserRegisterWindowMessage NtUserFindWindowEx NtSetInformationProcess NtQueryInformationProcess": 1
+        },
+        "-3": {
+            "NtClose NtQueryInformationThread NtDuplicateObject": 2,
+            "NtClose NtTraceControl NtQueryLicenseValue": 6,
+            "NtUserRegisterWindowMessage NtUserFindWindowEx NtSetInformationProcess": 1
+        },
+        "-2": {
+            "NtClose NtQueryInformationThread": 2,
+            "NtClose NtTraceControl": 6,
+            "NtUserRegisterWindowMessage NtUserFindWindowEx": 1
+        },
+        "-1": {
+            "NtClose": 8,
+            "NtUserRegisterWindowMessage": 1
+        },
+        "1": {
+            "NtOpenProcessToken": 6,
+            "NtQueryInformationProcess": 3
+        },
+        "2": {
+            "NtOpenProcessToken NtQueryInformationToken": 6,
+            "NtQueryInformationProcess NtClose": 1,
+            "NtQueryInformationProcess NtReadVirtualMemory": 2
+        },
+        "3": {
+            "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken": 6,
+            "NtQueryInformationProcess NtClose NtProtectVirtualMemory": 1,
+            "NtQueryInformationProcess NtReadVirtualMemory NtSuspendThread": 2
+        },
+        "4": {
+            "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken NtQueryInformationToken": 6,
+            "NtQueryInformationProcess NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtQueryInformationProcess NtReadVirtualMemory NtSuspendThread NtClose": 2
+        },
+        "5": {
+            "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken NtQueryInformationToken NtQueryInformationToken": 6,
+            "NtQueryInformationProcess NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationProcess": 1,
+            "NtQueryInformationProcess NtReadVirtualMemory NtSuspendThread NtClose NtQueryInformationThread": 1,
+            "NtQueryInformationProcess NtReadVirtualMemory NtSuspendThread NtClose NtSetInformationThread": 1
+        }
+    }
+}

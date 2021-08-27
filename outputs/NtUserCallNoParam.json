@@ -1,0 +1,124 @@
+{
+    "NtUserCallNoParam": {
+        "-5": {
+            "NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
+            "NtOpenFile NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread NtGdiInit NtClose": 5,
+            "NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory NtClose": 6,
+            "NtUserCallNoParam NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly": 1,
+            "NtUserRegisterWindowMessage NtAddAtomEx NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1,
+            "NtUserSetTimer NtUserKillTimer NtUserQueryWindow NtUserGetKeyboardLayout NtUserGetThreadState": 1,
+            "NtUserSetTimer NtUserKillTimer NtUserSetImeOwnerWindow NtUserSetWindowLong NtUserQueryWindow": 1
+        },
+        "-4": {
+            "NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 1,
+            "NtOpenFile NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAssociateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread NtGdiInit": 5,
+            "NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserCallNoParam NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam NtAssociateWaitCompletionPacket": 1,
+            "NtUserRegisterWindowMessage NtAddAtomEx NtAddAtomEx NtUserRegisterWindowMessage": 1,
+            "NtUserSetTimer NtUserKillTimer NtUserQueryWindow NtUserGetKeyboardLayout": 1,
+            "NtUserSetTimer NtUserKillTimer NtUserSetImeOwnerWindow NtUserSetWindowLong": 1
+        },
+        "-3": {
+            "NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
+            "NtOpenFile NtOpenFile NtProtectVirtualMemory": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAssociateWaitCompletionPacket": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread": 5,
+            "NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserCallNoParam NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 2,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
+            "NtUserRegisterWindowMessage NtAddAtomEx NtAddAtomEx": 1,
+            "NtUserSetTimer NtUserKillTimer NtUserQueryWindow": 1,
+            "NtUserSetTimer NtUserKillTimer NtUserSetImeOwnerWindow": 1
+        },
+        "-2": {
+            "NtAssociateWaitCompletionPacket NtUserGetQueueStatusReadonly": 1,
+            "NtOpenFile NtOpenFile": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserCallNoParam NtQueryVirtualMemory": 6,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam": 2,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
+            "NtUserRegisterWindowMessage NtAddAtomEx": 1,
+            "NtUserSetTimer NtUserKillTimer": 2
+        },
+        "-1": {
+            "NtAssociateWaitCompletionPacket": 1,
+            "NtOpenFile": 1,
+            "NtProtectVirtualMemory": 6,
+            "NtQueryVirtualMemory": 6,
+            "NtUserCallNoParam": 6,
+            "NtUserGetQueueStatusReadonly": 3,
+            "NtUserRegisterWindowMessage": 1,
+            "NtUserSetTimer": 2
+        },
+        "1": {
+            "NtContinueEx": 1,
+            "NtQueryInformationThread": 6,
+            "NtQuerySecurityAttributesToken": 1,
+            "NtUserCallNoParam": 6,
+            "NtUserGetQueueStatusReadonly": 4,
+            "NtUserQueryWindow": 2,
+            "NtUserThunkedMenuItemInfo": 6
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 1,
+            "NtQueryInformationThread NtQueryObject": 6,
+            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 1,
+            "NtUserCallNoParam NtUserThunkedMenuItemInfo": 6,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam": 2,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 2,
+            "NtUserQueryWindow NtUserQueryWindow": 2,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 6
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtUserDispatchMessage": 1,
+            "NtQueryInformationThread NtQueryObject NtOpenSection": 6,
+            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtQueryInformationThread": 1,
+            "NtUserCallNoParam NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 6,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtContinueEx": 1,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly": 1,
+            "NtUserQueryWindow NtUserQueryWindow NtUserCallHwndLockSafe": 1,
+            "NtUserQueryWindow NtUserQueryWindow NtUserQueryWindow": 1,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 6
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtUserDispatchMessage NtGdiCreateRectRgn": 1,
+            "NtQueryInformationThread NtQueryObject NtOpenSection NtQueryAttributesFile": 6,
+            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtQueryInformationThread NtQueryObject": 1,
+            "NtUserCallNoParam NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 6,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtContinueEx NtCallbackReturn": 1,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort": 1,
+            "NtUserQueryWindow NtUserQueryWindow NtUserCallHwndLockSafe NtContinueEx": 1,
+            "NtUserQueryWindow NtUserQueryWindow NtUserQueryWindow NtContinueEx": 1,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 6
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtUserDispatchMessage NtGdiCreateRectRgn NtUserGetUpdateRgn": 1,
+            "NtQueryInformationThread NtQueryObject NtOpenSection NtQueryAttributesFile NtApphelpCacheControl": 6,
+            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtQueryInformationThread NtQueryObject NtOpenSection": 1,
+            "NtUserCallNoParam NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 6,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtContinueEx NtCallbackReturn NtUserDispatchMessage": 1,
+            "NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam NtContinueEx": 1,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserCallNoParam NtUserGetQueueStatusReadonly NtUserCallNoParam": 1,
+            "NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtUserGetQueueStatusReadonly NtAlpcSendWaitReceivePort NtUserGetQueueStatusReadonly": 1,
+            "NtUserQueryWindow NtUserQueryWindow NtUserCallHwndLockSafe NtContinueEx NtCallbackReturn": 1,
+            "NtUserQueryWindow NtUserQueryWindow NtUserQueryWindow NtContinueEx NtCallbackReturn": 1,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 6
+        }
+    }
+}

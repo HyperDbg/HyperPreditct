@@ -1,0 +1,34 @@
+{
+    "NtAlpcCreateSecurityContext": {
+        "-5": {
+            "NtSetInformationThread NtOpenThreadToken NtAlpcQueryInformation NtAlpcConnectPortEx NtQueryInformationToken": 1
+        },
+        "-4": {
+            "NtSetInformationThread NtOpenThreadToken NtAlpcQueryInformation NtAlpcConnectPortEx": 1
+        },
+        "-3": {
+            "NtSetInformationThread NtOpenThreadToken NtAlpcQueryInformation": 1
+        },
+        "-2": {
+            "NtSetInformationThread NtOpenThreadToken": 1
+        },
+        "-1": {
+            "NtSetInformationThread": 1
+        },
+        "1": {
+            "NtSetInformationThread": 1
+        },
+        "2": {
+            "NtSetInformationThread NtGetCurrentProcessorNumber": 1
+        },
+        "3": {
+            "NtSetInformationThread NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort": 1
+        },
+        "4": {
+            "NtSetInformationThread NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber": 1
+        },
+        "5": {
+            "NtSetInformationThread NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber": 1
+        }
+    }
+}

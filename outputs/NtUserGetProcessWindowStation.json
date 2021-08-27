@@ -1,0 +1,43 @@
+{
+    "NtUserGetProcessWindowStation": {
+        "-5": {
+            "NtSetEvent NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtTraceControl": 6,
+            "NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtOpenKeyEx NtQueryKey NtQueryKey": 1
+        },
+        "-4": {
+            "NtSetEvent NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 6,
+            "NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtOpenKeyEx NtQueryKey": 1
+        },
+        "-3": {
+            "NtSetEvent NtAllocateVirtualMemory NtFreeVirtualMemory": 6,
+            "NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtOpenKeyEx": 1
+        },
+        "-2": {
+            "NtSetEvent NtAllocateVirtualMemory": 6,
+            "NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1
+        },
+        "-1": {
+            "NtSetEvent": 6,
+            "NtUserGetKeyboardLayout": 1
+        },
+        "1": {
+            "NtUserGetObjectInformation": 7
+        },
+        "2": {
+            "NtUserGetObjectInformation NtQueryObject": 1,
+            "NtUserGetObjectInformation NtUserGetGUIThreadInfo": 6
+        },
+        "3": {
+            "NtUserGetObjectInformation NtQueryObject NtOpenMutant": 1,
+            "NtUserGetObjectInformation NtUserGetGUIThreadInfo NtConnectPort": 6
+        },
+        "4": {
+            "NtUserGetObjectInformation NtQueryObject NtOpenMutant NtClose": 1,
+            "NtUserGetObjectInformation NtUserGetGUIThreadInfo NtConnectPort NtRequestWaitReplyPort": 6
+        },
+        "5": {
+            "NtUserGetObjectInformation NtQueryObject NtOpenMutant NtClose NtUserGetThreadDesktop": 1,
+            "NtUserGetObjectInformation NtUserGetGUIThreadInfo NtConnectPort NtRequestWaitReplyPort NtRequestWaitReplyPort": 6
+        }
+    }
+}

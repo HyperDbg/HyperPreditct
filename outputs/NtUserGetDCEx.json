@@ -1,0 +1,39 @@
+{
+    "NtUserGetDCEx": {
+        "-5": {
+            "NtUserGetTitleBarInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserCalcMenuBar": 3
+        },
+        "-4": {
+            "NtUserGetTitleBarInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 3
+        },
+        "-3": {
+            "NtUserGetTitleBarInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 3
+        },
+        "-2": {
+            "NtUserGetTitleBarInfo NtUserIsNonClientDpiScalingEnabled": 3
+        },
+        "-1": {
+            "NtUserGetTitleBarInfo": 3
+        },
+        "1": {
+            "NtGdiExcludeClipRect": 2,
+            "NtProtectVirtualMemory": 1
+        },
+        "2": {
+            "NtGdiExcludeClipRect NtGdiExtSelectClipRgn": 2,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "3": {
+            "NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC": 2,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExcludeClipRect": 1
+        },
+        "4": {
+            "NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC NtContinueEx": 2,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExcludeClipRect NtGdiExtSelectClipRgn": 1
+        },
+        "5": {
+            "NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC NtContinueEx NtCallbackReturn": 2,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC": 1
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "NtGdiGetTextCharsetInfo": {
+        "-5": {
+            "NtGdiIntersectClipRect NtUserGetDC NtUserGetImeInfoEx NtCallbackReturn NtContinueEx": 2
+        },
+        "-4": {
+            "NtGdiIntersectClipRect NtUserGetDC NtUserGetImeInfoEx NtCallbackReturn": 2
+        },
+        "-3": {
+            "NtGdiIntersectClipRect NtUserGetDC NtUserGetImeInfoEx": 2
+        },
+        "-2": {
+            "NtGdiIntersectClipRect NtUserGetDC": 2
+        },
+        "-1": {
+            "NtGdiIntersectClipRect": 2
+        },
+        "1": {
+            "NtUserReleaseDC": 2
+        },
+        "2": {
+            "NtUserReleaseDC NtUserGetImeInfoEx": 2
+        },
+        "3": {
+            "NtUserReleaseDC NtUserGetImeInfoEx NtUserGetKeyboardLayoutList": 2
+        },
+        "4": {
+            "NtUserReleaseDC NtUserGetImeInfoEx NtUserGetKeyboardLayoutList NtUserGetDC": 2
+        },
+        "5": {
+            "NtUserReleaseDC NtUserGetImeInfoEx NtUserGetKeyboardLayoutList NtUserGetDC NtUserReleaseDC": 2
+        }
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "NtGdiInit": {
+        "-5": {
+            "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx NtClose": 6
+        },
+        "-4": {
+            "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 6
+        },
+        "-3": {
+            "NtClose NtQueryValueKey NtSetInformationKey": 6
+        },
+        "-2": {
+            "NtClose NtQueryValueKey": 6
+        },
+        "-1": {
+            "NtClose": 6
+        },
+        "1": {
+            "NtQueryInformationThread": 6
+        },
+        "2": {
+            "NtQueryInformationThread NtProtectVirtualMemory": 6
+        },
+        "3": {
+            "NtQueryInformationThread NtProtectVirtualMemory NtProtectVirtualMemory": 6
+        },
+        "4": {
+            "NtQueryInformationThread NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile": 1,
+            "NtQueryInformationThread NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallNoParam": 5
+        },
+        "5": {
+            "NtQueryInformationThread NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile NtOpenFile": 1,
+            "NtQueryInformationThread NtProtectVirtualMemory NtProtectVirtualMemory NtUserCallNoParam NtQueryInformationThread": 5
+        }
+    }
+}

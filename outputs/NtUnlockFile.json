@@ -1,0 +1,54 @@
+{
+    "NtUnlockFile": {
+        "-5": {
+            "NtLockFile NtLockFile NtLockFile NtLockFile NtUnlockFile": 1,
+            "NtLockFile NtLockFile NtQueryInformationFile NtCreateEvent NtQueryObject": 1,
+            "NtLockFile NtUnlockFile NtLockFile NtLockFile NtQueryInformationFile": 1,
+            "NtLockFile NtUnlockFile NtLockFile NtUnlockFile NtLockFile": 2
+        },
+        "-4": {
+            "NtLockFile NtLockFile NtLockFile NtLockFile": 1,
+            "NtLockFile NtLockFile NtQueryInformationFile NtCreateEvent": 1,
+            "NtLockFile NtUnlockFile NtLockFile NtLockFile": 1,
+            "NtLockFile NtUnlockFile NtLockFile NtUnlockFile": 2
+        },
+        "-3": {
+            "NtLockFile NtLockFile NtLockFile": 1,
+            "NtLockFile NtLockFile NtQueryInformationFile": 1,
+            "NtLockFile NtUnlockFile NtLockFile": 3
+        },
+        "-2": {
+            "NtLockFile NtLockFile": 2,
+            "NtLockFile NtUnlockFile": 3
+        },
+        "-1": {
+            "NtLockFile": 5
+        },
+        "1": {
+            "NtAllocateVirtualMemory": 1,
+            "NtLockFile": 4
+        },
+        "2": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtLockFile NtLockFile": 1,
+            "NtLockFile NtUnlockFile": 3
+        },
+        "3": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory": 1,
+            "NtLockFile NtLockFile NtLockFile": 1,
+            "NtLockFile NtUnlockFile NtLockFile": 3
+        },
+        "4": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtLockFile NtLockFile NtLockFile NtLockFile": 1,
+            "NtLockFile NtUnlockFile NtLockFile NtLockFile": 1,
+            "NtLockFile NtUnlockFile NtLockFile NtUnlockFile": 2
+        },
+        "5": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtLockFile NtLockFile NtLockFile NtLockFile NtUnlockFile": 1,
+            "NtLockFile NtUnlockFile NtLockFile NtLockFile NtLockFile": 1,
+            "NtLockFile NtUnlockFile NtLockFile NtUnlockFile NtLockFile": 2
+        }
+    }
+}

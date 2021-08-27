@@ -1,0 +1,59 @@
+{
+    "NtFlushInstructionCache": {
+        "-5": {
+            "NtProtectVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 15,
+            "NtWriteVirtualMemory NtQueryVirtualMemory NtReadVirtualMemory NtQueryInformationThread NtClose": 1,
+            "NtWriteVirtualMemory NtQueryVirtualMemory NtReadVirtualMemory NtQueryInformationThread NtUnmapViewOfSectionEx": 1
+        },
+        "-4": {
+            "NtProtectVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 15,
+            "NtWriteVirtualMemory NtQueryVirtualMemory NtReadVirtualMemory NtQueryInformationThread": 2
+        },
+        "-3": {
+            "NtProtectVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 15,
+            "NtWriteVirtualMemory NtQueryVirtualMemory NtReadVirtualMemory": 2
+        },
+        "-2": {
+            "NtProtectVirtualMemory NtAllocateVirtualMemory": 15,
+            "NtWriteVirtualMemory NtQueryVirtualMemory": 2
+        },
+        "-1": {
+            "NtProtectVirtualMemory": 15,
+            "NtWriteVirtualMemory": 2
+        },
+        "1": {
+            "NtAddAtomEx": 5,
+            "NtAllocateVirtualMemory": 10,
+            "NtCreateFile": 1,
+            "NtProtectVirtualMemory": 1
+        },
+        "2": {
+            "NtAddAtomEx NtQueryValueKey": 5,
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtAllocateVirtualMemory NtUserMessageCall": 5,
+            "NtCreateFile NtQueryInformationFile": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "3": {
+            "NtAddAtomEx NtQueryValueKey NtQueryAttributesFile": 5,
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtAllocateVirtualMemory NtUserMessageCall NtQueryObject": 5,
+            "NtCreateFile NtQueryInformationFile NtReadFile": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile": 1
+        },
+        "4": {
+            "NtAddAtomEx NtQueryValueKey NtQueryAttributesFile NtQueryInformationThread": 5,
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtAllocateVirtualMemory NtUserMessageCall NtQueryObject NtQueryKey": 5,
+            "NtCreateFile NtQueryInformationFile NtReadFile NtQueryInformationFile": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile NtQueryDirectoryFileEx": 1
+        },
+        "5": {
+            "NtAddAtomEx NtQueryValueKey NtQueryAttributesFile NtQueryInformationThread NtQueryObject": 5,
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory": 5,
+            "NtAllocateVirtualMemory NtUserMessageCall NtQueryObject NtQueryKey NtQueryKey": 5,
+            "NtCreateFile NtQueryInformationFile NtReadFile NtQueryInformationFile NtClose": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile NtQueryDirectoryFileEx NtCreateFile": 1
+        }
+    }
+}

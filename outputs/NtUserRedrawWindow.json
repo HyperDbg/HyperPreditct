@@ -1,0 +1,52 @@
+{
+    "NtUserRedrawWindow": {
+        "-5": {
+            "NtUserGetThreadState NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx": 2,
+            "NtUserReleaseDC NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap NtGdiBitBlt": 1,
+            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 1
+        },
+        "-4": {
+            "NtUserGetThreadState NtUserRemoveProp NtUserGetProp NtCallbackReturn": 2,
+            "NtUserReleaseDC NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap": 1,
+            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx": 1
+        },
+        "-3": {
+            "NtUserGetThreadState NtUserRemoveProp NtUserGetProp": 2,
+            "NtUserReleaseDC NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 1,
+            "NtUserRemoveProp NtUserGetProp NtCallbackReturn": 1
+        },
+        "-2": {
+            "NtUserGetThreadState NtUserRemoveProp": 2,
+            "NtUserReleaseDC NtGdiDeleteObjectApp": 1,
+            "NtUserRemoveProp NtUserGetProp": 1
+        },
+        "-1": {
+            "NtUserGetThreadState": 2,
+            "NtUserReleaseDC": 1,
+            "NtUserRemoveProp": 1
+        },
+        "1": {
+            "NtUserInvalidateRect": 2,
+            "NtUserShowWindow": 2
+        },
+        "2": {
+            "NtUserInvalidateRect NtUserShowWindow": 2,
+            "NtUserShowWindow NtContinueEx": 2
+        },
+        "3": {
+            "NtUserInvalidateRect NtUserShowWindow NtContinueEx": 2,
+            "NtUserShowWindow NtContinueEx NtCallbackReturn": 2
+        },
+        "4": {
+            "NtUserInvalidateRect NtUserShowWindow NtContinueEx NtCallbackReturn": 2,
+            "NtUserShowWindow NtContinueEx NtCallbackReturn NtUserGetAtomName": 1,
+            "NtUserShowWindow NtContinueEx NtCallbackReturn NtUserGetClassInfoEx": 1
+        },
+        "5": {
+            "NtUserInvalidateRect NtUserShowWindow NtContinueEx NtCallbackReturn NtAllocateVirtualMemory": 1,
+            "NtUserInvalidateRect NtUserShowWindow NtContinueEx NtCallbackReturn NtUserGetClassInfoEx": 1,
+            "NtUserShowWindow NtContinueEx NtCallbackReturn NtUserGetAtomName NtUserCreateWindowEx": 1,
+            "NtUserShowWindow NtContinueEx NtCallbackReturn NtUserGetClassInfoEx NtUserGetClassInfoEx": 1
+        }
+    }
+}

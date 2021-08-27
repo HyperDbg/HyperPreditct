@@ -1,0 +1,49 @@
+{
+    "NtSetTimer2": {
+        "-5": {
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 6,
+            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket NtCreateTimer2": 2
+        },
+        "-4": {
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 6,
+            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket": 2
+        },
+        "-3": {
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 6,
+            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket": 2
+        },
+        "-2": {
+            "NtQueryWnfStateData NtSubscribeWnfStateChange": 6,
+            "NtSetInformationWorkerFactory NtSetInformationWorkerFactory": 2
+        },
+        "-1": {
+            "NtQueryWnfStateData": 6,
+            "NtSetInformationWorkerFactory": 2
+        },
+        "1": {
+            "NtAlpcConnectPortEx": 1,
+            "NtOpenProcessToken": 1,
+            "NtQueryObject": 6
+        },
+        "2": {
+            "NtAlpcConnectPortEx NtAlpcQueryInformation": 1,
+            "NtOpenProcessToken NtQueryInformationToken": 1,
+            "NtQueryObject NtCreateMutant": 6
+        },
+        "3": {
+            "NtAlpcConnectPortEx NtAlpcQueryInformation NtQueryInformationProcess": 1,
+            "NtOpenProcessToken NtQueryInformationToken NtClose": 1,
+            "NtQueryObject NtCreateMutant NtWaitForSingleObject": 6
+        },
+        "4": {
+            "NtAlpcConnectPortEx NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort": 1,
+            "NtOpenProcessToken NtQueryInformationToken NtClose NtQueryKey": 1,
+            "NtQueryObject NtCreateMutant NtWaitForSingleObject NtQueryObject": 6
+        },
+        "5": {
+            "NtAlpcConnectPortEx NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort NtUserGetQueueStatus": 1,
+            "NtOpenProcessToken NtQueryInformationToken NtClose NtQueryKey NtQueryKey": 1,
+            "NtQueryObject NtCreateMutant NtWaitForSingleObject NtQueryObject NtOpenSemaphore": 6
+        }
+    }
+}

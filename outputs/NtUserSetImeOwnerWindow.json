@@ -1,0 +1,34 @@
+{
+    "NtUserSetImeOwnerWindow": {
+        "-5": {
+            "NtUserSetWindowLong NtUserQueryWindow NtUserSetWindowLong NtCallbackReturn NtContinueEx": 1
+        },
+        "-4": {
+            "NtUserSetWindowLong NtUserQueryWindow NtUserSetWindowLong NtCallbackReturn": 1
+        },
+        "-3": {
+            "NtUserSetWindowLong NtUserQueryWindow NtUserSetWindowLong": 1
+        },
+        "-2": {
+            "NtUserSetWindowLong NtUserQueryWindow": 1
+        },
+        "-1": {
+            "NtUserSetWindowLong": 1
+        },
+        "1": {
+            "NtUserKillTimer": 1
+        },
+        "2": {
+            "NtUserKillTimer NtUserSetTimer": 1
+        },
+        "3": {
+            "NtUserKillTimer NtUserSetTimer NtUserCallNoParam": 1
+        },
+        "4": {
+            "NtUserKillTimer NtUserSetTimer NtUserCallNoParam NtUserQueryWindow": 1
+        },
+        "5": {
+            "NtUserKillTimer NtUserSetTimer NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow": 1
+        }
+    }
+}

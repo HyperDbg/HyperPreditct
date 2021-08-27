@@ -1,0 +1,34 @@
+{
+    "NtUserPostThreadMessage": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 1
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 1
+        },
+        "-1": {
+            "NtCallbackReturn": 1
+        },
+        "1": {
+            "NtUserPeekMessage": 1
+        },
+        "2": {
+            "NtUserPeekMessage NtClearEvent": 1
+        },
+        "3": {
+            "NtUserPeekMessage NtClearEvent NtContinueEx": 1
+        },
+        "4": {
+            "NtUserPeekMessage NtClearEvent NtContinueEx NtCallbackReturn": 1
+        },
+        "5": {
+            "NtUserPeekMessage NtClearEvent NtContinueEx NtCallbackReturn NtUserGetProp": 1
+        }
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "NtGdiCreateRectRgn": {
+        "-5": {
+            "NtUserDispatchMessage NtCallbackReturn NtContinueEx NtUserCallNoParam NtUserGetQueueStatusReadonly": 1,
+            "NtUserGetUpdateRgn NtGdiCreateRectRgn NtUserDispatchMessage NtCallbackReturn NtContinueEx": 1
+        },
+        "-4": {
+            "NtUserDispatchMessage NtCallbackReturn NtContinueEx NtUserCallNoParam": 1,
+            "NtUserGetUpdateRgn NtGdiCreateRectRgn NtUserDispatchMessage NtCallbackReturn": 1
+        },
+        "-3": {
+            "NtUserDispatchMessage NtCallbackReturn NtContinueEx": 1,
+            "NtUserGetUpdateRgn NtGdiCreateRectRgn NtUserDispatchMessage": 1
+        },
+        "-2": {
+            "NtUserDispatchMessage NtCallbackReturn": 1,
+            "NtUserGetUpdateRgn NtGdiCreateRectRgn": 1
+        },
+        "-1": {
+            "NtUserDispatchMessage": 1,
+            "NtUserGetUpdateRgn": 1
+        },
+        "1": {
+            "NtUserGetUpdateRect": 1,
+            "NtUserGetUpdateRgn": 1
+        },
+        "2": {
+            "NtUserGetUpdateRect NtUserBeginPaint": 1,
+            "NtUserGetUpdateRgn NtGdiCreateRectRgn": 1
+        },
+        "3": {
+            "NtUserGetUpdateRect NtUserBeginPaint NtGdiCreateSolidBrush": 1,
+            "NtUserGetUpdateRgn NtGdiCreateRectRgn NtUserGetUpdateRect": 1
+        },
+        "4": {
+            "NtUserGetUpdateRect NtUserBeginPaint NtGdiCreateSolidBrush NtGdiPolyPatBlt": 1,
+            "NtUserGetUpdateRgn NtGdiCreateRectRgn NtUserGetUpdateRect NtUserBeginPaint": 1
+        },
+        "5": {
+            "NtUserGetUpdateRect NtUserBeginPaint NtGdiCreateSolidBrush NtGdiPolyPatBlt NtUserEndPaint": 1,
+            "NtUserGetUpdateRgn NtGdiCreateRectRgn NtUserGetUpdateRect NtUserBeginPaint NtGdiCreateSolidBrush": 1
+        }
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "NtUserSetWinEventHook": {
+        "-5": {
+            "NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx NtClose NtQueryValueKey": 1,
+            "NtQueryInformationProcess NtClose NtAccessCheck NtClose NtDuplicateToken": 1
+        },
+        "-4": {
+            "NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx NtClose": 1,
+            "NtQueryInformationProcess NtClose NtAccessCheck NtClose": 1
+        },
+        "-3": {
+            "NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx": 1,
+            "NtQueryInformationProcess NtClose NtAccessCheck": 1
+        },
+        "-2": {
+            "NtQueryInformationProcess NtAlpcQueryInformation": 1,
+            "NtQueryInformationProcess NtClose": 1
+        },
+        "-1": {
+            "NtQueryInformationProcess": 2
+        },
+        "1": {
+            "NtUserGetGUIThreadInfo": 1,
+            "NtUserGetThreadDesktop": 1
+        },
+        "2": {
+            "NtUserGetGUIThreadInfo NtQueryWnfStateData": 1,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation": 1
+        },
+        "3": {
+            "NtUserGetGUIThreadInfo NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess": 1
+        },
+        "4": {
+            "NtUserGetGUIThreadInfo NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 1,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject": 1
+        },
+        "5": {
+            "NtUserGetGUIThreadInfo NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtOpenMutant": 1
+        }
+    }
+}

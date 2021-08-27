@@ -1,0 +1,34 @@
+{
+    "NtQueryInstallUILanguage": {
+        "-5": {
+            "NtIsUILanguageComitted NtQueryLicenseValue NtQueryLicenseValue NtQueryValueKey NtQueryLicenseValue": 6
+        },
+        "-4": {
+            "NtIsUILanguageComitted NtQueryLicenseValue NtQueryLicenseValue NtQueryValueKey": 6
+        },
+        "-3": {
+            "NtIsUILanguageComitted NtQueryLicenseValue NtQueryLicenseValue": 6
+        },
+        "-2": {
+            "NtIsUILanguageComitted NtQueryLicenseValue": 6
+        },
+        "-1": {
+            "NtIsUILanguageComitted": 6
+        },
+        "1": {
+            "NtOpenKeyEx": 6
+        },
+        "2": {
+            "NtOpenKeyEx NtSetInformationKey": 6
+        },
+        "3": {
+            "NtOpenKeyEx NtSetInformationKey NtQueryValueKey": 6
+        },
+        "4": {
+            "NtOpenKeyEx NtSetInformationKey NtQueryValueKey NtClose": 6
+        },
+        "5": {
+            "NtOpenKeyEx NtSetInformationKey NtQueryValueKey NtClose NtOpenKeyEx": 6
+        }
+    }
+}

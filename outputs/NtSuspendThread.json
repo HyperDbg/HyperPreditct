@@ -1,0 +1,38 @@
+{
+    "NtSuspendThread": {
+        "-5": {
+            "NtReadVirtualMemory NtQueryInformationProcess NtOpenProcess NtClose NtQueryInformationThread": 2
+        },
+        "-4": {
+            "NtReadVirtualMemory NtQueryInformationProcess NtOpenProcess NtClose": 2
+        },
+        "-3": {
+            "NtReadVirtualMemory NtQueryInformationProcess NtOpenProcess": 2
+        },
+        "-2": {
+            "NtReadVirtualMemory NtQueryInformationProcess": 2
+        },
+        "-1": {
+            "NtReadVirtualMemory": 2
+        },
+        "1": {
+            "NtClose": 2
+        },
+        "2": {
+            "NtClose NtQueryInformationThread": 1,
+            "NtClose NtSetInformationThread": 1
+        },
+        "3": {
+            "NtClose NtQueryInformationThread NtResumeThread": 1,
+            "NtClose NtSetInformationThread NtResumeThread": 1
+        },
+        "4": {
+            "NtClose NtQueryInformationThread NtResumeThread NtWriteVirtualMemory": 1,
+            "NtClose NtSetInformationThread NtResumeThread NtQueryInformationProcess": 1
+        },
+        "5": {
+            "NtClose NtQueryInformationThread NtResumeThread NtWriteVirtualMemory NtQueryInformationProcess": 1,
+            "NtClose NtSetInformationThread NtResumeThread NtQueryInformationProcess NtSetInformationProcess": 1
+        }
+    }
+}

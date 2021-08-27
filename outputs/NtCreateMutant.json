@@ -1,0 +1,57 @@
+{
+    "NtCreateMutant": {
+        "-5": {
+            "NtCreateEvent NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtQueryObject NtQueryWnfStateData NtClose NtSetInformationKey NtOpenKeyEx": 1,
+            "NtQueryObject NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 4,
+            "NtQueryObject NtSetTimer2 NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 6,
+            "NtQueryObject NtTraceControl NtTraceControl NtClose NtReleaseMutant": 1
+        },
+        "-4": {
+            "NtCreateEvent NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtQueryObject NtQueryWnfStateData NtClose NtSetInformationKey": 1,
+            "NtQueryObject NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 4,
+            "NtQueryObject NtSetTimer2 NtQueryWnfStateData NtSubscribeWnfStateChange": 6,
+            "NtQueryObject NtTraceControl NtTraceControl NtClose": 1
+        },
+        "-3": {
+            "NtCreateEvent NtAllocateVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtQueryObject NtQueryWnfStateData NtClose": 1,
+            "NtQueryObject NtQueryWnfStateData NtSubscribeWnfStateChange": 4,
+            "NtQueryObject NtSetTimer2 NtQueryWnfStateData": 6,
+            "NtQueryObject NtTraceControl NtTraceControl": 1
+        },
+        "-2": {
+            "NtCreateEvent NtAllocateVirtualMemory": 5,
+            "NtQueryObject NtQueryWnfStateData": 5,
+            "NtQueryObject NtSetTimer2": 6,
+            "NtQueryObject NtTraceControl": 1
+        },
+        "-1": {
+            "NtCreateEvent": 5,
+            "NtQueryObject": 12
+        },
+        "1": {
+            "NtQueryInformationToken": 5,
+            "NtWaitForSingleObject": 12
+        },
+        "2": {
+            "NtQueryInformationToken NtAlpcSendWaitReceivePort": 5,
+            "NtWaitForSingleObject NtQueryObject": 12
+        },
+        "3": {
+            "NtQueryInformationToken NtAlpcSendWaitReceivePort NtOpenKeyEx": 5,
+            "NtWaitForSingleObject NtQueryObject NtOpenSemaphore": 12
+        },
+        "4": {
+            "NtQueryInformationToken NtAlpcSendWaitReceivePort NtOpenKeyEx NtSetInformationKey": 5,
+            "NtWaitForSingleObject NtQueryObject NtOpenSemaphore NtQueryObject": 7,
+            "NtWaitForSingleObject NtQueryObject NtOpenSemaphore NtWaitForSingleObject": 5
+        },
+        "5": {
+            "NtQueryInformationToken NtAlpcSendWaitReceivePort NtOpenKeyEx NtSetInformationKey NtQueryValueKey": 5,
+            "NtWaitForSingleObject NtQueryObject NtOpenSemaphore NtQueryObject NtCreateSemaphore": 7,
+            "NtWaitForSingleObject NtQueryObject NtOpenSemaphore NtWaitForSingleObject NtReleaseSemaphore": 5
+        }
+    }
+}

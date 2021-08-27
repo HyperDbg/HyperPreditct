@@ -1,0 +1,75 @@
+{
+    "NtUserSetScrollInfo": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserMessageCall": 2,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp NtCallbackReturn": 14,
+            "NtCallbackReturn NtContinueEx NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 2,
+            "NtClose NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
+            "NtUserMessageCall NtClose NtQueryVolumeInformationFile NtQueryVolumeInformationFile NtQueryInformationFile": 1,
+            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtClose": 2
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp": 14,
+            "NtCallbackReturn NtContinueEx NtUserReleaseDC NtGdiGetTextExtentExW": 2,
+            "NtClose NtQueryDirectoryFileEx NtUserNotifyWinEvent NtUserNotifyWinEvent": 2,
+            "NtUserMessageCall NtClose NtQueryVolumeInformationFile NtQueryVolumeInformationFile": 1,
+            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 14,
+            "NtCallbackReturn NtContinueEx NtUserReleaseDC": 2,
+            "NtClose NtQueryDirectoryFileEx NtUserNotifyWinEvent": 2,
+            "NtUserMessageCall NtClose NtQueryVolumeInformationFile": 1,
+            "NtUserNotifyWinEvent NtCallbackReturn NtContinueEx": 1,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 18,
+            "NtClose NtQueryDirectoryFileEx": 2,
+            "NtUserMessageCall NtClose": 1,
+            "NtUserNotifyWinEvent NtCallbackReturn": 1,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent": 2
+        },
+        "-1": {
+            "NtCallbackReturn": 18,
+            "NtClose": 2,
+            "NtUserMessageCall": 1,
+            "NtUserNotifyWinEvent": 3
+        },
+        "1": {
+            "NtUserGetProp": 7,
+            "NtUserMessageCall": 1,
+            "NtUserSBGetParms": 16
+        },
+        "2": {
+            "NtUserGetProp NtUserIsTopLevelWindow": 7,
+            "NtUserMessageCall NtContinueEx": 1,
+            "NtUserSBGetParms NtUserGetProp": 16
+        },
+        "3": {
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 6,
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 1,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn": 1,
+            "NtUserSBGetParms NtUserGetProp NtUserGetProp": 9,
+            "NtUserSBGetParms NtUserGetProp NtUserSetWindowLongPtr": 7
+        },
+        "4": {
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled NtContinueEx": 6,
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtContinueEx": 1,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall": 1,
+            "NtUserSBGetParms NtUserGetProp NtUserGetProp NtUserSetProp": 9,
+            "NtUserSBGetParms NtUserGetProp NtUserSetWindowLongPtr NtContinueEx": 7
+        },
+        "5": {
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled NtContinueEx NtCallbackReturn": 6,
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtContinueEx NtCallbackReturn": 1,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall NtUserMessageCall": 1,
+            "NtUserSBGetParms NtUserGetProp NtUserGetProp NtUserSetProp NtUserIsTopLevelWindow": 9,
+            "NtUserSBGetParms NtUserGetProp NtUserSetWindowLongPtr NtContinueEx NtCallbackReturn": 7
+        }
+    }
+}

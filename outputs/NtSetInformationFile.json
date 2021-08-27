@@ -1,0 +1,62 @@
+{
+    "NtSetInformationFile": {
+        "-5": {
+            "NtQueryInformationFile NtSetInformationFile NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile": 1,
+            "NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile NtSetInformationObject NtQueryObject": 1,
+            "NtSetInformationFile NtQueryInformationFile NtSetInformationFile NtQueryVolumeInformationFile NtQueryInformationFile": 1,
+            "NtSetInformationFile NtSetInformationFile NtQueryInformationFile NtSetInformationFile NtQueryVolumeInformationFile": 1
+        },
+        "-4": {
+            "NtQueryInformationFile NtSetInformationFile NtQueryVolumeInformationFile NtQueryInformationFile": 1,
+            "NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile NtSetInformationObject": 1,
+            "NtSetInformationFile NtQueryInformationFile NtSetInformationFile NtQueryVolumeInformationFile": 1,
+            "NtSetInformationFile NtSetInformationFile NtQueryInformationFile NtSetInformationFile": 1
+        },
+        "-3": {
+            "NtQueryInformationFile NtSetInformationFile NtQueryVolumeInformationFile": 1,
+            "NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile": 1,
+            "NtSetInformationFile NtQueryInformationFile NtSetInformationFile": 1,
+            "NtSetInformationFile NtSetInformationFile NtQueryInformationFile": 1
+        },
+        "-2": {
+            "NtQueryInformationFile NtSetInformationFile": 1,
+            "NtQueryVolumeInformationFile NtQueryInformationFile": 1,
+            "NtSetInformationFile NtQueryInformationFile": 1,
+            "NtSetInformationFile NtSetInformationFile": 1
+        },
+        "-1": {
+            "NtQueryInformationFile": 1,
+            "NtQueryVolumeInformationFile": 1,
+            "NtSetInformationFile": 2
+        },
+        "1": {
+            "NtQueryInformationFile": 1,
+            "NtQuerySystemInformation": 1,
+            "NtSetInformationFile": 2
+        },
+        "2": {
+            "NtQueryInformationFile NtSetInformationFile": 1,
+            "NtQuerySystemInformation NtQueryInformationProcess": 1,
+            "NtSetInformationFile NtQuerySystemInformation": 1,
+            "NtSetInformationFile NtSetInformationFile": 1
+        },
+        "3": {
+            "NtQueryInformationFile NtSetInformationFile NtSetInformationFile": 1,
+            "NtQuerySystemInformation NtQueryInformationProcess NtQueryInformationProcess": 1,
+            "NtSetInformationFile NtQuerySystemInformation NtQueryInformationProcess": 1,
+            "NtSetInformationFile NtSetInformationFile NtQuerySystemInformation": 1
+        },
+        "4": {
+            "NtQueryInformationFile NtSetInformationFile NtSetInformationFile NtSetInformationFile": 1,
+            "NtQuerySystemInformation NtQueryInformationProcess NtQueryInformationProcess NtCreateSection": 1,
+            "NtSetInformationFile NtQuerySystemInformation NtQueryInformationProcess NtQueryInformationProcess": 1,
+            "NtSetInformationFile NtSetInformationFile NtQuerySystemInformation NtQueryInformationProcess": 1
+        },
+        "5": {
+            "NtQueryInformationFile NtSetInformationFile NtSetInformationFile NtSetInformationFile NtQuerySystemInformation": 1,
+            "NtQuerySystemInformation NtQueryInformationProcess NtQueryInformationProcess NtCreateSection NtMapViewOfSection": 1,
+            "NtSetInformationFile NtQuerySystemInformation NtQueryInformationProcess NtQueryInformationProcess NtCreateSection": 1,
+            "NtSetInformationFile NtSetInformationFile NtQuerySystemInformation NtQueryInformationProcess NtQueryInformationProcess": 1
+        }
+    }
+}

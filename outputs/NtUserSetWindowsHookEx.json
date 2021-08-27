@@ -1,0 +1,34 @@
+{
+    "NtUserSetWindowsHookEx": {
+        "-5": {
+            "NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject NtQueryAttributesFile": 5
+        },
+        "-4": {
+            "NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject": 5
+        },
+        "-3": {
+            "NtOpenKeyEx NtQueryKey NtQueryKey": 5
+        },
+        "-2": {
+            "NtOpenKeyEx NtQueryKey": 5
+        },
+        "-1": {
+            "NtOpenKeyEx": 5
+        },
+        "1": {
+            "NtUserGetClassInfoEx": 5
+        },
+        "2": {
+            "NtUserGetClassInfoEx NtUserRegisterClassExWOW": 5
+        },
+        "3": {
+            "NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserCreateWindowEx": 5
+        },
+        "4": {
+            "NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserCreateWindowEx NtContinueEx": 5
+        },
+        "5": {
+            "NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 5
+        }
+    }
+}

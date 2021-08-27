@@ -1,0 +1,40 @@
+{
+    "NtUserCalcMenuBar": {
+        "-5": {
+            "NtUserGetProp NtUserGetWindowCompositionAttribute NtGdiHfontCreate NtGdiHfontCreate NtUserSystemParametersInfo": 1,
+            "NtUserGetProp NtUserGetWindowCompositionAttribute NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 5
+        },
+        "-4": {
+            "NtUserGetProp NtUserGetWindowCompositionAttribute NtGdiHfontCreate NtGdiHfontCreate": 1,
+            "NtUserGetProp NtUserGetWindowCompositionAttribute NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 5
+        },
+        "-3": {
+            "NtUserGetProp NtUserGetWindowCompositionAttribute NtGdiHfontCreate": 1,
+            "NtUserGetProp NtUserGetWindowCompositionAttribute NtUserIsNonClientDpiScalingEnabled": 5
+        },
+        "-2": {
+            "NtUserGetProp NtUserGetWindowCompositionAttribute": 6
+        },
+        "-1": {
+            "NtUserGetProp": 6
+        },
+        "1": {
+            "NtUserGetProp": 6
+        },
+        "2": {
+            "NtUserGetProp NtUserIsTopLevelWindow": 6
+        },
+        "3": {
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 6
+        },
+        "4": {
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserGetTitleBarInfo": 5,
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserMessageCall": 1
+        },
+        "5": {
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserGetTitleBarInfo NtUserBuildHwndList": 2,
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserGetTitleBarInfo NtUserGetDCEx": 3,
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserMessageCall NtUserMessageCall": 1
+        }
+    }
+}

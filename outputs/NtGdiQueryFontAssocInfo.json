@@ -1,0 +1,34 @@
+{
+    "NtGdiQueryFontAssocInfo": {
+        "-5": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtGdiGetCharSet NtUserGetDC NtQueryValueKey": 5
+        },
+        "-4": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtGdiGetCharSet NtUserGetDC": 5
+        },
+        "-3": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtGdiGetCharSet": 5
+        },
+        "-2": {
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 5
+        },
+        "-1": {
+            "NtAllocateVirtualMemory": 5
+        },
+        "1": {
+            "NtGdiGetRealizationInfo": 5
+        },
+        "2": {
+            "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW": 5
+        },
+        "3": {
+            "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo": 5
+        },
+        "4": {
+            "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 5
+        },
+        "5": {
+            "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetDeviceCaps": 5
+        }
+    }
+}

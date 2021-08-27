@@ -1,0 +1,44 @@
+{
+    "NtUserFindWindowEx": {
+        "-5": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent NtTraceControl NtTraceControl": 1,
+            "NtUserMessageCall NtClose NtClose NtOpenKeyEx NtQueryKey": 1
+        },
+        "-4": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent NtTraceControl": 1,
+            "NtUserMessageCall NtClose NtClose NtOpenKeyEx": 1
+        },
+        "-3": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent": 1,
+            "NtUserMessageCall NtClose NtClose": 1
+        },
+        "-2": {
+            "NtSetInformationProcess NtQueryInformationProcess": 1,
+            "NtUserMessageCall NtClose": 1
+        },
+        "-1": {
+            "NtSetInformationProcess": 1,
+            "NtUserMessageCall": 1
+        },
+        "1": {
+            "NtUserMessageCall": 1,
+            "NtUserRegisterWindowMessage": 1
+        },
+        "2": {
+            "NtUserMessageCall NtQueryInformationProcess": 1,
+            "NtUserRegisterWindowMessage NtOpenProcess": 1
+        },
+        "3": {
+            "NtUserMessageCall NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtUserRegisterWindowMessage NtOpenProcess NtQueryInformationProcess": 1
+        },
+        "4": {
+            "NtUserMessageCall NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
+            "NtUserRegisterWindowMessage NtOpenProcess NtQueryInformationProcess NtClose": 1
+        },
+        "5": {
+            "NtUserMessageCall NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtUserRegisterWindowMessage NtOpenProcess NtQueryInformationProcess NtClose NtProtectVirtualMemory": 1
+        }
+    }
+}

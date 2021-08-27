@@ -1,0 +1,34 @@
+{
+    "NtUserCallHwndLockSafe": {
+        "-5": {
+            "NtUserQueryWindow NtUserQueryWindow NtUserCallNoParam NtUserSetTimer NtUserKillTimer": 1
+        },
+        "-4": {
+            "NtUserQueryWindow NtUserQueryWindow NtUserCallNoParam NtUserSetTimer": 1
+        },
+        "-3": {
+            "NtUserQueryWindow NtUserQueryWindow NtUserCallNoParam": 1
+        },
+        "-2": {
+            "NtUserQueryWindow NtUserQueryWindow": 1
+        },
+        "-1": {
+            "NtUserQueryWindow": 1
+        },
+        "1": {
+            "NtContinueEx": 1
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 1
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtUserGetDC": 1
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtUserGetDC NtGdiIntersectClipRect": 1
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt": 1
+        }
+    }
+}

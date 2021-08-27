@@ -1,0 +1,44 @@
+{
+    "NtUserChangeWindowMessageFilterEx": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
+            "NtUserChangeWindowMessageFilterEx NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2,
+            "NtUserChangeWindowMessageFilterEx NtCallbackReturn NtContinueEx NtCallbackReturn": 2
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
+            "NtUserChangeWindowMessageFilterEx NtCallbackReturn NtContinueEx": 2
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 2,
+            "NtUserChangeWindowMessageFilterEx NtCallbackReturn": 2
+        },
+        "-1": {
+            "NtCallbackReturn": 2,
+            "NtUserChangeWindowMessageFilterEx": 2
+        },
+        "1": {
+            "NtUserChangeWindowMessageFilterEx": 2,
+            "NtUserGetThreadDesktop": 2
+        },
+        "2": {
+            "NtUserChangeWindowMessageFilterEx NtUserGetThreadDesktop": 2,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation": 2
+        },
+        "3": {
+            "NtUserChangeWindowMessageFilterEx NtUserGetThreadDesktop NtUserGetObjectInformation": 2,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess": 2
+        },
+        "4": {
+            "NtUserChangeWindowMessageFilterEx NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess": 2,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject": 2
+        },
+        "5": {
+            "NtUserChangeWindowMessageFilterEx NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject": 2,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtQueryKey": 2
+        }
+    }
+}

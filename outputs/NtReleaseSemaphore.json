@@ -1,0 +1,47 @@
+{
+    "NtReleaseSemaphore": {
+        "-5": {
+            "NtReleaseSemaphore NtWaitForSingleObject NtOpenSemaphore NtQueryObject NtWaitForSingleObject": 5,
+            "NtWaitForSingleObject NtOpenSemaphore NtQueryObject NtWaitForSingleObject NtCreateMutant": 5
+        },
+        "-4": {
+            "NtReleaseSemaphore NtWaitForSingleObject NtOpenSemaphore NtQueryObject": 5,
+            "NtWaitForSingleObject NtOpenSemaphore NtQueryObject NtWaitForSingleObject": 5
+        },
+        "-3": {
+            "NtReleaseSemaphore NtWaitForSingleObject NtOpenSemaphore": 5,
+            "NtWaitForSingleObject NtOpenSemaphore NtQueryObject": 5
+        },
+        "-2": {
+            "NtReleaseSemaphore NtWaitForSingleObject": 5,
+            "NtWaitForSingleObject NtOpenSemaphore": 5
+        },
+        "-1": {
+            "NtReleaseSemaphore": 5,
+            "NtWaitForSingleObject": 5
+        },
+        "1": {
+            "NtClose": 5,
+            "NtReleaseSemaphore": 5
+        },
+        "2": {
+            "NtClose NtReleaseMutant": 5,
+            "NtReleaseSemaphore NtClose": 5
+        },
+        "3": {
+            "NtClose NtReleaseMutant NtClose": 5,
+            "NtReleaseSemaphore NtClose NtReleaseMutant": 5
+        },
+        "4": {
+            "NtClose NtReleaseMutant NtClose NtProtectVirtualMemory": 1,
+            "NtClose NtReleaseMutant NtClose NtTraceControl": 4,
+            "NtReleaseSemaphore NtClose NtReleaseMutant NtClose": 5
+        },
+        "5": {
+            "NtClose NtReleaseMutant NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtClose NtReleaseMutant NtClose NtTraceControl NtTraceControl": 4,
+            "NtReleaseSemaphore NtClose NtReleaseMutant NtClose NtProtectVirtualMemory": 1,
+            "NtReleaseSemaphore NtClose NtReleaseMutant NtClose NtTraceControl": 4
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "NtGdiCreateDIBSection": {
+        "-5": {
+            "NtUserReleaseDC NtUserGetDC NtGdiSelectBitmap NtAllocateVirtualMemory NtCallbackReturn": 1
+        },
+        "-4": {
+            "NtUserReleaseDC NtUserGetDC NtGdiSelectBitmap NtAllocateVirtualMemory": 1
+        },
+        "-3": {
+            "NtUserReleaseDC NtUserGetDC NtGdiSelectBitmap": 1
+        },
+        "-2": {
+            "NtUserReleaseDC NtUserGetDC": 1
+        },
+        "-1": {
+            "NtUserReleaseDC": 1
+        },
+        "1": {
+            "NtGdiGetDCforBitmap": 1
+        },
+        "2": {
+            "NtGdiGetDCforBitmap NtGdiCreateCompatibleDC": 1
+        },
+        "3": {
+            "NtGdiGetDCforBitmap NtGdiCreateCompatibleDC NtGdiSelectBitmap": 1
+        },
+        "4": {
+            "NtGdiGetDCforBitmap NtGdiCreateCompatibleDC NtGdiSelectBitmap NtGdiGetDCObject": 1
+        },
+        "5": {
+            "NtGdiGetDCforBitmap NtGdiCreateCompatibleDC NtGdiSelectBitmap NtGdiGetDCObject NtUserSelectPalette": 1
+        }
+    }
+}

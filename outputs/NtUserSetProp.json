@@ -1,0 +1,50 @@
+{
+    "NtUserSetProp": {
+        "-5": {
+            "NtUserGetProp NtUserGetProp NtUserGetWindowDC NtUserRemoveProp NtUserGetProp": 6,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtCallbackReturn NtContinueEx": 5,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtSetEvent NtQueryInformationProcess": 1,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtUserSetScrollInfo NtCallbackReturn": 7,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtUserSetScrollInfo NtClose": 1,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtUserSetScrollInfo NtUserMessageCall": 1
+        },
+        "-4": {
+            "NtUserGetProp NtUserGetProp NtUserGetWindowDC NtUserRemoveProp": 6,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtCallbackReturn": 5,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtSetEvent": 1,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms NtUserSetScrollInfo": 9
+        },
+        "-3": {
+            "NtUserGetProp NtUserGetProp NtUserGetWindowDC": 6,
+            "NtUserGetProp NtUserGetProp NtUserSBGetParms": 15
+        },
+        "-2": {
+            "NtUserGetProp NtUserGetProp": 21
+        },
+        "-1": {
+            "NtUserGetProp": 21
+        },
+        "1": {
+            "NtUserIsTopLevelWindow": 21
+        },
+        "2": {
+            "NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 5,
+            "NtUserIsTopLevelWindow NtUserSystemParametersInfo": 16
+        },
+        "3": {
+            "NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtProtectVirtualMemory": 1,
+            "NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserSystemParametersInfo": 4,
+            "NtUserIsTopLevelWindow NtUserSystemParametersInfo NtUserRemoveProp": 16
+        },
+        "4": {
+            "NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserSystemParametersInfo NtUserRemoveProp": 4,
+            "NtUserIsTopLevelWindow NtUserSystemParametersInfo NtUserRemoveProp NtUserGetThreadDesktop": 16
+        },
+        "5": {
+            "NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtProtectVirtualMemory NtProtectVirtualMemory NtUserSystemParametersInfo": 1,
+            "NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserSystemParametersInfo NtUserRemoveProp NtUserGetThreadDesktop": 4,
+            "NtUserIsTopLevelWindow NtUserSystemParametersInfo NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation": 16
+        }
+    }
+}

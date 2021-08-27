@@ -1,0 +1,109 @@
+{
+    "NtUserShowWindow": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 16,
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtGdiGetTextMetricsW": 2,
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserGetThreadState": 1,
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserSetWindowPos": 5,
+            "NtCallbackReturn NtContinueEx NtUserBuildHwndList NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 4,
+            "NtCallbackReturn NtContinueEx NtUserInvalidateRect NtCallbackReturn NtContinueEx": 1,
+            "NtCallbackReturn NtContinueEx NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 1,
+            "NtUserEndPaint NtGdiPolyPatBlt NtGdiCreateSolidBrush NtUserBeginPaint NtUserGetUpdateRect": 1,
+            "NtUserInheritWindowMonitor NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
+            "NtUserInvalidateRect NtUserRedrawWindow NtUserGetThreadState NtUserRemoveProp NtUserGetProp": 2,
+            "NtUserInvalidateRect NtUserReleaseDC NtGdiGetTextFaceW NtUserGetDC NtCallbackReturn": 1,
+            "NtUserRedrawWindow NtUserReleaseDC NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap": 1,
+            "NtUserRedrawWindow NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx": 1,
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtGdiGetWidthTable NtGdiGetGlyphIndicesW": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 24,
+            "NtCallbackReturn NtContinueEx NtUserBuildHwndList NtUserIsNonClientDpiScalingEnabled": 4,
+            "NtCallbackReturn NtContinueEx NtUserInvalidateRect NtCallbackReturn": 1,
+            "NtCallbackReturn NtContinueEx NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 1,
+            "NtUserEndPaint NtGdiPolyPatBlt NtGdiCreateSolidBrush NtUserBeginPaint": 1,
+            "NtUserInheritWindowMonitor NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
+            "NtUserInvalidateRect NtUserRedrawWindow NtUserGetThreadState NtUserRemoveProp": 2,
+            "NtUserInvalidateRect NtUserReleaseDC NtGdiGetTextFaceW NtUserGetDC": 1,
+            "NtUserRedrawWindow NtUserReleaseDC NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 1,
+            "NtUserRedrawWindow NtUserRemoveProp NtUserGetProp NtCallbackReturn": 1,
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtGdiGetWidthTable": 1
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 24,
+            "NtCallbackReturn NtContinueEx NtUserBuildHwndList": 4,
+            "NtCallbackReturn NtContinueEx NtUserInvalidateRect": 1,
+            "NtCallbackReturn NtContinueEx NtUserIsNonClientDpiScalingEnabled": 1,
+            "NtUserEndPaint NtGdiPolyPatBlt NtGdiCreateSolidBrush": 1,
+            "NtUserInheritWindowMonitor NtCallbackReturn NtContinueEx": 1,
+            "NtUserInvalidateRect NtUserRedrawWindow NtUserGetThreadState": 2,
+            "NtUserInvalidateRect NtUserReleaseDC NtGdiGetTextFaceW": 1,
+            "NtUserRedrawWindow NtUserReleaseDC NtGdiDeleteObjectApp": 1,
+            "NtUserRedrawWindow NtUserRemoveProp NtUserGetProp": 1,
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 30,
+            "NtUserEndPaint NtGdiPolyPatBlt": 1,
+            "NtUserInheritWindowMonitor NtCallbackReturn": 1,
+            "NtUserInvalidateRect NtUserRedrawWindow": 2,
+            "NtUserInvalidateRect NtUserReleaseDC": 1,
+            "NtUserRedrawWindow NtUserReleaseDC": 1,
+            "NtUserRedrawWindow NtUserRemoveProp": 1,
+            "NtUserReleaseDC NtUserGetDC": 1
+        },
+        "-1": {
+            "NtCallbackReturn": 30,
+            "NtUserEndPaint": 1,
+            "NtUserInheritWindowMonitor": 1,
+            "NtUserInvalidateRect": 3,
+            "NtUserRedrawWindow": 2,
+            "NtUserReleaseDC": 1
+        },
+        "1": {
+            "NtContinueEx": 34,
+            "NtUserInvalidateRect": 2,
+            "NtUserSetWindowPos": 2
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 34,
+            "NtUserInvalidateRect NtUserSetWindowPos": 2,
+            "NtUserSetWindowPos NtUserMessageCall": 2
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtAllocateVirtualMemory": 1,
+            "NtContinueEx NtCallbackReturn NtContinueEx": 7,
+            "NtContinueEx NtCallbackReturn NtSetEvent": 4,
+            "NtContinueEx NtCallbackReturn NtUserFindExistingCursorIcon": 2,
+            "NtContinueEx NtCallbackReturn NtUserGetAtomName": 10,
+            "NtContinueEx NtCallbackReturn NtUserGetClassInfoEx": 8,
+            "NtContinueEx NtCallbackReturn NtUserSetParent": 2,
+            "NtUserInvalidateRect NtUserSetWindowPos NtUserMessageCall": 2,
+            "NtUserSetWindowPos NtUserMessageCall NtContinueEx": 2
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtAllocateVirtualMemory NtGdiSelectBitmap": 1,
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 7,
+            "NtContinueEx NtCallbackReturn NtSetEvent NtUserMessageCall": 4,
+            "NtContinueEx NtCallbackReturn NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 2,
+            "NtContinueEx NtCallbackReturn NtUserGetAtomName NtUserCreateWindowEx": 10,
+            "NtContinueEx NtCallbackReturn NtUserGetClassInfoEx NtUserFindExistingCursorIcon": 3,
+            "NtContinueEx NtCallbackReturn NtUserGetClassInfoEx NtUserGetClassInfoEx": 5,
+            "NtContinueEx NtCallbackReturn NtUserSetParent NtContinueEx": 2,
+            "NtUserInvalidateRect NtUserSetWindowPos NtUserMessageCall NtContinueEx": 2,
+            "NtUserSetWindowPos NtUserMessageCall NtContinueEx NtCallbackReturn": 2
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtAllocateVirtualMemory NtGdiSelectBitmap NtUserGetDC": 1,
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 7,
+            "NtContinueEx NtCallbackReturn NtSetEvent NtUserMessageCall NtUserGetIconSize": 4,
+            "NtContinueEx NtCallbackReturn NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx": 2,
+            "NtContinueEx NtCallbackReturn NtUserGetAtomName NtUserCreateWindowEx NtContinueEx": 10,
+            "NtContinueEx NtCallbackReturn NtUserGetClassInfoEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 3,
+            "NtContinueEx NtCallbackReturn NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW": 5,
+            "NtContinueEx NtCallbackReturn NtUserSetParent NtContinueEx NtCallbackReturn": 2,
+            "NtUserInvalidateRect NtUserSetWindowPos NtUserMessageCall NtContinueEx NtCallbackReturn": 2,
+            "NtUserSetWindowPos NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall": 2
+        }
+    }
+}

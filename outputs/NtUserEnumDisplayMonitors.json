@@ -1,0 +1,34 @@
+{
+    "NtUserEnumDisplayMonitors": {
+        "-5": {
+            "NtUserReleaseDC NtGdiGetDeviceCaps NtUserGetDC NtUserGetKeyboardLayout NtUserFindExistingCursorIcon": 1
+        },
+        "-4": {
+            "NtUserReleaseDC NtGdiGetDeviceCaps NtUserGetDC NtUserGetKeyboardLayout": 1
+        },
+        "-3": {
+            "NtUserReleaseDC NtGdiGetDeviceCaps NtUserGetDC": 1
+        },
+        "-2": {
+            "NtUserReleaseDC NtGdiGetDeviceCaps": 1
+        },
+        "-1": {
+            "NtUserReleaseDC": 1
+        },
+        "1": {
+            "NtContinueEx": 1
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 1
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtUserSystemParametersInfo": 1
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtUserSystemParametersInfo NtProtectVirtualMemory": 1
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtUserSystemParametersInfo NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        }
+    }
+}

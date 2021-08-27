@@ -1,0 +1,70 @@
+{
+    "NtUserThunkedMenuItemInfo": {
+        "-5": {
+            "NtUserCallNoParam NtUserCallNoParam NtQueryVirtualMemory NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserThunkedMenuItemInfo NtUserCallNoParam NtUserCallNoParam NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserCallNoParam NtUserCallNoParam NtQueryVirtualMemory": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserCallNoParam NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 18
+        },
+        "-4": {
+            "NtUserCallNoParam NtUserCallNoParam NtQueryVirtualMemory NtQueryVirtualMemory": 6,
+            "NtUserThunkedMenuItemInfo NtUserCallNoParam NtUserCallNoParam NtQueryVirtualMemory": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserCallNoParam NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 24
+        },
+        "-3": {
+            "NtUserCallNoParam NtUserCallNoParam NtQueryVirtualMemory": 6,
+            "NtUserThunkedMenuItemInfo NtUserCallNoParam NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 30
+        },
+        "-2": {
+            "NtUserCallNoParam NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 36
+        },
+        "-1": {
+            "NtUserCallNoParam": 6,
+            "NtUserThunkedMenuItemInfo": 42
+        },
+        "1": {
+            "NtContinueEx": 6,
+            "NtUserThunkedMenuItemInfo": 42
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 6,
+            "NtUserThunkedMenuItemInfo NtContinueEx": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 36
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtUserCallHwndParam": 5,
+            "NtContinueEx NtCallbackReturn NtUserDeleteMenu": 1,
+            "NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtContinueEx": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 30
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtUserCallHwndParam NtUserGetAncestor": 5,
+            "NtContinueEx NtCallbackReturn NtUserDeleteMenu NtUserDeleteMenu": 1,
+            "NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn NtUserCallHwndParam": 5,
+            "NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn NtUserDeleteMenu": 1,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtContinueEx": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 24
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtUserCallHwndParam NtUserGetAncestor NtUserSetWindowPos": 5,
+            "NtContinueEx NtCallbackReturn NtUserDeleteMenu NtUserDeleteMenu NtUserDeleteMenu": 1,
+            "NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn NtUserCallHwndParam NtUserGetAncestor": 5,
+            "NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn NtUserDeleteMenu NtUserDeleteMenu": 1,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn NtUserCallHwndParam": 5,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn NtUserDeleteMenu": 1,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtContinueEx NtCallbackReturn": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtContinueEx": 6,
+            "NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 18
+        }
+    }
+}

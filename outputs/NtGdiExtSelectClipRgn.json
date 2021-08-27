@@ -1,0 +1,41 @@
+{
+    "NtGdiExtSelectClipRgn": {
+        "-5": {
+            "NtGdiExcludeClipRect NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDCEx NtUserGetTitleBarInfo": 1,
+            "NtGdiExcludeClipRect NtUserGetDCEx NtUserGetTitleBarInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 2
+        },
+        "-4": {
+            "NtGdiExcludeClipRect NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDCEx": 1,
+            "NtGdiExcludeClipRect NtUserGetDCEx NtUserGetTitleBarInfo NtUserIsNonClientDpiScalingEnabled": 2
+        },
+        "-3": {
+            "NtGdiExcludeClipRect NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtGdiExcludeClipRect NtUserGetDCEx NtUserGetTitleBarInfo": 2
+        },
+        "-2": {
+            "NtGdiExcludeClipRect NtProtectVirtualMemory": 1,
+            "NtGdiExcludeClipRect NtUserGetDCEx": 2
+        },
+        "-1": {
+            "NtGdiExcludeClipRect": 3
+        },
+        "1": {
+            "NtUserReleaseDC": 3
+        },
+        "2": {
+            "NtUserReleaseDC NtContinueEx": 3
+        },
+        "3": {
+            "NtUserReleaseDC NtContinueEx NtCallbackReturn": 3
+        },
+        "4": {
+            "NtUserReleaseDC NtContinueEx NtCallbackReturn NtContinueEx": 1,
+            "NtUserReleaseDC NtContinueEx NtCallbackReturn NtUserGetThreadState": 2
+        },
+        "5": {
+            "NtUserReleaseDC NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
+            "NtUserReleaseDC NtContinueEx NtCallbackReturn NtUserGetThreadState NtUserGetClassInfoEx": 1,
+            "NtUserReleaseDC NtContinueEx NtCallbackReturn NtUserGetThreadState NtUserGetThreadState": 1
+        }
+    }
+}

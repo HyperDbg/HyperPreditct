@@ -1,0 +1,40 @@
+{
+    "NtUserKillTimer": {
+        "-5": {
+            "NtUserQueryWindow NtUserGetKeyboardLayout NtUserGetThreadState NtUserGetThreadState NtCallbackReturn": 1,
+            "NtUserSetImeOwnerWindow NtUserSetWindowLong NtUserQueryWindow NtUserSetWindowLong NtCallbackReturn": 1
+        },
+        "-4": {
+            "NtUserQueryWindow NtUserGetKeyboardLayout NtUserGetThreadState NtUserGetThreadState": 1,
+            "NtUserSetImeOwnerWindow NtUserSetWindowLong NtUserQueryWindow NtUserSetWindowLong": 1
+        },
+        "-3": {
+            "NtUserQueryWindow NtUserGetKeyboardLayout NtUserGetThreadState": 1,
+            "NtUserSetImeOwnerWindow NtUserSetWindowLong NtUserQueryWindow": 1
+        },
+        "-2": {
+            "NtUserQueryWindow NtUserGetKeyboardLayout": 1,
+            "NtUserSetImeOwnerWindow NtUserSetWindowLong": 1
+        },
+        "-1": {
+            "NtUserQueryWindow": 1,
+            "NtUserSetImeOwnerWindow": 1
+        },
+        "1": {
+            "NtUserSetTimer": 2
+        },
+        "2": {
+            "NtUserSetTimer NtUserCallNoParam": 2
+        },
+        "3": {
+            "NtUserSetTimer NtUserCallNoParam NtUserQueryWindow": 2
+        },
+        "4": {
+            "NtUserSetTimer NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow": 2
+        },
+        "5": {
+            "NtUserSetTimer NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow NtUserCallHwndLockSafe": 1,
+            "NtUserSetTimer NtUserCallNoParam NtUserQueryWindow NtUserQueryWindow NtUserQueryWindow": 1
+        }
+    }
+}

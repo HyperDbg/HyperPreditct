@@ -1,0 +1,34 @@
+{
+    "NtGdiGetBitmapDimension": {
+        "-5": {
+            "NtGdiExtGetObjectW NtFreeVirtualMemory NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap": 1
+        },
+        "-4": {
+            "NtGdiExtGetObjectW NtFreeVirtualMemory NtGdiSelectBitmap NtGdiDeleteObjectApp": 1
+        },
+        "-3": {
+            "NtGdiExtGetObjectW NtFreeVirtualMemory NtGdiSelectBitmap": 1
+        },
+        "-2": {
+            "NtGdiExtGetObjectW NtFreeVirtualMemory": 1
+        },
+        "-1": {
+            "NtGdiExtGetObjectW": 1
+        },
+        "1": {
+            "NtSetEvent": 1
+        },
+        "2": {
+            "NtSetEvent NtUserMessageCall": 1
+        },
+        "3": {
+            "NtSetEvent NtUserMessageCall NtUserGetIconSize": 1
+        },
+        "4": {
+            "NtSetEvent NtUserMessageCall NtUserGetIconSize NtUserGetIconInfo": 1
+        },
+        "5": {
+            "NtSetEvent NtUserMessageCall NtUserGetIconSize NtUserGetIconInfo NtUserFindExistingCursorIcon": 1
+        }
+    }
+}

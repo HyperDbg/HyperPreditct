@@ -1,0 +1,34 @@
+{
+    "NtUserSetInputServiceState": {
+        "-5": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtClose NtQueryValueKey NtQueryValueKey": 1
+        },
+        "-4": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtClose NtQueryValueKey": 1
+        },
+        "-3": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtClose": 1
+        },
+        "-2": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "-1": {
+            "NtProtectVirtualMemory": 1
+        },
+        "1": {
+            "NtAlpcSendWaitReceivePort": 1
+        },
+        "2": {
+            "NtAlpcSendWaitReceivePort NtProtectVirtualMemory": 1
+        },
+        "3": {
+            "NtAlpcSendWaitReceivePort NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "4": {
+            "NtAlpcSendWaitReceivePort NtProtectVirtualMemory NtProtectVirtualMemory NtQueryWnfStateData": 1
+        },
+        "5": {
+            "NtAlpcSendWaitReceivePort NtProtectVirtualMemory NtProtectVirtualMemory NtQueryWnfStateData NtProtectVirtualMemory": 1
+        }
+    }
+}

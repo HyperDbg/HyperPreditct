@@ -1,0 +1,59 @@
+{
+    "NtGdiGetDCforBitmap": {
+        "-5": {
+            "NtGdiCreateDIBSection NtUserReleaseDC NtUserGetDC NtGdiSelectBitmap NtAllocateVirtualMemory": 1,
+            "NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 3,
+            "NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp": 4,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap NtUserGetDC NtProtectVirtualMemory": 1,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap NtUserGetDC NtUserFindExistingCursorIcon": 8,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap NtUserGetDC NtUserSetCursorIconData": 1,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal NtProtectVirtualMemory NtProtectVirtualMemory": 2,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal NtUserGetDC NtGdiSelectBitmap": 16,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal NtUserGetDC NtUserFindExistingCursorIcon": 6
+        },
+        "-4": {
+            "NtGdiCreateDIBSection NtUserReleaseDC NtUserGetDC NtGdiSelectBitmap": 1,
+            "NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtProtectVirtualMemory NtProtectVirtualMemory": 3,
+            "NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtUserSetCursorIconData NtUserCreateEmptyCursorObject": 4,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap NtUserGetDC": 10,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal NtProtectVirtualMemory": 2,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal NtUserGetDC": 22
+        },
+        "-3": {
+            "NtGdiCreateDIBSection NtUserReleaseDC NtUserGetDC": 1,
+            "NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtProtectVirtualMemory": 3,
+            "NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtUserSetCursorIconData": 4,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap": 10,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal": 24
+        },
+        "-2": {
+            "NtGdiCreateDIBSection NtUserReleaseDC": 1,
+            "NtGdiSelectBitmap NtGdiCreateDIBitmapInternal": 7,
+            "NtGdiSelectBitmap NtUserReleaseDC": 34
+        },
+        "-1": {
+            "NtGdiCreateDIBSection": 1,
+            "NtGdiSelectBitmap": 41
+        },
+        "1": {
+            "NtGdiCreateCompatibleDC": 1,
+            "NtGdiSaveDC": 41
+        },
+        "2": {
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap": 1,
+            "NtGdiSaveDC NtGdiSelectBitmap": 41
+        },
+        "3": {
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap NtGdiGetDCObject": 1,
+            "NtGdiSaveDC NtGdiSelectBitmap NtGdiGetDCObject": 41
+        },
+        "4": {
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap NtGdiGetDCObject NtUserSelectPalette": 1,
+            "NtGdiSaveDC NtGdiSelectBitmap NtGdiGetDCObject NtUserSelectPalette": 41
+        },
+        "5": {
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap NtGdiGetDCObject NtUserSelectPalette NtAllocateVirtualMemory": 1,
+            "NtGdiSaveDC NtGdiSelectBitmap NtGdiGetDCObject NtUserSelectPalette NtGdiSetDIBitsToDeviceInternal": 41
+        }
+    }
+}

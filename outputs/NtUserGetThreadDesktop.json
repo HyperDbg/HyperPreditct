@@ -1,0 +1,90 @@
+{
+    "NtUserGetThreadDesktop": {
+        "-5": {
+            "NtClose NtOpenMutant NtQueryObject NtUserGetObjectInformation NtUserGetProcessWindowStation": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread NtApphelpCacheControl NtQueryAttributesFile": 6,
+            "NtUserChangeWindowMessageFilterEx NtUserChangeWindowMessageFilterEx NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
+            "NtUserRemoveProp NtUserGetClassName NtCallbackReturn NtContinueEx NtUserGetClassInfoEx": 1,
+            "NtUserRemoveProp NtUserGetClassName NtUserGetClassName NtCallbackReturn NtContinueEx": 11,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtProtectVirtualMemory NtProtectVirtualMemory NtUserIsNonClientDpiScalingEnabled": 1,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserSetProp": 4,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtUserIsTopLevelWindow NtUserSetProp NtUserGetProp": 16,
+            "NtUserSetWinEventHook NtQueryInformationProcess NtClose NtAccessCheck NtClose": 1,
+            "NtWaitForSingleObject NtOpenMutant NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation": 1
+        },
+        "-4": {
+            "NtClose NtOpenMutant NtQueryObject NtUserGetObjectInformation": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread NtApphelpCacheControl": 6,
+            "NtUserChangeWindowMessageFilterEx NtUserChangeWindowMessageFilterEx NtCallbackReturn NtContinueEx": 2,
+            "NtUserRemoveProp NtUserGetClassName NtCallbackReturn NtContinueEx": 1,
+            "NtUserRemoveProp NtUserGetClassName NtUserGetClassName NtCallbackReturn": 11,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 4,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtUserIsTopLevelWindow NtUserSetProp": 16,
+            "NtUserSetWinEventHook NtQueryInformationProcess NtClose NtAccessCheck": 1,
+            "NtWaitForSingleObject NtOpenMutant NtQueryObject NtQueryInformationProcess": 1
+        },
+        "-3": {
+            "NtClose NtOpenMutant NtQueryObject": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationThread": 6,
+            "NtUserChangeWindowMessageFilterEx NtUserChangeWindowMessageFilterEx NtCallbackReturn": 2,
+            "NtUserRemoveProp NtUserGetClassName NtCallbackReturn": 1,
+            "NtUserRemoveProp NtUserGetClassName NtUserGetClassName": 11,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtProtectVirtualMemory": 1,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled": 4,
+            "NtUserRemoveProp NtUserSystemParametersInfo NtUserIsTopLevelWindow": 16,
+            "NtUserSetWinEventHook NtQueryInformationProcess NtClose": 1,
+            "NtWaitForSingleObject NtOpenMutant NtQueryObject": 1
+        },
+        "-2": {
+            "NtClose NtOpenMutant": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtUserChangeWindowMessageFilterEx NtUserChangeWindowMessageFilterEx": 2,
+            "NtUserRemoveProp NtUserGetClassName": 12,
+            "NtUserRemoveProp NtUserSystemParametersInfo": 21,
+            "NtUserSetWinEventHook NtQueryInformationProcess": 1,
+            "NtWaitForSingleObject NtOpenMutant": 1
+        },
+        "-1": {
+            "NtClose": 1,
+            "NtProtectVirtualMemory": 6,
+            "NtUserChangeWindowMessageFilterEx": 2,
+            "NtUserRemoveProp": 33,
+            "NtUserSetWinEventHook": 1,
+            "NtWaitForSingleObject": 1
+        },
+        "1": {
+            "NtUserCallOneParam": 6,
+            "NtUserGetObjectInformation": 38
+        },
+        "2": {
+            "NtUserCallOneParam NtUserGetProcessUIContextInformation": 6,
+            "NtUserGetObjectInformation NtOpenSection": 5,
+            "NtUserGetObjectInformation NtQueryInformationProcess": 5,
+            "NtUserGetObjectInformation NtUserGetProp": 28
+        },
+        "3": {
+            "NtUserCallOneParam NtUserGetProcessUIContextInformation NtOpenProcessToken": 6,
+            "NtUserGetObjectInformation NtOpenSection NtMapViewOfSection": 5,
+            "NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject": 5,
+            "NtUserGetObjectInformation NtUserGetProp NtUserGetProp": 28
+        },
+        "4": {
+            "NtUserCallOneParam NtUserGetProcessUIContextInformation NtOpenProcessToken NtDuplicateToken": 6,
+            "NtUserGetObjectInformation NtOpenSection NtMapViewOfSection NtOpenSection": 5,
+            "NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtOpenMutant": 2,
+            "NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtOpenSection": 1,
+            "NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtQueryKey": 2,
+            "NtUserGetObjectInformation NtUserGetProp NtUserGetProp NtUserGetProp": 28
+        },
+        "5": {
+            "NtUserCallOneParam NtUserGetProcessUIContextInformation NtOpenProcessToken NtDuplicateToken NtAccessCheck": 6,
+            "NtUserGetObjectInformation NtOpenSection NtMapViewOfSection NtOpenSection NtOpenSection": 5,
+            "NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtOpenMutant NtClose": 1,
+            "NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtOpenMutant NtWaitForSingleObject": 1,
+            "NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtOpenSection NtMapViewOfSection": 1,
+            "NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject NtQueryKey NtQueryKey": 2,
+            "NtUserGetObjectInformation NtUserGetProp NtUserGetProp NtUserGetProp NtUserIsTopLevelWindow": 28
+        }
+    }
+}

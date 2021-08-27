@@ -1,0 +1,100 @@
+{
+    "NtUserSetCursorIconData": {
+        "-5": {
+            "NtGdiCreateBitmap NtGdiCreateBitmap NtUserCreateEmptyCursorObject NtGdiGetBitmapBits NtGdiExtGetObjectW": 2,
+            "NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap NtGdiSelectBitmap": 22,
+            "NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap NtGdiStretchDIBitsInternal": 1,
+            "NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory NtGdiDeleteObjectApp": 6,
+            "NtUserCreateEmptyCursorObject NtUserFindExistingCursorIcon NtUserGetIconInfo NtUserGetIconSize NtUserMessageCall": 1
+        },
+        "-4": {
+            "NtGdiCreateBitmap NtGdiCreateBitmap NtUserCreateEmptyCursorObject NtGdiGetBitmapBits": 2,
+            "NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap": 23,
+            "NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtUserCreateEmptyCursorObject NtUserFindExistingCursorIcon NtUserGetIconInfo NtUserGetIconSize": 1
+        },
+        "-3": {
+            "NtGdiCreateBitmap NtGdiCreateBitmap NtUserCreateEmptyCursorObject": 2,
+            "NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 23,
+            "NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtProtectVirtualMemory": 6,
+            "NtUserCreateEmptyCursorObject NtUserFindExistingCursorIcon NtUserGetIconInfo": 1
+        },
+        "-2": {
+            "NtGdiCreateBitmap NtGdiCreateBitmap": 2,
+            "NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp": 29,
+            "NtUserCreateEmptyCursorObject NtUserFindExistingCursorIcon": 1
+        },
+        "-1": {
+            "NtGdiCreateBitmap": 2,
+            "NtUserCreateEmptyCursorObject": 30
+        },
+        "1": {
+            "NtContinueEx": 2,
+            "NtGdiCreateDIBitmapInternal": 4,
+            "NtGdiDeleteObjectApp": 6,
+            "NtGdiSelectBitmap": 2,
+            "NtProtectVirtualMemory": 1,
+            "NtUserGetDC": 1,
+            "NtUserGetIconInfo": 4,
+            "NtUserGetIconSize": 7,
+            "NtUserRegisterClassExWOW": 5
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 2,
+            "NtGdiCreateDIBitmapInternal NtGdiSelectBitmap": 4,
+            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 6,
+            "NtGdiSelectBitmap NtGdiDeleteObjectApp": 1,
+            "NtGdiSelectBitmap NtUserReleaseDC": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserGetDC NtGdiCreateCompatibleBitmap": 1,
+            "NtUserGetIconInfo NtGdiExtGetObjectW": 4,
+            "NtUserGetIconSize NtUserGetRequiredCursorSizes": 7,
+            "NtUserRegisterClassExWOW NtUserCreateWindowEx": 5
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtAllocateVirtualMemory": 1,
+            "NtContinueEx NtCallbackReturn NtContinueEx": 1,
+            "NtGdiCreateDIBitmapInternal NtGdiSelectBitmap NtGdiGetDCforBitmap": 4,
+            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtContinueEx": 6,
+            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtUserReleaseDC": 1,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiExtGetObjectW": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC": 1,
+            "NtUserGetIconInfo NtGdiExtGetObjectW NtGdiGetDeviceCaps": 4,
+            "NtUserGetIconSize NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon": 7,
+            "NtUserRegisterClassExWOW NtUserCreateWindowEx NtQueryInformationThread": 5
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtAllocateVirtualMemory NtUserGetDC": 1,
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
+            "NtGdiCreateDIBitmapInternal NtGdiSelectBitmap NtGdiGetDCforBitmap NtGdiSaveDC": 4,
+            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtContinueEx NtCallbackReturn": 6,
+            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtUserReleaseDC NtUserMessageCall": 1,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiExtGetObjectW NtGdiGetDeviceCaps": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtUserGetClassInfoEx": 1,
+            "NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap": 1,
+            "NtUserGetIconInfo NtGdiExtGetObjectW NtGdiGetDeviceCaps NtGdiGetDeviceCaps": 4,
+            "NtUserGetIconSize NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 2,
+            "NtUserGetIconSize NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserGetDC": 5,
+            "NtUserRegisterClassExWOW NtUserCreateWindowEx NtQueryInformationThread NtQueryObject": 5
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtAllocateVirtualMemory NtUserGetDC NtGdiCreateCompatibleBitmap": 1,
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtUserMessageCall": 1,
+            "NtGdiCreateDIBitmapInternal NtGdiSelectBitmap NtGdiGetDCforBitmap NtGdiSaveDC NtGdiSelectBitmap": 4,
+            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtContinueEx NtCallbackReturn NtAllocateVirtualMemory": 1,
+            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtContinueEx NtCallbackReturn NtGdiEnumFonts": 3,
+            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtContinueEx NtCallbackReturn NtUserGetSystemMenu": 1,
+            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtContinueEx NtCallbackReturn NtUserSetClassLongPtr": 1,
+            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtUserReleaseDC NtUserMessageCall NtOpenFile": 1,
+            "NtGdiSelectBitmap NtUserReleaseDC NtGdiExtGetObjectW NtGdiGetDeviceCaps NtGdiGetDeviceCaps": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtUserGetClassInfoEx NtUserRegisterClassExWOW": 1,
+            "NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap": 1,
+            "NtUserGetIconInfo NtGdiExtGetObjectW NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtAllocateVirtualMemory": 1,
+            "NtUserGetIconInfo NtGdiExtGetObjectW NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtUserGetClassInfoEx": 3,
+            "NtUserGetIconSize NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 2,
+            "NtUserGetIconSize NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateDIBitmapInternal": 5,
+            "NtUserRegisterClassExWOW NtUserCreateWindowEx NtQueryInformationThread NtQueryObject NtOpenSection": 5
+        }
+    }
+}

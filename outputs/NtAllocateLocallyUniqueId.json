@@ -1,0 +1,34 @@
+{
+    "NtAllocateLocallyUniqueId": {
+        "-5": {
+            "NtOpenThreadToken NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtTraceControl": 1
+        },
+        "-4": {
+            "NtOpenThreadToken NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 1
+        },
+        "-3": {
+            "NtOpenThreadToken NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "-2": {
+            "NtOpenThreadToken NtProtectVirtualMemory": 1
+        },
+        "-1": {
+            "NtOpenThreadToken": 1
+        },
+        "1": {
+            "NtQueryInformationToken": 1
+        },
+        "2": {
+            "NtQueryInformationToken NtCreateSection": 1
+        },
+        "3": {
+            "NtQueryInformationToken NtCreateSection NtMapViewOfSection": 1
+        },
+        "4": {
+            "NtQueryInformationToken NtCreateSection NtMapViewOfSection NtAllocateVirtualMemory": 1
+        },
+        "5": {
+            "NtQueryInformationToken NtCreateSection NtMapViewOfSection NtAllocateVirtualMemory NtCreateFile": 1
+        }
+    }
+}

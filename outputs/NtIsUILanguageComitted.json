@@ -1,0 +1,44 @@
+{
+    "NtIsUILanguageComitted": {
+        "-5": {
+            "NtClose NtEnumerateKey NtClose NtQueryValueKey NtQueryValueKey": 6,
+            "NtQueryLicenseValue NtQueryLicenseValue NtQueryValueKey NtQueryLicenseValue NtQueryLicenseValue": 6
+        },
+        "-4": {
+            "NtClose NtEnumerateKey NtClose NtQueryValueKey": 6,
+            "NtQueryLicenseValue NtQueryLicenseValue NtQueryValueKey NtQueryLicenseValue": 6
+        },
+        "-3": {
+            "NtClose NtEnumerateKey NtClose": 6,
+            "NtQueryLicenseValue NtQueryLicenseValue NtQueryValueKey": 6
+        },
+        "-2": {
+            "NtClose NtEnumerateKey": 6,
+            "NtQueryLicenseValue NtQueryLicenseValue": 6
+        },
+        "-1": {
+            "NtClose": 6,
+            "NtQueryLicenseValue": 6
+        },
+        "1": {
+            "NtOpenKeyEx": 6,
+            "NtQueryInstallUILanguage": 6
+        },
+        "2": {
+            "NtOpenKeyEx NtOpenKeyEx": 6,
+            "NtQueryInstallUILanguage NtOpenKeyEx": 6
+        },
+        "3": {
+            "NtOpenKeyEx NtOpenKeyEx NtQueryInformationToken": 6,
+            "NtQueryInstallUILanguage NtOpenKeyEx NtSetInformationKey": 6
+        },
+        "4": {
+            "NtOpenKeyEx NtOpenKeyEx NtQueryInformationToken NtOpenKeyEx": 6,
+            "NtQueryInstallUILanguage NtOpenKeyEx NtSetInformationKey NtQueryValueKey": 6
+        },
+        "5": {
+            "NtOpenKeyEx NtOpenKeyEx NtQueryInformationToken NtOpenKeyEx NtQueryObject": 6,
+            "NtQueryInstallUILanguage NtOpenKeyEx NtSetInformationKey NtQueryValueKey NtClose": 6
+        }
+    }
+}

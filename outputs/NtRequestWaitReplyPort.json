@@ -1,0 +1,44 @@
+{
+    "NtRequestWaitReplyPort": {
+        "-5": {
+            "NtConnectPort NtUserGetGUIThreadInfo NtUserGetObjectInformation NtUserGetProcessWindowStation NtSetEvent": 6,
+            "NtRequestWaitReplyPort NtConnectPort NtUserGetGUIThreadInfo NtUserGetObjectInformation NtUserGetProcessWindowStation": 6
+        },
+        "-4": {
+            "NtConnectPort NtUserGetGUIThreadInfo NtUserGetObjectInformation NtUserGetProcessWindowStation": 6,
+            "NtRequestWaitReplyPort NtConnectPort NtUserGetGUIThreadInfo NtUserGetObjectInformation": 6
+        },
+        "-3": {
+            "NtConnectPort NtUserGetGUIThreadInfo NtUserGetObjectInformation": 6,
+            "NtRequestWaitReplyPort NtConnectPort NtUserGetGUIThreadInfo": 6
+        },
+        "-2": {
+            "NtConnectPort NtUserGetGUIThreadInfo": 6,
+            "NtRequestWaitReplyPort NtConnectPort": 6
+        },
+        "-1": {
+            "NtConnectPort": 6,
+            "NtRequestWaitReplyPort": 6
+        },
+        "1": {
+            "NtQueryInformationToken": 6,
+            "NtRequestWaitReplyPort": 6
+        },
+        "2": {
+            "NtQueryInformationToken NtOpenKeyEx": 6,
+            "NtRequestWaitReplyPort NtQueryInformationToken": 6
+        },
+        "3": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject": 6,
+            "NtRequestWaitReplyPort NtQueryInformationToken NtOpenKeyEx": 6
+        },
+        "4": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject NtQueryKey": 6,
+            "NtRequestWaitReplyPort NtQueryInformationToken NtOpenKeyEx NtQueryObject": 6
+        },
+        "5": {
+            "NtQueryInformationToken NtOpenKeyEx NtQueryObject NtQueryKey NtQueryKey": 6,
+            "NtRequestWaitReplyPort NtQueryInformationToken NtOpenKeyEx NtQueryObject NtQueryKey": 6
+        }
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "NtUserSetWindowLong": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 6,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr NtCallbackReturn": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
+            "NtUserQueryWindow NtUserSetWindowLong NtCallbackReturn NtContinueEx NtCallbackReturn": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 6,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtCallbackReturn NtContinueEx": 1,
+            "NtUserQueryWindow NtUserSetWindowLong NtCallbackReturn NtContinueEx": 1
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 6,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtCallbackReturn": 1,
+            "NtUserQueryWindow NtUserSetWindowLong NtCallbackReturn": 1
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 7,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserQueryWindow NtUserSetWindowLong": 1
+        },
+        "-1": {
+            "NtCallbackReturn": 7,
+            "NtProtectVirtualMemory": 1,
+            "NtUserQueryWindow": 1
+        },
+        "1": {
+            "NtContinueEx": 1,
+            "NtProtectVirtualMemory": 1,
+            "NtUserQueryWindow": 1,
+            "NtUserRegisterWindowMessage": 5,
+            "NtUserSetImeOwnerWindow": 1
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserQueryWindow NtUserSetWindowLong": 1,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtUserSetImeOwnerWindow NtUserKillTimer": 1
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtContinueEx": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSetTimer": 1,
+            "NtUserQueryWindow NtUserSetWindowLong NtUserSetImeOwnerWindow": 1,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtUserSetImeOwnerWindow NtUserKillTimer NtUserSetTimer": 1
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSetTimer NtProtectVirtualMemory": 1,
+            "NtUserQueryWindow NtUserSetWindowLong NtUserSetImeOwnerWindow NtUserKillTimer": 1,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtUserSetImeOwnerWindow NtUserKillTimer NtUserSetTimer NtUserCallNoParam": 1
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSetTimer NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserQueryWindow NtUserSetWindowLong NtUserSetImeOwnerWindow NtUserKillTimer NtUserSetTimer": 1,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtUserSetImeOwnerWindow NtUserKillTimer NtUserSetTimer NtUserCallNoParam NtUserQueryWindow": 1
+        }
+    }
+}

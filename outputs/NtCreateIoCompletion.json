@@ -1,0 +1,48 @@
+{
+    "NtCreateIoCompletion": {
+        "-5": {
+            "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation NtQuerySystemInformation": 6,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation": 6,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtQueryInformationThread NtAllocateVirtualMemory NtClose": 6
+        },
+        "-4": {
+            "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation": 6,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtQueryInformationThread NtAllocateVirtualMemory": 6
+        },
+        "-3": {
+            "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort": 2,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket": 6,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtQueryInformationThread": 6
+        },
+        "-2": {
+            "NtQuerySystemInformationEx NtCreateWaitCompletionPacket": 6,
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx": 14
+        },
+        "-1": {
+            "NtQuerySystemInformationEx": 20
+        },
+        "1": {
+            "NtCreateWorkerFactory": 20
+        },
+        "2": {
+            "NtCreateWorkerFactory NtCreateTimer2": 14,
+            "NtCreateWorkerFactory NtSetInformationWorkerFactory": 6
+        },
+        "3": {
+            "NtCreateWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket": 14,
+            "NtCreateWorkerFactory NtSetInformationWorkerFactory NtCreateTimer2": 6
+        },
+        "4": {
+            "NtCreateWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket": 14,
+            "NtCreateWorkerFactory NtSetInformationWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket": 6
+        },
+        "5": {
+            "NtCreateWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket NtCreateTimer2": 14,
+            "NtCreateWorkerFactory NtSetInformationWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket": 6
+        }
+    }
+}

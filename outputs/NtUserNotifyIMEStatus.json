@@ -1,0 +1,34 @@
+{
+    "NtUserNotifyIMEStatus": {
+        "-5": {
+            "NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserGetInputLocaleInfo NtUserSetTimer NtOpenEvent": 1
+        },
+        "-4": {
+            "NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserGetInputLocaleInfo NtUserSetTimer": 1
+        },
+        "-3": {
+            "NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserGetInputLocaleInfo": 1
+        },
+        "-2": {
+            "NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1
+        },
+        "-1": {
+            "NtUserGetKeyboardLayout": 1
+        },
+        "1": {
+            "NtUserQueryWindow": 1
+        },
+        "2": {
+            "NtUserQueryWindow NtUserGetImeInfoEx": 1
+        },
+        "3": {
+            "NtUserQueryWindow NtUserGetImeInfoEx NtUserGetClassInfoEx": 1
+        },
+        "4": {
+            "NtUserQueryWindow NtUserGetImeInfoEx NtUserGetClassInfoEx NtUserCreateWindowEx": 1
+        },
+        "5": {
+            "NtUserQueryWindow NtUserGetImeInfoEx NtUserGetClassInfoEx NtUserCreateWindowEx NtContinueEx": 1
+        }
+    }
+}

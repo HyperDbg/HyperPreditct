@@ -1,0 +1,34 @@
+{
+    "NtGdiCreatePaletteInternal": {
+        "-5": {
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtGdiGetDeviceCaps NtUserGetDC": 1
+        },
+        "-4": {
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtGdiGetDeviceCaps": 1
+        },
+        "-3": {
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1
+        },
+        "-2": {
+            "NtUserReleaseDC NtUserGetDC": 1
+        },
+        "-1": {
+            "NtUserReleaseDC": 1
+        },
+        "1": {
+            "NtUserFindExistingCursorIcon": 1
+        },
+        "2": {
+            "NtUserFindExistingCursorIcon NtUserRegisterWindowMessage": 1
+        },
+        "3": {
+            "NtUserFindExistingCursorIcon NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1
+        },
+        "4": {
+            "NtUserFindExistingCursorIcon NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx": 1
+        },
+        "5": {
+            "NtUserFindExistingCursorIcon NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtUserRegisterWindowMessage": 1
+        }
+    }
+}

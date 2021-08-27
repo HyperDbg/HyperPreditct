@@ -1,0 +1,34 @@
+{
+    "NtAlpcCreatePort": {
+        "-5": {
+            "NtQueryInformationToken NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtDuplicateObject": 1
+        },
+        "-4": {
+            "NtQueryInformationToken NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1
+        },
+        "-3": {
+            "NtQueryInformationToken NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "-2": {
+            "NtQueryInformationToken NtProtectVirtualMemory": 1
+        },
+        "-1": {
+            "NtQueryInformationToken": 1
+        },
+        "1": {
+            "NtAlpcSendWaitReceivePort": 1
+        },
+        "2": {
+            "NtAlpcSendWaitReceivePort NtQueryObject": 1
+        },
+        "3": {
+            "NtAlpcSendWaitReceivePort NtQueryObject NtCreateWaitCompletionPacket": 1
+        },
+        "4": {
+            "NtAlpcSendWaitReceivePort NtQueryObject NtCreateWaitCompletionPacket NtAlpcSendWaitReceivePort": 1
+        },
+        "5": {
+            "NtAlpcSendWaitReceivePort NtQueryObject NtCreateWaitCompletionPacket NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1
+        }
+    }
+}

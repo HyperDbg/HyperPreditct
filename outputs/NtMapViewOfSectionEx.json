@@ -1,0 +1,39 @@
+{
+    "NtMapViewOfSectionEx": {
+        "-5": {
+            "NtOpenSection NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtOpenSection NtQueryInformationThread NtSetEvent NtQueryVolumeInformationFile NtOpenFile": 6
+        },
+        "-4": {
+            "NtOpenSection NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtOpenSection NtQueryInformationThread NtSetEvent NtQueryVolumeInformationFile": 6
+        },
+        "-3": {
+            "NtOpenSection NtAllocateVirtualMemory NtProtectVirtualMemory": 6,
+            "NtOpenSection NtQueryInformationThread NtSetEvent": 6
+        },
+        "-2": {
+            "NtOpenSection NtAllocateVirtualMemory": 6,
+            "NtOpenSection NtQueryInformationThread": 6
+        },
+        "-1": {
+            "NtOpenSection": 12
+        },
+        "1": {
+            "NtQueryPerformanceCounter": 12
+        },
+        "2": {
+            "NtQueryPerformanceCounter NtProtectVirtualMemory": 12
+        },
+        "3": {
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory": 12
+        },
+        "4": {
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 12
+        },
+        "5": {
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 6,
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtClose": 6
+        }
+    }
+}

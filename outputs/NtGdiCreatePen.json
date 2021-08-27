@@ -1,0 +1,49 @@
+{
+    "NtGdiCreatePen": {
+        "-5": {
+            "NtGdiExtGetObjectW NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3,
+            "NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn NtContinueEx NtUserSetWindowPos": 5
+        },
+        "-4": {
+            "NtGdiExtGetObjectW NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3,
+            "NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn NtContinueEx": 5
+        },
+        "-3": {
+            "NtGdiExtGetObjectW NtSetInformationProcess NtQueryInformationProcess": 3,
+            "NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn": 5
+        },
+        "-2": {
+            "NtGdiExtGetObjectW NtSetInformationProcess": 3,
+            "NtGdiGetTextMetricsW NtUserGetDC": 5
+        },
+        "-1": {
+            "NtGdiExtGetObjectW": 3,
+            "NtGdiGetTextMetricsW": 5
+        },
+        "1": {
+            "NtGdiDeleteObjectApp": 3,
+            "NtUserFindExistingCursorIcon": 4,
+            "NtUserGetClassInfoEx": 1
+        },
+        "2": {
+            "NtGdiDeleteObjectApp NtQueryInformationProcess": 3,
+            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 4,
+            "NtUserGetClassInfoEx NtUserGetClassInfoEx": 1
+        },
+        "3": {
+            "NtGdiDeleteObjectApp NtQueryInformationProcess NtSetInformationProcess": 3,
+            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx": 4,
+            "NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW": 1
+        },
+        "4": {
+            "NtGdiDeleteObjectApp NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3,
+            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx NtUserGetClassInfoEx": 4,
+            "NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserGetAtomName": 1
+        },
+        "5": {
+            "NtGdiDeleteObjectApp NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3,
+            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW": 4,
+            "NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx": 1
+        }
+    }
+}

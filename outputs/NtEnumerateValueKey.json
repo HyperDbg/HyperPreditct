@@ -1,0 +1,34 @@
+{
+    "NtEnumerateValueKey": {
+        "-5": {
+            "NtSetInformationKey NtOpenKeyEx NtOpenKeyEx NtQueryKey NtQueryKey": 6
+        },
+        "-4": {
+            "NtSetInformationKey NtOpenKeyEx NtOpenKeyEx NtQueryKey": 6
+        },
+        "-3": {
+            "NtSetInformationKey NtOpenKeyEx NtOpenKeyEx": 6
+        },
+        "-2": {
+            "NtSetInformationKey NtOpenKeyEx": 6
+        },
+        "-1": {
+            "NtSetInformationKey": 6
+        },
+        "1": {
+            "NtClose": 6
+        },
+        "2": {
+            "NtClose NtClose": 6
+        },
+        "3": {
+            "NtClose NtClose NtOpenKeyEx": 6
+        },
+        "4": {
+            "NtClose NtClose NtOpenKeyEx NtQueryInformationToken": 6
+        },
+        "5": {
+            "NtClose NtClose NtOpenKeyEx NtQueryInformationToken NtOpenKeyEx": 6
+        }
+    }
+}

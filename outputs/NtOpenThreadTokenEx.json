@@ -1,0 +1,53 @@
+{
+    "NtOpenThreadTokenEx": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 6,
+            "NtQueryInformationProcess NtUserGetProcessUIContextInformation NtClose NtAccessCheck NtClose": 1,
+            "NtUserGetKeyboardLayout NtUserQueryInputContext NtUserSetFocus NtUserGetThreadState NtUserGetThreadState": 1,
+            "NtUserGetThreadState NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState NtQueryInformationProcess NtQueryInformationProcess NtUserGetProcessUIContextInformation NtClose": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 6,
+            "NtQueryInformationProcess NtUserGetProcessUIContextInformation NtClose NtAccessCheck": 1,
+            "NtUserGetKeyboardLayout NtUserQueryInputContext NtUserSetFocus NtUserGetThreadState": 1,
+            "NtUserGetThreadState NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState NtQueryInformationProcess NtQueryInformationProcess NtUserGetProcessUIContextInformation": 1
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 6,
+            "NtQueryInformationProcess NtUserGetProcessUIContextInformation NtClose": 1,
+            "NtUserGetKeyboardLayout NtUserQueryInputContext NtUserSetFocus": 1,
+            "NtUserGetThreadState NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState NtQueryInformationProcess NtQueryInformationProcess": 1
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 6,
+            "NtQueryInformationProcess NtUserGetProcessUIContextInformation": 1,
+            "NtUserGetKeyboardLayout NtUserQueryInputContext": 1,
+            "NtUserGetThreadState NtProtectVirtualMemory": 1,
+            "NtUserGetThreadState NtQueryInformationProcess": 1
+        },
+        "-1": {
+            "NtCallbackReturn": 6,
+            "NtQueryInformationProcess": 1,
+            "NtUserGetKeyboardLayout": 1,
+            "NtUserGetThreadState": 2
+        },
+        "1": {
+            "NtOpenProcessTokenEx": 10
+        },
+        "2": {
+            "NtOpenProcessTokenEx NtDuplicateToken": 10
+        },
+        "3": {
+            "NtOpenProcessTokenEx NtDuplicateToken NtClose": 10
+        },
+        "4": {
+            "NtOpenProcessTokenEx NtDuplicateToken NtClose NtAccessCheck": 10
+        },
+        "5": {
+            "NtOpenProcessTokenEx NtDuplicateToken NtClose NtAccessCheck NtClose": 10
+        }
+    }
+}

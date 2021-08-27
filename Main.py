@@ -13,7 +13,7 @@ def printAllPatternDict(allPattternRates):
             print(("%0.4X" % targetSyscall), " ", patternRange, ":")
             printPatternDict(allPattternRates[targetSyscall][patternRange])
 
-def jsonize(allPattternRatesDict, fileName):
+def jsonizeAll(allPattternRatesDict, fileName):
     newDict = dict()
     for targetSyscall in allPattternRatesDict.keys():
         newDict[convertSyscallNumberToFunctionName(targetSyscall)] = dict()
@@ -21,21 +21,29 @@ def jsonize(allPattternRatesDict, fileName):
             newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange] = dict()
             for pattern in  allPattternRatesDict[targetSyscall][patternRange].keys():
                 newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
-
+                
+def jsonize(allPattternRatesDict, folderName):
+    newDict = dict()
+    for targetSyscall in allPattternRatesDict.keys():
+        newDict = dict()
+        newDict[convertSyscallNumberToFunctionName(targetSyscall)] = dict()
+        for patternRange in allPattternRatesDict[targetSyscall].keys():
+            newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange] = dict()
+            for pattern in  allPattternRatesDict[targetSyscall][patternRange].keys():
+                newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
+        
+        with open(folderName + '\\' + convertSyscallNumberToFunctionName(targetSyscall) + '.json', "w") as f:
+            json.dump(newDict, f, sort_keys=True, indent=4)
+        print(json.dumps(newDict, sort_keys=True, indent=4))
     
-    # print(newDict)
-    print(json.dumps(newDict, sort_keys=True, indent=4))
-
-    with open(fileName,"w") as f:
-        json.dump(newDict, f, sort_keys=True, indent=4)
-
 
 def main():
+
     syscallList = merge_logs(LogPath=".\\logs", MainLogPath=".\\outputs\\main-log.txt")
-    
     syscallAnalyzer = SyscallAnalyzer(syscallList)
     allPattternRates = syscallAnalyzer.analyzeAll(5)
-    jsonize(allPattternRates, ".\\outputs\\output.json")
+    jsonize(allPattternRates, ".\\outputs")
+    jsonizeAll(allPattternRates, ".\\outputs\\output.json")
     
     
     # printPatternDict(patternRate)

@@ -1,0 +1,34 @@
+{
+    "NtAlpcDeleteSecurityContext": {
+        "-5": {
+            "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort": 1
+        },
+        "-4": {
+            "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber": 1
+        },
+        "-3": {
+            "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber": 1
+        },
+        "-2": {
+            "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort": 1
+        },
+        "-1": {
+            "NtGetCurrentProcessorNumber": 1
+        },
+        "1": {
+            "NtCreateFile": 1
+        },
+        "2": {
+            "NtCreateFile NtDeviceIoControlFile": 1
+        },
+        "3": {
+            "NtCreateFile NtDeviceIoControlFile NtClose": 1
+        },
+        "4": {
+            "NtCreateFile NtDeviceIoControlFile NtClose NtCreateEvent": 1
+        },
+        "5": {
+            "NtCreateFile NtDeviceIoControlFile NtClose NtCreateEvent NtDeviceIoControlFile": 1
+        }
+    }
+}

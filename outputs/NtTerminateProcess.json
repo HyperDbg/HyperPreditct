@@ -1,0 +1,34 @@
+{
+    "NtTerminateProcess": {
+        "-5": {
+            "NtQueryInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1
+        },
+        "-4": {
+            "NtQueryInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1
+        },
+        "-3": {
+            "NtQueryInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1
+        },
+        "-2": {
+            "NtQueryInformationProcess NtQueryInformationProcess": 1
+        },
+        "-1": {
+            "NtQueryInformationProcess": 1
+        },
+        "1": {
+            "NtQueryPerformanceCounter": 1
+        },
+        "2": {
+            "NtQueryPerformanceCounter NtProtectVirtualMemory": 1
+        },
+        "3": {
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "4": {
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtCreateEvent": 1
+        },
+        "5": {
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtCreateEvent NtQuerySystemInformation": 1
+        }
+    }
+}

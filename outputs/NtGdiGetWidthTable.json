@@ -1,0 +1,34 @@
+{
+    "NtGdiGetWidthTable": {
+        "-5": {
+            "NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn NtContinueEx": 1
+        },
+        "-4": {
+            "NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn": 1
+        },
+        "-3": {
+            "NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtUserGetDC": 1
+        },
+        "-2": {
+            "NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo": 1
+        },
+        "-1": {
+            "NtGdiGetGlyphIndicesW": 1
+        },
+        "1": {
+            "NtUserReleaseDC": 1
+        },
+        "2": {
+            "NtUserReleaseDC NtUserGetDC": 1
+        },
+        "3": {
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1
+        },
+        "4": {
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtUserShowWindow": 1
+        },
+        "5": {
+            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtUserShowWindow NtUserInvalidateRect": 1
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "NtSetWnfProcessNotificationEvent": {
+        "-5": {
+            "NtCreateWaitCompletionPacket NtCreateEvent NtQueryWnfStateData NtClose NtQueryValueKey": 6
+        },
+        "-4": {
+            "NtCreateWaitCompletionPacket NtCreateEvent NtQueryWnfStateData NtClose": 6
+        },
+        "-3": {
+            "NtCreateWaitCompletionPacket NtCreateEvent NtQueryWnfStateData": 6
+        },
+        "-2": {
+            "NtCreateWaitCompletionPacket NtCreateEvent": 6
+        },
+        "-1": {
+            "NtCreateWaitCompletionPacket": 6
+        },
+        "1": {
+            "NtAssociateWaitCompletionPacket": 6
+        },
+        "2": {
+            "NtAssociateWaitCompletionPacket NtSubscribeWnfStateChange": 6
+        },
+        "3": {
+            "NtAssociateWaitCompletionPacket NtSubscribeWnfStateChange NtQueryWnfStateData": 6
+        },
+        "4": {
+            "NtAssociateWaitCompletionPacket NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 6
+        },
+        "5": {
+            "NtAssociateWaitCompletionPacket NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 6
+        }
+    }
+}

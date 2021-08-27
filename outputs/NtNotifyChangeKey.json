@@ -1,0 +1,52 @@
+{
+    "NtNotifyChangeKey": {
+        "-5": {
+            "NtCreateEvent NtClose NtSetInformationKey NtOpenKeyEx NtQueryKey": 1,
+            "NtCreateEvent NtOpenKeyEx NtQueryKey NtQueryObject NtOpenKeyEx": 6,
+            "NtCreateEvent NtSetInformationKey NtOpenKeyEx NtQueryKey NtQueryKey": 6
+        },
+        "-4": {
+            "NtCreateEvent NtClose NtSetInformationKey NtOpenKeyEx": 1,
+            "NtCreateEvent NtOpenKeyEx NtQueryKey NtQueryObject": 6,
+            "NtCreateEvent NtSetInformationKey NtOpenKeyEx NtQueryKey": 6
+        },
+        "-3": {
+            "NtCreateEvent NtClose NtSetInformationKey": 1,
+            "NtCreateEvent NtOpenKeyEx NtQueryKey": 6,
+            "NtCreateEvent NtSetInformationKey NtOpenKeyEx": 6
+        },
+        "-2": {
+            "NtCreateEvent NtClose": 1,
+            "NtCreateEvent NtOpenKeyEx": 6,
+            "NtCreateEvent NtSetInformationKey": 6
+        },
+        "-1": {
+            "NtCreateEvent": 13
+        },
+        "1": {
+            "NtClose": 1,
+            "NtOpenThreadToken": 6,
+            "NtTraceControl": 6
+        },
+        "2": {
+            "NtClose NtQueryObject": 1,
+            "NtOpenThreadToken NtQueryInformationToken": 6,
+            "NtTraceControl NtTraceControl": 6
+        },
+        "3": {
+            "NtClose NtQueryObject NtQueryKey": 1,
+            "NtOpenThreadToken NtQueryInformationToken NtOpenKeyEx": 6,
+            "NtTraceControl NtTraceControl NtTraceControl": 6
+        },
+        "4": {
+            "NtClose NtQueryObject NtQueryKey NtQueryKey": 1,
+            "NtOpenThreadToken NtQueryInformationToken NtOpenKeyEx NtSetInformationKey": 6,
+            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 6
+        },
+        "5": {
+            "NtClose NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx": 1,
+            "NtOpenThreadToken NtQueryInformationToken NtOpenKeyEx NtSetInformationKey NtQueryObject": 6,
+            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 6
+        }
+    }
+}

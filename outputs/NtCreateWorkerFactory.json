@@ -1,0 +1,46 @@
+{
+    "NtCreateWorkerFactory": {
+        "-5": {
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation": 6,
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6,
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtQuerySystemInformationEx NtQueryInformationThread NtAllocateVirtualMemory": 6
+        },
+        "-4": {
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6,
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort": 2,
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket": 6,
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtQuerySystemInformationEx NtQueryInformationThread": 6
+        },
+        "-3": {
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtCreateWaitCompletionPacket": 6,
+            "NtCreateIoCompletion NtQuerySystemInformationEx NtQuerySystemInformationEx": 14
+        },
+        "-2": {
+            "NtCreateIoCompletion NtQuerySystemInformationEx": 20
+        },
+        "-1": {
+            "NtCreateIoCompletion": 20
+        },
+        "1": {
+            "NtCreateTimer2": 14,
+            "NtSetInformationWorkerFactory": 6
+        },
+        "2": {
+            "NtCreateTimer2 NtCreateWaitCompletionPacket": 14,
+            "NtSetInformationWorkerFactory NtCreateTimer2": 6
+        },
+        "3": {
+            "NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket": 14,
+            "NtSetInformationWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket": 6
+        },
+        "4": {
+            "NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket NtCreateTimer2": 14,
+            "NtSetInformationWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket": 6
+        },
+        "5": {
+            "NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket NtCreateTimer2 NtCreateWaitCompletionPacket": 14,
+            "NtSetInformationWorkerFactory NtCreateTimer2 NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket NtCreateTimer2": 6
+        }
+    }
+}

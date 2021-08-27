@@ -1,0 +1,42 @@
+{
+    "NtUserSetWindowFNID": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 6,
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserCreateWindowEx": 25
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 31
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 31
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 31
+        },
+        "-1": {
+            "NtCallbackReturn": 31
+        },
+        "1": {
+            "NtUserSetWindowLongPtr": 31
+        },
+        "2": {
+            "NtUserSetWindowLongPtr NtUserCallHwndParam": 2,
+            "NtUserSetWindowLongPtr NtUserMessageCall": 29
+        },
+        "3": {
+            "NtUserSetWindowLongPtr NtUserCallHwndParam NtUserCallHwndParam": 2,
+            "NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx": 29
+        },
+        "4": {
+            "NtUserSetWindowLongPtr NtUserCallHwndParam NtUserCallHwndParam NtContinueEx": 1,
+            "NtUserSetWindowLongPtr NtUserCallHwndParam NtUserCallHwndParam NtUserCallHwndParam": 1,
+            "NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx NtCallbackReturn": 29
+        },
+        "5": {
+            "NtUserSetWindowLongPtr NtUserCallHwndParam NtUserCallHwndParam NtContinueEx NtCallbackReturn": 1,
+            "NtUserSetWindowLongPtr NtUserCallHwndParam NtUserCallHwndParam NtUserCallHwndParam NtContinueEx": 1,
+            "NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetClassName": 7,
+            "NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 22
+        }
+    }
+}

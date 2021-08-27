@@ -1,0 +1,43 @@
+{
+    "NtGdiGetGlyphIndicesW": {
+        "-5": {
+            "NtGdiGetRealizationInfo NtGdiQueryFontAssocInfo NtAllocateVirtualMemory NtAllocateVirtualMemory NtGdiGetCharSet": 5,
+            "NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn NtContinueEx NtCallbackReturn": 1
+        },
+        "-4": {
+            "NtGdiGetRealizationInfo NtGdiQueryFontAssocInfo NtAllocateVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn NtContinueEx": 1
+        },
+        "-3": {
+            "NtGdiGetRealizationInfo NtGdiQueryFontAssocInfo NtAllocateVirtualMemory": 5,
+            "NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn": 1
+        },
+        "-2": {
+            "NtGdiGetRealizationInfo NtGdiQueryFontAssocInfo": 5,
+            "NtGdiGetRealizationInfo NtUserGetDC": 1
+        },
+        "-1": {
+            "NtGdiGetRealizationInfo": 6
+        },
+        "1": {
+            "NtGdiGetRealizationInfo": 5,
+            "NtGdiGetWidthTable": 1
+        },
+        "2": {
+            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 5,
+            "NtGdiGetWidthTable NtUserReleaseDC": 1
+        },
+        "3": {
+            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetDeviceCaps": 5,
+            "NtGdiGetWidthTable NtUserReleaseDC NtUserGetDC": 1
+        },
+        "4": {
+            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetDeviceCaps NtGdiGetDeviceCaps": 5,
+            "NtGdiGetWidthTable NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1
+        },
+        "5": {
+            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtUserReleaseDC": 5,
+            "NtGdiGetWidthTable NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtUserShowWindow": 1
+        }
+    }
+}

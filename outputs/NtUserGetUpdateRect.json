@@ -1,0 +1,34 @@
+{
+    "NtUserGetUpdateRect": {
+        "-5": {
+            "NtGdiCreateRectRgn NtUserGetUpdateRgn NtGdiCreateRectRgn NtUserDispatchMessage NtCallbackReturn": 1
+        },
+        "-4": {
+            "NtGdiCreateRectRgn NtUserGetUpdateRgn NtGdiCreateRectRgn NtUserDispatchMessage": 1
+        },
+        "-3": {
+            "NtGdiCreateRectRgn NtUserGetUpdateRgn NtGdiCreateRectRgn": 1
+        },
+        "-2": {
+            "NtGdiCreateRectRgn NtUserGetUpdateRgn": 1
+        },
+        "-1": {
+            "NtGdiCreateRectRgn": 1
+        },
+        "1": {
+            "NtUserBeginPaint": 1
+        },
+        "2": {
+            "NtUserBeginPaint NtGdiCreateSolidBrush": 1
+        },
+        "3": {
+            "NtUserBeginPaint NtGdiCreateSolidBrush NtGdiPolyPatBlt": 1
+        },
+        "4": {
+            "NtUserBeginPaint NtGdiCreateSolidBrush NtGdiPolyPatBlt NtUserEndPaint": 1
+        },
+        "5": {
+            "NtUserBeginPaint NtGdiCreateSolidBrush NtGdiPolyPatBlt NtUserEndPaint NtUserShowWindow": 1
+        }
+    }
+}

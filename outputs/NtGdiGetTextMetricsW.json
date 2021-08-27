@@ -1,0 +1,90 @@
+{
+    "NtGdiGetTextMetricsW": {
+        "-5": {
+            "NtAllocateVirtualMemory NtGdiSelectBitmap NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap": 3,
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserMessageCall": 2,
+            "NtGdiHfontCreate NtGdiDeleteObjectApp NtGdiGetDeviceCaps NtProtectVirtualMemory NtProtectVirtualMemory": 3,
+            "NtGdiHfontCreate NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts": 3,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap NtUserGetDC": 2,
+            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserMessageCall NtUserGetProp": 6,
+            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserSetWindowPos NtUserGetAncestor": 5
+        },
+        "-4": {
+            "NtAllocateVirtualMemory NtGdiSelectBitmap NtGdiSelectBitmap NtUserReleaseDC": 3,
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2,
+            "NtGdiHfontCreate NtGdiDeleteObjectApp NtGdiGetDeviceCaps NtProtectVirtualMemory": 3,
+            "NtGdiHfontCreate NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts": 3,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap": 2,
+            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserMessageCall": 6,
+            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserSetWindowPos": 5
+        },
+        "-3": {
+            "NtAllocateVirtualMemory NtGdiSelectBitmap NtGdiSelectBitmap": 3,
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
+            "NtGdiHfontCreate NtGdiDeleteObjectApp NtGdiGetDeviceCaps": 3,
+            "NtGdiHfontCreate NtGdiEnumFonts NtAllocateVirtualMemory": 3,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtUserReleaseDC": 2,
+            "NtUserGetDC NtCallbackReturn NtContinueEx": 11
+        },
+        "-2": {
+            "NtAllocateVirtualMemory NtGdiSelectBitmap": 3,
+            "NtCallbackReturn NtContinueEx": 2,
+            "NtGdiHfontCreate NtGdiDeleteObjectApp": 3,
+            "NtGdiHfontCreate NtGdiEnumFonts": 3,
+            "NtGdiSelectBitmap NtGdiSelectBitmap": 2,
+            "NtUserGetDC NtCallbackReturn": 11
+        },
+        "-1": {
+            "NtAllocateVirtualMemory": 3,
+            "NtCallbackReturn": 2,
+            "NtGdiHfontCreate": 6,
+            "NtGdiSelectBitmap": 2,
+            "NtUserGetDC": 11
+        },
+        "1": {
+            "NtContinueEx": 2,
+            "NtGdiCreatePen": 5,
+            "NtGdiGetRealizationInfo": 6,
+            "NtGdiGetTextFaceW": 6,
+            "NtProtectVirtualMemory": 5
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 2,
+            "NtGdiCreatePen NtUserFindExistingCursorIcon": 4,
+            "NtGdiCreatePen NtUserGetClassInfoEx": 1,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 6,
+            "NtGdiGetTextFaceW NtGdiSelectFont": 6,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 5
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtContinueEx": 2,
+            "NtGdiCreatePen NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 4,
+            "NtGdiCreatePen NtUserGetClassInfoEx NtUserGetClassInfoEx": 1,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 6,
+            "NtGdiGetTextFaceW NtGdiSelectFont NtProtectVirtualMemory": 3,
+            "NtGdiGetTextFaceW NtGdiSelectFont NtQueryInformationProcess": 3,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetTextFaceW": 5
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
+            "NtGdiCreatePen NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx": 4,
+            "NtGdiCreatePen NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW": 1,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtUserReleaseDC": 6,
+            "NtGdiGetTextFaceW NtGdiSelectFont NtProtectVirtualMemory NtProtectVirtualMemory": 3,
+            "NtGdiGetTextFaceW NtGdiSelectFont NtQueryInformationProcess NtSetInformationProcess": 3,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetTextFaceW NtQueryInformationThread": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetTextFaceW NtUserFindExistingCursorIcon": 4
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtUserShowWindow": 2,
+            "NtGdiCreatePen NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx NtUserGetClassInfoEx": 4,
+            "NtGdiCreatePen NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserGetAtomName": 1,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtUserReleaseDC NtContinueEx": 2,
+            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtUserReleaseDC NtUserPostMessage": 4,
+            "NtGdiGetTextFaceW NtGdiSelectFont NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetDeviceCaps": 3,
+            "NtGdiGetTextFaceW NtGdiSelectFont NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetTextFaceW NtQueryInformationThread NtQueryObject": 1,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetTextFaceW NtUserFindExistingCursorIcon NtUserGetDC": 4
+        }
+    }
+}

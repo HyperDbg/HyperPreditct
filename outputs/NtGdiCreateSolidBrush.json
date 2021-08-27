@@ -1,0 +1,55 @@
+{
+    "NtGdiCreateSolidBrush": {
+        "-5": {
+            "NtGdiCreateBitmap NtProtectVirtualMemory NtProtectVirtualMemory NtGdiCreateCompatibleDC NtProtectVirtualMemory": 6,
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtGdiSelectFont": 3,
+            "NtUserBeginPaint NtUserGetUpdateRect NtGdiCreateRectRgn NtUserGetUpdateRgn NtGdiCreateRectRgn": 1
+        },
+        "-4": {
+            "NtGdiCreateBitmap NtProtectVirtualMemory NtProtectVirtualMemory NtGdiCreateCompatibleDC": 6,
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3,
+            "NtUserBeginPaint NtUserGetUpdateRect NtGdiCreateRectRgn NtUserGetUpdateRgn": 1
+        },
+        "-3": {
+            "NtGdiCreateBitmap NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3,
+            "NtUserBeginPaint NtUserGetUpdateRect NtGdiCreateRectRgn": 1
+        },
+        "-2": {
+            "NtGdiCreateBitmap NtProtectVirtualMemory": 6,
+            "NtSetInformationProcess NtQueryInformationProcess": 3,
+            "NtUserBeginPaint NtUserGetUpdateRect": 1
+        },
+        "-1": {
+            "NtGdiCreateBitmap": 6,
+            "NtSetInformationProcess": 3,
+            "NtUserBeginPaint": 1
+        },
+        "1": {
+            "NtGdiCreateCompatibleDC": 6,
+            "NtGdiPolyPatBlt": 1,
+            "NtQueryInformationProcess": 3
+        },
+        "2": {
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap": 6,
+            "NtGdiPolyPatBlt NtUserEndPaint": 1,
+            "NtQueryInformationProcess NtSetInformationProcess": 3
+        },
+        "3": {
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap NtProtectVirtualMemory": 6,
+            "NtGdiPolyPatBlt NtUserEndPaint NtUserShowWindow": 1,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3
+        },
+        "4": {
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtGdiPolyPatBlt NtUserEndPaint NtUserShowWindow NtContinueEx": 1,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3
+        },
+        "5": {
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 4,
+            "NtGdiCreateCompatibleDC NtGdiSelectBitmap NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDC": 2,
+            "NtGdiPolyPatBlt NtUserEndPaint NtUserShowWindow NtContinueEx NtCallbackReturn": 1,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtGdiExtGetObjectW": 3
+        }
+    }
+}

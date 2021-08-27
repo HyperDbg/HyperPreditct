@@ -1,0 +1,34 @@
+{
+    "NtAcceptConnectPort": {
+        "-5": {
+            "NtClose NtClose NtQueryValueKey NtOpenKeyEx NtClose": 1
+        },
+        "-4": {
+            "NtClose NtClose NtQueryValueKey NtOpenKeyEx": 1
+        },
+        "-3": {
+            "NtClose NtClose NtQueryValueKey": 1
+        },
+        "-2": {
+            "NtClose NtClose": 1
+        },
+        "-1": {
+            "NtClose": 1
+        },
+        "1": {
+            "NtCreateEvent": 1
+        },
+        "2": {
+            "NtCreateEvent NtDuplicateObject": 1
+        },
+        "3": {
+            "NtCreateEvent NtDuplicateObject NtOpenThreadToken": 1
+        },
+        "4": {
+            "NtCreateEvent NtDuplicateObject NtOpenThreadToken NtReleaseWorkerFactoryWorker": 1
+        },
+        "5": {
+            "NtCreateEvent NtDuplicateObject NtOpenThreadToken NtReleaseWorkerFactoryWorker NtOpenProcessToken": 1
+        }
+    }
+}

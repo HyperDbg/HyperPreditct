@@ -1,0 +1,39 @@
+{
+    "NtUserInheritWindowMonitor": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 2
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 2
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 2
+        },
+        "-1": {
+            "NtCallbackReturn": 2
+        },
+        "1": {
+            "NtUserCreateWindowEx": 1,
+            "NtUserShowWindow": 1
+        },
+        "2": {
+            "NtUserCreateWindowEx NtUserFindExistingCursorIcon": 1,
+            "NtUserShowWindow NtContinueEx": 1
+        },
+        "3": {
+            "NtUserCreateWindowEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 1,
+            "NtUserShowWindow NtContinueEx NtCallbackReturn": 1
+        },
+        "4": {
+            "NtUserCreateWindowEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserCreateWindowEx": 1,
+            "NtUserShowWindow NtContinueEx NtCallbackReturn NtUserSetParent": 1
+        },
+        "5": {
+            "NtUserCreateWindowEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserCreateWindowEx NtContinueEx": 1,
+            "NtUserShowWindow NtContinueEx NtCallbackReturn NtUserSetParent NtContinueEx": 1
+        }
+    }
+}

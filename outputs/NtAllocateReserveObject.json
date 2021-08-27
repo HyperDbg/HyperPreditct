@@ -1,0 +1,34 @@
+{
+    "NtAllocateReserveObject": {
+        "-5": {
+            "NtUserCallHwndSafe NtProtectVirtualMemory NtProtectVirtualMemory NtUserSetTimer NtProtectVirtualMemory": 1
+        },
+        "-4": {
+            "NtUserCallHwndSafe NtProtectVirtualMemory NtProtectVirtualMemory NtUserSetTimer": 1
+        },
+        "-3": {
+            "NtUserCallHwndSafe NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "-2": {
+            "NtUserCallHwndSafe NtProtectVirtualMemory": 1
+        },
+        "-1": {
+            "NtUserCallHwndSafe": 1
+        },
+        "1": {
+            "NtProtectVirtualMemory": 1
+        },
+        "2": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "3": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "4": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        },
+        "5": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
+        }
+    }
+}

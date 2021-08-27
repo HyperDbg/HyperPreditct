@@ -1,0 +1,44 @@
+{
+    "NtConnectPort": {
+        "-5": {
+            "NtCreateSection NtOpenSection NtQuerySystemInformation NtSetInformationVirtualMemory NtApphelpCacheControl": 6,
+            "NtUserGetGUIThreadInfo NtUserGetObjectInformation NtUserGetProcessWindowStation NtSetEvent NtAllocateVirtualMemory": 6
+        },
+        "-4": {
+            "NtCreateSection NtOpenSection NtQuerySystemInformation NtSetInformationVirtualMemory": 6,
+            "NtUserGetGUIThreadInfo NtUserGetObjectInformation NtUserGetProcessWindowStation NtSetEvent": 6
+        },
+        "-3": {
+            "NtCreateSection NtOpenSection NtQuerySystemInformation": 6,
+            "NtUserGetGUIThreadInfo NtUserGetObjectInformation NtUserGetProcessWindowStation": 6
+        },
+        "-2": {
+            "NtCreateSection NtOpenSection": 6,
+            "NtUserGetGUIThreadInfo NtUserGetObjectInformation": 6
+        },
+        "-1": {
+            "NtCreateSection": 6,
+            "NtUserGetGUIThreadInfo": 6
+        },
+        "1": {
+            "NtClose": 6,
+            "NtRequestWaitReplyPort": 6
+        },
+        "2": {
+            "NtClose NtMapViewOfSection": 6,
+            "NtRequestWaitReplyPort NtRequestWaitReplyPort": 6
+        },
+        "3": {
+            "NtClose NtMapViewOfSection NtClose": 6,
+            "NtRequestWaitReplyPort NtRequestWaitReplyPort NtQueryInformationToken": 6
+        },
+        "4": {
+            "NtClose NtMapViewOfSection NtClose NtInitializeNlsFiles": 6,
+            "NtRequestWaitReplyPort NtRequestWaitReplyPort NtQueryInformationToken NtOpenKeyEx": 6
+        },
+        "5": {
+            "NtClose NtMapViewOfSection NtClose NtInitializeNlsFiles NtTraceControl": 6,
+            "NtRequestWaitReplyPort NtRequestWaitReplyPort NtQueryInformationToken NtOpenKeyEx NtQueryObject": 6
+        }
+    }
+}

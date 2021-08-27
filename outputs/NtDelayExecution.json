@@ -1,0 +1,65 @@
+{
+    "NtDelayExecution": {
+        "-5": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 12,
+            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam NtFreeVirtualMemory": 1,
+            "NtUserCallTwoParam NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtYieldExecution NtDelayExecution NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtYieldExecution NtDelayExecution NtYieldExecution NtDelayExecution NtSetInformationProcess": 1,
+            "NtYieldExecution NtDelayExecution NtYieldExecution NtDelayExecution NtYieldExecution": 29
+        },
+        "-4": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
+            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution": 12,
+            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam": 1,
+            "NtUserCallTwoParam NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory": 1,
+            "NtYieldExecution NtDelayExecution NtSetInformationProcess NtQueryInformationProcess": 1,
+            "NtYieldExecution NtDelayExecution NtYieldExecution NtDelayExecution": 30
+        },
+        "-3": {
+            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 13,
+            "NtUserCallTwoParam NtUserCallTwoParam NtFreeVirtualMemory": 1,
+            "NtYieldExecution NtDelayExecution NtSetInformationProcess": 1,
+            "NtYieldExecution NtDelayExecution NtYieldExecution": 30
+        },
+        "-2": {
+            "NtSetInformationProcess NtQueryInformationProcess": 1,
+            "NtUserCallTwoParam NtDelayExecution": 13,
+            "NtUserCallTwoParam NtUserCallTwoParam": 1,
+            "NtYieldExecution NtDelayExecution": 31
+        },
+        "-1": {
+            "NtSetInformationProcess": 1,
+            "NtUserCallTwoParam": 14,
+            "NtYieldExecution": 31
+        },
+        "1": {
+            "NtUserCallTwoParam": 14,
+            "NtYieldExecution": 32
+        },
+        "2": {
+            "NtUserCallTwoParam NtDelayExecution": 13,
+            "NtYieldExecution NtDelayExecution": 31,
+            "NtYieldExecution NtQueryInformationProcess": 1
+        },
+        "3": {
+            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 13,
+            "NtYieldExecution NtDelayExecution NtYieldExecution": 31,
+            "NtYieldExecution NtQueryInformationProcess NtSetInformationProcess": 1
+        },
+        "4": {
+            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution": 12,
+            "NtYieldExecution NtDelayExecution NtYieldExecution NtDelayExecution": 30,
+            "NtYieldExecution NtDelayExecution NtYieldExecution NtQueryInformationProcess": 1,
+            "NtYieldExecution NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1
+        },
+        "5": {
+            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 12,
+            "NtYieldExecution NtDelayExecution NtYieldExecution NtDelayExecution NtYieldExecution": 30,
+            "NtYieldExecution NtDelayExecution NtYieldExecution NtQueryInformationProcess NtSetInformationProcess": 1,
+            "NtYieldExecution NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1
+        }
+    }
+}

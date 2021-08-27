@@ -1,0 +1,36 @@
+{
+    "NtUserSetParent": {
+        "-5": {
+            "NtCallbackReturn NtContinueEx NtUserShowWindow NtCallbackReturn NtContinueEx": 1,
+            "NtCallbackReturn NtContinueEx NtUserShowWindow NtUserInheritWindowMonitor NtCallbackReturn": 1
+        },
+        "-4": {
+            "NtCallbackReturn NtContinueEx NtUserShowWindow NtCallbackReturn": 1,
+            "NtCallbackReturn NtContinueEx NtUserShowWindow NtUserInheritWindowMonitor": 1
+        },
+        "-3": {
+            "NtCallbackReturn NtContinueEx NtUserShowWindow": 2
+        },
+        "-2": {
+            "NtCallbackReturn NtContinueEx": 2
+        },
+        "-1": {
+            "NtCallbackReturn": 2
+        },
+        "1": {
+            "NtContinueEx": 2
+        },
+        "2": {
+            "NtContinueEx NtCallbackReturn": 2
+        },
+        "3": {
+            "NtContinueEx NtCallbackReturn NtContinueEx": 2
+        },
+        "4": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 2
+        },
+        "5": {
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtUserGetProp": 2
+        }
+    }
+}

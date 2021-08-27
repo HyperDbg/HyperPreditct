@@ -1,0 +1,46 @@
+{
+    "NtGdiBitBlt": {
+        "-5": {
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiCreateBitmap NtGdiExtGetObjectW NtGdiCreateCompatibleDC": 29,
+            "NtUserGetProp NtGdiDrawStream NtUserGetProp NtUserGetProp NtUserGetProp": 1
+        },
+        "-4": {
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiCreateBitmap NtGdiExtGetObjectW": 29,
+            "NtUserGetProp NtGdiDrawStream NtUserGetProp NtUserGetProp": 1
+        },
+        "-3": {
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiCreateBitmap": 29,
+            "NtUserGetProp NtGdiDrawStream NtUserGetProp": 1
+        },
+        "-2": {
+            "NtGdiSelectBitmap NtGdiSelectBitmap": 29,
+            "NtUserGetProp NtGdiDrawStream": 1
+        },
+        "-1": {
+            "NtGdiSelectBitmap": 29,
+            "NtUserGetProp": 1
+        },
+        "1": {
+            "NtGdiSelectBitmap": 30
+        },
+        "2": {
+            "NtGdiSelectBitmap NtGdiDeleteObjectApp": 1,
+            "NtGdiSelectBitmap NtGdiSelectBitmap": 29
+        },
+        "3": {
+            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 1,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp": 29
+        },
+        "4": {
+            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserReleaseDC": 1,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 23,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtProtectVirtualMemory": 6
+        },
+        "5": {
+            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserReleaseDC NtUserRedrawWindow": 1,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiExtGetObjectW": 1,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserCreateEmptyCursorObject": 22,
+            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory": 6
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "NtGdiSelectFont": {
+        "-5": {
+            "NtGdiGetTextFaceW NtGdiGetTextMetricsW NtGdiHfontCreate NtGdiDeleteObjectApp NtGdiGetDeviceCaps": 3,
+            "NtGdiGetTextFaceW NtGdiGetTextMetricsW NtGdiHfontCreate NtGdiEnumFonts NtAllocateVirtualMemory": 3
+        },
+        "-4": {
+            "NtGdiGetTextFaceW NtGdiGetTextMetricsW NtGdiHfontCreate NtGdiDeleteObjectApp": 3,
+            "NtGdiGetTextFaceW NtGdiGetTextMetricsW NtGdiHfontCreate NtGdiEnumFonts": 3
+        },
+        "-3": {
+            "NtGdiGetTextFaceW NtGdiGetTextMetricsW NtGdiHfontCreate": 6
+        },
+        "-2": {
+            "NtGdiGetTextFaceW NtGdiGetTextMetricsW": 6
+        },
+        "-1": {
+            "NtGdiGetTextFaceW": 6
+        },
+        "1": {
+            "NtProtectVirtualMemory": 3,
+            "NtQueryInformationProcess": 3
+        },
+        "2": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 3,
+            "NtQueryInformationProcess NtSetInformationProcess": 3
+        },
+        "3": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetDeviceCaps": 3,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3
+        },
+        "4": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetDeviceCaps NtGdiDeleteObjectApp": 3,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3
+        },
+        "5": {
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetDeviceCaps NtGdiDeleteObjectApp NtGdiHfontCreate": 3,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtGdiCreateSolidBrush": 3
+        }
+    }
+}

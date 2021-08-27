@@ -1,0 +1,34 @@
+{
+    "NtSetInformationObject": {
+        "-5": {
+            "NtQueryObject NtCreateFile NtAllocateVirtualMemory NtMapViewOfSection NtCreateSection": 1
+        },
+        "-4": {
+            "NtQueryObject NtCreateFile NtAllocateVirtualMemory NtMapViewOfSection": 1
+        },
+        "-3": {
+            "NtQueryObject NtCreateFile NtAllocateVirtualMemory": 1
+        },
+        "-2": {
+            "NtQueryObject NtCreateFile": 1
+        },
+        "-1": {
+            "NtQueryObject": 1
+        },
+        "1": {
+            "NtQueryVolumeInformationFile": 1
+        },
+        "2": {
+            "NtQueryVolumeInformationFile NtQueryInformationFile": 1
+        },
+        "3": {
+            "NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile": 1
+        },
+        "4": {
+            "NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile NtSetInformationFile": 1
+        },
+        "5": {
+            "NtQueryVolumeInformationFile NtQueryInformationFile NtQueryVolumeInformationFile NtSetInformationFile NtQueryInformationFile": 1
+        }
+    }
+}

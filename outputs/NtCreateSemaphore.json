@@ -1,0 +1,127 @@
+{
+    "NtCreateSemaphore": {
+        "-5": {
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore": 6,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory": 2,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory NtApphelpCacheControl": 2,
+            "NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 2,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtQuerySecurityObject": 4,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl NtTraceControl NtTraceControl": 1,
+            "NtQueryObject NtOpenSemaphore NtQueryObject NtWaitForSingleObject NtCreateMutant": 7,
+            "NtQueryObject NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExtGetObjectW NtSetInformationProcess": 5,
+            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtQuerySecurityObject NtQuerySecurityObject": 4,
+            "NtSetInformationVirtualMemory NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 1
+        },
+        "-4": {
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore": 8,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory": 2,
+            "NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory NtApphelpCacheControl": 2,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 4,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl NtTraceControl": 1,
+            "NtQueryObject NtOpenSemaphore NtQueryObject NtWaitForSingleObject": 7,
+            "NtQueryObject NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExtGetObjectW": 5,
+            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtQuerySecurityObject": 4,
+            "NtSetInformationVirtualMemory NtTraceControl NtTraceControl NtTraceControl": 1
+        },
+        "-3": {
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore": 10,
+            "NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory": 2,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtApphelpCacheControl": 4,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl": 1,
+            "NtQueryObject NtOpenSemaphore NtQueryObject": 7,
+            "NtQueryObject NtProtectVirtualMemory NtProtectVirtualMemory": 5,
+            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 4,
+            "NtSetInformationVirtualMemory NtTraceControl NtTraceControl": 1
+        },
+        "-2": {
+            "NtCreateSemaphore NtCreateSemaphore": 12,
+            "NtCreateSemaphore NtSetInformationVirtualMemory": 5,
+            "NtQueryObject NtOpenSemaphore": 7,
+            "NtQueryObject NtProtectVirtualMemory": 5,
+            "NtSetInformationVirtualMemory NtApphelpCacheControl": 4,
+            "NtSetInformationVirtualMemory NtTraceControl": 1
+        },
+        "-1": {
+            "NtCreateSemaphore": 17,
+            "NtQueryObject": 12,
+            "NtSetInformationVirtualMemory": 5
+        },
+        "1": {
+            "NtCreateSemaphore": 17,
+            "NtQueryLicenseValue": 5,
+            "NtReleaseMutant": 7,
+            "NtSetEvent": 1,
+            "NtSetInformationVirtualMemory": 1,
+            "NtTraceControl": 3
+        },
+        "2": {
+            "NtCreateSemaphore NtCreateSemaphore": 12,
+            "NtCreateSemaphore NtSetEvent": 1,
+            "NtCreateSemaphore NtSetInformationVirtualMemory": 1,
+            "NtCreateSemaphore NtTraceControl": 3,
+            "NtQueryLicenseValue NtQueryAttributesFile": 5,
+            "NtReleaseMutant NtQueryObject": 1,
+            "NtReleaseMutant NtTraceControl": 6,
+            "NtSetEvent NtProtectVirtualMemory": 1,
+            "NtSetInformationVirtualMemory NtTraceControl": 1,
+            "NtTraceControl NtAllocateVirtualMemory": 1,
+            "NtTraceControl NtTraceControl": 2
+        },
+        "3": {
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore": 10,
+            "NtCreateSemaphore NtCreateSemaphore NtSetEvent": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory": 1,
+            "NtCreateSemaphore NtSetEvent NtProtectVirtualMemory": 1,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl": 1,
+            "NtCreateSemaphore NtTraceControl NtAllocateVirtualMemory": 1,
+            "NtCreateSemaphore NtTraceControl NtTraceControl": 2,
+            "NtQueryLicenseValue NtQueryAttributesFile NtQuerySecurityAttributesToken": 5,
+            "NtReleaseMutant NtQueryObject NtOpenSection": 1,
+            "NtReleaseMutant NtTraceControl NtTraceControl": 6,
+            "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtSetInformationVirtualMemory NtTraceControl NtTraceControl": 1,
+            "NtTraceControl NtAllocateVirtualMemory NtTraceControl": 1,
+            "NtTraceControl NtTraceControl NtTraceControl": 2
+        },
+        "4": {
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore": 8,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetEvent": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtSetEvent NtProtectVirtualMemory": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl": 1,
+            "NtCreateSemaphore NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl NtTraceControl": 1,
+            "NtCreateSemaphore NtTraceControl NtAllocateVirtualMemory NtTraceControl": 1,
+            "NtCreateSemaphore NtTraceControl NtTraceControl NtTraceControl": 2,
+            "NtQueryLicenseValue NtQueryAttributesFile NtQuerySecurityAttributesToken NtCreateEvent": 5,
+            "NtReleaseMutant NtQueryObject NtOpenSection NtMapViewOfSection": 1,
+            "NtReleaseMutant NtTraceControl NtTraceControl NtAllocateVirtualMemory": 1,
+            "NtReleaseMutant NtTraceControl NtTraceControl NtUserGetProp": 5,
+            "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile": 1,
+            "NtSetInformationVirtualMemory NtTraceControl NtTraceControl NtTraceControl": 1,
+            "NtTraceControl NtAllocateVirtualMemory NtTraceControl NtTraceControl": 1,
+            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 2
+        },
+        "5": {
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore": 6,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetEvent": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetEvent NtProtectVirtualMemory": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory": 1,
+            "NtCreateSemaphore NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl NtTraceControl": 1,
+            "NtCreateSemaphore NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile": 1,
+            "NtCreateSemaphore NtSetInformationVirtualMemory NtTraceControl NtTraceControl NtTraceControl": 1,
+            "NtCreateSemaphore NtTraceControl NtAllocateVirtualMemory NtTraceControl NtTraceControl": 1,
+            "NtCreateSemaphore NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 2,
+            "NtQueryLicenseValue NtQueryAttributesFile NtQuerySecurityAttributesToken NtCreateEvent NtCreateEvent": 5,
+            "NtReleaseMutant NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject": 1,
+            "NtReleaseMutant NtTraceControl NtTraceControl NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtReleaseMutant NtTraceControl NtTraceControl NtUserGetProp NtUserGetProp": 5,
+            "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile NtQueryInformationFile": 1,
+            "NtSetInformationVirtualMemory NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 1,
+            "NtTraceControl NtAllocateVirtualMemory NtTraceControl NtTraceControl NtTraceControl": 1,
+            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 2
+        }
+    }
+}
