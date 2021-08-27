@@ -59,7 +59,6 @@ def convertSyscallNumberToFunctionName(SyscallNum):
     
     global listOfSyscalls
     
-    
     # read the data
     readDataFromFile()
 

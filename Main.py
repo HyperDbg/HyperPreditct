@@ -1,5 +1,6 @@
 from Scanner import *
 from SyscallAnalyzer import *
+from SyscallNameConversion import *
 import json 
 
 def printPatternDict(patternRate):
@@ -15,11 +16,11 @@ def printAllPatternDict(allPattternRates):
 def jsonize(allPattternRatesDict, fileName):
     newDict = dict()
     for targetSyscall in allPattternRatesDict.keys():
-        newDict[("%0.4X" % targetSyscall)] = dict()
+        newDict[convertSyscallNumberToFunctionName(targetSyscall)] = dict()
         for patternRange in allPattternRatesDict[targetSyscall].keys():
-            newDict[("%0.4X" % targetSyscall)][patternRange] = dict()
+            newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange] = dict()
             for pattern in  allPattternRatesDict[targetSyscall][patternRange].keys():
-                newDict[("%0.4X" % targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
+                newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
 
     
     # print(newDict)
@@ -41,9 +42,6 @@ def main():
     # print(allPattternRates)
     # json_object = json.dumps(allPattternRates, indent = 4) 
     # printAllPatternDict(allPattternRates)
-
-
-
 
 if __name__ == "__main__":
     main()
