@@ -1,15 +1,10 @@
 {
     "NtGdiSaveDC": {
         "-5": {
-            "NtGdiGetDCforBitmap NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtProtectVirtualMemory NtProtectVirtualMemory": 3,
-            "NtGdiGetDCforBitmap NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtUserSetCursorIconData NtUserCreateEmptyCursorObject": 4,
             "NtGdiGetDCforBitmap NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap NtUserGetDC": 10,
-            "NtGdiGetDCforBitmap NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal NtProtectVirtualMemory": 2,
             "NtGdiGetDCforBitmap NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal NtUserGetDC": 22
         },
         "-4": {
-            "NtGdiGetDCforBitmap NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtProtectVirtualMemory": 3,
-            "NtGdiGetDCforBitmap NtGdiSelectBitmap NtGdiCreateDIBitmapInternal NtUserSetCursorIconData": 4,
             "NtGdiGetDCforBitmap NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateCompatibleBitmap": 10,
             "NtGdiGetDCforBitmap NtGdiSelectBitmap NtUserReleaseDC NtGdiCreateDIBitmapInternal": 24
         },

@@ -1,74 +1,44 @@
 {
     "NtUserRemoveProp": {
         "-5": {
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp NtUserRemoveProp": 1,
-            "NtUserRemoveProp NtUserRemoveProp NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx": 1,
-            "NtUserRemoveProp NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtUserSystemParametersInfo NtProtectVirtualMemory NtProtectVirtualMemory NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 1
+            "NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow": 14,
+            "NtUserSystemParametersInfo NtUserIsTopLevelWindow NtUserSetProp NtUserGetProp NtUserGetProp": 16
         },
         "-4": {
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserRemoveProp NtUserRemoveProp NtUserSetWindowLongPtr NtCallbackReturn": 1,
-            "NtUserRemoveProp NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx": 1,
-            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserSystemParametersInfo NtProtectVirtualMemory NtProtectVirtualMemory NtUserIsNonClientDpiScalingEnabled": 1
+            "NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 14,
+            "NtUserSystemParametersInfo NtUserIsTopLevelWindow NtUserSetProp NtUserGetProp": 16
         },
         "-3": {
-            "NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserRemoveProp NtUserRemoveProp NtUserSetWindowLongPtr": 1,
-            "NtUserRemoveProp NtUserSetWindowLongPtr NtCallbackReturn": 1,
-            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx": 1,
-            "NtUserSystemParametersInfo NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtUserGetProp NtCallbackReturn NtContinueEx": 20,
+            "NtUserSystemParametersInfo NtUserIsTopLevelWindow NtUserSetProp": 16
         },
         "-2": {
-            "NtUserGetProp NtUserGetProp": 1,
-            "NtUserRemoveProp NtUserRemoveProp": 1,
-            "NtUserRemoveProp NtUserSetWindowLongPtr": 1,
-            "NtUserSetWindowLongPtr NtCallbackReturn": 1,
-            "NtUserSystemParametersInfo NtProtectVirtualMemory": 1
+            "NtUserGetProp NtCallbackReturn": 20,
+            "NtUserSystemParametersInfo NtUserIsTopLevelWindow": 16
         },
         "-1": {
-            "NtUserGetClassName": 12,
             "NtUserGetProp": 21,
-            "NtUserRemoveProp": 2,
-            "NtUserSetWindowLongPtr": 1,
             "NtUserSystemParametersInfo": 21
         },
         "1": {
-            "NtContinueEx": 1,
-            "NtQueryInformationProcess": 1,
-            "NtUserNotifyWinEvent": 1,
-            "NtUserRedrawWindow": 1,
-            "NtUserSetWindowPos": 1
+            "NtUserGetProp": 9,
+            "NtUserGetThreadDesktop": 33
         },
         "2": {
-            "NtQueryInformationProcess NtOpenFile": 1,
-            "NtUserNotifyWinEvent NtContinueEx": 1,
-            "NtUserRedrawWindow NtUserShowWindow": 1,
-            "NtUserRemoveProp NtUserRemoveProp": 1,
-            "NtUserSetWindowPos NtUserMessageCall": 1
+            "NtUserGetProp NtUserIsTopLevelWindow": 8,
+            "NtUserGetThreadDesktop NtUserGetObjectInformation": 33
         },
         "3": {
-            "NtQueryInformationProcess NtOpenFile NtQueryInformationFile": 1,
-            "NtUserNotifyWinEvent NtContinueEx NtCallbackReturn": 1,
-            "NtUserRedrawWindow NtUserShowWindow NtContinueEx": 1,
-            "NtUserRemoveProp NtUserRemoveProp NtUserGetProp": 1,
-            "NtUserSetWindowPos NtUserMessageCall NtContinueEx": 1
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtUserGetProp": 28,
+            "NtUserGetWindowDC NtUserGetProp NtUserGetProp": 6
         },
         "4": {
-            "NtQueryInformationProcess NtOpenFile NtQueryInformationFile NtQueryVolumeInformationFile": 1,
-            "NtUserNotifyWinEvent NtContinueEx NtCallbackReturn NtOpenFile": 1,
-            "NtUserRedrawWindow NtUserShowWindow NtContinueEx NtCallbackReturn": 1,
-            "NtUserRemoveProp NtUserRemoveProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserSetWindowPos NtUserMessageCall NtContinueEx NtCallbackReturn": 1
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtUserGetProp NtUserGetProp": 28,
+            "NtUserGetWindowDC NtUserGetProp NtUserGetProp NtUserSetProp": 6
         },
         "5": {
-            "NtQueryInformationProcess NtOpenFile NtQueryInformationFile NtQueryVolumeInformationFile NtQueryVolumeInformationFile": 1,
-            "NtUserNotifyWinEvent NtContinueEx NtCallbackReturn NtOpenFile NtQueryVolumeInformationFile": 1,
-            "NtUserRedrawWindow NtUserShowWindow NtContinueEx NtCallbackReturn NtUserGetAtomName": 1,
-            "NtUserRemoveProp NtUserRemoveProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserSetWindowPos NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetProp": 1
+            "NtUserGetThreadDesktop NtUserGetObjectInformation NtUserGetProp NtUserGetProp NtUserGetProp": 28,
+            "NtUserGetWindowDC NtUserGetProp NtUserGetProp NtUserSetProp NtUserIsTopLevelWindow": 6
         }
     }
 }

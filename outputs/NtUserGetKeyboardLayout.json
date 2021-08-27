@@ -1,74 +1,44 @@
 {
     "NtUserGetKeyboardLayout": {
         "-5": {
-            "NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject NtClose": 1,
-            "NtUserGetInputLocaleInfo NtUserSetTimer NtOpenEvent NtQueryObject NtUserGetGUIThreadInfo": 1,
-            "NtUserGetKeyboardLayout NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject": 1,
-            "NtUserQueryInputContext NtUserQueryInputContext NtAlpcSendWaitReceivePort NtUserNotifyWinEvent NtOpenEvent": 1,
+            "NtQueryLicenseValue NtCreateEvent NtQueryVirtualMemory NtOpenKeyEx NtQueryKey": 5,
             "NtUserQueryInputContext NtUserSetFocus NtUserGetThreadState NtUserGetThreadState NtCallbackReturn": 1
         },
         "-4": {
-            "NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject": 1,
-            "NtUserGetInputLocaleInfo NtUserSetTimer NtOpenEvent NtQueryObject": 1,
-            "NtUserGetKeyboardLayout NtOpenKeyEx NtQueryKey NtQueryKey": 1,
-            "NtUserQueryInputContext NtUserQueryInputContext NtAlpcSendWaitReceivePort NtUserNotifyWinEvent": 1,
+            "NtQueryLicenseValue NtCreateEvent NtQueryVirtualMemory NtOpenKeyEx": 5,
             "NtUserQueryInputContext NtUserSetFocus NtUserGetThreadState NtUserGetThreadState": 1
         },
         "-3": {
-            "NtOpenKeyEx NtQueryKey NtQueryKey": 1,
-            "NtUserGetInputLocaleInfo NtUserSetTimer NtOpenEvent": 1,
-            "NtUserGetKeyboardLayout NtOpenKeyEx NtQueryKey": 1,
-            "NtUserQueryInputContext NtUserQueryInputContext NtAlpcSendWaitReceivePort": 1,
+            "NtQueryLicenseValue NtCreateEvent NtQueryVirtualMemory": 5,
             "NtUserQueryInputContext NtUserSetFocus NtUserGetThreadState": 1
         },
         "-2": {
-            "NtOpenKeyEx NtQueryKey": 1,
-            "NtUserGetInputLocaleInfo NtUserSetTimer": 1,
-            "NtUserGetKeyboardLayout NtOpenKeyEx": 1,
-            "NtUserQueryInputContext NtUserQueryInputContext": 1,
+            "NtQueryLicenseValue NtCreateEvent": 5,
             "NtUserQueryInputContext NtUserSetFocus": 1
         },
         "-1": {
-            "NtOpenKeyEx": 1,
-            "NtUserFindExistingCursorIcon": 1,
-            "NtUserGetInputLocaleInfo": 1,
-            "NtUserGetThreadState": 1,
+            "NtQueryLicenseValue": 5,
             "NtUserQueryInputContext": 2
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtOpenThreadTokenEx": 1,
-            "NtUserGetProcessWindowStation": 1,
-            "NtUserNotifyIMEStatus": 1,
-            "NtUserQueryInputContext": 1
+            "NtGdiHfontCreate": 4,
+            "NtUserGetKeyboardLayout": 2
         },
         "2": {
             "NtAllocateVirtualMemory NtGdiHfontCreate": 1,
-            "NtOpenThreadTokenEx NtOpenProcessTokenEx": 1,
-            "NtUserGetKeyboardLayout NtUserGetProcessWindowStation": 1,
-            "NtUserGetProcessWindowStation NtUserGetObjectInformation": 1,
-            "NtUserQueryInputContext NtProtectVirtualMemory": 1
+            "NtGdiHfontCreate NtGdiCreateCompatibleDC": 4
         },
         "3": {
             "NtAllocateVirtualMemory NtGdiHfontCreate NtGdiCreateCompatibleDC": 1,
-            "NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken": 1,
-            "NtUserGetKeyboardLayout NtUserGetProcessWindowStation NtUserGetObjectInformation": 1,
-            "NtUserGetProcessWindowStation NtUserGetObjectInformation NtQueryObject": 1,
-            "NtUserQueryInputContext NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtGdiHfontCreate NtGdiCreateCompatibleDC NtUserGetDC": 4
         },
         "4": {
             "NtAllocateVirtualMemory NtGdiHfontCreate NtGdiCreateCompatibleDC NtUserGetDC": 1,
-            "NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken NtClose": 1,
-            "NtUserGetKeyboardLayout NtUserGetProcessWindowStation NtUserGetObjectInformation NtQueryObject": 1,
-            "NtUserGetProcessWindowStation NtUserGetObjectInformation NtQueryObject NtOpenMutant": 1,
-            "NtUserQueryInputContext NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject": 1
+            "NtGdiHfontCreate NtGdiCreateCompatibleDC NtUserGetDC NtGdiCreateCompatibleBitmap": 4
         },
         "5": {
             "NtAllocateVirtualMemory NtGdiHfontCreate NtGdiCreateCompatibleDC NtUserGetDC NtGdiCreateCompatibleBitmap": 1,
-            "NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken NtClose NtAccessCheck": 1,
-            "NtUserGetKeyboardLayout NtUserGetProcessWindowStation NtUserGetObjectInformation NtQueryObject NtOpenMutant": 1,
-            "NtUserGetProcessWindowStation NtUserGetObjectInformation NtQueryObject NtOpenMutant NtClose": 1,
-            "NtUserQueryInputContext NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject NtQueryKey": 1
+            "NtGdiHfontCreate NtGdiCreateCompatibleDC NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC": 4
         }
     }
 }

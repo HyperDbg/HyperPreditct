@@ -2,49 +2,40 @@
     "NtUserGetQueueStatus": {
         "-5": {
             "NtAlpcSendWaitReceivePort NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx NtSetTimer2": 1,
-            "NtCallbackReturn NtContinueEx NtUserRemoveProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserPeekMessage NtUserGetQueueStatus NtCallbackReturn NtContinueEx NtUserRemoveProp": 1
+            "NtCallbackReturn NtContinueEx NtUserRemoveProp NtUserGetProp NtUserGetProp": 1
         },
         "-4": {
             "NtAlpcSendWaitReceivePort NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx": 1,
-            "NtCallbackReturn NtContinueEx NtUserRemoveProp NtUserGetProp": 1,
-            "NtUserPeekMessage NtUserGetQueueStatus NtCallbackReturn NtContinueEx": 1
+            "NtCallbackReturn NtContinueEx NtUserRemoveProp NtUserGetProp": 1
         },
         "-3": {
             "NtAlpcSendWaitReceivePort NtQueryInformationProcess NtAlpcQueryInformation": 1,
-            "NtCallbackReturn NtContinueEx NtUserRemoveProp": 1,
-            "NtUserPeekMessage NtUserGetQueueStatus NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx NtUserRemoveProp": 1
         },
         "-2": {
             "NtAlpcSendWaitReceivePort NtQueryInformationProcess": 1,
-            "NtCallbackReturn NtContinueEx": 1,
-            "NtUserPeekMessage NtUserGetQueueStatus": 1
+            "NtCallbackReturn NtContinueEx": 1
         },
         "-1": {
             "NtAlpcSendWaitReceivePort": 1,
-            "NtCallbackReturn": 1,
-            "NtUserPeekMessage": 1
+            "NtCallbackReturn": 1
         },
         "1": {
             "NtUserPeekMessage": 3
         },
         "2": {
-            "NtUserPeekMessage NtClose": 1,
             "NtUserPeekMessage NtUserDestroyWindow": 1,
             "NtUserPeekMessage NtUserGetQueueStatus": 1
         },
         "3": {
-            "NtUserPeekMessage NtClose NtUserRegisterClassExWOW": 1,
             "NtUserPeekMessage NtUserDestroyWindow NtContinueEx": 1,
             "NtUserPeekMessage NtUserGetQueueStatus NtUserPeekMessage": 1
         },
         "4": {
-            "NtUserPeekMessage NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx": 1,
             "NtUserPeekMessage NtUserDestroyWindow NtContinueEx NtCallbackReturn": 1,
             "NtUserPeekMessage NtUserGetQueueStatus NtUserPeekMessage NtClose": 1
         },
         "5": {
-            "NtUserPeekMessage NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx NtUserMessageCall": 1,
             "NtUserPeekMessage NtUserDestroyWindow NtContinueEx NtCallbackReturn NtContinueEx": 1,
             "NtUserPeekMessage NtUserGetQueueStatus NtUserPeekMessage NtClose NtUserRegisterClassExWOW": 1
         }

@@ -1,74 +1,44 @@
 {
     "NtQueryAttributesFile": {
         "-5": {
-            "NtOpenSection NtQueryObject NtQueryInformationThread NtUserMessageCall NtGdiPolyPatBlt": 1,
-            "NtQueryAttributesFile NtOpenSection NtQueryObject NtQueryInformationThread NtUserMessageCall": 1,
-            "NtQueryAttributesFile NtQueryValueKey NtSetInformationKey NtWaitForWorkViaWorkerFactory NtOpenKeyEx": 1,
-            "NtQueryValueKey NtSetInformationKey NtWaitForWorkViaWorkerFactory NtOpenKeyEx NtWaitForWorkViaWorkerFactory": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent NtSetInformationVirtualMemory NtApphelpCacheControl": 1
+            "NtOpenSection NtQueryObject NtQueryInformationThread NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 12,
+            "NtSetInformationProcess NtQueryInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess": 327
         },
         "-4": {
-            "NtClose NtAllocateVirtualMemory NtReleaseWorkerFactoryWorker NtOpenSection": 1,
-            "NtClose NtOpenSection NtQueryObject NtQueryInformationThread": 1,
-            "NtOpenSection NtQueryObject NtQueryInformationThread NtUserMessageCall": 1,
-            "NtQueryAttributesFile NtQueryValueKey NtSetInformationKey NtWaitForWorkViaWorkerFactory": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent NtSetInformationVirtualMemory": 1
+            "NtOpenSection NtQueryObject NtQueryInformationThread NtQuerySecurityAttributesToken": 12,
+            "NtSetInformationProcess NtQueryInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale": 327
         },
         "-3": {
-            "NtClose NtAllocateVirtualMemory NtReleaseWorkerFactoryWorker": 1,
-            "NtClose NtOpenSection NtQueryObject": 1,
-            "NtClose NtQueryValueKey NtClose": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent": 1,
-            "NtWaitForWorkViaWorkerFactory NtQueryValueKey NtWaitForWorkViaWorkerFactory": 1
+            "NtOpenSection NtQueryObject NtQueryInformationThread": 36,
+            "NtSetInformationProcess NtQueryInformationProcess NtQueryDefaultLocale": 327
         },
         "-2": {
-            "NtClose NtAllocateVirtualMemory": 1,
-            "NtClose NtOpenSection": 1,
-            "NtClose NtQueryValueKey": 1,
-            "NtQueryAttributesFile NtWaitForWorkViaWorkerFactory": 1,
-            "NtWaitForWorkViaWorkerFactory NtQueryValueKey": 1
+            "NtOpenSection NtQueryObject": 38,
+            "NtSetInformationProcess NtQueryInformationProcess": 331
         },
         "-1": {
-            "NtOpenKeyEx": 1,
-            "NtQueryInformationThread": 1,
-            "NtReleaseWorkerFactoryWorker": 1,
-            "NtWaitForSingleObject": 1,
-            "NtWaitForWorkViaWorkerFactory": 1
+            "NtOpenSection": 44,
+            "NtSetInformationProcess": 331
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtCreateFile": 1,
-            "NtCreateSection": 1,
-            "NtReleaseWorkerFactoryWorker": 1,
-            "NtWaitForWorkViaWorkerFactory": 1
+            "NtOpenFile": 51,
+            "NtQueryInformationProcess": 332
         },
         "2": {
-            "NtClose NtClose": 1,
-            "NtCreateFile NtDeviceIoControlFile": 1,
-            "NtCreateSection NtMapViewOfSection": 1,
-            "NtOpenFile NtQueryInformationThread": 1,
-            "NtReleaseWorkerFactoryWorker NtClose": 1
+            "NtOpenFile NtCreateSection": 46,
+            "NtQueryInformationProcess NtSetInformationProcess": 332
         },
         "3": {
-            "NtCreateFile NtDeviceIoControlFile NtClose": 1,
-            "NtOpenFile NtQueryDirectoryFileEx NtAllocateVirtualMemory": 1,
-            "NtOpenFile NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1,
-            "NtOpenFile NtQueryInformationThread NtQueryAttributesFile": 1,
-            "NtReleaseWorkerFactoryWorker NtClose NtQueryAttributesFile": 1
+            "NtOpenFile NtCreateSection NtMapViewOfSection": 46,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryDefaultLocale": 328
         },
         "4": {
-            "NtCreateFile NtDeviceIoControlFile NtClose NtCreateFile": 1,
-            "NtOpenFile NtQueryDirectoryFileEx NtAllocateVirtualMemory NtQueryDirectoryFileEx": 1,
-            "NtOpenFile NtQueryDirectoryFileEx NtQueryDirectoryFileEx NtUserNotifyWinEvent": 1,
-            "NtOpenFile NtQueryInformationThread NtQueryAttributesFile NtOpenFile": 1,
-            "NtReleaseWorkerFactoryWorker NtClose NtQueryAttributesFile NtClose": 1
+            "NtOpenFile NtCreateSection NtMapViewOfSection NtQuerySection": 38,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale": 328
         },
         "5": {
-            "NtClose NtWaitForSingleObject NtOpenFile NtCreateSection NtMapViewOfSection": 1,
-            "NtCreateFile NtDeviceIoControlFile NtClose NtCreateFile NtDeviceIoControlFile": 1,
-            "NtOpenFile NtQueryInformationThread NtQueryAttributesFile NtOpenFile NtCreateSection": 1,
-            "NtQueryInformationProcess NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtAllocateVirtualMemory": 1,
-            "NtQueryInformationThread NtQueryObject NtOpenSection NtQueryAttributesFile NtOpenFile": 1
+            "NtOpenFile NtCreateSection NtMapViewOfSection NtQuerySection NtQueryVirtualMemory": 38,
+            "NtQueryInformationProcess NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtQueryInformationProcess": 327
         }
     }
 }

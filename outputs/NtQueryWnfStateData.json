@@ -1,74 +1,44 @@
 {
     "NtQueryWnfStateData": {
         "-5": {
-            "NtClose NtQueryInformationThread NtClose NtMapViewOfSection NtMapViewOfSection": 1,
-            "NtClose NtSetInformationKey NtOpenKeyEx NtQueryInformationToken NtQueryInformationToken": 1,
-            "NtQueryWnfStateData NtWorkerFactoryWorkerReady NtClose NtTestAlert NtClose": 1,
-            "NtSetInformationThread NtQueryWnfStateData NtClose NtQueryInformationThread NtClose": 1,
-            "NtWorkerFactoryWorkerReady NtClose NtTestAlert NtClose NtMapViewOfSection": 1
+            "NtClose NtClose NtMapViewOfSection NtMapViewOfSection NtQuerySystemInformationEx": 6,
+            "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx NtQueryKey": 6
         },
         "-4": {
-            "NtClose NtQueryInformationThread NtClose NtMapViewOfSection": 1,
-            "NtClose NtSetInformationKey NtOpenKeyEx NtQueryInformationToken": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtTraceControl": 1,
-            "NtQueryWnfStateData NtWorkerFactoryWorkerReady NtClose NtTestAlert": 1,
-            "NtSetInformationThread NtQueryWnfStateData NtClose NtQueryInformationThread": 1
+            "NtClose NtClose NtMapViewOfSection NtMapViewOfSection": 6,
+            "NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 16
         },
         "-3": {
-            "NtClose NtQueryInformationThread NtClose": 1,
-            "NtClose NtSetInformationKey NtOpenKeyEx": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 1,
-            "NtQueryWnfStateData NtWorkerFactoryWorkerReady NtClose": 1,
-            "NtSetInformationThread NtQueryWnfStateData NtClose": 1
+            "NtClose NtClose NtMapViewOfSection": 6,
+            "NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 22
         },
         "-2": {
-            "NtClose NtQueryInformationThread": 1,
-            "NtClose NtSetInformationKey": 1,
-            "NtQueryWnfStateData NtWorkerFactoryWorkerReady": 1,
-            "NtSetInformationThread NtQueryWnfStateData": 1,
-            "NtUserGetGUIThreadInfo NtUserSetWinEventHook": 1
+            "NtClose NtClose": 6,
+            "NtSubscribeWnfStateChange NtQueryWnfStateData": 32
         },
         "-1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtOpenKeyEx": 1,
-            "NtSetInformationThread": 1,
-            "NtUserGetGUIThreadInfo": 1,
-            "NtUserReleaseDC": 1
+            "NtClose": 14,
+            "NtSubscribeWnfStateChange": 38
         },
         "1": {
-            "NtProtectVirtualMemory": 1,
-            "NtQueryWnfStateData": 2,
-            "NtSetInformationProcess": 1,
-            "NtSetInformationThread": 1,
-            "NtTestAlert": 1
+            "NtSubscribeWnfStateChange": 32,
+            "NtWaitForWorkViaWorkerFactory": 7
         },
         "2": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryObject NtOpenEvent": 1,
-            "NtQueryWnfStateData NtWaitForWorkViaWorkerFactory": 1,
-            "NtSetInformationThread NtQueryWnfStateData": 1,
-            "NtTestAlert NtOpenKeyEx": 1
+            "NtQueryInformationProcess NtProtectVirtualMemory": 6,
+            "NtSubscribeWnfStateChange NtQueryWnfStateData": 32
         },
         "3": {
-            "NtQueryObject NtOpenEvent NtUserNotifyWinEvent": 1,
-            "NtQueryWnfStateData NtWaitForWorkViaWorkerFactory NtOpenKeyEx": 1,
-            "NtSetInformationThread NtQueryWnfStateData NtTestAlert": 1,
-            "NtTestAlert NtOpenKeyEx NtWorkerFactoryWorkerReady": 1,
-            "NtWaitForWorkViaWorkerFactory NtOpenKeyEx NtWaitForWorkViaWorkerFactory": 1
+            "NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 16
         },
         "4": {
-            "NtQueryObject NtOpenEvent NtUserNotifyWinEvent NtAlpcSendWaitReceivePort": 1,
-            "NtQueryWnfStateData NtWaitForWorkViaWorkerFactory NtOpenKeyEx NtWaitForWorkViaWorkerFactory": 1,
-            "NtSetInformationThread NtQueryWnfStateData NtTestAlert NtOpenKeyEx": 1,
-            "NtTestAlert NtOpenKeyEx NtWorkerFactoryWorkerReady NtSetInformationKey": 1,
-            "NtWaitForWorkViaWorkerFactory NtOpenKeyEx NtWaitForWorkViaWorkerFactory NtSetInformationKey": 1
+            "NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 6,
+            "NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 16
         },
         "5": {
-            "NtQueryObject NtOpenEvent NtUserNotifyWinEvent NtAlpcSendWaitReceivePort NtUserQueryInputContext": 1,
-            "NtQueryWnfStateData NtWaitForWorkViaWorkerFactory NtOpenKeyEx NtWaitForWorkViaWorkerFactory NtSetInformationKey": 1,
-            "NtSetInformationThread NtQueryWnfStateData NtTestAlert NtOpenKeyEx NtWorkerFactoryWorkerReady": 1,
-            "NtTestAlert NtOpenKeyEx NtWorkerFactoryWorkerReady NtSetInformationKey NtWaitForWorkViaWorkerFactory": 1,
-            "NtWaitForWorkViaWorkerFactory NtOpenKeyEx NtWaitForWorkViaWorkerFactory NtSetInformationKey NtQueryValueKey": 1
+            "NtCreateEvent NtCreateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtAssociateWaitCompletionPacket NtSubscribeWnfStateChange": 6,
+            "NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtQueryVirtualMemory": 6
         }
     }
 }

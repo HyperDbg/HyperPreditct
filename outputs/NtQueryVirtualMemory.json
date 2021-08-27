@@ -1,74 +1,44 @@
 {
     "NtQueryVirtualMemory": {
         "-5": {
-            "NtProtectVirtualMemory NtQuerySection NtProtectVirtualMemory NtClose NtQueryInformationToken": 1,
-            "NtQuerySection NtMapViewOfSection NtCreateSection NtOpenFile NtWaitForSingleObject": 1,
-            "NtQuerySection NtMapViewOfSection NtWaitForWorkViaWorkerFactory NtOpenSection NtProtectVirtualMemory": 1,
-            "NtQuerySection NtWaitForWorkViaWorkerFactory NtWaitForWorkViaWorkerFactory NtWaitForWorkViaWorkerFactory NtMapViewOfSection": 1,
-            "NtQuerySection NtWaitForWorkViaWorkerFactory NtWaitForWorkViaWorkerFactory NtWaitForWorkViaWorkerFactory NtWorkerFactoryWorkerReady": 1
+            "NtQuerySection NtMapViewOfSection NtCreateSection NtOpenFile NtQueryAttributesFile": 38,
+            "NtQuerySection NtMapViewOfSection NtOpenSection NtQueryObject NtProtectVirtualMemory": 41
         },
         "-4": {
-            "NtProtectVirtualMemory NtQuerySection NtProtectVirtualMemory NtClose": 1,
-            "NtQuerySection NtMapViewOfSection NtWaitForWorkViaWorkerFactory NtQueryInformationProcess": 1,
-            "NtReadVirtualMemory NtQueryInformationThread NtClose NtQueryInformationFile": 1,
-            "NtReadVirtualMemory NtQueryInformationThread NtUnmapViewOfSectionEx NtClose": 1,
-            "NtSetInformationThread NtQuerySection NtQueryInformationThread NtMapViewOfSection": 1
+            "NtQuerySection NtMapViewOfSection NtCreateSection NtOpenFile": 40,
+            "NtQuerySection NtMapViewOfSection NtOpenSection NtQueryObject": 94
         },
         "-3": {
-            "NtProtectVirtualMemory NtQuerySection NtProtectVirtualMemory": 1,
-            "NtQuerySection NtOpenFile NtOpenFile": 1,
-            "NtReadVirtualMemory NtQueryInformationThread NtClose": 1,
-            "NtReadVirtualMemory NtQueryInformationThread NtUnmapViewOfSectionEx": 1,
-            "NtSetInformationThread NtQuerySection NtQueryInformationThread": 1
+            "NtQuerySection NtMapViewOfSection NtCreateSection": 40,
+            "NtQuerySection NtMapViewOfSection NtOpenSection": 95
         },
         "-2": {
-            "NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket": 1,
-            "NtProtectVirtualMemory NtQuerySection": 1,
-            "NtQuerySection NtOpenFile": 1,
-            "NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtSetInformationThread NtQuerySection": 1
+            "NtQuerySection NtMapViewOfSection": 142,
+            "NtQuerySection NtWaitForWorkViaWorkerFactory": 18
         },
         "-1": {
-            "NtAssociateWaitCompletionPacket": 1,
-            "NtMapViewOfSection": 1,
-            "NtProtectVirtualMemory": 1,
-            "NtSetInformationProcess": 1,
-            "NtSetInformationThread": 1
+            "NtQuerySection": 167,
+            "NtQueryVirtualMemory": 36
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtOpenFile": 1,
-            "NtQueryInformationThread": 1,
-            "NtWaitForWorkViaWorkerFactory": 1,
-            "NtWriteVirtualMemory": 2
+            "NtProtectVirtualMemory": 54,
+            "NtQueryPerformanceCounter": 126
         },
         "2": {
-            "NtAllocateVirtualMemory NtQueryInformationProcess": 1,
-            "NtQueryPerformanceCounter NtCreateSection": 1,
-            "NtQueryPerformanceCounter NtWaitForWorkViaWorkerFactory": 1,
-            "NtTestAlert NtWorkerFactoryWorkerReady": 1,
-            "NtUnmapViewOfSection NtUnmapViewOfSection": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 39,
+            "NtQueryPerformanceCounter NtProtectVirtualMemory": 124
         },
         "3": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtOpenThreadToken": 1,
-            "NtQueryPerformanceCounter NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory": 1,
-            "NtTestAlert NtWorkerFactoryWorkerReady NtProtectVirtualMemory": 1,
-            "NtWriteVirtualMemory NtFlushInstructionCache NtCreateFile": 1,
-            "NtWriteVirtualMemory NtFlushInstructionCache NtProtectVirtualMemory": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter": 26,
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory": 122
         },
         "4": {
-            "NtCreateEvent NtQueryLicenseValue NtUserGetKeyboardLayout NtAllocateVirtualMemory": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter NtSetInformationProcess": 1,
-            "NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryPerformanceCounter NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtTestAlert NtProtectVirtualMemory NtWorkerFactoryWorkerReady NtProtectVirtualMemory": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory": 24,
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 116
         },
         "5": {
-            "NtCreateEvent NtQueryLicenseValue NtUserGetKeyboardLayout NtAllocateVirtualMemory NtGdiHfontCreate": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter NtSetInformationProcess NtWaitForAlertByThreadId": 1,
-            "NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtWaitForAlertByThreadId": 1,
-            "NtQueryPerformanceCounter NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtTestAlert NtProtectVirtualMemory NtWorkerFactoryWorkerReady NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory": 24,
+            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 93
         }
     }
 }

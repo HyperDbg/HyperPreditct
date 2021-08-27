@@ -1,74 +1,44 @@
 {
     "NtQueryPerformanceCounter": {
         "-5": {
-            "NtAllocateVirtualMemory NtClose NtQueryValueKey NtOpenKeyEx NtQueryInformationToken": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory NtQuerySection NtWaitForWorkViaWorkerFactory": 1,
-            "NtQueryVirtualMemory NtQuerySection NtMapViewOfSection NtWaitForWorkViaWorkerFactory NtQueryInformationProcess": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtWorkerFactoryWorkerReady NtProtectVirtualMemory NtTestAlert": 1,
-            "NtWaitForWorkViaWorkerFactory NtWorkerFactoryWorkerReady NtProtectVirtualMemory NtTestAlert NtQueryVirtualMemory": 1
+            "NtQueryVirtualMemory NtQuerySection NtMapViewOfSection NtCreateSection NtOpenFile": 35,
+            "NtQueryVirtualMemory NtQuerySection NtMapViewOfSection NtOpenSection NtQueryObject": 69
         },
         "-4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtClose NtQueryValueKey NtOpenKeyEx": 1,
-            "NtProtectVirtualMemory NtWorkerFactoryWorkerReady NtTestAlert NtQueryVirtualMemory": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtWorkerFactoryWorkerReady NtProtectVirtualMemory": 1,
-            "NtWaitForWorkViaWorkerFactory NtWorkerFactoryWorkerReady NtProtectVirtualMemory NtTestAlert": 1
+            "NtQueryVirtualMemory NtQuerySection NtMapViewOfSection NtCreateSection": 35,
+            "NtQueryVirtualMemory NtQuerySection NtMapViewOfSection NtOpenSection": 69
         },
         "-3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtClose NtQueryValueKey": 1,
-            "NtProtectVirtualMemory NtWorkerFactoryWorkerReady NtTestAlert": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtWorkerFactoryWorkerReady": 1,
-            "NtWaitForWorkViaWorkerFactory NtWorkerFactoryWorkerReady NtProtectVirtualMemory": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory": 26,
+            "NtQueryVirtualMemory NtQuerySection NtMapViewOfSection": 106
         },
         "-2": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtClose": 1,
-            "NtProtectVirtualMemory NtWorkerFactoryWorkerReady": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory": 1,
-            "NtWaitForWorkViaWorkerFactory NtWorkerFactoryWorkerReady": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 26,
+            "NtQueryVirtualMemory NtQuerySection": 124
         },
         "-1": {
-            "NtAllocateVirtualMemory": 5,
-            "NtClose": 2,
-            "NtCreateSection": 1,
-            "NtTerminateProcess": 1,
-            "NtWaitForWorkViaWorkerFactory": 3
+            "NtProtectVirtualMemory": 31,
+            "NtQueryVirtualMemory": 126
         },
         "1": {
-            "NtCreateSection": 1,
-            "NtSetInformationProcess": 1,
-            "NtTestAlert": 1,
-            "NtWaitForAlertByThreadId": 1,
+            "NtProtectVirtualMemory": 184,
             "NtWaitForWorkViaWorkerFactory": 5
         },
         "2": {
-            "NtCreateSection NtCreateSection": 1,
-            "NtSetInformationProcess NtWaitForAlertByThreadId": 1,
-            "NtTestAlert NtProtectVirtualMemory": 1,
-            "NtWaitForAlertByThreadId NtSetInformationProcess": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory": 2
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 179,
+            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory": 3
         },
         "3": {
-            "NtCreateSection NtCreateSection NtProtectVirtualMemory": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtWaitForAlertByThreadId": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtWaitForWorkViaWorkerFactory": 1,
-            "NtSetInformationProcess NtWaitForAlertByThreadId NtAlertThreadByThreadId": 1,
-            "NtWaitForAlertByThreadId NtSetInformationProcess NtProtectVirtualMemory": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtCreateEvent": 11,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 161
         },
         "4": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtWaitForAlertByThreadId NtSetInformationProcess": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory": 1,
-            "NtSetInformationProcess NtWaitForAlertByThreadId NtAlertThreadByThreadId NtProtectVirtualMemory": 1,
-            "NtWaitForAlertByThreadId NtSetInformationProcess NtProtectVirtualMemory NtAlertThreadByThreadId": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 120,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtReleaseWorkerFactoryWorker": 26
         },
         "5": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtWaitForAlertByThreadId NtSetInformationProcess NtProtectVirtualMemory": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtSetInformationProcess NtWaitForAlertByThreadId NtAlertThreadByThreadId NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject": 36,
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtReleaseWorkerFactoryWorker": 36
         }
     }
 }

@@ -2,27 +2,22 @@
     "NtResumeThread": {
         "-5": {
             "NtQueryInformationThread NtClose NtSuspendThread NtReadVirtualMemory NtQueryInformationProcess": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtResumeThread": 1,
             "NtSetInformationThread NtClose NtSuspendThread NtReadVirtualMemory NtQueryInformationProcess": 1
         },
         "-4": {
             "NtQueryInformationThread NtClose NtSuspendThread NtReadVirtualMemory": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
             "NtSetInformationThread NtClose NtSuspendThread NtReadVirtualMemory": 1
         },
         "-3": {
             "NtQueryInformationThread NtClose NtSuspendThread": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
             "NtSetInformationThread NtClose NtSuspendThread": 1
         },
         "-2": {
             "NtQueryInformationThread NtClose": 1,
-            "NtSetInformationProcess NtQueryInformationProcess": 1,
             "NtSetInformationThread NtClose": 1
         },
         "-1": {
             "NtQueryInformationThread": 1,
-            "NtSetInformationProcess": 1,
             "NtSetInformationThread": 1
         },
         "1": {
@@ -42,7 +37,6 @@
             "NtWriteVirtualMemory NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1
         },
         "5": {
-            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtResumeThread": 1,
             "NtWriteVirtualMemory NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1
         }

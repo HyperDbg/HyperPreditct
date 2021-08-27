@@ -1,74 +1,44 @@
 {
     "NtWaitForSingleObject": {
         "-5": {
-            "NtClose NtQueryAttributesFile NtClose NtAllocateVirtualMemory NtReleaseWorkerFactoryWorker": 1,
-            "NtEnumerateKey NtClose NtReleaseWorkerFactoryWorker NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenProcessToken NtReleaseWorkerFactoryWorker NtOpenThreadToken NtDuplicateObject NtCreateEvent": 1,
-            "NtReleaseWorkerFactoryWorker NtDuplicateObject NtCreateEvent NtAllocateVirtualMemory NtAlertThreadByThreadId": 1
+            "NtClose NtClose NtReleaseWorkerFactoryWorker NtProtectVirtualMemory NtProtectVirtualMemory": 9,
+            "NtClose NtReleaseWorkerFactoryWorker NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 14
         },
         "-4": {
-            "NtClose NtQueryAttributesFile NtClose NtAllocateVirtualMemory": 1,
-            "NtEnumerateKey NtClose NtReleaseWorkerFactoryWorker NtEnumerateKey": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenProcessToken NtReleaseWorkerFactoryWorker NtOpenThreadToken NtDuplicateObject": 1,
-            "NtReleaseWorkerFactoryWorker NtDuplicateObject NtCreateEvent NtAllocateVirtualMemory": 1
+            "NtClose NtClose NtReleaseWorkerFactoryWorker NtProtectVirtualMemory": 9,
+            "NtClose NtReleaseWorkerFactoryWorker NtProtectVirtualMemory NtProtectVirtualMemory": 14
         },
         "-3": {
-            "NtClose NtQueryValueKey NtSetInformationKey": 1,
-            "NtEnumerateKey NtClose NtReleaseWorkerFactoryWorker": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenProcessToken NtReleaseWorkerFactoryWorker NtOpenThreadToken": 1,
-            "NtReleaseWorkerFactoryWorker NtDuplicateObject NtCreateEvent": 1
+            "NtClose NtClose NtReleaseWorkerFactoryWorker": 14,
+            "NtClose NtReleaseWorkerFactoryWorker NtProtectVirtualMemory": 14
         },
         "-2": {
-            "NtClose NtQueryValueKey": 1,
-            "NtEnumerateKey NtClose": 1,
-            "NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenProcessToken NtReleaseWorkerFactoryWorker": 1,
-            "NtReleaseWorkerFactoryWorker NtDuplicateObject": 1
+            "NtClose NtClose": 15,
+            "NtClose NtReleaseWorkerFactoryWorker": 14
         },
         "-1": {
-            "NtEnumerateKey": 2,
-            "NtOpenMutant": 1,
-            "NtOpenProcessToken": 1,
-            "NtReleaseWorkerFactoryWorker": 1,
-            "NtSetEvent": 1
+            "NtClose": 32,
+            "NtCreateMutant": 12
         },
         "1": {
-            "NtClose": 1,
-            "NtEnumerateKey": 1,
-            "NtQueryInformationThread": 1,
-            "NtQueryInformationToken": 1,
-            "NtQueryKey": 1
+            "NtProtectVirtualMemory": 29,
+            "NtQueryObject": 12
         },
         "2": {
-            "NtEnumerateKey NtEnumerateKey": 1,
-            "NtProtectVirtualMemory NtOpenFile": 1,
-            "NtQueryInformationThread NtEnumerateKey": 1,
-            "NtQueryInformationToken NtOpenFile": 1,
-            "NtQueryKey NtQueryKey": 1
+            "NtProtectVirtualMemory NtSetEvent": 15,
+            "NtProtectVirtualMemory NtSetInformationProcess": 13
         },
         "3": {
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenFile NtCreateSection NtMapViewOfSection": 1,
-            "NtProtectVirtualMemory NtOpenFile NtProtectVirtualMemory": 1,
-            "NtQueryInformationThread NtEnumerateKey NtEnumerateKey": 1,
-            "NtQueryInformationToken NtOpenFile NtOpenSymbolicLinkObject": 1
+            "NtProtectVirtualMemory NtSetEvent NtWaitForWorkViaWorkerFactory": 15,
+            "NtWaitForSingleObject NtProtectVirtualMemory NtSetInformationProcess": 9
         },
         "4": {
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenFile NtCreateSection NtMapViewOfSection NtQuerySection": 1,
-            "NtProtectVirtualMemory NtOpenFile NtProtectVirtualMemory NtOpenSymbolicLinkObject": 1,
-            "NtQueryInformationThread NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtQueryInformationToken NtOpenFile NtOpenSymbolicLinkObject NtProtectVirtualMemory": 1
+            "NtProtectVirtualMemory NtSetEvent NtWaitForWorkViaWorkerFactory NtOpenFile": 15,
+            "NtProtectVirtualMemory NtSetInformationProcess NtSetEvent NtWaitForWorkViaWorkerFactory": 7
         },
         "5": {
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenFile NtCreateSection NtMapViewOfSection NtQuerySection NtQueryVirtualMemory": 1,
-            "NtProtectVirtualMemory NtOpenFile NtProtectVirtualMemory NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject": 1,
-            "NtQueryInformationThread NtEnumerateKey NtEnumerateKey NtEnumerateKey NtSetEvent": 1,
-            "NtQueryInformationToken NtOpenFile NtOpenSymbolicLinkObject NtProtectVirtualMemory NtQuerySymbolicLinkObject": 1
+            "NtProtectVirtualMemory NtSetEvent NtWaitForWorkViaWorkerFactory NtOpenFile NtQuerySecurityObject": 15,
+            "NtProtectVirtualMemory NtSetInformationProcess NtSetEvent NtWaitForWorkViaWorkerFactory NtOpenFile": 7
         }
     }
 }

@@ -1,74 +1,44 @@
 {
     "NtUserGetDC": {
         "-5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserReleaseDC NtUserGetDC NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtGdiCreateCompatibleDC NtGdiHfontCreate NtAllocateVirtualMemory NtUserGetKeyboardLayout NtQueryLicenseValue": 1,
-            "NtUserReleaseDC NtGdiGetWidthTable NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtUserGetDC": 1,
-            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserSelectPalette NtGdiSetDIBitsToDeviceInternal": 17,
+            "NtMapViewOfSection NtMapViewOfSection NtClose NtUnmapViewOfSectionEx NtOpenSection": 6
         },
         "-4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserReleaseDC NtUserGetDC": 1,
-            "NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtGdiCreateCompatibleDC NtGdiHfontCreate NtAllocateVirtualMemory NtUserGetKeyboardLayout": 1,
-            "NtUserReleaseDC NtGdiGetWidthTable NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo": 1,
-            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtProtectVirtualMemory": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 7,
+            "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserSelectPalette": 17
         },
         "-3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserReleaseDC": 1,
-            "NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtGdiCreateCompatibleDC NtGdiHfontCreate NtAllocateVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiGetWidthTable NtGdiGetGlyphIndicesW": 1,
-            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp": 1
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 8,
+            "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap": 17
         },
         "-2": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiGetTextFaceW": 1,
-            "NtUserReleaseDC NtGdiGetWidthTable": 1,
-            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject": 1
+            "NtCallbackReturn NtContinueEx": 22,
+            "NtGdiSelectBitmap NtGdiRestoreDC": 17
         },
         "-1": {
-            "NtClose": 1,
-            "NtCreateEvent": 1,
-            "NtUserInvalidateRect": 1,
-            "NtUserPeekMessage": 1,
-            "NtUserSetCursorIconData": 1
+            "NtCallbackReturn": 22,
+            "NtGdiSelectBitmap": 22
         },
         "1": {
-            "NtGdiGetDCObject": 1,
-            "NtGdiGetRealizationInfo": 2,
-            "NtGdiGetTextFaceW": 2,
-            "NtProtectVirtualMemory": 3,
-            "NtUserSetWindowPos": 3
+            "NtGdiCreateCompatibleBitmap": 21,
+            "NtGdiCreateDIBitmapInternal": 27
         },
         "2": {
-            "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW": 1,
-            "NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1,
-            "NtUserReleaseDC NtAllocateVirtualMemory": 1,
-            "NtUserReleaseDC NtContinueEx": 1,
-            "NtUserReleaseDC NtUserShowWindow": 1
+            "NtGdiCreateCompatibleBitmap NtUserReleaseDC": 19,
+            "NtGdiCreateDIBitmapInternal NtUserReleaseDC": 27
         },
         "3": {
-            "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetWidthTable": 1,
-            "NtGdiGetTextMetricsW NtGdiCreatePen NtUserGetClassInfoEx": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetRealizationInfo": 1,
-            "NtUserReleaseDC NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserReleaseDC NtUserShowWindow NtUserInvalidateRect": 1
+            "NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap": 19,
+            "NtGdiCreateDIBitmapInternal NtUserReleaseDC NtGdiSelectBitmap": 27
         },
         "4": {
-            "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetWidthTable NtUserReleaseDC": 1,
-            "NtGdiGetTextMetricsW NtGdiCreatePen NtUserGetClassInfoEx NtUserGetClassInfoEx": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1,
-            "NtUserReleaseDC NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserGetDC": 1,
-            "NtUserReleaseDC NtUserShowWindow NtUserInvalidateRect NtUserSetWindowPos": 1
+            "NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap": 10,
+            "NtGdiCreateDIBitmapInternal NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap": 22
         },
         "5": {
-            "NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetWidthTable NtUserReleaseDC NtUserGetDC": 1,
-            "NtGdiGetTextMetricsW NtGdiCreatePen NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 1,
-            "NtUserReleaseDC NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserGetDC NtGdiCreateCompatibleBitmap": 1,
-            "NtUserReleaseDC NtUserShowWindow NtUserInvalidateRect NtUserSetWindowPos NtUserMessageCall": 1
+            "NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap NtGdiSaveDC": 10,
+            "NtGdiCreateDIBitmapInternal NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap NtGdiSaveDC": 22
         }
     }
 }

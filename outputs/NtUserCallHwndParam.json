@@ -2,71 +2,43 @@
     "NtUserCallHwndParam": {
         "-5": {
             "NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 5,
-            "NtUserCallHwndParam NtUserCallHwndParam NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn": 1,
-            "NtUserCallHwndParam NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn NtContinueEx": 2,
-            "NtUserGetImeInfoEx NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject": 1,
             "NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn NtContinueEx NtCallbackReturn": 2
         },
         "-4": {
             "NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 5,
-            "NtUserCallHwndParam NtUserCallHwndParam NtUserSetWindowLongPtr NtUserSetWindowFNID": 1,
-            "NtUserCallHwndParam NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn": 2,
-            "NtUserGetImeInfoEx NtOpenKeyEx NtQueryKey NtQueryKey": 1,
             "NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn NtContinueEx": 2
         },
         "-3": {
             "NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo": 5,
-            "NtUserCallHwndParam NtUserCallHwndParam NtUserSetWindowLongPtr": 1,
-            "NtUserCallHwndParam NtUserSetWindowLongPtr NtUserSetWindowFNID": 2,
-            "NtUserGetImeInfoEx NtOpenKeyEx NtQueryKey": 1,
             "NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn": 2
         },
         "-2": {
             "NtCallbackReturn NtContinueEx": 5,
-            "NtUserCallHwndParam NtUserCallHwndParam": 1,
-            "NtUserCallHwndParam NtUserSetWindowLongPtr": 2,
-            "NtUserGetImeInfoEx NtOpenKeyEx": 1,
             "NtUserSetWindowLongPtr NtUserSetWindowFNID": 2
         },
         "-1": {
             "NtCallbackReturn": 5,
-            "NtUserCallHwndParam": 3,
-            "NtUserGetImeInfoEx": 1,
-            "NtUserSetWindowLongPtr": 2
+            "NtUserCallHwndParam": 3
         },
         "1": {
-            "NtContinueEx": 2,
             "NtUserCallHwndParam": 3,
-            "NtUserGetAncestor": 5,
-            "NtUserQueryInputContext": 1
+            "NtUserGetAncestor": 5
         },
         "2": {
-            "NtContinueEx NtCallbackReturn": 2,
             "NtUserCallHwndParam NtContinueEx": 2,
-            "NtUserCallHwndParam NtUserCallHwndParam": 1,
-            "NtUserGetAncestor NtUserSetWindowPos": 5,
-            "NtUserQueryInputContext NtUserAssociateInputContext": 1
+            "NtUserGetAncestor NtUserSetWindowPos": 5
         },
         "3": {
-            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 2,
             "NtUserCallHwndParam NtContinueEx NtCallbackReturn": 2,
-            "NtUserCallHwndParam NtUserCallHwndParam NtContinueEx": 1,
-            "NtUserGetAncestor NtUserSetWindowPos NtContinueEx": 5,
-            "NtUserQueryInputContext NtUserAssociateInputContext NtUserGetImeInfoEx": 1
+            "NtUserGetAncestor NtUserSetWindowPos NtContinueEx": 5
         },
         "4": {
-            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtUserMessageCall": 2,
             "NtUserCallHwndParam NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 2,
-            "NtUserCallHwndParam NtUserCallHwndParam NtContinueEx NtCallbackReturn": 1,
-            "NtUserGetAncestor NtUserSetWindowPos NtContinueEx NtCallbackReturn": 5,
-            "NtUserQueryInputContext NtUserAssociateInputContext NtUserGetImeInfoEx NtContinueEx": 1
+            "NtUserGetAncestor NtUserSetWindowPos NtContinueEx NtCallbackReturn": 5
         },
         "5": {
-            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx": 2,
             "NtUserCallHwndParam NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtUserMessageCall": 2,
-            "NtUserCallHwndParam NtUserCallHwndParam NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 1,
-            "NtUserGetAncestor NtUserSetWindowPos NtContinueEx NtCallbackReturn NtUserGetDC": 5,
-            "NtUserQueryInputContext NtUserAssociateInputContext NtUserGetImeInfoEx NtContinueEx NtCallbackReturn": 1
+            "NtUserGetAncestor NtUserSetWindowPos NtContinueEx NtCallbackReturn NtUserGetDC": 5
         }
     }
 }

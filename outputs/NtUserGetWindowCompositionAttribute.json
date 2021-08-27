@@ -1,17 +1,12 @@
 {
     "NtUserGetWindowCompositionAttribute": {
         "-5": {
-            "NtGdiHfontCreate NtGdiHfontCreate NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 1,
             "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn NtContinueEx": 3,
-            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtTraceControl": 5,
-            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserMessageCall NtCallbackReturn": 2
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtTraceControl": 5
         },
         "-4": {
-            "NtGdiHfontCreate NtGdiHfontCreate NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled": 1,
             "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn": 3,
-            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp": 6,
-            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserMessageCall": 2
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp": 6
         },
         "-3": {
             "NtGdiHfontCreate NtGdiHfontCreate NtUserSystemParametersInfo": 1,

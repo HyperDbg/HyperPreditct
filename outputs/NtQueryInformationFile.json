@@ -1,74 +1,44 @@
 {
     "NtQueryInformationFile": {
         "-5": {
-            "NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory NtQueryVirtualMemory NtReadVirtualMemory": 1,
-            "NtCreateFile NtOpenSection NtQueryObject NtMapViewOfSection NtClose": 1,
-            "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtCreateSemaphore": 1,
-            "NtOpenFile NtQueryInformationProcess NtClose NtDeviceIoControlFile NtDeviceIoControlFile": 1,
-            "NtReadFile NtQueryInformationFile NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory": 1
+            "NtCreateFile NtAllocateVirtualMemory NtClose NtQuerySecurityObject NtQuerySecurityObject": 5,
+            "NtQueryInformationFile NtCreateFile NtAllocateVirtualMemory NtClose NtQuerySecurityObject": 5
         },
         "-4": {
-            "NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory NtQueryVirtualMemory": 1,
-            "NtCreateFile NtOpenSection NtQueryObject NtMapViewOfSection": 1,
-            "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 1,
-            "NtOpenFile NtQueryInformationProcess NtClose NtDeviceIoControlFile": 1,
-            "NtReadFile NtQueryInformationFile NtCreateFile NtFlushInstructionCache": 1
+            "NtCreateFile NtAllocateVirtualMemory NtClose NtQuerySecurityObject": 5,
+            "NtQueryInformationFile NtCreateFile NtAllocateVirtualMemory NtClose": 5
         },
         "-3": {
-            "NtCreateFile NtFlushInstructionCache NtWriteVirtualMemory": 1,
-            "NtCreateFile NtOpenSection NtQueryObject": 1,
-            "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtOpenFile NtQueryInformationProcess NtClose": 1,
-            "NtReadFile NtQueryInformationFile NtCreateFile": 1
+            "NtCreateFile NtAllocateVirtualMemory NtClose": 5,
+            "NtQueryInformationFile NtCreateFile NtAllocateVirtualMemory": 5
         },
         "-2": {
-            "NtCreateFile NtFlushInstructionCache": 1,
-            "NtCreateFile NtOpenSection": 1,
-            "NtOpenFile NtProtectVirtualMemory": 1,
-            "NtQueryVolumeInformationFile NtSetInformationObject": 1,
-            "NtReadFile NtQueryInformationFile": 1
+            "NtCreateFile NtAllocateVirtualMemory": 5,
+            "NtQueryInformationFile NtCreateFile": 6
         },
         "-1": {
-            "NtClose": 1,
-            "NtCreateEvent": 1,
-            "NtQueryVolumeInformationFile": 1,
-            "NtReadFile": 1,
-            "NtSetInformationFile": 1
+            "NtCreateFile": 8,
+            "NtQueryInformationFile": 6
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtClose": 1,
-            "NtOpenProcessToken": 1,
-            "NtReadFile": 1,
-            "NtSetInformationFile": 1
+            "NtCreateSection": 6,
+            "NtQueryInformationFile": 6
         },
         "2": {
-            "NtAllocateVirtualMemory NtQuerySecurityObject": 1,
-            "NtClose NtQueryInformationThread": 1,
-            "NtOpenProcessToken NtQueryInformationToken": 1,
-            "NtQueryVolumeInformationFile NtClose": 1,
-            "NtReadFile NtQueryInformationFile": 1
+            "NtCreateSection NtMapViewOfSection": 6,
+            "NtQueryInformationFile NtCreateSection": 6
         },
         "3": {
-            "NtAllocateVirtualMemory NtQuerySecurityObject NtClose": 1,
-            "NtClose NtQueryInformationThread NtReadVirtualMemory": 1,
-            "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken": 1,
-            "NtQueryVolumeInformationFile NtClose NtProtectVirtualMemory": 1,
-            "NtReadFile NtQueryInformationFile NtClose": 1
+            "NtCreateSection NtMapViewOfSection NtQuerySystemInformation": 6,
+            "NtQueryInformationFile NtCreateSection NtMapViewOfSection": 6
         },
         "4": {
-            "NtAllocateVirtualMemory NtQuerySecurityObject NtClose NtOpenThreadToken": 1,
-            "NtClose NtQueryInformationThread NtReadVirtualMemory NtQueryVirtualMemory": 1,
-            "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken NtClose": 1,
-            "NtQueryVolumeInformationFile NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtReadFile NtQueryInformationFile NtClose NtQueryInformationThread": 1
+            "NtCreateSection NtMapViewOfSection NtQuerySystemInformation NtQueryLicenseValue": 6,
+            "NtQueryInformationFile NtCreateSection NtMapViewOfSection NtQuerySystemInformation": 6
         },
         "5": {
-            "NtAllocateVirtualMemory NtQuerySecurityObject NtClose NtOpenThreadToken NtOpenProcessToken": 1,
-            "NtClose NtQueryInformationThread NtReadVirtualMemory NtQueryVirtualMemory NtWriteVirtualMemory": 1,
-            "NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken NtClose NtQueryObject": 1,
-            "NtQueryVolumeInformationFile NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtReadFile NtQueryInformationFile NtClose NtQueryInformationThread NtReadVirtualMemory": 1
+            "NtCreateSection NtMapViewOfSection NtQuerySystemInformation NtQueryLicenseValue NtTraceControl": 6,
+            "NtQueryInformationFile NtCreateSection NtMapViewOfSection NtQuerySystemInformation NtQueryLicenseValue": 6
         }
     }
 }

@@ -1,71 +1,44 @@
 {
     "NtUserGetObjectInformation": {
         "-5": {
-            "NtUserGetProcessWindowStation NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtOpenKeyEx NtQueryKey": 1,
-            "NtUserGetThreadDesktop NtClose NtOpenMutant NtQueryObject NtUserGetObjectInformation": 1,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetThreadDesktop NtUserSetWinEventHook NtQueryInformationProcess NtClose NtAccessCheck": 1,
-            "NtUserGetThreadDesktop NtWaitForSingleObject NtOpenMutant NtQueryObject NtQueryInformationProcess": 1
+            "NtUserGetThreadDesktop NtUserRemoveProp NtUserGetClassName NtUserGetClassName NtCallbackReturn": 11,
+            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtUserIsTopLevelWindow NtUserSetProp": 16
         },
         "-4": {
-            "NtUserGetProcessWindowStation NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtOpenKeyEx": 1,
-            "NtUserGetThreadDesktop NtClose NtOpenMutant NtQueryObject": 1,
-            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtProtectVirtualMemory": 1,
-            "NtUserGetThreadDesktop NtUserSetWinEventHook NtQueryInformationProcess NtClose": 1,
-            "NtUserGetThreadDesktop NtWaitForSingleObject NtOpenMutant NtQueryObject": 1
+            "NtUserGetThreadDesktop NtUserRemoveProp NtUserGetClassName NtUserGetClassName": 11,
+            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo NtUserIsTopLevelWindow": 16
         },
         "-3": {
-            "NtUserGetProcessWindowStation NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1,
-            "NtUserGetThreadDesktop NtClose NtOpenMutant": 1,
-            "NtUserGetThreadDesktop NtUserChangeWindowMessageFilterEx NtUserChangeWindowMessageFilterEx": 2,
-            "NtUserGetThreadDesktop NtUserSetWinEventHook NtQueryInformationProcess": 1,
-            "NtUserGetThreadDesktop NtWaitForSingleObject NtOpenMutant": 1
+            "NtUserGetThreadDesktop NtUserRemoveProp NtUserGetClassName": 12,
+            "NtUserGetThreadDesktop NtUserRemoveProp NtUserSystemParametersInfo": 21
         },
         "-2": {
-            "NtUserGetProcessWindowStation NtUserGetKeyboardLayout": 1,
-            "NtUserGetThreadDesktop NtClose": 1,
-            "NtUserGetThreadDesktop NtUserChangeWindowMessageFilterEx": 2,
-            "NtUserGetThreadDesktop NtUserSetWinEventHook": 1,
-            "NtUserGetThreadDesktop NtWaitForSingleObject": 1
+            "NtUserGetProcessWindowStation NtSetEvent": 6,
+            "NtUserGetThreadDesktop NtUserRemoveProp": 33
         },
         "-1": {
             "NtUserGetProcessWindowStation": 7,
             "NtUserGetThreadDesktop": 38
         },
         "1": {
-            "NtOpenSection": 5,
-            "NtQueryInformationProcess": 5,
-            "NtQueryObject": 1,
             "NtUserGetGUIThreadInfo": 6,
             "NtUserGetProp": 28
         },
         "2": {
-            "NtOpenSection NtMapViewOfSection": 5,
-            "NtQueryInformationProcess NtQueryObject": 5,
-            "NtQueryObject NtOpenMutant": 1,
             "NtUserGetGUIThreadInfo NtConnectPort": 6,
             "NtUserGetProp NtUserGetProp": 28
         },
         "3": {
-            "NtOpenSection NtMapViewOfSection NtOpenSection": 5,
-            "NtQueryInformationProcess NtQueryObject NtOpenMutant": 2,
-            "NtQueryInformationProcess NtQueryObject NtOpenSection": 1,
-            "NtQueryInformationProcess NtQueryObject NtQueryKey": 2,
-            "NtQueryObject NtOpenMutant NtClose": 1
+            "NtUserGetGUIThreadInfo NtConnectPort NtRequestWaitReplyPort": 6,
+            "NtUserGetProp NtUserGetProp NtUserGetProp": 28
         },
         "4": {
-            "NtQueryInformationProcess NtQueryObject NtOpenMutant NtClose": 1,
-            "NtQueryInformationProcess NtQueryObject NtOpenMutant NtWaitForSingleObject": 1,
-            "NtQueryInformationProcess NtQueryObject NtOpenSection NtMapViewOfSection": 1,
-            "NtQueryInformationProcess NtQueryObject NtQueryKey NtQueryKey": 2,
-            "NtQueryObject NtOpenMutant NtClose NtUserGetThreadDesktop": 1
+            "NtUserGetGUIThreadInfo NtConnectPort NtRequestWaitReplyPort NtRequestWaitReplyPort": 6,
+            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserIsTopLevelWindow": 28
         },
         "5": {
-            "NtQueryInformationProcess NtQueryObject NtOpenMutant NtClose NtUserRegisterClassExWOW": 1,
-            "NtQueryInformationProcess NtQueryObject NtOpenMutant NtWaitForSingleObject NtUserGetThreadDesktop": 1,
-            "NtQueryInformationProcess NtQueryObject NtOpenSection NtMapViewOfSection NtUnmapViewOfSectionEx": 1,
-            "NtQueryInformationProcess NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx": 2,
-            "NtQueryObject NtOpenMutant NtClose NtUserGetThreadDesktop NtUserGetObjectInformation": 1
+            "NtUserGetGUIThreadInfo NtConnectPort NtRequestWaitReplyPort NtRequestWaitReplyPort NtQueryInformationToken": 6,
+            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 22
         }
     }
 }

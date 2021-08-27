@@ -1,74 +1,44 @@
 {
     "NtQueryInformationProcess": {
         "-5": {
-            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtGdiEndPath NtGdiEndPath NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess": 1,
-            "NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess NtSetEvent NtSetInformationVirtualMemory": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtGdiEndPath NtGdiEndPath NtGdiBeginPath": 1
+            "NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale": 327,
+            "NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess NtQueryInformationProcess NtQueryAttributesFile": 327
         },
         "-4": {
-            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1,
-            "NtGdiEndPath NtGdiEndPath NtGdiBeginPath NtGdiStrokePath": 1,
-            "NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess NtSetEvent": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtGdiEndPath NtGdiEndPath": 1
+            "NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess NtQueryDefaultLocale": 327,
+            "NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess NtQueryInformationProcess": 327
         },
         "-3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtGdiEndPath NtGdiEndPath NtGdiBeginPath": 1,
-            "NtGdiStrokeAndFillPath NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtQuerySystemInformation NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtGdiStrokeAndFillPath": 1
+            "NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess": 330,
+            "NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess": 327
         },
         "-2": {
-            "NtAllocateVirtualMemory NtCallbackReturn": 1,
-            "NtGdiEndPath NtGdiEndPath": 1,
-            "NtGdiStrokeAndFillPath NtSetInformationProcess": 1,
-            "NtQuerySystemInformation NtSetInformationProcess": 1,
-            "NtReleaseWorkerFactoryWorker NtClose": 1
+            "NtQueryAttributesFile NtSetInformationProcess": 330,
+            "NtQueryDefaultLocale NtQueryDefaultLocale": 327
         },
         "-1": {
-            "NtGdiStrokeAndFillPath": 1,
-            "NtReleaseWorkerFactoryWorker": 1,
-            "NtUserCallHwndLock": 1,
-            "NtUserRemoveProp": 1,
-            "NtUserSystemParametersInfo": 1
+            "NtQueryAttributesFile": 332,
+            "NtQueryDefaultLocale": 327
         },
         "1": {
-            "NtCreateSection": 1,
-            "NtOpenThreadTokenEx": 1,
-            "NtUserGetThreadState": 1,
-            "NtUserNotifyWinEvent": 1,
-            "NtWaitForWorkViaWorkerFactory": 1
+            "NtOpenDirectoryObject": 94,
+            "NtSetInformationProcess": 789
         },
         "2": {
-            "NtQueryInformationProcess NtOpenFile": 1,
-            "NtSetInformationProcess NtGdiPolyPatBlt": 1,
-            "NtSetInformationProcess NtGdiStrokeAndFillPath": 1,
-            "NtSetInformationProcess NtQuerySystemInformation": 1,
-            "NtSetInformationVirtualMemory NtProtectVirtualMemory": 1
+            "NtSetInformationProcess NtQueryAttributesFile": 331,
+            "NtSetInformationProcess NtQueryDefaultLocale": 328
         },
         "3": {
-            "NtSetInformationProcess NtGdiEndPath NtGdiPolyPatBlt": 1,
-            "NtSetInformationProcess NtGdiPolyPatBlt NtQueryObject": 1,
-            "NtSetInformationProcess NtGdiStrokeAndFillPath NtQueryInformationProcess": 1,
-            "NtSetInformationProcess NtQuerySystemInformation NtQueryInformationProcess": 1,
-            "NtSetInformationVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtSetInformationProcess NtQueryAttributesFile NtQueryInformationProcess": 330,
+            "NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale": 328
         },
         "4": {
-            "NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess NtSetInformationVirtualMemory": 1,
-            "NtSetInformationProcess NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall": 1,
-            "NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtAllocateVirtualMemory": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtGdiStrokeAndFillPath": 1,
-            "NtSetInformationVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject": 1
+            "NtSetInformationProcess NtQueryAttributesFile NtQueryInformationProcess NtSetInformationProcess": 330,
+            "NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtQueryInformationProcess": 327
         },
         "5": {
-            "NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess NtSetInformationVirtualMemory NtProtectVirtualMemory": 1,
-            "NtSetInformationProcess NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall NtAllocateVirtualMemory": 1,
-            "NtSetInformationProcess NtGdiStrokePath NtGdiBeginPath NtGdiEndPath NtGdiPolyPatBlt": 1,
-            "NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtGdiEndPath NtGdiPolyPatBlt": 1
+            "NtSetInformationProcess NtQueryAttributesFile NtQueryInformationProcess NtSetInformationProcess NtQueryDefaultLocale": 328,
+            "NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtQueryInformationProcess NtSetInformationProcess": 327
         }
     }
 }

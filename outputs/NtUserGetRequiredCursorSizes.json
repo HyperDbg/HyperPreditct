@@ -32,7 +32,6 @@
             "NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateDIBitmapInternal NtUserReleaseDC": 5
         },
         "5": {
-            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 1,
             "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserGetDC": 1,
             "NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateDIBitmapInternal NtUserReleaseDC NtGdiSelectBitmap": 5
         }

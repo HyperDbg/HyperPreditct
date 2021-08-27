@@ -2,66 +2,43 @@
     "NtUserCreateEmptyCursorObject": {
         "-5": {
             "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap NtGdiSelectBitmap NtGdiBitBlt": 22,
-            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap NtGdiStretchDIBitsInternal NtGdiDoPalette": 1,
-            "NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory NtGdiDeleteObjectApp NtGdiSelectBitmap": 6,
-            "NtGdiGetBitmapBits NtGdiExtGetObjectW NtGdiStretchDIBitsInternal NtGdiSelectBitmap NtGdiCreateBitmap": 2,
-            "NtUserFindExistingCursorIcon NtUserGetIconInfo NtUserGetIconSize NtUserMessageCall NtSetEvent": 1
+            "NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory NtGdiDeleteObjectApp NtGdiSelectBitmap": 6
         },
         "-4": {
             "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap NtGdiSelectBitmap": 22,
-            "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap NtGdiStretchDIBitsInternal": 1,
-            "NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory NtGdiDeleteObjectApp": 6,
-            "NtGdiGetBitmapBits NtGdiExtGetObjectW NtGdiStretchDIBitsInternal NtGdiSelectBitmap": 2,
-            "NtUserFindExistingCursorIcon NtUserGetIconInfo NtUserGetIconSize NtUserMessageCall": 1
+            "NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory NtGdiDeleteObjectApp": 6
         },
         "-3": {
             "NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap": 23,
-            "NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory": 6,
-            "NtGdiGetBitmapBits NtGdiExtGetObjectW NtGdiStretchDIBitsInternal": 2,
-            "NtUserFindExistingCursorIcon NtUserGetIconInfo NtUserGetIconSize": 1
+            "NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory": 6
         },
         "-2": {
             "NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 23,
-            "NtGdiDeleteObjectApp NtProtectVirtualMemory": 6,
-            "NtGdiGetBitmapBits NtGdiExtGetObjectW": 2,
-            "NtUserFindExistingCursorIcon NtUserGetIconInfo": 1
+            "NtGdiDeleteObjectApp NtProtectVirtualMemory": 6
         },
         "-1": {
             "NtGdiDeleteObjectApp": 29,
-            "NtGdiGetBitmapBits": 2,
-            "NtUserFindExistingCursorIcon": 1
+            "NtGdiGetBitmapBits": 2
         },
         "1": {
             "NtGdiCreateBitmap": 2,
             "NtUserSetCursorIconData": 30
         },
         "2": {
-            "NtGdiCreateBitmap NtGdiCreateBitmap": 2,
-            "NtUserSetCursorIconData NtContinueEx": 2,
-            "NtUserSetCursorIconData NtGdiCreateDIBitmapInternal": 4,
-            "NtUserSetCursorIconData NtProtectVirtualMemory": 1,
-            "NtUserSetCursorIconData NtUserGetDC": 1
+            "NtUserSetCursorIconData NtGdiDeleteObjectApp": 6,
+            "NtUserSetCursorIconData NtUserGetIconSize": 7
         },
         "3": {
-            "NtGdiCreateBitmap NtGdiCreateBitmap NtUserSetCursorIconData": 2,
-            "NtUserSetCursorIconData NtContinueEx NtCallbackReturn": 2,
-            "NtUserSetCursorIconData NtGdiCreateDIBitmapInternal NtGdiSelectBitmap": 4,
-            "NtUserSetCursorIconData NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserSetCursorIconData NtUserGetDC NtGdiCreateCompatibleBitmap": 1
+            "NtUserSetCursorIconData NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 6,
+            "NtUserSetCursorIconData NtUserGetIconSize NtUserGetRequiredCursorSizes": 7
         },
         "4": {
-            "NtGdiCreateBitmap NtGdiCreateBitmap NtUserSetCursorIconData NtGdiSelectBitmap": 2,
-            "NtUserSetCursorIconData NtContinueEx NtCallbackReturn NtAllocateVirtualMemory": 1,
-            "NtUserSetCursorIconData NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtUserSetCursorIconData NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserSetCursorIconData NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC": 1
+            "NtUserSetCursorIconData NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtContinueEx": 6,
+            "NtUserSetCursorIconData NtUserGetIconSize NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon": 7
         },
         "5": {
-            "NtGdiCreateBitmap NtGdiCreateBitmap NtUserSetCursorIconData NtGdiSelectBitmap NtGdiDeleteObjectApp": 1,
-            "NtGdiCreateBitmap NtGdiCreateBitmap NtUserSetCursorIconData NtGdiSelectBitmap NtUserReleaseDC": 1,
-            "NtUserSetCursorIconData NtContinueEx NtCallbackReturn NtAllocateVirtualMemory NtUserGetDC": 1,
-            "NtUserSetCursorIconData NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserSetCursorIconData NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap": 1
+            "NtUserSetCursorIconData NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtContinueEx NtCallbackReturn": 6,
+            "NtUserSetCursorIconData NtUserRegisterClassExWOW NtUserCreateWindowEx NtQueryInformationThread NtQueryObject": 5
         }
     }
 }

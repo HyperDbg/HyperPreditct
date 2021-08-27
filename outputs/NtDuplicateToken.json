@@ -2,24 +2,15 @@
     "NtDuplicateToken": {
         "-5": {
             "NtOpenProcessToken NtUserGetProcessUIContextInformation NtUserCallOneParam NtUserGetThreadDesktop NtProtectVirtualMemory": 6,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtQueryInformationProcess NtUserGetProcessUIContextInformation NtClose": 1,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetKeyboardLayout NtUserQueryInputContext NtUserSetFocus": 1,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetThreadState NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetThreadState NtQueryInformationProcess NtQueryInformationProcess": 1
+            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtCallbackReturn NtContinueEx NtCallbackReturn": 6
         },
         "-4": {
             "NtOpenProcessToken NtUserGetProcessUIContextInformation NtUserCallOneParam NtUserGetThreadDesktop": 6,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtQueryInformationProcess NtUserGetProcessUIContextInformation": 1,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetKeyboardLayout NtUserQueryInputContext": 1,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetThreadState NtProtectVirtualMemory": 1,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetThreadState NtQueryInformationProcess": 1
+            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtCallbackReturn NtContinueEx": 6
         },
         "-3": {
             "NtOpenProcessToken NtUserGetProcessUIContextInformation NtUserCallOneParam": 6,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtCallbackReturn": 6,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtQueryInformationProcess": 1,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetKeyboardLayout": 1,
-            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtUserGetThreadState": 2
+            "NtOpenProcessTokenEx NtOpenThreadTokenEx NtCallbackReturn": 6
         },
         "-2": {
             "NtOpenProcessToken NtUserGetProcessUIContextInformation": 6,
@@ -43,17 +34,11 @@
         },
         "4": {
             "NtAccessCheck NtClose NtClose NtQueryInformationProcess": 6,
-            "NtClose NtAccessCheck NtClose NtProtectVirtualMemory": 1,
-            "NtClose NtAccessCheck NtClose NtQueryInformationProcess": 1,
-            "NtClose NtAccessCheck NtClose NtUserGetImeInfoEx": 6,
-            "NtClose NtAccessCheck NtClose NtUserGetProcessUIContextInformation": 2
+            "NtClose NtAccessCheck NtClose NtUserGetImeInfoEx": 6
         },
         "5": {
             "NtAccessCheck NtClose NtClose NtQueryInformationProcess NtOpenKeyEx": 6,
-            "NtClose NtAccessCheck NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtClose NtAccessCheck NtClose NtQueryInformationProcess NtUserSetWinEventHook": 1,
-            "NtClose NtAccessCheck NtClose NtUserGetImeInfoEx NtProtectVirtualMemory": 6,
-            "NtClose NtAccessCheck NtClose NtUserGetProcessUIContextInformation NtQueryInformationProcess": 2
+            "NtClose NtAccessCheck NtClose NtUserGetImeInfoEx NtProtectVirtualMemory": 6
         }
     }
 }

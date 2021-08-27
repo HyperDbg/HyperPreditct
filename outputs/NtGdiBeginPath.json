@@ -25,22 +25,18 @@
             "NtQueryInformationProcess": 3
         },
         "2": {
-            "NtGdiEndPath NtGdiEndPath": 1,
             "NtGdiEndPath NtGdiPolyPatBlt": 1,
             "NtQueryInformationProcess NtSetInformationProcess": 3
         },
         "3": {
-            "NtGdiEndPath NtGdiEndPath NtQueryInformationProcess": 1,
             "NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall": 1,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3
         },
         "4": {
-            "NtGdiEndPath NtGdiEndPath NtQueryInformationProcess NtSetInformationProcess": 1,
             "NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall NtQueryInformationThread": 1,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3
         },
         "5": {
-            "NtGdiEndPath NtGdiEndPath NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
             "NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall NtQueryInformationThread NtQueryObject": 1,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtGdiEndPath": 3
         }

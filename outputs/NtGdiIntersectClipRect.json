@@ -1,69 +1,43 @@
 {
     "NtGdiIntersectClipRect": {
         "-5": {
-            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserBuildHwndList NtUserIsChildWindowDpiMessageEnabled": 1,
-            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserCallHwndLockSafe NtUserQueryWindow": 1,
-            "NtUserGetDC NtUserPeekMessage NtUserPeekMessage NtUserGetProp NtCallbackReturn": 1,
-            "NtUserGetDC NtUserReleaseDC NtGdiIntersectClipRect NtUserGetDC NtCallbackReturn": 1,
-            "NtUserGetDC NtUserReleaseDC NtUserGetDC NtUserGetKeyboardLayoutList NtUserGetImeInfoEx": 1
+            "NtUserGetDC NtUserGetImeInfoEx NtCallbackReturn NtContinueEx NtUserMessageCall": 2,
+            "NtUserGetDC NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect NtUserGetDC": 4
         },
         "-4": {
-            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserBuildHwndList": 1,
-            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserCallHwndLockSafe": 1,
-            "NtUserGetDC NtUserInvalidateRect NtUserReleaseDC NtGdiPolyPatBlt": 1,
-            "NtUserGetDC NtUserPeekMessage NtUserPeekMessage NtUserGetProp": 1,
-            "NtUserGetDC NtUserReleaseDC NtUserGetDC NtUserGetKeyboardLayoutList": 1
+            "NtUserGetDC NtUserReleaseDC NtGdiIntersectClipRect NtUserGetDC": 3,
+            "NtUserGetDC NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect": 4
         },
         "-3": {
-            "NtUserGetDC NtCallbackReturn NtContinueEx": 2,
-            "NtUserGetDC NtUserGetImeInfoEx NtCallbackReturn": 2,
-            "NtUserGetDC NtUserInvalidateRect NtUserReleaseDC": 1,
-            "NtUserGetDC NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtUserGetDC NtUserReleaseDC NtUserGetDC": 1
+            "NtUserGetDC NtUserReleaseDC NtGdiIntersectClipRect": 3,
+            "NtUserGetDC NtUserReleaseDC NtGdiPolyPatBlt": 4
         },
         "-2": {
-            "NtUserGetDC NtCallbackReturn": 2,
             "NtUserGetDC NtUserGetImeInfoEx": 2,
-            "NtUserGetDC NtUserInvalidateRect": 1,
-            "NtUserGetDC NtUserPeekMessage": 1,
             "NtUserGetDC NtUserReleaseDC": 8
         },
         "-1": {
             "NtUserGetDC": 14
         },
         "1": {
-            "NtGdiGetCharSet": 1,
-            "NtGdiGetTextCharsetInfo": 2,
             "NtGdiPolyPatBlt": 7,
             "NtUserReleaseDC": 4
         },
         "2": {
-            "NtGdiGetCharSet NtGdiGetRealizationInfo": 1,
-            "NtGdiGetTextCharsetInfo NtUserReleaseDC": 2,
             "NtGdiPolyPatBlt NtUserReleaseDC": 7,
-            "NtUserReleaseDC NtUserGetDC": 3,
-            "NtUserReleaseDC NtUserSetWindowLongPtr": 1
+            "NtUserReleaseDC NtUserGetDC": 3
         },
         "3": {
-            "NtGdiGetCharSet NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1,
-            "NtGdiPolyPatBlt NtUserReleaseDC NtUserInvalidateRect": 1,
-            "NtGdiPolyPatBlt NtUserReleaseDC NtUserPeekMessage": 1,
-            "NtGdiPolyPatBlt NtUserReleaseDC NtUserPostMessage": 1,
-            "NtUserReleaseDC NtUserSetWindowLongPtr NtContinueEx": 1
+            "NtGdiPolyPatBlt NtUserReleaseDC NtUserGetDC": 4,
+            "NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect": 3
         },
         "4": {
-            "NtGdiGetCharSet NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 1,
-            "NtGdiPolyPatBlt NtUserReleaseDC NtUserInvalidateRect NtUserGetDC": 1,
-            "NtGdiPolyPatBlt NtUserReleaseDC NtUserPostMessage NtUserPostMessage": 1,
-            "NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtGdiGetCharSet": 1,
-            "NtUserReleaseDC NtUserSetWindowLongPtr NtContinueEx NtCallbackReturn": 1
+            "NtGdiGetTextCharsetInfo NtUserReleaseDC NtUserGetImeInfoEx NtUserGetKeyboardLayoutList": 2,
+            "NtGdiPolyPatBlt NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect": 4
         },
         "5": {
-            "NtGdiGetCharSet NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 1,
-            "NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtGdiGetCharSet NtGdiGetRealizationInfo": 1,
-            "NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtUserReleaseDC NtUserGetDC": 1,
-            "NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtUserReleaseDC NtUserSetWindowLongPtr": 1,
-            "NtUserReleaseDC NtUserSetWindowLongPtr NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 1
+            "NtGdiGetTextCharsetInfo NtUserReleaseDC NtUserGetImeInfoEx NtUserGetKeyboardLayoutList NtUserGetDC": 2,
+            "NtGdiPolyPatBlt NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt": 4
         }
     }
 }

@@ -2,22 +2,18 @@
     "NtReleaseMutant": {
         "-5": {
             "NtClose NtReleaseSemaphore NtReleaseSemaphore NtWaitForSingleObject NtOpenSemaphore": 5,
-            "NtClose NtUnmapViewOfSectionEx NtMapViewOfSection NtOpenSection NtQueryObject": 1,
             "NtCreateSemaphore NtQueryObject NtOpenSemaphore NtQueryObject NtWaitForSingleObject": 7
         },
         "-4": {
             "NtClose NtReleaseSemaphore NtReleaseSemaphore NtWaitForSingleObject": 5,
-            "NtClose NtUnmapViewOfSectionEx NtMapViewOfSection NtOpenSection": 1,
             "NtCreateSemaphore NtQueryObject NtOpenSemaphore NtQueryObject": 7
         },
         "-3": {
             "NtClose NtReleaseSemaphore NtReleaseSemaphore": 5,
-            "NtClose NtUnmapViewOfSectionEx NtMapViewOfSection": 1,
             "NtCreateSemaphore NtQueryObject NtOpenSemaphore": 7
         },
         "-2": {
             "NtClose NtReleaseSemaphore": 5,
-            "NtClose NtUnmapViewOfSectionEx": 1,
             "NtCreateSemaphore NtQueryObject": 7
         },
         "-1": {
@@ -26,36 +22,23 @@
         },
         "1": {
             "NtClose": 6,
-            "NtQueryObject": 1,
             "NtTraceControl": 6
         },
         "2": {
-            "NtClose NtProtectVirtualMemory": 1,
-            "NtClose NtQueryObject": 1,
             "NtClose NtTraceControl": 4,
-            "NtQueryObject NtOpenSection": 1,
             "NtTraceControl NtTraceControl": 6
         },
         "3": {
-            "NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtClose NtQueryObject NtQueryKey": 1,
             "NtClose NtTraceControl NtTraceControl": 4,
-            "NtQueryObject NtOpenSection NtMapViewOfSection": 1,
-            "NtTraceControl NtTraceControl NtAllocateVirtualMemory": 1
+            "NtTraceControl NtTraceControl NtUserGetProp": 5
         },
         "4": {
-            "NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtUserRegisterClassExWOW": 1,
-            "NtClose NtQueryObject NtQueryKey NtQueryKey": 1,
-            "NtClose NtTraceControl NtTraceControl NtQueryInformationThread": 1,
-            "NtClose NtTraceControl NtTraceControl NtQuerySecurityAttributesToken": 1,
-            "NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject": 1
+            "NtClose NtTraceControl NtTraceControl NtQueryObject": 2,
+            "NtTraceControl NtTraceControl NtUserGetProp NtUserGetProp": 5
         },
         "5": {
-            "NtClose NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx": 1,
-            "NtClose NtTraceControl NtTraceControl NtQueryInformationThread NtQueryObject": 1,
-            "NtClose NtTraceControl NtTraceControl NtQueryObject NtCreateMutant": 1,
             "NtClose NtTraceControl NtTraceControl NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 1,
-            "NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject NtQueryKey": 1
+            "NtTraceControl NtTraceControl NtUserGetProp NtUserGetProp NtUserIsTopLevelWindow": 5
         }
     }
 }

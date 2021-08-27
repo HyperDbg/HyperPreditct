@@ -2,6 +2,7 @@ from Scanner import *
 from SyscallAnalyzer import *
 from SyscallNameConversion import *
 import json 
+import operator
 
 def printPatternDict(patternRate):
     for p in patternRate.keys():
@@ -29,11 +30,28 @@ def jsonize(allPattternRatesDict, folderName, maximumResults):
         newDict[convertSyscallNumberToFunctionName(targetSyscall)] = dict()
         for patternRange in allPattternRatesDict[targetSyscall].keys():
             newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange] = dict()
+            
             controlMaximum = 0
+            tempStorage = dict()
+            tempStorage2 = dict()
+            
             for pattern in  allPattternRatesDict[targetSyscall][patternRange].keys():
+                tempStorage[pattern] = allPattternRatesDict[targetSyscall][patternRange][pattern]
+                # print(pattern.getString() + " : " + str(allPattternRatesDict[targetSyscall][patternRange][pattern]))
+
+            # sort dictionary by value
+            sortedTempStorage = dict(sorted(tempStorage.items(), key=operator.itemgetter(1),reverse=True))
+
+            # apply sort and limit
+            for pattern in  sortedTempStorage.keys():
                 controlMaximum += 1
                 if controlMaximum > maximumResults :
                     break
+                    
+                tempStorage2[pattern] = allPattternRatesDict[targetSyscall][patternRange][pattern]
+            
+            # save the results
+            for pattern in  tempStorage2.keys():
                 newDict[convertSyscallNumberToFunctionName(targetSyscall)][patternRange][pattern.getString()] = allPattternRatesDict[targetSyscall][patternRange][pattern]
         
         with open(folderName + '\\' + convertSyscallNumberToFunctionName(targetSyscall) + '.json', "w") as f:

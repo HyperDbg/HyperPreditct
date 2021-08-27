@@ -2,30 +2,18 @@
     "NtOpenEvent": {
         "-5": {
             "NtQueryObject NtCreateEvent NtCreateEvent NtCreateEvent NtCreateEvent": 6,
-            "NtQueryObject NtQueryWnfStateData NtOpenKeyEx NtQueryKey NtQueryKey": 1,
-            "NtQueryObject NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtQueryObject NtUserSetTimer NtUserCallHwndSafe NtCallbackReturn NtContinueEx": 1,
             "NtTraceControl NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtQuerySecurityObject": 1
         },
         "-4": {
             "NtQueryObject NtCreateEvent NtCreateEvent NtCreateEvent": 6,
-            "NtQueryObject NtQueryWnfStateData NtOpenKeyEx NtQueryKey": 1,
-            "NtQueryObject NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo NtUserGetThreadState": 1,
-            "NtQueryObject NtUserSetTimer NtUserCallHwndSafe NtCallbackReturn": 1,
             "NtTraceControl NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 1
         },
         "-3": {
             "NtQueryObject NtCreateEvent NtCreateEvent": 6,
-            "NtQueryObject NtQueryWnfStateData NtOpenKeyEx": 1,
-            "NtQueryObject NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo": 1,
-            "NtQueryObject NtUserSetTimer NtUserCallHwndSafe": 1,
             "NtTraceControl NtSetInformationVirtualMemory NtApphelpCacheControl": 1
         },
         "-2": {
             "NtQueryObject NtCreateEvent": 6,
-            "NtQueryObject NtQueryWnfStateData": 1,
-            "NtQueryObject NtUserGetGUIThreadInfo": 1,
-            "NtQueryObject NtUserSetTimer": 1,
             "NtTraceControl NtSetInformationVirtualMemory": 1
         },
         "-1": {
@@ -33,39 +21,24 @@
             "NtTraceControl": 1
         },
         "1": {
-            "NtContinueEx": 1,
             "NtSetEvent": 1,
-            "NtTraceControl": 6,
-            "NtUserNotifyWinEvent": 1,
-            "NtUserSetTimer": 1
+            "NtTraceControl": 6
         },
         "2": {
-            "NtContinueEx NtCallbackReturn": 1,
             "NtSetEvent NtProtectVirtualMemory": 1,
-            "NtTraceControl NtTraceControl": 6,
-            "NtUserNotifyWinEvent NtAlpcSendWaitReceivePort": 1,
-            "NtUserSetTimer NtUserGetInputLocaleInfo": 1
+            "NtTraceControl NtTraceControl": 6
         },
         "3": {
-            "NtContinueEx NtCallbackReturn NtUserMessageCall": 1,
             "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtTraceControl NtTraceControl NtTraceControl": 6,
-            "NtUserNotifyWinEvent NtAlpcSendWaitReceivePort NtUserQueryInputContext": 1,
-            "NtUserSetTimer NtUserGetInputLocaleInfo NtUserGetKeyboardLayout": 1
+            "NtTraceControl NtTraceControl NtTraceControl": 6
         },
         "4": {
-            "NtContinueEx NtCallbackReturn NtUserMessageCall NtUserGetProp": 1,
             "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject": 1,
-            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 6,
-            "NtUserNotifyWinEvent NtAlpcSendWaitReceivePort NtUserQueryInputContext NtUserQueryInputContext": 1,
-            "NtUserSetTimer NtUserGetInputLocaleInfo NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1
+            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 6
         },
         "5": {
-            "NtContinueEx NtCallbackReturn NtUserMessageCall NtUserGetProp NtUserIsTopLevelWindow": 1,
             "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject NtOpenSection": 1,
-            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 6,
-            "NtUserNotifyWinEvent NtAlpcSendWaitReceivePort NtUserQueryInputContext NtUserQueryInputContext NtUserGetKeyboardLayout": 1,
-            "NtUserSetTimer NtUserGetInputLocaleInfo NtUserGetKeyboardLayout NtUserGetKeyboardLayout NtUserNotifyIMEStatus": 1
+            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 6
         }
     }
 }

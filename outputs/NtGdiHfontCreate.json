@@ -1,74 +1,44 @@
 {
     "NtGdiHfontCreate": {
         "-5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtClose NtQueryValueKey NtSetInformationKey": 1,
-            "NtAllocateVirtualMemory NtUserGetKeyboardLayout NtQueryLicenseValue NtCreateEvent NtQueryVirtualMemory": 1,
-            "NtGdiHfontCreate NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSystemParametersInfo NtCallbackReturn NtContinueEx": 1,
-            "NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn": 1
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts NtAllocateVirtualMemory": 3,
+            "NtUserGetKeyboardLayout NtQueryLicenseValue NtCreateEvent NtQueryVirtualMemory NtOpenKeyEx": 4
         },
         "-4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtClose NtQueryValueKey": 1,
-            "NtAllocateVirtualMemory NtUserGetKeyboardLayout NtQueryLicenseValue NtCreateEvent": 1,
-            "NtGdiHfontCreate NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSystemParametersInfo NtCallbackReturn": 1,
-            "NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserGetProp": 1
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts NtGdiEnumFonts": 3,
+            "NtUserGetKeyboardLayout NtQueryLicenseValue NtCreateEvent NtQueryVirtualMemory": 4
         },
         "-3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtClose": 1,
-            "NtAllocateVirtualMemory NtUserGetKeyboardLayout NtQueryLicenseValue": 1,
-            "NtGdiHfontCreate NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserSystemParametersInfo": 1,
-            "NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 1
+            "NtGdiEnumFonts NtAllocateVirtualMemory NtGdiEnumFonts": 3,
+            "NtUserGetKeyboardLayout NtQueryLicenseValue NtCreateEvent": 4
         },
         "-2": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtUserGetKeyboardLayout": 1,
-            "NtGdiHfontCreate NtUserSystemParametersInfo": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserSystemParametersInfo NtUserIsNonClientDpiScalingEnabled": 1
+            "NtGdiEnumFonts NtAllocateVirtualMemory": 3,
+            "NtUserGetKeyboardLayout NtQueryLicenseValue": 4
         },
         "-1": {
-            "NtAllocateVirtualMemory": 2,
-            "NtGdiExtGetObjectW": 1,
-            "NtGdiHfontCreate": 1,
-            "NtProtectVirtualMemory": 1,
-            "NtUserSystemParametersInfo": 1
+            "NtGdiEnumFonts": 3,
+            "NtUserGetKeyboardLayout": 4
         },
         "1": {
             "NtGdiCreateCompatibleDC": 5,
-            "NtGdiExtGetObjectW": 3,
-            "NtGdiGetTextMetricsW": 6,
-            "NtGdiHfontCreate": 1,
-            "NtUserGetWindowCompositionAttribute": 1
+            "NtGdiGetTextMetricsW": 6
         },
         "2": {
-            "NtGdiExtGetObjectW NtGdiHfontCreate": 1,
-            "NtGdiExtGetObjectW NtUserFindExistingCursorIcon": 1,
-            "NtGdiExtGetObjectW NtUserSystemParametersInfo": 1,
-            "NtGdiHfontCreate NtUserGetWindowCompositionAttribute": 1,
-            "NtUserGetWindowCompositionAttribute NtUserGetProp": 1
+            "NtGdiCreateCompatibleDC NtUserGetDC": 5,
+            "NtGdiGetTextMetricsW NtGdiGetTextFaceW": 6
         },
         "3": {
-            "NtGdiExtGetObjectW NtGdiHfontCreate NtGdiExtGetObjectW": 1,
-            "NtGdiExtGetObjectW NtUserFindExistingCursorIcon NtUserGetDC": 1,
-            "NtGdiExtGetObjectW NtUserSystemParametersInfo NtOpenSection": 1,
-            "NtGdiHfontCreate NtUserGetWindowCompositionAttribute NtUserGetProp": 1,
-            "NtUserGetWindowCompositionAttribute NtUserGetProp NtUserCalcMenuBar": 1
+            "NtGdiCreateCompatibleDC NtUserGetDC NtGdiCreateCompatibleBitmap": 5,
+            "NtGdiGetTextMetricsW NtGdiGetTextFaceW NtGdiSelectFont": 6
         },
         "4": {
-            "NtGdiExtGetObjectW NtGdiHfontCreate NtGdiExtGetObjectW NtUserFindExistingCursorIcon": 1,
-            "NtGdiExtGetObjectW NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateCompatibleBitmap": 1,
-            "NtGdiExtGetObjectW NtUserSystemParametersInfo NtOpenSection NtMapViewOfSection": 1,
-            "NtGdiHfontCreate NtUserGetWindowCompositionAttribute NtUserGetProp NtUserCalcMenuBar": 1,
-            "NtUserGetWindowCompositionAttribute NtUserGetProp NtUserCalcMenuBar NtUserGetProp": 1
+            "NtGdiCreateCompatibleDC NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC": 5,
+            "NtGdiGetTextMetricsW NtGdiGetTextFaceW NtGdiSelectFont NtProtectVirtualMemory": 3
         },
         "5": {
-            "NtGdiExtGetObjectW NtGdiHfontCreate NtGdiExtGetObjectW NtUserFindExistingCursorIcon NtUserGetDC": 1,
-            "NtGdiExtGetObjectW NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC": 1,
-            "NtGdiExtGetObjectW NtUserSystemParametersInfo NtOpenSection NtMapViewOfSection NtOpenSection": 1,
-            "NtGdiHfontCreate NtUserGetWindowCompositionAttribute NtUserGetProp NtUserCalcMenuBar NtUserGetProp": 1,
-            "NtUserGetWindowCompositionAttribute NtUserGetProp NtUserCalcMenuBar NtUserGetProp NtUserIsTopLevelWindow": 1
+            "NtGdiCreateCompatibleDC NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap": 5,
+            "NtGdiGetTextMetricsW NtGdiGetTextFaceW NtGdiSelectFont NtProtectVirtualMemory NtProtectVirtualMemory": 3
         }
     }
 }

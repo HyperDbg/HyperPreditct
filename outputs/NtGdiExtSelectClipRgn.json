@@ -34,7 +34,6 @@
         },
         "5": {
             "NtUserReleaseDC NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserReleaseDC NtContinueEx NtCallbackReturn NtUserGetThreadState NtUserGetClassInfoEx": 1,
             "NtUserReleaseDC NtContinueEx NtCallbackReturn NtUserGetThreadState NtUserGetThreadState": 1
         }
     }

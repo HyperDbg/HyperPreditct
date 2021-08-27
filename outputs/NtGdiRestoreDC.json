@@ -24,18 +24,15 @@
         },
         "3": {
             "NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiExtGetObjectW": 24,
-            "NtGdiSelectBitmap NtUserGetDC NtGdiCreateDIBitmapInternal": 16,
-            "NtGdiSelectBitmap NtUserGetDC NtProtectVirtualMemory": 1
+            "NtGdiSelectBitmap NtUserGetDC NtGdiCreateDIBitmapInternal": 16
         },
         "4": {
             "NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiExtGetObjectW NtGdiCreateBitmap": 24,
-            "NtGdiSelectBitmap NtUserGetDC NtGdiCreateDIBitmapInternal NtUserReleaseDC": 16,
-            "NtGdiSelectBitmap NtUserGetDC NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtGdiSelectBitmap NtUserGetDC NtGdiCreateDIBitmapInternal NtUserReleaseDC": 16
         },
         "5": {
             "NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiExtGetObjectW NtGdiCreateBitmap NtGdiSelectBitmap": 24,
-            "NtGdiSelectBitmap NtUserGetDC NtGdiCreateDIBitmapInternal NtUserReleaseDC NtGdiSelectBitmap": 16,
-            "NtGdiSelectBitmap NtUserGetDC NtProtectVirtualMemory NtProtectVirtualMemory NtGdiCreateDIBitmapInternal": 1
+            "NtGdiSelectBitmap NtUserGetDC NtGdiCreateDIBitmapInternal NtUserReleaseDC NtGdiSelectBitmap": 16
         }
     }
 }

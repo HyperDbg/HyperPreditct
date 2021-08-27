@@ -1,74 +1,44 @@
 {
     "NtAlpcSendWaitReceivePort": {
         "-5": {
-            "NtAllocateVirtualMemory NtAlpcConnectPortEx NtDuplicateObject NtQuerySystemInformation NtQueryInformationProcess": 1,
-            "NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx NtSetTimer2 NtSetInformationWorkerFactory": 1,
-            "NtQueryVolumeInformationFile NtOpenFile NtOpenFile NtClose NtQueryValueKey": 1,
-            "NtQueryVolumeInformationFile NtQueryInformationFile NtClose NtQueryValueKey NtSetInformationKey": 1,
-            "NtUserNotifyWinEvent NtOpenEvent NtQueryObject NtQueryWnfStateData NtOpenKeyEx": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtQueryInformationToken NtCreateMutant NtCreateEvent NtAllocateVirtualMemory NtAllocateVirtualMemory": 5
         },
         "-4": {
-            "NtAllocateVirtualMemory NtAlpcConnectPortEx NtDuplicateObject NtQuerySystemInformation": 1,
-            "NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx NtSetTimer2": 1,
-            "NtQueryVolumeInformationFile NtOpenFile NtOpenFile NtClose": 1,
-            "NtQueryVolumeInformationFile NtQueryInformationFile NtClose NtQueryValueKey": 1,
-            "NtUserNotifyWinEvent NtOpenEvent NtQueryObject NtQueryWnfStateData": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationProcess NtProtectVirtualMemory": 6,
+            "NtQueryInformationToken NtCreateMutant NtCreateEvent NtAllocateVirtualMemory": 5
         },
         "-3": {
-            "NtAllocateVirtualMemory NtAlpcConnectPortEx NtDuplicateObject": 1,
-            "NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx": 1,
-            "NtQueryVolumeInformationFile NtOpenFile NtOpenFile": 1,
-            "NtQueryVolumeInformationFile NtQueryInformationFile NtClose": 1,
-            "NtUserNotifyWinEvent NtOpenEvent NtQueryObject": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationProcess": 6,
+            "NtQueryInformationToken NtCreateMutant NtCreateEvent": 5
         },
         "-2": {
-            "NtAllocateVirtualMemory NtAlpcConnectPortEx": 1,
-            "NtQueryInformationProcess NtAlpcQueryInformation": 1,
-            "NtQueryVolumeInformationFile NtOpenFile": 1,
-            "NtQueryVolumeInformationFile NtQueryInformationFile": 1,
-            "NtUserNotifyWinEvent NtOpenEvent": 1
+            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 7,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 6
         },
         "-1": {
-            "NtAlpcCreatePort": 1,
-            "NtCreateWaitCompletionPacket": 1,
-            "NtQueryInformationProcess": 1,
-            "NtUserNotifyWinEvent": 1,
-            "NtUserSetInputServiceState": 1
+            "NtAlpcSendWaitReceivePort": 11,
+            "NtProtectVirtualMemory": 6
         },
         "1": {
-            "NtAlpcConnectPortEx": 1,
-            "NtCreateEvent": 1,
-            "NtQueryObject": 1,
-            "NtUserGetQueueStatus": 1,
-            "NtUserQueryInputContext": 1
+            "NtAlpcSendWaitReceivePort": 11,
+            "NtQueryAttributesFile": 7
         },
         "2": {
-            "NtClose NtClose": 1,
-            "NtClose NtOpenKeyEx": 1,
-            "NtCreateEvent NtAllocateVirtualMemory": 1,
-            "NtUserGetQueueStatus NtUserPeekMessage": 1,
-            "NtUserQueryInputContext NtUserQueryInputContext": 1
+            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 7,
+            "NtQueryAttributesFile NtOpenFile": 6
         },
         "3": {
-            "NtClose NtClose NtUnmapViewOfSection": 1,
-            "NtClose NtOpenKeyEx NtQueryAttributesFile": 1,
-            "NtCreateEvent NtAllocateVirtualMemory NtCreateTimer": 1,
-            "NtUserGetQueueStatus NtUserPeekMessage NtUserDestroyWindow": 1,
-            "NtUserQueryInputContext NtUserQueryInputContext NtUserGetKeyboardLayout": 1
+            "NtOpenKeyEx NtSetInformationKey NtQueryValueKey": 5,
+            "NtQueryAttributesFile NtOpenFile NtCreateSection": 6
         },
         "4": {
-            "NtClose NtClose NtUnmapViewOfSection NtAddAtomEx": 1,
-            "NtClose NtOpenKeyEx NtQueryAttributesFile NtOpenFile": 1,
-            "NtCreateEvent NtAllocateVirtualMemory NtCreateTimer NtCreateTimer": 1,
-            "NtUserGetQueueStatus NtUserPeekMessage NtUserDestroyWindow NtContinueEx": 1,
-            "NtUserQueryInputContext NtUserQueryInputContext NtUserGetKeyboardLayout NtUserQueryInputContext": 1
+            "NtOpenKeyEx NtSetInformationKey NtQueryValueKey NtClose": 5,
+            "NtQueryAttributesFile NtOpenFile NtCreateSection NtMapViewOfSection": 6
         },
         "5": {
-            "NtClose NtClose NtUnmapViewOfSection NtAddAtomEx NtAddAtomEx": 1,
-            "NtClose NtOpenKeyEx NtQueryAttributesFile NtOpenFile NtQueryInformationThread": 1,
-            "NtCreateEvent NtAllocateVirtualMemory NtCreateTimer NtCreateTimer NtCreateEvent": 1,
-            "NtUserGetQueueStatus NtUserPeekMessage NtUserDestroyWindow NtContinueEx NtCallbackReturn": 1,
-            "NtUserQueryInputContext NtUserQueryInputContext NtUserGetKeyboardLayout NtUserQueryInputContext NtProtectVirtualMemory": 1
+            "NtOpenKeyEx NtSetInformationKey NtQueryValueKey NtClose NtOpenKeyEx": 5,
+            "NtQueryAttributesFile NtOpenFile NtCreateSection NtMapViewOfSection NtUnmapViewOfSection": 6
         }
     }
 }

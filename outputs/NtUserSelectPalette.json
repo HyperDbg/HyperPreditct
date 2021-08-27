@@ -1,26 +1,19 @@
 {
     "NtUserSelectPalette": {
         "-5": {
-            "NtGdiGetDCObject NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiGetDCforBitmap NtGdiCreateDIBSection": 1,
             "NtGdiGetDCObject NtGdiSelectBitmap NtGdiSaveDC NtGdiGetDCforBitmap NtGdiSelectBitmap": 41,
-            "NtGdiSetDIBitsToDeviceInternal NtAllocateVirtualMemory NtUserSelectPalette NtGdiGetDCObject NtGdiSelectBitmap": 1,
             "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiGetDCObject NtGdiSelectBitmap NtGdiSaveDC": 41
         },
         "-4": {
-            "NtGdiGetDCObject NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiGetDCforBitmap": 1,
             "NtGdiGetDCObject NtGdiSelectBitmap NtGdiSaveDC NtGdiGetDCforBitmap": 41,
-            "NtGdiSetDIBitsToDeviceInternal NtAllocateVirtualMemory NtUserSelectPalette NtGdiGetDCObject": 1,
             "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiGetDCObject NtGdiSelectBitmap": 41
         },
         "-3": {
-            "NtGdiGetDCObject NtGdiSelectBitmap NtGdiCreateCompatibleDC": 1,
             "NtGdiGetDCObject NtGdiSelectBitmap NtGdiSaveDC": 41,
-            "NtGdiSetDIBitsToDeviceInternal NtAllocateVirtualMemory NtUserSelectPalette": 1,
             "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiGetDCObject": 41
         },
         "-2": {
             "NtGdiGetDCObject NtGdiSelectBitmap": 42,
-            "NtGdiSetDIBitsToDeviceInternal NtAllocateVirtualMemory": 1,
             "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette": 41
         },
         "-1": {
@@ -28,35 +21,24 @@
             "NtGdiSetDIBitsToDeviceInternal": 42
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
             "NtGdiSelectBitmap": 42,
             "NtGdiSetDIBitsToDeviceInternal": 41
         },
         "2": {
-            "NtAllocateVirtualMemory NtGdiSetDIBitsToDeviceInternal": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp": 1,
             "NtGdiSelectBitmap NtGdiRestoreDC": 41,
             "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette": 41
         },
         "3": {
-            "NtAllocateVirtualMemory NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap": 1,
             "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap": 41,
             "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap": 41
         },
         "4": {
-            "NtAllocateVirtualMemory NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap NtFreeVirtualMemory": 1,
             "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtGdiCreateCompatibleDC": 24,
-            "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserGetDC": 17,
             "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap NtGdiRestoreDC": 41
         },
         "5": {
-            "NtAllocateVirtualMemory NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap NtGdiDeleteObjectApp": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap NtFreeVirtualMemory NtGdiExtGetObjectW": 1,
             "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtGdiCreateCompatibleDC NtGdiExtGetObjectW": 24,
-            "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserGetDC NtGdiCreateDIBitmapInternal": 16,
-            "NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserGetDC NtProtectVirtualMemory": 1
+            "NtGdiSetDIBitsToDeviceInternal NtUserSelectPalette NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap": 41
         }
     }
 }

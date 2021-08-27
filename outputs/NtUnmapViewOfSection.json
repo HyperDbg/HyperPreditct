@@ -1,74 +1,44 @@
 {
     "NtUnmapViewOfSection": {
         "-5": {
-            "NtClose NtClose NtAllocateVirtualMemory NtAllocateVirtualMemory NtOpenMutant": 1,
-            "NtClose NtClose NtAlpcSendWaitReceivePort NtQueryVolumeInformationFile NtQueryInformationFile": 1,
-            "NtCompareObjects NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtQueryVirtualMemory NtQuerySection NtQueryVirtualMemory NtQuerySection NtQueryVirtualMemory": 1,
-            "NtUnmapViewOfSection NtQueryVirtualMemory NtQuerySection NtQueryVirtualMemory NtQuerySection": 1
+            "NtQuerySection NtMapViewOfSection NtClose NtOpenSection NtOpenDirectoryObject": 6,
+            "NtQuerySection NtMapViewOfSection NtOpenSection NtSetEvent NtApphelpCacheControl": 6
         },
         "-4": {
-            "NtClose NtClose NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtClose NtClose NtAlpcSendWaitReceivePort NtQueryVolumeInformationFile": 1,
-            "NtCompareObjects NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtQueryVirtualMemory NtQuerySection NtQueryVirtualMemory NtQuerySection": 1,
-            "NtUnmapViewOfSection NtQueryVirtualMemory NtQuerySection NtQueryVirtualMemory": 1
+            "NtMapViewOfSection NtCreateSection NtOpenFile NtQueryAttributesFile": 7,
+            "NtQuerySection NtMapViewOfSection NtOpenSection NtSetEvent": 6
         },
         "-3": {
-            "NtClose NtClose NtAlpcSendWaitReceivePort": 1,
-            "NtCompareObjects NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtQuerySection NtMapViewOfSection NtClose": 6,
-            "NtQueryVirtualMemory NtQuerySection NtQueryVirtualMemory": 2,
-            "NtUnmapViewOfSection NtQueryVirtualMemory NtQuerySection": 1
+            "NtMapViewOfSection NtCreateSection NtOpenFile": 7,
+            "NtQuerySection NtMapViewOfSection NtOpenSection": 12
         },
         "-2": {
             "NtClose NtClose": 7,
-            "NtCompareObjects NtSetInformationProcess": 1,
-            "NtMapViewOfSection NtCreateSection": 7,
-            "NtQueryVirtualMemory NtQuerySection": 2,
-            "NtUnmapViewOfSection NtQueryVirtualMemory": 1
+            "NtQuerySection NtMapViewOfSection": 18
         },
         "-1": {
             "NtClose": 7,
-            "NtCompareObjects": 1,
-            "NtMapViewOfSection": 7,
-            "NtQueryVirtualMemory": 2,
-            "NtUnmapViewOfSection": 1
+            "NtQuerySection": 18
         },
         "1": {
-            "NtAddAtomEx": 1,
             "NtClose": 27,
-            "NtCompareObjects": 1,
-            "NtTraceControl": 6,
-            "NtUnmapViewOfSection": 1
+            "NtTraceControl": 6
         },
         "2": {
-            "NtAddAtomEx NtAddAtomEx": 1,
-            "NtClose NtOpenDirectoryObject": 6,
-            "NtClose NtOpenSection": 6,
-            "NtCompareObjects NtCompareObjects": 1,
-            "NtUnmapViewOfSection NtClose": 1
+            "NtClose NtClose": 9,
+            "NtClose NtOpenDirectoryObject": 6
         },
         "3": {
-            "NtAddAtomEx NtAddAtomEx NtUserRegisterWindowMessage": 1,
-            "NtClose NtClose NtClose": 1,
-            "NtCompareObjects NtCompareObjects NtQueryInformationProcess": 1,
-            "NtTraceControl NtAllocateVirtualMemory NtCreateFile": 1,
-            "NtUnmapViewOfSection NtClose NtClose": 1
+            "NtClose NtOpenDirectoryObject NtOpenSection": 6,
+            "NtClose NtOpenSection NtMapViewOfSection": 6
         },
         "4": {
-            "NtAddAtomEx NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1,
-            "NtClose NtClose NtClose NtClose": 1,
-            "NtCompareObjects NtCompareObjects NtQueryInformationProcess NtReadVirtualMemory": 1,
-            "NtTraceControl NtAllocateVirtualMemory NtCreateFile NtQueryInformationToken": 1,
-            "NtUnmapViewOfSection NtClose NtClose NtClose": 1
+            "NtClose NtOpenDirectoryObject NtOpenSection NtClose": 6,
+            "NtClose NtOpenSection NtMapViewOfSection NtQuerySection": 6
         },
         "5": {
-            "NtAddAtomEx NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserSystemParametersInfo": 1,
-            "NtClose NtClose NtClose NtClose NtQueryPerformanceCounter": 1,
-            "NtCompareObjects NtCompareObjects NtQueryInformationProcess NtReadVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtTraceControl NtAllocateVirtualMemory NtCreateFile NtQueryInformationToken NtOpenKeyEx": 1,
-            "NtUnmapViewOfSection NtClose NtClose NtClose NtClose": 1
+            "NtClose NtOpenDirectoryObject NtOpenSection NtClose NtMapViewOfSection": 6,
+            "NtClose NtOpenSection NtMapViewOfSection NtQuerySection NtUnmapViewOfSection": 6
         }
     }
 }

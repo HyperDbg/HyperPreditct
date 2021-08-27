@@ -1,66 +1,43 @@
 {
     "NtUserCallTwoParam": {
         "-5": {
-            "NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam": 1,
-            "NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory": 1,
-            "NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserRegisterWindowMessage": 1,
-            "NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
+            "NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution": 12,
             "NtUserRegisterWindowMessage NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtQueryInformationProcess": 6
         },
         "-4": {
-            "NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam NtFreeVirtualMemory": 1,
-            "NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserRegisterWindowMessage NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 6,
-            "NtUserRegisterWindowMessage NtUserCallTwoParam NtUserRegisterWindowMessage NtProtectVirtualMemory": 6
+            "NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 13,
+            "NtUserRegisterWindowMessage NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 6
         },
         "-3": {
-            "NtDelayExecution NtUserCallTwoParam NtUserCallTwoParam": 1,
-            "NtFreeVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserCallTwoParam NtFreeVirtualMemory NtFreeVirtualMemory": 1,
-            "NtUserRegisterWindowMessage NtProtectVirtualMemory NtProtectVirtualMemory": 6,
-            "NtUserRegisterWindowMessage NtUserCallTwoParam NtUserRegisterWindowMessage": 6
+            "NtDelayExecution NtUserCallTwoParam NtDelayExecution": 13,
+            "NtUserRegisterWindowMessage NtProtectVirtualMemory NtProtectVirtualMemory": 6
         },
         "-2": {
             "NtDelayExecution NtUserCallTwoParam": 14,
-            "NtFreeVirtualMemory NtFreeVirtualMemory": 1,
-            "NtUserCallTwoParam NtFreeVirtualMemory": 1,
-            "NtUserRegisterWindowMessage NtProtectVirtualMemory": 6,
-            "NtUserRegisterWindowMessage NtUserCallTwoParam": 6
+            "NtUserRegisterWindowMessage NtProtectVirtualMemory": 6
         },
         "-1": {
             "NtDelayExecution": 14,
-            "NtFreeVirtualMemory": 1,
-            "NtUserCallTwoParam": 1,
             "NtUserRegisterWindowMessage": 12
         },
         "1": {
             "NtDelayExecution": 14,
-            "NtUserCallTwoParam": 1,
             "NtUserRegisterWindowMessage": 12
         },
         "2": {
             "NtDelayExecution NtUserCallTwoParam": 14,
-            "NtUserCallTwoParam NtDelayExecution": 1,
-            "NtUserRegisterWindowMessage NtContinueEx": 6,
             "NtUserRegisterWindowMessage NtUserCallTwoParam": 6
         },
         "3": {
             "NtDelayExecution NtUserCallTwoParam NtDelayExecution": 13,
-            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 1,
-            "NtUserRegisterWindowMessage NtContinueEx NtCallbackReturn": 6,
             "NtUserRegisterWindowMessage NtUserCallTwoParam NtUserRegisterWindowMessage": 6
         },
         "4": {
             "NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 13,
-            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution": 1,
-            "NtUserRegisterWindowMessage NtContinueEx NtCallbackReturn NtUserMessageCall": 6,
             "NtUserRegisterWindowMessage NtUserCallTwoParam NtUserRegisterWindowMessage NtContinueEx": 6
         },
         "5": {
             "NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution": 12,
-            "NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam NtDelayExecution NtUserCallTwoParam": 1,
-            "NtUserRegisterWindowMessage NtContinueEx NtCallbackReturn NtUserMessageCall NtContinueEx": 6,
             "NtUserRegisterWindowMessage NtUserCallTwoParam NtUserRegisterWindowMessage NtContinueEx NtCallbackReturn": 6
         }
     }

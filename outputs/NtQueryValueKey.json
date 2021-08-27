@@ -1,74 +1,44 @@
 {
     "NtQueryValueKey": {
         "-5": {
-            "NtClose NtWaitForWorkViaWorkerFactory NtWorkerFactoryWorkerReady NtOpenKeyEx NtTestAlert": 1,
-            "NtCreateKey NtQueryKey NtQueryObject NtSetInformationKey NtCreateKey": 1,
-            "NtOpenKeyEx NtQueryInformationToken NtQueryKey NtQueryKey NtProtectVirtualMemory": 1,
-            "NtQueryValueKey NtCreateKey NtQueryKey NtQueryObject NtSetInformationKey": 1,
-            "NtSetInformationKey NtWaitForWorkViaWorkerFactory NtOpenKeyEx NtWaitForWorkViaWorkerFactory NtQueryWnfStateData": 1
+            "NtClose NtOpenKeyEx NtQueryKey NtQueryObject NtSetInformationKey": 137,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey": 2183
         },
         "-4": {
-            "NtAllocateVirtualMemory NtClose NtEnumerateKey NtOpenKeyEx": 1,
-            "NtClose NtWaitForWorkViaWorkerFactory NtWorkerFactoryWorkerReady NtOpenKeyEx": 1,
-            "NtCreateKey NtQueryKey NtQueryObject NtSetInformationKey": 1,
-            "NtQueryValueKey NtCreateKey NtQueryKey NtQueryObject": 1,
-            "NtSetInformationKey NtWaitForWorkViaWorkerFactory NtOpenKeyEx NtWaitForWorkViaWorkerFactory": 1
+            "NtClose NtOpenKeyEx NtQueryKey NtQueryObject": 190,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey": 2319
         },
         "-3": {
-            "NtAllocateVirtualMemory NtClose NtEnumerateKey": 1,
-            "NtClose NtWaitForWorkViaWorkerFactory NtWorkerFactoryWorkerReady": 1,
-            "NtCreateKey NtQueryKey NtQueryObject": 1,
-            "NtEnumerateKey NtQueryValueKey NtAllocateVirtualMemory": 1,
-            "NtQueryValueKey NtCreateKey NtQueryKey": 1
+            "NtClose NtOpenKeyEx NtQueryKey": 190,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey": 2455
         },
         "-2": {
-            "NtAllocateVirtualMemory NtClose": 1,
-            "NtClose NtDeviceIoControlFile": 1,
-            "NtCreateKey NtQueryKey": 1,
-            "NtEnumerateKey NtQueryValueKey": 1,
-            "NtQueryValueKey NtCreateKey": 1
+            "NtQueryValueKey NtQueryValueKey": 2595,
+            "NtSetInformationKey NtOpenKeyEx": 254
         },
         "-1": {
-            "NtCreateFile": 1,
-            "NtCreateKey": 1,
-            "NtEnumerateKey": 1,
-            "NtProtectVirtualMemory": 1,
-            "NtSetEvent": 1
+            "NtClose": 275,
+            "NtQueryValueKey": 2808
         },
         "1": {
-            "NtEnumerateKey": 2,
-            "NtOpenKey": 1,
-            "NtQueryInformationThread": 2,
-            "NtSetEvent": 1,
-            "NtSetInformationKey": 1
+            "NtClose": 310,
+            "NtQueryValueKey": 2808
         },
         "2": {
-            "NtClose NtOpenProcessToken": 1,
-            "NtCreateFile NtDeviceIoControlFile": 1,
-            "NtEnumerateKey NtClose": 1,
-            "NtEnumerateKey NtQueryValueKey": 1,
-            "NtQueryInformationThread NtClose": 1
+            "NtQueryObject NtQueryKey": 149,
+            "NtQueryValueKey NtQueryValueKey": 2595
         },
         "3": {
-            "NtClose NtOpenProcessToken NtQueryInformationToken": 1,
-            "NtCreateFile NtDeviceIoControlFile NtClose": 1,
-            "NtQueryInformationThread NtClose NtQueryObject": 1,
-            "NtQueryValueKey NtClose NtQueryObject": 1,
-            "NtQueryValueKey NtCreateFile NtDeviceIoControlFile": 1
+            "NtQueryValueKey NtQueryValueKey NtQueryObject": 133,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey": 2455
         },
         "4": {
-            "NtClose NtOpenProcessToken NtQueryInformationToken NtClose": 1,
-            "NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryInformationThread NtClose NtQueryObject NtOpenThreadToken": 1,
-            "NtQueryValueKey NtClose NtQueryObject NtQueryKey": 1,
-            "NtQueryValueKey NtCreateFile NtDeviceIoControlFile NtClose": 1
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryObject": 133,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey": 2319
         },
         "5": {
-            "NtClose NtOpenProcessToken NtQueryInformationToken NtClose NtReleaseWorkerFactoryWorker": 1,
-            "NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryInformationThread NtClose NtQueryObject NtOpenThreadToken NtOpenProcessToken": 1,
-            "NtQueryValueKey NtClose NtQueryObject NtQueryKey NtQueryKey": 1,
-            "NtQueryValueKey NtCreateFile NtDeviceIoControlFile NtClose NtOpenProcessToken": 1
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryObject": 133,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey": 2183
         }
     }
 }

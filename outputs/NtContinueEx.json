@@ -1,70 +1,43 @@
 {
     "NtContinueEx": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtUserGetThreadState NtCallbackReturn NtContinueEx": 1,
-            "NtUserGetThreadState NtCallbackReturn NtContinueEx NtUserMessageCall NtUserMessageCall": 1,
-            "NtUserMessageCall NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr": 1,
-            "NtUserMessageCall NtUserMessageCall NtCallbackReturn NtContinueEx NtUserMessageCall": 1,
-            "NtUserMessageCall NtUserSetScrollInfo NtCallbackReturn NtContinueEx NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 83,
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserMessageCall": 47
         },
         "-4": {
-            "NtCallbackReturn NtContinueEx NtUserGetThreadState NtCallbackReturn": 1,
-            "NtUserCallHwndParam NtUserCallHwndParam NtUserSetWindowLongPtr NtUserSetWindowFNID": 1,
-            "NtUserGetThreadState NtCallbackReturn NtContinueEx NtUserMessageCall": 1,
-            "NtUserMessageCall NtUserMessageCall NtCallbackReturn NtContinueEx": 1,
-            "NtUserMessageCall NtUserSetScrollInfo NtCallbackReturn NtContinueEx": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 160,
+            "NtUserMessageCall NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx": 51
         },
         "-3": {
-            "NtCallbackReturn NtContinueEx NtUserGetThreadState": 1,
-            "NtUserCallHwndParam NtUserCallHwndParam NtUserSetWindowLongPtr": 1,
-            "NtUserGetThreadState NtCallbackReturn NtContinueEx": 1,
-            "NtUserMessageCall NtUserMessageCall NtCallbackReturn": 1,
-            "NtUserMessageCall NtUserSetScrollInfo NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 160,
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 57
         },
         "-2": {
-            "NtUserBuildHwndList NtAllocateVirtualMemory": 1,
-            "NtUserGetThreadState NtCallbackReturn": 1,
-            "NtUserMessageCall NtUserSetScrollInfo": 1,
-            "NtUserReleaseDC NtUserGetProp": 1,
-            "NtUserShowWindow NtUserInheritWindowMonitor": 1
+            "NtCallbackReturn NtContinueEx": 300,
+            "NtUserMessageCall NtUserSetWindowLongPtr": 84
         },
         "-1": {
-            "NtProtectVirtualMemory": 1,
-            "NtUserDestroyWindow": 1,
-            "NtUserGetImeInfoEx": 1,
-            "NtUserNotifyWinEvent": 1,
-            "NtUserRemoveProp": 1
+            "NtCallbackReturn": 300,
+            "NtUserMessageCall": 194
         },
         "1": {
             "NtCallbackReturn": 813
         },
         "2": {
-            "NtCallbackReturn NtOpenFile": 1,
-            "NtCallbackReturn NtOpenKeyEx": 1,
-            "NtCallbackReturn NtUserGetQueueStatus": 1,
-            "NtCallbackReturn NtUserGetTitleBarInfo": 1,
-            "NtCallbackReturn NtUserNotifyWinEvent": 1
+            "NtCallbackReturn NtContinueEx": 300,
+            "NtCallbackReturn NtUserGetProp": 135
         },
         "3": {
-            "NtCallbackReturn NtAllocateVirtualMemory NtQueryInformationProcess": 1,
-            "NtCallbackReturn NtUserGetDC NtProtectVirtualMemory": 1,
-            "NtCallbackReturn NtUserGetThreadState NtContinueEx": 1,
-            "NtCallbackReturn NtUserMessageCall NtUserMessageCall": 1,
-            "NtCallbackReturn NtUserSetScrollInfo NtUserMessageCall": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 300,
+            "NtCallbackReturn NtUserGetProp NtUserIsTopLevelWindow": 66
         },
         "4": {
-            "NtCallbackReturn NtAllocateVirtualMemory NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtCallbackReturn NtUserGetDC NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtCallbackReturn NtUserGetThreadState NtContinueEx NtCallbackReturn": 1,
-            "NtCallbackReturn NtUserMessageCall NtUserMessageCall NtContinueEx": 1,
-            "NtCallbackReturn NtUserSetScrollInfo NtUserMessageCall NtContinueEx": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 160,
+            "NtCallbackReturn NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx": 51
         },
         "5": {
-            "NtCallbackReturn NtAllocateVirtualMemory NtQueryInformationProcess NtSetInformationProcess NtQueryInformationThread": 1,
-            "NtCallbackReturn NtContinueEx NtCallbackReturn NtUserSetScrollInfo NtUserMessageCall": 1,
-            "NtCallbackReturn NtUserGetDC NtGdiGetTextMetricsW NtGdiCreatePen NtUserGetClassInfoEx": 1,
-            "NtCallbackReturn NtUserMessageCall NtUserMessageCall NtContinueEx NtCallbackReturn": 1,
-            "NtCallbackReturn NtUserSetScrollInfo NtUserMessageCall NtContinueEx NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 160,
+            "NtCallbackReturn NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx NtCallbackReturn": 51
         }
     }
 }

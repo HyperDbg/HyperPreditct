@@ -1,7 +1,6 @@
 {
     "NtGdiGetBitmapBits": {
         "-5": {
-            "NtGdiExtGetObjectW NtGdiStretchDIBitsInternal NtGdiSelectBitmap NtGdiCreateBitmap NtGdiDeleteObjectApp": 1,
             "NtGdiExtGetObjectW NtGdiStretchDIBitsInternal NtGdiSelectBitmap NtGdiCreateBitmap NtGdiSelectBitmap": 1,
             "NtGdiExtGetObjectW NtGdiStretchDIBitsInternal NtGdiSelectBitmap NtGdiCreateCompatibleBitmap NtUserGetDC": 2
         },
@@ -24,22 +23,18 @@
         },
         "2": {
             "NtGdiSelectBitmap NtGdiCreateBitmap": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp": 1,
             "NtUserCreateEmptyCursorObject NtGdiCreateBitmap": 2
         },
         "3": {
             "NtGdiSelectBitmap NtGdiCreateBitmap NtGdiSelectBitmap": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiCreateBitmap": 1,
             "NtUserCreateEmptyCursorObject NtGdiCreateBitmap NtGdiCreateBitmap": 2
         },
         "4": {
             "NtGdiSelectBitmap NtGdiCreateBitmap NtGdiSelectBitmap NtGdiStretchDIBitsInternal": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiCreateBitmap NtGdiSelectBitmap": 1,
             "NtUserCreateEmptyCursorObject NtGdiCreateBitmap NtGdiCreateBitmap NtUserSetCursorIconData": 2
         },
         "5": {
             "NtGdiSelectBitmap NtGdiCreateBitmap NtGdiSelectBitmap NtGdiStretchDIBitsInternal NtGdiExtGetObjectW": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiCreateBitmap NtGdiSelectBitmap NtGdiStretchDIBitsInternal": 1,
             "NtUserCreateEmptyCursorObject NtGdiCreateBitmap NtGdiCreateBitmap NtUserSetCursorIconData NtGdiSelectBitmap": 2
         }
     }

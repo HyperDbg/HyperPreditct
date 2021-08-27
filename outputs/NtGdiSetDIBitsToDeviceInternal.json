@@ -35,7 +35,6 @@
             "NtUserSelectPalette NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap": 41
         },
         "5": {
-            "NtUserSelectPalette NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap NtFreeVirtualMemory": 1,
             "NtUserSelectPalette NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtGdiCreateCompatibleDC": 24,
             "NtUserSelectPalette NtGdiSelectBitmap NtGdiRestoreDC NtGdiSelectBitmap NtUserGetDC": 17
         }

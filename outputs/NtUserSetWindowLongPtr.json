@@ -1,74 +1,44 @@
 {
     "NtUserSetWindowLongPtr": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtUserCallHwndParam NtUserCallHwndParam NtUserCallHwndParam": 1,
-            "NtCallbackReturn NtContinueEx NtUserCallHwndParam NtUserCallHwndParam NtUserSetWindowLongPtr": 1,
-            "NtCallbackReturn NtContinueEx NtUserGetThreadState NtUserMessageCall NtCallbackReturn": 1,
-            "NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx": 1,
-            "NtUserGetProp NtUserSBGetParms NtUserSetScrollInfo NtUserNotifyWinEvent NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr NtUserSetWindowFNID": 22,
+            "NtUserSetWindowFNID NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 31
         },
         "-4": {
-            "NtCallbackReturn NtContinueEx NtUserGetThreadState NtUserMessageCall": 1,
-            "NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr NtCallbackReturn": 1,
-            "NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr NtUserReleaseDC": 1,
-            "NtUserReleaseDC NtGdiIntersectClipRect NtUserGetDC NtUserReleaseDC": 1,
-            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr": 1
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr": 22,
+            "NtUserSetWindowFNID NtCallbackReturn NtContinueEx NtCallbackReturn": 31
         },
         "-3": {
-            "NtCallbackReturn NtContinueEx NtUserCallHwndParam": 2,
-            "NtCallbackReturn NtContinueEx NtUserGetThreadState": 1,
-            "NtUserReleaseDC NtGdiIntersectClipRect NtUserGetDC": 1,
-            "NtUserSetWindowCompositionAttribute NtUserGetClassName NtCallbackReturn": 1,
-            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx": 1
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 44,
+            "NtUserSetWindowFNID NtCallbackReturn NtContinueEx": 31
         },
         "-2": {
-            "NtUserGetClassName NtUserGetClassName": 3,
-            "NtUserGetWindowCompositionAttribute NtUserIsNonClientDpiScalingEnabled": 6,
-            "NtUserReleaseDC NtGdiIntersectClipRect": 1,
-            "NtUserSetWindowCompositionAttribute NtUserGetClassName": 1,
-            "NtUserSetWindowLongPtr NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx": 61,
+            "NtUserSetWindowFNID NtCallbackReturn": 31
         },
         "-1": {
-            "NtUserGetClassName": 3,
-            "NtUserGetWindowCompositionAttribute": 6,
-            "NtUserIsChildWindowDpiMessageEnabled": 6,
-            "NtUserSetWindowCompositionAttribute": 1,
-            "NtUserSetWindowLongPtr": 1
+            "NtCallbackReturn": 61,
+            "NtUserSetWindowFNID": 31
         },
         "1": {
-            "NtUserCallHwndParam": 2,
-            "NtUserGetProp": 12,
-            "NtUserMoveWindow": 2,
-            "NtUserRemoveProp": 1,
-            "NtUserSetWindowLongPtr": 1
+            "NtContinueEx": 51,
+            "NtUserMessageCall": 84
         },
         "2": {
-            "NtUserCallHwndParam NtUserCallHwndParam": 2,
-            "NtUserGetProp NtUserMessageCall": 12,
-            "NtUserMoveWindow NtUserMessageCall": 2,
-            "NtUserRemoveProp NtUserRemoveProp": 1,
-            "NtUserSetWindowLongPtr NtContinueEx": 1
+            "NtContinueEx NtCallbackReturn": 51,
+            "NtUserMessageCall NtContinueEx": 84
         },
         "3": {
-            "NtContinueEx NtCallbackReturn NtUserMessageCall": 1,
-            "NtUserCallHwndParam NtUserCallHwndParam NtContinueEx": 1,
-            "NtUserCallHwndParam NtUserCallHwndParam NtUserCallHwndParam": 1,
-            "NtUserRemoveProp NtUserRemoveProp NtUserRemoveProp": 1,
-            "NtUserSetWindowLongPtr NtContinueEx NtCallbackReturn": 1
+            "NtContinueEx NtCallbackReturn NtUserGetProp": 47,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn": 84
         },
         "4": {
-            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtUserSetWindowLongPtr": 1,
-            "NtUserCallHwndParam NtUserCallHwndParam NtContinueEx NtCallbackReturn": 1,
-            "NtUserCallHwndParam NtUserCallHwndParam NtUserCallHwndParam NtContinueEx": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall": 1,
-            "NtUserSetWindowLongPtr NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 1
+            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserIsTopLevelWindow": 47,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtContinueEx": 43
         },
         "5": {
-            "NtUserCallHwndParam NtUserCallHwndParam NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 1,
-            "NtUserCallHwndParam NtUserCallHwndParam NtUserCallHwndParam NtContinueEx NtCallbackReturn": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetDC NtGdiGetRealizationInfo": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetDC NtProtectVirtualMemory": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall NtContinueEx": 1
+            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 36,
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 43
         }
     }
 }

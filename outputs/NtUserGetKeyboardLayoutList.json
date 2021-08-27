@@ -30,18 +30,15 @@
         },
         "3": {
             "NtUserGetDC NtUserReleaseDC NtContinueEx": 1,
-            "NtUserGetDC NtUserReleaseDC NtUserGetDC": 1,
-            "NtUserRegisterWindowMessage NtAllocateVirtualMemory NtAllocateVirtualMemory": 1
+            "NtUserGetDC NtUserReleaseDC NtUserGetDC": 1
         },
         "4": {
             "NtUserGetDC NtUserReleaseDC NtContinueEx NtCallbackReturn": 1,
-            "NtUserGetDC NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect": 1,
-            "NtUserRegisterWindowMessage NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1
+            "NtUserGetDC NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect": 1
         },
         "5": {
             "NtUserGetDC NtUserReleaseDC NtContinueEx NtCallbackReturn NtUserInvalidateRect": 1,
-            "NtUserGetDC NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtUserReleaseDC": 1,
-            "NtUserRegisterWindowMessage NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtFreeVirtualMemory": 1
+            "NtUserGetDC NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtUserReleaseDC": 1
         }
     }
 }

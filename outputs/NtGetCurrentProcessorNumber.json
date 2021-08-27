@@ -1,58 +1,42 @@
 {
     "NtGetCurrentProcessorNumber": {
         "-5": {
-            "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber": 1,
             "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtSetInformationThread NtAlpcCreateSecurityContext NtSetInformationThread": 1,
-            "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtSetInformationThread NtAlpcCreateSecurityContext": 1,
             "NtSetInformationThread NtAlpcCreateSecurityContext NtSetInformationThread NtOpenThreadToken NtAlpcQueryInformation": 1
         },
         "-4": {
-            "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort": 1,
             "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtSetInformationThread NtAlpcCreateSecurityContext": 1,
-            "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtSetInformationThread": 1,
             "NtSetInformationThread NtAlpcCreateSecurityContext NtSetInformationThread NtOpenThreadToken": 1
         },
         "-3": {
-            "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber": 1,
             "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtSetInformationThread": 1,
-            "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber": 1,
             "NtSetInformationThread NtAlpcCreateSecurityContext NtSetInformationThread": 1
         },
         "-2": {
             "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber": 2,
-            "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort": 1,
             "NtSetInformationThread NtAlpcCreateSecurityContext": 1
         },
         "-1": {
             "NtAlpcSendWaitReceivePort": 2,
-            "NtGetCurrentProcessorNumber": 1,
             "NtSetInformationThread": 1
         },
         "1": {
-            "NtAlpcDeleteSecurityContext": 1,
             "NtAlpcSendWaitReceivePort": 2,
             "NtGetCurrentProcessorNumber": 1
         },
         "2": {
-            "NtAlpcDeleteSecurityContext NtCreateFile": 1,
             "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber": 2,
             "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort": 1
         },
         "3": {
-            "NtAlpcDeleteSecurityContext NtCreateFile NtDeviceIoControlFile": 1,
-            "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtAlpcDeleteSecurityContext": 1,
             "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber": 1,
             "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber": 1
         },
         "4": {
-            "NtAlpcDeleteSecurityContext NtCreateFile NtDeviceIoControlFile NtClose": 1,
-            "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtAlpcDeleteSecurityContext NtCreateFile": 1,
             "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort": 1,
             "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtAlpcDeleteSecurityContext": 1
         },
         "5": {
-            "NtAlpcDeleteSecurityContext NtCreateFile NtDeviceIoControlFile NtClose NtCreateEvent": 1,
-            "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtAlpcDeleteSecurityContext NtCreateFile NtDeviceIoControlFile": 1,
             "NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber": 1,
             "NtGetCurrentProcessorNumber NtAlpcSendWaitReceivePort NtGetCurrentProcessorNumber NtAlpcDeleteSecurityContext NtCreateFile": 1
         }

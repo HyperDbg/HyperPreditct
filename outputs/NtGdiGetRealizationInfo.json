@@ -1,72 +1,44 @@
 {
     "NtGdiGetRealizationInfo": {
         "-5": {
-            "NtGdiGetRealizationInfo NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDC NtCallbackReturn": 1,
-            "NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn NtContinueEx NtUserMessageCall": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDC NtCallbackReturn NtContinueEx": 1,
-            "NtUserGetDC NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr": 1
+            "NtGdiGetRealizationInfo NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn NtContinueEx": 6,
+            "NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn NtContinueEx NtUserMessageCall": 6
         },
         "-4": {
-            "NtGdiGetRealizationInfo NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDC": 1,
-            "NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn NtContinueEx": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDC NtCallbackReturn": 1,
-            "NtUserGetDC NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtUserGetDC NtCallbackReturn NtContinueEx NtUserMessageCall": 1
+            "NtGdiGetRealizationInfo NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn": 6,
+            "NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn NtContinueEx": 6
         },
         "-3": {
-            "NtGdiGetCharSet NtGdiIntersectClipRect NtUserGetDC": 1,
-            "NtGdiGetRealizationInfo NtGdiGetCharSet NtGdiIntersectClipRect": 1,
-            "NtGdiGetRealizationInfo NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtGdiGetRealizationInfo NtUserGetDC NtCallbackReturn": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetDC": 1
+            "NtGdiGetRealizationInfo NtGdiGetTextMetricsW NtUserGetDC": 6,
+            "NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn": 6
         },
         "-2": {
-            "NtGdiGetCharSet NtGdiIntersectClipRect": 1,
-            "NtGdiGetRealizationInfo NtGdiGetCharSet": 1,
-            "NtGdiGetRealizationInfo NtProtectVirtualMemory": 1,
-            "NtGdiGetRealizationInfo NtUserGetDC": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtGdiGetRealizationInfo NtGdiGetTextMetricsW": 6,
+            "NtGdiGetTextMetricsW NtUserGetDC": 6
         },
         "-1": {
-            "NtGdiGetCharSet": 1,
-            "NtGdiGetTextExtentExW": 1,
-            "NtGdiQueryFontAssocInfo": 5,
-            "NtProtectVirtualMemory": 1,
-            "NtUserGetDC": 2
+            "NtGdiGetRealizationInfo": 10,
+            "NtGdiGetTextMetricsW": 6
         },
         "1": {
-            "NtGdiGetGlyphIndicesW": 6,
             "NtGdiGetRealizationInfo": 10,
             "NtGdiGetTextExtentExW": 15
         },
         "2": {
-            "NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo": 5,
-            "NtGdiGetGlyphIndicesW NtGdiGetWidthTable": 1,
-            "NtGdiGetTextExtentExW NtGdiGetDeviceCaps": 5,
-            "NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 1,
+            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 10,
             "NtGdiGetTextExtentExW NtUserReleaseDC": 9
         },
         "3": {
-            "NtGdiGetGlyphIndicesW NtGdiGetWidthTable NtUserReleaseDC": 1,
-            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 1,
-            "NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1,
-            "NtGdiGetTextExtentExW NtUserReleaseDC NtUserCreateWindowEx": 2,
-            "NtGdiGetTextExtentExW NtUserReleaseDC NtUserGetThreadState": 1
+            "NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 5,
+            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtUserReleaseDC": 9
         },
         "4": {
-            "NtGdiGetGlyphIndicesW NtGdiGetWidthTable NtUserReleaseDC NtUserGetDC": 1,
-            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1,
-            "NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 1,
-            "NtGdiGetTextExtentExW NtUserReleaseDC NtUserCreateWindowEx NtContinueEx": 1,
-            "NtGdiGetTextExtentExW NtUserReleaseDC NtUserCreateWindowEx NtUserFindExistingCursorIcon": 1
+            "NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetDeviceCaps": 5,
+            "NtGdiGetTextExtentExW NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtUserReleaseDC": 5
         },
         "5": {
-            "NtGdiGetGlyphIndicesW NtGdiGetWidthTable NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1,
-            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtUserReleaseDC NtUserCreateWindowEx NtContinueEx": 1,
-            "NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtUserReleaseDC NtUserCreateWindowEx NtUserFindExistingCursorIcon": 1,
-            "NtGdiGetTextExtentExW NtUserReleaseDC NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 1,
-            "NtGdiGetTextExtentExW NtUserReleaseDC NtUserCreateWindowEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 1
+            "NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtGdiGetTextExtentExW NtGdiGetDeviceCaps NtGdiGetDeviceCaps": 5,
+            "NtGdiGetTextExtentExW NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtUserReleaseDC NtAllocateVirtualMemory": 5
         }
     }
 }

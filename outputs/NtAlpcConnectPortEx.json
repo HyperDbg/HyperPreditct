@@ -1,72 +1,44 @@
 {
     "NtAlpcConnectPortEx": {
         "-5": {
-            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtCreateWaitCompletionPacket NtQueryObject NtAlpcSendWaitReceivePort": 1,
-            "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx NtQueryKey": 1,
-            "NtDuplicateObject NtQuerySystemInformation NtQueryInformationProcess NtQuerySystemInformation NtQuerySystemInformation": 1,
-            "NtQueryInformationToken NtOpenThreadToken NtOpenThreadToken NtOpenThreadToken NtClose": 1,
+            "NtQueryInformationToken NtDuplicateObject NtCreateEvent NtClose NtQueryValueKey": 2,
             "NtSetTimer2 NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket NtCreateWaitCompletionPacket": 1
         },
         "-4": {
-            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtCreateWaitCompletionPacket NtQueryObject": 1,
-            "NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 1,
-            "NtDuplicateObject NtQuerySystemInformation NtQueryInformationProcess NtQuerySystemInformation": 1,
-            "NtQueryInformationToken NtOpenThreadToken NtOpenThreadToken NtOpenThreadToken": 1,
+            "NtQueryInformationToken NtDuplicateObject NtCreateEvent NtClose": 2,
             "NtSetTimer2 NtSetInformationWorkerFactory NtSetInformationWorkerFactory NtAssociateWaitCompletionPacket": 1
         },
         "-3": {
-            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtCreateWaitCompletionPacket": 1,
-            "NtClose NtQueryValueKey NtSetInformationKey": 1,
-            "NtDuplicateObject NtQuerySystemInformation NtQueryInformationProcess": 1,
-            "NtQueryInformationToken NtOpenThreadToken NtOpenThreadToken": 1,
+            "NtQueryInformationToken NtDuplicateObject NtCreateEvent": 2,
             "NtSetTimer2 NtSetInformationWorkerFactory NtSetInformationWorkerFactory": 1
         },
         "-2": {
-            "NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 1,
-            "NtClose NtQueryValueKey": 1,
-            "NtDuplicateObject NtQuerySystemInformation": 1,
-            "NtQueryInformationToken NtOpenThreadToken": 1,
+            "NtQueryInformationToken NtDuplicateObject": 2,
             "NtSetTimer2 NtSetInformationWorkerFactory": 1
         },
         "-1": {
-            "NtAlpcSendWaitReceivePort": 1,
-            "NtClose": 1,
-            "NtDuplicateObject": 1,
             "NtQueryInformationToken": 3,
             "NtSetTimer2": 1
         },
         "1": {
             "NtAllocateVirtualMemory": 1,
-            "NtAlpcQueryInformation": 5,
-            "NtQueryObject": 1
+            "NtAlpcQueryInformation": 5
         },
         "2": {
-            "NtAllocateVirtualMemory NtAlpcSendWaitReceivePort": 1,
             "NtAlpcQueryInformation NtAllocateVirtualMemory": 2,
-            "NtAlpcQueryInformation NtOpenThreadToken": 1,
-            "NtAlpcQueryInformation NtQueryInformationProcess": 2,
-            "NtQueryObject NtCreateWaitCompletionPacket": 1
+            "NtAlpcQueryInformation NtQueryInformationProcess": 2
         },
         "3": {
-            "NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtCreateEvent": 1,
-            "NtAlpcQueryInformation NtOpenThreadToken NtSetInformationThread": 1,
-            "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort": 1,
-            "NtAlpcQueryInformation NtQueryInformationProcess NtUserSetWinEventHook": 1,
-            "NtQueryObject NtCreateWaitCompletionPacket NtAllocateVirtualMemory": 1
+            "NtAlpcQueryInformation NtAllocateVirtualMemory NtAlpcSendWaitReceivePort": 2,
+            "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort": 1
         },
         "4": {
-            "NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtCreateEvent NtAllocateVirtualMemory": 1,
-            "NtAlpcQueryInformation NtOpenThreadToken NtSetInformationThread NtAlpcCreateSecurityContext": 1,
-            "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort NtUserGetQueueStatus": 1,
-            "NtAlpcQueryInformation NtQueryInformationProcess NtUserSetWinEventHook NtUserGetGUIThreadInfo": 1,
-            "NtQueryObject NtCreateWaitCompletionPacket NtAllocateVirtualMemory NtAlpcSendWaitReceivePort": 1
+            "NtAlpcQueryInformation NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort NtUserGetQueueStatus": 1
         },
         "5": {
-            "NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtCreateEvent NtAllocateVirtualMemory NtCreateTimer": 1,
-            "NtAlpcQueryInformation NtOpenThreadToken NtSetInformationThread NtAlpcCreateSecurityContext NtSetInformationThread": 1,
-            "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort NtUserGetQueueStatus NtUserPeekMessage": 1,
-            "NtAlpcQueryInformation NtQueryInformationProcess NtUserSetWinEventHook NtUserGetGUIThreadInfo NtQueryWnfStateData": 1,
-            "NtQueryObject NtCreateWaitCompletionPacket NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtAllocateVirtualMemory": 1
+            "NtAlpcQueryInformation NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
+            "NtAlpcQueryInformation NtQueryInformationProcess NtAlpcSendWaitReceivePort NtUserGetQueueStatus NtUserPeekMessage": 1
         }
     }
 }

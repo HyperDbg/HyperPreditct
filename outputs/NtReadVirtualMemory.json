@@ -1,67 +1,44 @@
 {
     "NtReadVirtualMemory": {
         "-5": {
-            "NtQueryInformationProcess NtCompareObjects NtCompareObjects NtAllocateVirtualMemory NtReadVirtualMemory": 1,
-            "NtQueryInformationProcess NtCompareObjects NtCompareObjects NtUnmapViewOfSection NtCompareObjects": 1,
             "NtQueryInformationProcess NtOpenProcess NtClose NtQueryInformationThread NtDuplicateObject": 2,
-            "NtQueryInformationThread NtClose NtQueryInformationFile NtReadFile NtQueryInformationFile": 1,
             "NtQueryInformationThread NtUnmapViewOfSectionEx NtClose NtClose NtClose": 1
         },
         "-4": {
-            "NtQueryInformationProcess NtCompareObjects NtCompareObjects NtAllocateVirtualMemory": 1,
-            "NtQueryInformationProcess NtCompareObjects NtCompareObjects NtUnmapViewOfSection": 1,
             "NtQueryInformationProcess NtOpenProcess NtClose NtQueryInformationThread": 2,
-            "NtQueryInformationThread NtClose NtQueryInformationFile NtReadFile": 1,
             "NtQueryInformationThread NtUnmapViewOfSectionEx NtClose NtClose": 1
         },
         "-3": {
             "NtQueryInformationProcess NtCompareObjects NtCompareObjects": 2,
-            "NtQueryInformationProcess NtOpenProcess NtClose": 2,
-            "NtQueryInformationThread NtClose NtQueryInformationFile": 1,
-            "NtQueryInformationThread NtUnmapViewOfSectionEx NtClose": 1
+            "NtQueryInformationProcess NtOpenProcess NtClose": 2
         },
         "-2": {
             "NtQueryInformationProcess NtCompareObjects": 2,
-            "NtQueryInformationProcess NtOpenProcess": 2,
-            "NtQueryInformationThread NtClose": 1,
-            "NtQueryInformationThread NtUnmapViewOfSectionEx": 1
+            "NtQueryInformationProcess NtOpenProcess": 2
         },
         "-1": {
             "NtQueryInformationProcess": 4,
             "NtQueryInformationThread": 2
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
             "NtQueryVirtualMemory": 2,
-            "NtSuspendThread": 2,
-            "NtWriteVirtualMemory": 1
+            "NtSuspendThread": 2
         },
         "2": {
-            "NtAllocateVirtualMemory NtCompareObjects": 1,
             "NtQueryVirtualMemory NtWriteVirtualMemory": 2,
-            "NtSuspendThread NtClose": 2,
-            "NtWriteVirtualMemory NtWriteVirtualMemory": 1
+            "NtSuspendThread NtClose": 2
         },
         "3": {
             "NtAllocateVirtualMemory NtCompareObjects NtCompareObjects": 1,
-            "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache": 2,
-            "NtSuspendThread NtClose NtQueryInformationThread": 1,
-            "NtSuspendThread NtClose NtSetInformationThread": 1,
-            "NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory": 1
+            "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache": 2
         },
         "4": {
-            "NtAllocateVirtualMemory NtCompareObjects NtCompareObjects NtQueryInformationProcess": 1,
             "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtCreateFile": 1,
-            "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtProtectVirtualMemory": 1,
-            "NtSuspendThread NtClose NtQueryInformationThread NtResumeThread": 1,
-            "NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory": 1
+            "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtProtectVirtualMemory": 1
         },
         "5": {
-            "NtAllocateVirtualMemory NtCompareObjects NtCompareObjects NtQueryInformationProcess NtReadVirtualMemory": 1,
             "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtCreateFile NtQueryInformationFile": 1,
-            "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtSuspendThread NtClose NtQueryInformationThread NtResumeThread NtWriteVirtualMemory": 1,
-            "NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory NtWriteVirtualMemory": 1
+            "NtQueryVirtualMemory NtWriteVirtualMemory NtFlushInstructionCache NtProtectVirtualMemory NtProtectVirtualMemory": 1
         }
     }
 }

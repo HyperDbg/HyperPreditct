@@ -1,70 +1,44 @@
 {
     "NtAddAtomEx": {
         "-5": {
-            "NtAddAtomEx NtUnmapViewOfSection NtClose NtClose NtAlpcSendWaitReceivePort": 1,
-            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtUserRegisterWindowMessage": 1,
-            "NtUnmapViewOfSection NtClose NtClose NtAlpcSendWaitReceivePort NtQueryVolumeInformationFile": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserFindExistingCursorIcon NtGdiCreatePaletteInternal NtUserReleaseDC": 1
+            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtClose": 5,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtClose NtQueryInformationToken": 5
         },
         "-4": {
-            "NtAddAtomEx NtUnmapViewOfSection NtClose NtClose": 1,
-            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx": 1,
-            "NtUnmapViewOfSection NtClose NtClose NtAlpcSendWaitReceivePort": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtUserRegisterWindowMessage": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserFindExistingCursorIcon NtGdiCreatePaletteInternal": 1
+            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtClose": 5
         },
         "-3": {
-            "NtAddAtomEx NtUnmapViewOfSection NtClose": 1,
-            "NtUnmapViewOfSection NtClose NtClose": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserFindExistingCursorIcon": 1,
+            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 6,
             "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5
         },
         "-2": {
-            "NtAddAtomEx NtUnmapViewOfSection": 1,
             "NtAddAtomEx NtUserRegisterWindowMessage": 6,
-            "NtFlushInstructionCache NtProtectVirtualMemory": 5,
-            "NtUnmapViewOfSection NtClose": 1,
             "NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 7
         },
         "-1": {
             "NtAddAtomEx": 7,
-            "NtFlushInstructionCache": 5,
-            "NtUnmapViewOfSection": 1,
             "NtUserRegisterWindowMessage": 7
         },
         "1": {
             "NtAddAtomEx": 7,
-            "NtQueryValueKey": 5,
             "NtUserRegisterWindowMessage": 8
         },
         "2": {
             "NtAddAtomEx NtUserRegisterWindowMessage": 7,
-            "NtQueryValueKey NtQueryAttributesFile": 5,
-            "NtUserRegisterWindowMessage NtUserCallNoParam": 1,
             "NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 7
         },
         "3": {
-            "NtAddAtomEx NtUserRegisterWindowMessage NtUserCallNoParam": 1,
-            "NtUserRegisterWindowMessage NtUserCallNoParam NtQuerySecurityAttributesToken": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserSystemParametersInfo": 1
+            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 6,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5
         },
         "4": {
-            "NtAddAtomEx NtUserRegisterWindowMessage NtUserCallNoParam NtQuerySecurityAttributesToken": 1,
-            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserSystemParametersInfo": 1,
-            "NtUserRegisterWindowMessage NtUserCallNoParam NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtAddAtomEx": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserSystemParametersInfo NtQueryInformationProcess": 1
+            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5
         },
         "5": {
-            "NtAddAtomEx NtUserRegisterWindowMessage NtUserCallNoParam NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 1,
-            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserSystemParametersInfo NtQueryInformationProcess": 1,
-            "NtUserRegisterWindowMessage NtUserCallNoParam NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtQueryInformationThread": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtAddAtomEx NtUserRegisterWindowMessage": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserSystemParametersInfo NtQueryInformationProcess NtSetEvent": 1
+            "NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 5,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserGetClassInfoEx": 5
         }
     }
 }

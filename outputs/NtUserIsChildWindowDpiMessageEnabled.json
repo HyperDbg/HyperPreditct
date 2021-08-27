@@ -1,25 +1,16 @@
 {
     "NtUserIsChildWindowDpiMessageEnabled": {
         "-5": {
-            "NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn NtContinueEx NtUserBuildHwndList": 1,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserBuildHwndList NtUserGetTitleBarInfo NtCallbackReturn": 1,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtAllocateVirtualMemory NtUserIsChildWindowDpiMessageEnabled": 2,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserGetWindowDC": 2,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserSetScrollInfo NtClose NtQueryDirectoryFileEx": 1
+            "NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr": 36,
+            "NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetObjectInformation": 22
         },
         "-4": {
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserBuildHwndList NtUserGetTitleBarInfo": 3,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtAllocateVirtualMemory": 2,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtUserIsChildWindowDpiMessageEnabled": 4,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserSetScrollInfo NtCallbackReturn": 5,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserSetScrollInfo NtClose": 1
+            "NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn NtContinueEx": 42,
+            "NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp NtUserGetProp": 22
         },
         "-3": {
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserBuildHwndList": 3,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserIsChildWindowDpiMessageEnabled": 9,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserReleaseDC": 5,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserRemoveProp": 5,
-            "NtUserIsTopLevelWindow NtUserGetProp NtUserSetScrollInfo": 6
+            "NtUserIsTopLevelWindow NtUserGetProp NtCallbackReturn": 42,
+            "NtUserIsTopLevelWindow NtUserGetProp NtUserGetProp": 28
         },
         "-2": {
             "NtUserIsTopLevelWindow NtUserGetProp": 98
@@ -28,39 +19,24 @@
             "NtUserIsTopLevelWindow": 98
         },
         "1": {
-            "NtAllocateVirtualMemory": 3,
             "NtContinueEx": 44,
-            "NtUserBuildHwndList": 15,
-            "NtUserGetProp": 30,
-            "NtUserSetWindowLongPtr": 6
+            "NtUserGetProp": 30
         },
         "2": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtUserGetProp": 2,
-            "NtUserGetProp NtUserGetProp": 4,
-            "NtUserGetProp NtUserIsTopLevelWindow": 10,
-            "NtUserSetWindowLongPtr NtUserGetProp": 6
+            "NtContinueEx NtCallbackReturn": 44,
+            "NtUserGetProp NtUserSBGetParms": 16
         },
         "3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtOpenKeyEx": 1,
-            "NtAllocateVirtualMemory NtUserGetProp NtUserGetProp": 2,
-            "NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtContinueEx NtCallbackReturn NtUserCallHwndSafe": 1,
-            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 1
+            "NtContinueEx NtCallbackReturn NtUserGetProp": 36,
+            "NtUserGetProp NtUserSBGetParms NtUserGetProp": 16
         },
         "4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtOpenKeyEx NtSetInformationKey": 1,
-            "NtUserBuildHwndList NtContinueEx NtCallbackReturn NtUserGetDC": 1,
-            "NtUserBuildHwndList NtContinueEx NtCallbackReturn NtUserGetProp": 1,
-            "NtUserBuildHwndList NtContinueEx NtCallbackReturn NtUserGetThreadState": 1,
-            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtContinueEx": 1
+            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserGetProp": 16,
+            "NtUserGetProp NtUserSBGetParms NtUserGetProp NtUserSetWindowLongPtr": 16
         },
         "5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtOpenKeyEx NtSetInformationKey NtQueryValueKey": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserRemoveProp NtUserRedrawWindow": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserRemoveProp NtUserSetWindowPos": 1,
-            "NtUserBuildHwndList NtContinueEx NtCallbackReturn NtUserGetDC NtGdiIntersectClipRect": 1,
-            "NtUserBuildHwndList NtContinueEx NtCallbackReturn NtUserGetProp NtUserIsTopLevelWindow": 1
+            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserGetProp NtUserSBGetParms": 16,
+            "NtUserGetProp NtUserSBGetParms NtUserGetProp NtUserSetWindowLongPtr NtContinueEx": 16
         }
     }
 }

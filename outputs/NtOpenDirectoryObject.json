@@ -1,73 +1,44 @@
 {
     "NtOpenDirectoryObject": {
         "-5": {
-            "NtQueryInformationProcess NtAllocateVirtualMemory NtAllocateVirtualMemory NtClose NtClose": 1,
-            "NtQueryInformationProcess NtClose NtClose NtAllocateVirtualMemory NtClose": 1,
-            "NtQueryInformationProcess NtClose NtClose NtAllocateVirtualMemory NtQueryValueKey": 1,
-            "NtQueryInformationProcess NtClose NtQueryValueKey NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory NtClose NtDeviceIoControlFile": 1
+            "NtQueryInformationProcess NtClose NtClose NtClose NtClose": 18,
+            "NtQueryInformationProcess NtClose NtClose NtQueryValueKey NtClose": 50
         },
         "-4": {
-            "NtQueryInformationProcess NtAllocateVirtualMemory NtAllocateVirtualMemory NtClose": 1,
-            "NtQueryInformationProcess NtClose NtClose NtAllocateVirtualMemory": 2,
-            "NtQueryInformationProcess NtClose NtQueryInformationToken NtOpenProcessToken": 1,
-            "NtQueryInformationProcess NtClose NtQueryValueKey NtProtectVirtualMemory": 1,
-            "NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory NtClose": 1
+            "NtQueryInformationProcess NtClose NtClose NtClose": 24,
+            "NtQueryInformationProcess NtClose NtClose NtQueryValueKey": 64
         },
         "-3": {
-            "NtQueryInformationProcess NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtQueryInformationProcess NtClose NtQueryInformationToken": 1,
-            "NtQueryInformationProcess NtClose NtQueryValueKey": 1,
-            "NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryInformationToken NtOpenKeyEx NtQueryKey": 2
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtTraceControl": 6,
+            "NtQueryInformationProcess NtClose NtClose": 90
         },
         "-2": {
-            "NtClose NtQueryObject": 6,
-            "NtClose NtUnmapViewOfSection": 6,
-            "NtQueryInformationProcess NtAllocateVirtualMemory": 1,
-            "NtQueryInformationProcess NtProtectVirtualMemory": 1,
-            "NtQueryInformationToken NtOpenKeyEx": 2
+            "NtFreeVirtualMemory NtAllocateVirtualMemory": 12,
+            "NtQueryInformationProcess NtClose": 92
         },
         "-1": {
-            "NtClose": 12,
             "NtFreeVirtualMemory": 12,
-            "NtQueryInformationProcess": 94,
-            "NtQueryInformationToken": 8
+            "NtQueryInformationProcess": 94
         },
         "1": {
-            "NtOpenKey": 6,
-            "NtOpenSection": 6,
             "NtOpenSymbolicLinkObject": 6,
-            "NtQueryInformationToken": 6,
-            "NtQuerySecurityObject": 2
+            "NtQueryObject": 100
         },
         "2": {
-            "NtOpenKey NtQueryValueKey": 6,
-            "NtOpenSection NtClose": 6,
             "NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject": 6,
-            "NtQueryInformationToken NtQueryInformationToken": 6,
-            "NtQuerySecurityObject NtQuerySecurityObject": 2
+            "NtQueryObject NtOpenSymbolicLinkObject": 100
         },
         "3": {
-            "NtOpenKey NtQueryValueKey NtQueryValueKey": 6,
-            "NtOpenSection NtClose NtMapViewOfSection": 6,
             "NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject NtClose": 6,
-            "NtQueryInformationToken NtQueryInformationToken NtClose": 6,
-            "NtQuerySecurityObject NtQuerySecurityObject NtOpenThreadToken": 2
+            "NtQueryObject NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject": 100
         },
         "4": {
-            "NtOpenKey NtQueryValueKey NtQueryValueKey NtClose": 6,
-            "NtOpenSection NtClose NtMapViewOfSection NtQuerySection": 6,
             "NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject NtClose NtProtectVirtualMemory": 6,
-            "NtQueryInformationToken NtQueryInformationToken NtClose NtQueryObject": 6,
-            "NtQuerySecurityObject NtQuerySecurityObject NtOpenThreadToken NtOpenProcessToken": 2
+            "NtQueryObject NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject NtClose": 100
         },
         "5": {
-            "NtOpenKey NtQueryValueKey NtQueryValueKey NtClose NtProtectVirtualMemory": 6,
-            "NtOpenSection NtClose NtMapViewOfSection NtQuerySection NtUnmapViewOfSection": 6,
             "NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 6,
-            "NtQueryObject NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject NtClose NtCreateEvent": 6,
-            "NtQuerySecurityObject NtQuerySecurityObject NtOpenThreadToken NtOpenProcessToken NtQueryInformationToken": 2
+            "NtQueryObject NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject NtClose NtClose": 94
         }
     }
 }

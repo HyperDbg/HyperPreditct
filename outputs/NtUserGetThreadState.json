@@ -1,74 +1,44 @@
 {
     "NtUserGetThreadState": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtUserBuildHwndList NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow": 1,
-            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserMessageCall NtCallbackReturn": 1,
-            "NtUserGetThreadState NtCallbackReturn NtContinueEx NtUserReleaseDC NtGdiExtSelectClipRgn": 1,
-            "NtUserMessageCall NtCallbackReturn NtContinueEx NtUserBuildHwndList NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextExtentExW": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetImeInfoEx": 5,
+            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 2
         },
         "-4": {
-            "NtCallbackReturn NtContinueEx NtUserBuildHwndList NtUserIsChildWindowDpiMessageEnabled": 1,
-            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserMessageCall": 1,
-            "NtUserGetThreadState NtCallbackReturn NtContinueEx NtUserReleaseDC": 1,
-            "NtUserMessageCall NtCallbackReturn NtContinueEx NtUserBuildHwndList": 1,
-            "NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx": 2
         },
         "-3": {
-            "NtCallbackReturn NtContinueEx NtUserBuildHwndList": 1,
-            "NtCallbackReturn NtContinueEx NtUserMessageCall": 1,
-            "NtQueryInformationProcess NtQueryInformationProcess NtUserGetProcessUIContextInformation": 1,
-            "NtUserMessageCall NtCallbackReturn NtContinueEx": 1,
-            "NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtUserRemoveProp NtUserGetProp NtCallbackReturn": 2
         },
         "-2": {
-            "NtQueryInformationProcess NtQueryInformationProcess": 1,
-            "NtUserGetClassName NtUserReleaseDC": 1,
-            "NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo": 1,
-            "NtUserMessageCall NtCallbackReturn": 1,
-            "NtUserReleaseDC NtGdiGetTextExtentExW": 1
+            "NtCallbackReturn NtContinueEx": 5,
+            "NtProtectVirtualMemory NtProtectVirtualMemory": 7
         },
         "-1": {
-            "NtQueryInformationProcess": 1,
-            "NtUserGetClassName": 1,
-            "NtUserGetKeyboardState": 1,
-            "NtUserMessageCall": 1,
-            "NtUserReleaseDC": 1
+            "NtProtectVirtualMemory": 7,
+            "NtUserGetThreadState": 6
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtTraceControl": 1,
-            "NtUserGetKeyboardState": 1,
-            "NtUserSetFocus": 1,
-            "NtUserUpdateInputContext": 1
+            "NtUserFindExistingCursorIcon": 6,
+            "NtUserGetThreadState": 6
         },
         "2": {
-            "NtAllocateVirtualMemory NtUserInvalidateRect": 1,
-            "NtTraceControl NtQuerySystemInformation": 1,
-            "NtUserGetThreadState NtUserSetFocus": 1,
-            "NtUserSetFocus NtUserQueryInputContext": 1,
-            "NtUserUpdateInputContext NtUserAssociateInputContext": 1
+            "NtContinueEx NtCallbackReturn": 2,
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 6
         },
         "3": {
-            "NtAllocateVirtualMemory NtUserInvalidateRect NtUserCallHwndLock": 1,
-            "NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 1,
-            "NtUserGetThreadState NtUserSetFocus NtUserQueryInputContext": 1,
-            "NtUserUpdateInputContext NtUserAssociateInputContext NtQueryObject": 1
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtAllocateVirtualMemory": 3,
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 3
         },
         "4": {
-            "NtAllocateVirtualMemory NtUserInvalidateRect NtUserCallHwndLock NtQueryInformationProcess": 1,
-            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtContinueEx": 1,
-            "NtUserGetThreadState NtUserSetFocus NtUserQueryInputContext NtUserGetKeyboardLayout": 1,
-            "NtUserUpdateInputContext NtUserAssociateInputContext NtQueryObject NtQueryKey": 1
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtAllocateVirtualMemory NtUserRegisterClassExWOW": 3,
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserFindExistingCursorIcon": 3
         },
         "5": {
-            "NtAllocateVirtualMemory NtUserInvalidateRect NtUserCallHwndLock NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtUserShowWindow": 1,
-            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtContinueEx NtCallbackReturn": 1,
-            "NtUserGetThreadState NtUserSetFocus NtUserQueryInputContext NtUserGetKeyboardLayout NtOpenThreadTokenEx": 1,
-            "NtUserUpdateInputContext NtUserAssociateInputContext NtQueryObject NtQueryKey NtQueryKey": 1
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtAllocateVirtualMemory NtUserRegisterClassExWOW NtUserFindExistingCursorIcon": 3,
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 3
         }
     }
 }

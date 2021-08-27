@@ -1,74 +1,44 @@
 {
     "NtGdiGetDeviceCaps": {
         "-5": {
-            "NtGdiExtGetObjectW NtUserReleaseDC NtGdiSelectBitmap NtUserSetCursorIconData NtGdiCreateBitmap": 1,
-            "NtGdiGetDeviceCaps NtGdiExtGetObjectW NtUserReleaseDC NtGdiSelectBitmap NtUserSetCursorIconData": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiSelectFont NtGdiGetTextFaceW NtGdiGetTextMetricsW": 3,
-            "NtUserGetDC NtCreateEvent NtCreateEvent NtCreateEvent NtQueryObject": 1,
-            "NtUserGetDC NtUserGetKeyboardLayout NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 1
+            "NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo NtGdiQueryFontAssocInfo": 5,
+            "NtUserGetDC NtMapViewOfSection NtMapViewOfSection NtClose NtUnmapViewOfSectionEx": 6
         },
         "-4": {
-            "NtGdiExtGetObjectW NtUserReleaseDC NtGdiSelectBitmap NtUserSetCursorIconData": 1,
-            "NtGdiGetDeviceCaps NtGdiExtGetObjectW NtUserReleaseDC NtGdiSelectBitmap": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiSelectFont NtGdiGetTextFaceW": 3,
-            "NtUserGetDC NtCreateEvent NtCreateEvent NtCreateEvent": 1,
-            "NtUserGetDC NtUserGetKeyboardLayout NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 1
+            "NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW NtGdiGetRealizationInfo": 5,
+            "NtUserGetDC NtMapViewOfSection NtMapViewOfSection NtClose": 6
         },
         "-3": {
-            "NtGdiExtGetObjectW NtUserReleaseDC NtGdiSelectBitmap": 1,
-            "NtGdiGetDeviceCaps NtGdiExtGetObjectW NtUserReleaseDC": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtGdiSelectFont": 3,
-            "NtUserGetDC NtCreateEvent NtCreateEvent": 1,
-            "NtUserGetDC NtUserGetKeyboardLayout NtUserFindExistingCursorIcon": 1
+            "NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetGlyphIndicesW": 5,
+            "NtUserGetDC NtMapViewOfSection NtMapViewOfSection": 6
         },
         "-2": {
-            "NtGdiExtGetObjectW NtUserGetIconInfo": 4,
-            "NtGdiExtGetObjectW NtUserReleaseDC": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 3,
-            "NtUserGetDC NtCreateEvent": 1,
-            "NtUserGetDC NtUserGetKeyboardLayout": 1
+            "NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 5,
+            "NtUserGetDC NtMapViewOfSection": 6
         },
         "-1": {
-            "NtGdiExtGetObjectW": 5,
             "NtGdiGetDeviceCaps": 10,
-            "NtGdiGetTextExtentExW": 5,
-            "NtProtectVirtualMemory": 3,
             "NtUserGetDC": 8
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtGdiDeleteObjectApp": 3,
             "NtGdiGetDeviceCaps": 10,
-            "NtUserGetClassInfoEx": 4,
             "NtUserReleaseDC": 13
         },
         "2": {
-            "NtAllocateVirtualMemory NtUserGetClassInfoEx": 1,
-            "NtGdiGetDeviceCaps NtAllocateVirtualMemory": 1,
-            "NtUserReleaseDC NtQueryWnfStateData": 1,
-            "NtUserReleaseDC NtUserEnumDisplayMonitors": 1,
-            "NtUserReleaseDC NtUserGetDC": 1
+            "NtGdiGetDeviceCaps NtUserReleaseDC": 5,
+            "NtUserReleaseDC NtAllocateVirtualMemory": 5
         },
         "3": {
-            "NtAllocateVirtualMemory NtUserGetClassInfoEx NtUserFindExistingCursorIcon": 1,
-            "NtGdiGetDeviceCaps NtAllocateVirtualMemory NtUserGetClassInfoEx": 1,
-            "NtUserReleaseDC NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
-            "NtUserReleaseDC NtUserEnumDisplayMonitors NtContinueEx": 1,
-            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1
+            "NtGdiGetDeviceCaps NtUserReleaseDC NtAllocateVirtualMemory": 5,
+            "NtUserReleaseDC NtAllocateVirtualMemory NtFreeVirtualMemory": 5
         },
         "4": {
-            "NtAllocateVirtualMemory NtUserGetClassInfoEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 1,
-            "NtGdiGetDeviceCaps NtAllocateVirtualMemory NtUserGetClassInfoEx NtUserFindExistingCursorIcon": 1,
-            "NtUserReleaseDC NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 1,
-            "NtUserReleaseDC NtUserEnumDisplayMonitors NtContinueEx NtCallbackReturn": 1,
-            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtGdiCreatePaletteInternal": 1
+            "NtGdiGetDeviceCaps NtUserReleaseDC NtAllocateVirtualMemory NtFreeVirtualMemory": 5,
+            "NtUserReleaseDC NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 5
         },
         "5": {
-            "NtAllocateVirtualMemory NtUserGetClassInfoEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserRegisterClassExWOW": 1,
-            "NtGdiGetDeviceCaps NtAllocateVirtualMemory NtUserGetClassInfoEx NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 1,
-            "NtUserReleaseDC NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
-            "NtUserReleaseDC NtUserEnumDisplayMonitors NtContinueEx NtCallbackReturn NtUserSystemParametersInfo": 1,
-            "NtUserReleaseDC NtUserGetDC NtUserReleaseDC NtGdiCreatePaletteInternal NtUserFindExistingCursorIcon": 1
+            "NtGdiGetDeviceCaps NtUserReleaseDC NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 5,
+            "NtUserReleaseDC NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtSetEvent": 5
         }
     }
 }

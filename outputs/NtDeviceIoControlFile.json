@@ -1,74 +1,44 @@
 {
     "NtDeviceIoControlFile": {
         "-5": {
-            "NtCreateFile NtClose NtDeviceIoControlFile NtCreateFile NtClose": 1,
-            "NtCreateFile NtMapViewOfSection NtOpenSection NtQueryObject NtProtectVirtualMemory": 1,
-            "NtCreateFile NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtDeviceIoControlFile NtCreateFile NtMapViewOfSection NtOpenSection NtQueryObject": 1,
-            "NtDeviceIoControlFile NtCreateFile NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtCreateEvent NtClose NtDeviceIoControlFile NtCreateEvent NtClose": 29,
+            "NtOpenFile NtOpenKeyEx NtClose NtClose NtQueryValueKey": 5
         },
         "-4": {
-            "NtCreateFile NtMapViewOfSection NtOpenSection NtQueryObject": 1,
-            "NtCreateFile NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtDeviceIoControlFile NtCreateFile NtMapViewOfSection NtOpenSection": 1,
-            "NtDeviceIoControlFile NtCreateFile NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtOpenFile NtQueryInformationProcess NtQueryInformationProcess NtProtectVirtualMemory": 1
+            "NtCreateEvent NtClose NtDeviceIoControlFile NtCreateEvent": 30,
+            "NtOpenFile NtOpenKeyEx NtClose NtClose": 5
         },
         "-3": {
-            "NtCreateFile NtMapViewOfSection NtOpenSection": 1,
-            "NtCreateFile NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtDeviceIoControlFile NtCreateFile NtMapViewOfSection": 1,
-            "NtDeviceIoControlFile NtCreateFile NtProtectVirtualMemory": 1,
-            "NtOpenFile NtQueryInformationProcess NtQueryInformationProcess": 1
+            "NtCreateEvent NtClose NtDeviceIoControlFile": 32,
+            "NtCreateFile NtClose NtDeviceIoControlFile": 7
         },
         "-2": {
-            "NtCreateFile NtMapViewOfSection": 1,
-            "NtCreateFile NtProtectVirtualMemory": 1,
-            "NtCreateFile NtQueryValueKey": 1,
-            "NtEnumerateKey NtOpenFile": 1,
-            "NtOpenFile NtQueryInformationProcess": 1
+            "NtCreateEvent NtClose": 32,
+            "NtCreateFile NtClose": 8
         },
         "-1": {
-            "NtClose": 1,
-            "NtOpenKeyEx": 3,
-            "NtProtectVirtualMemory": 1,
-            "NtQueryObject": 3,
-            "NtQuerySecurityAttributesToken": 1
+            "NtCreateEvent": 35,
+            "NtCreateFile": 13
         },
         "1": {
-            "NtOpenProcessToken": 1,
-            "NtOpenThreadToken": 1,
-            "NtQueryInformationThread": 1,
-            "NtQueryObject": 1,
-            "NtSetInformationKey": 1
+            "NtClose": 49,
+            "NtDeviceIoControlFile": 7
         },
         "2": {
-            "NtClose NtOpenProcessToken": 1,
-            "NtClose NtProtectVirtualMemory": 1,
-            "NtClose NtQueryValueKey": 1,
-            "NtEnumerateKey NtClose": 1,
-            "NtSetInformationKey NtClose": 1
+            "NtClose NtCreateEvent": 32,
+            "NtDeviceIoControlFile NtClose": 7
         },
         "3": {
-            "NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtClose NtQueryInformationProcess NtOpenFile": 1,
-            "NtDeviceIoControlFile NtClose NtAllocateVirtualMemory": 1,
-            "NtDeviceIoControlFile NtClose NtProtectVirtualMemory": 1,
-            "NtDeviceIoControlFile NtClose NtQueryInformationProcess": 1
+            "NtClose NtCreateEvent NtDeviceIoControlFile": 32,
+            "NtClose NtCreateFile NtDeviceIoControlFile": 7
         },
         "4": {
-            "NtClose NtCreateFile NtDeviceIoControlFile NtClose": 1,
-            "NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationProcess": 1,
-            "NtClose NtQueryInformationProcess NtOpenFile NtQueryInformationFile": 1,
-            "NtDeviceIoControlFile NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtDeviceIoControlFile NtClose NtQueryInformationProcess NtOpenFile": 1
+            "NtClose NtCreateEvent NtDeviceIoControlFile NtClose": 32,
+            "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory": 5
         },
         "5": {
-            "NtClose NtCreateFile NtDeviceIoControlFile NtClose NtCreateFile": 1,
-            "NtClose NtQueryInformationProcess NtOpenFile NtQueryInformationFile NtQueryVolumeInformationFile": 1,
-            "NtDeviceIoControlFile NtClose NtCreateFile NtDeviceIoControlFile NtClose": 1,
-            "NtDeviceIoControlFile NtClose NtProtectVirtualMemory NtProtectVirtualMemory NtQueryInformationProcess": 1,
-            "NtDeviceIoControlFile NtClose NtQueryInformationProcess NtOpenFile NtQueryInformationFile": 1
+            "NtClose NtCreateEvent NtDeviceIoControlFile NtClose NtCreateEvent": 29,
+            "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory": 5
         }
     }
 }

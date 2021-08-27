@@ -2,59 +2,41 @@
     "NtOpenMutant": {
         "-5": {
             "NtQueryObject NtClose NtQueryInformationToken NtQueryInformationToken NtOpenDirectoryObject": 6,
-            "NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation NtUserGetThreadDesktop NtClose": 1,
-            "NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation NtUserGetThreadDesktop NtUserSetWinEventHook": 1,
-            "NtQueryObject NtUserGetObjectInformation NtUserGetProcessWindowStation NtUserGetKeyboardLayout NtUserGetKeyboardLayout": 1
+            "NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation NtUserGetThreadDesktop NtUserSetWinEventHook": 1
         },
         "-4": {
             "NtQueryObject NtClose NtQueryInformationToken NtQueryInformationToken": 6,
-            "NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation NtUserGetThreadDesktop": 2,
-            "NtQueryObject NtUserGetObjectInformation NtUserGetProcessWindowStation NtUserGetKeyboardLayout": 1
+            "NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation NtUserGetThreadDesktop": 2
         },
         "-3": {
             "NtQueryObject NtClose NtQueryInformationToken": 6,
-            "NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation": 2,
-            "NtQueryObject NtUserGetObjectInformation NtUserGetProcessWindowStation": 1
+            "NtQueryObject NtQueryInformationProcess NtUserGetObjectInformation": 2
         },
         "-2": {
             "NtQueryObject NtClose": 6,
-            "NtQueryObject NtQueryInformationProcess": 2,
-            "NtQueryObject NtUserGetObjectInformation": 1
+            "NtQueryObject NtQueryInformationProcess": 2
         },
         "-1": {
             "NtQueryObject": 9
         },
         "1": {
             "NtAllocateVirtualMemory": 6,
-            "NtClose": 2,
-            "NtWaitForSingleObject": 1
+            "NtClose": 2
         },
         "2": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtAllocateVirtualMemory NtClose": 5,
-            "NtClose NtUserGetThreadDesktop": 1,
-            "NtClose NtUserRegisterClassExWOW": 1,
             "NtWaitForSingleObject NtUserGetThreadDesktop": 1
         },
         "3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtClose": 1,
             "NtAllocateVirtualMemory NtClose NtClose": 5,
-            "NtClose NtUserGetThreadDesktop NtUserGetObjectInformation": 1,
-            "NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx": 1,
             "NtWaitForSingleObject NtUserGetThreadDesktop NtUserGetObjectInformation": 1
         },
         "4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtClose NtClose": 1,
             "NtAllocateVirtualMemory NtClose NtClose NtUnmapViewOfSection": 5,
-            "NtClose NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess": 1,
-            "NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx NtUserMessageCall": 1,
             "NtWaitForSingleObject NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess": 1
         },
         "5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtClose NtClose NtUnmapViewOfSection": 1,
             "NtAllocateVirtualMemory NtClose NtClose NtUnmapViewOfSection NtTraceControl": 5,
-            "NtClose NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject": 1,
-            "NtClose NtUserRegisterClassExWOW NtUserCreateWindowEx NtUserMessageCall NtContinueEx": 1,
             "NtWaitForSingleObject NtUserGetThreadDesktop NtUserGetObjectInformation NtQueryInformationProcess NtQueryObject": 1
         }
     }

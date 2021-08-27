@@ -32,13 +32,10 @@
             "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp": 29
         },
         "4": {
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserReleaseDC": 1,
             "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 23,
             "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtProtectVirtualMemory": 6
         },
         "5": {
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserReleaseDC NtUserRedrawWindow": 1,
-            "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiExtGetObjectW": 1,
             "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtUserCreateEmptyCursorObject": 22,
             "NtGdiSelectBitmap NtGdiSelectBitmap NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory": 6
         }

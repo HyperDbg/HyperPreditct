@@ -1,74 +1,44 @@
 {
     "NtDuplicateObject": {
         "-5": {
-            "NtCreateEvent NtAcceptConnectPort NtClose NtClose NtQueryValueKey": 1,
-            "NtCreateEvent NtAllocateVirtualMemory NtAlertThreadByThreadId NtWaitForAlertByThreadId NtAllocateVirtualMemory": 1,
-            "NtCreateWaitCompletionPacket NtQueryObject NtCreateWaitCompletionPacket NtQueryObject NtCreateWaitCompletionPacket": 1,
-            "NtEnumerateKey NtCreateEvent NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess NtQuerySystemInformation NtQuerySystemInformation NtAllocateVirtualMemory": 1
+            "NtCompareObjects NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 2,
+            "NtCreateEvent NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 2
         },
         "-4": {
-            "NtCreateEvent NtAcceptConnectPort NtClose NtClose": 1,
-            "NtCreateEvent NtAllocateVirtualMemory NtAlertThreadByThreadId NtWaitForAlertByThreadId": 1,
-            "NtCreateWaitCompletionPacket NtQueryObject NtCreateWaitCompletionPacket NtQueryObject": 1,
-            "NtEnumerateKey NtCreateEvent NtEnumerateKey NtEnumerateKey": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess NtQuerySystemInformation NtQuerySystemInformation": 1
+            "NtCompareObjects NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 2,
+            "NtCreateEvent NtClose NtQueryValueKey NtSetInformationKey": 2
         },
         "-3": {
-            "NtCreateEvent NtAcceptConnectPort NtClose": 1,
-            "NtCreateEvent NtAllocateVirtualMemory NtAlertThreadByThreadId": 1,
-            "NtCreateWaitCompletionPacket NtQueryObject NtCreateWaitCompletionPacket": 1,
-            "NtEnumerateKey NtCreateEvent NtEnumerateKey": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess NtQuerySystemInformation": 1
+            "NtCompareObjects NtSetInformationProcess NtQueryInformationProcess": 2,
+            "NtCreateEvent NtClose NtQueryValueKey": 2
         },
         "-2": {
-            "NtCreateEvent NtAcceptConnectPort": 1,
-            "NtCreateEvent NtAllocateVirtualMemory": 1,
-            "NtCreateWaitCompletionPacket NtQueryObject": 1,
-            "NtEnumerateKey NtCreateEvent": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess": 1
+            "NtCompareObjects NtSetInformationProcess": 2,
+            "NtCreateEvent NtClose": 2
         },
         "-1": {
-            "NtAllocateVirtualMemory": 1,
             "NtCompareObjects": 2,
-            "NtCreateWaitCompletionPacket": 1,
-            "NtEnumerateKey": 1,
-            "NtQuerySystemInformation": 1
+            "NtCreateEvent": 4
         },
         "1": {
-            "NtAlpcConnectPortEx": 1,
-            "NtEnumerateKey": 1,
-            "NtOpenThreadToken": 1,
-            "NtQueryInformationToken": 2,
-            "NtReleaseWorkerFactoryWorker": 1
+            "NtAllocateVirtualMemory": 2,
+            "NtQueryInformationToken": 2
         },
         "2": {
-            "NtAllocateVirtualMemory NtCreateWaitCompletionPacket": 1,
-            "NtAlpcConnectPortEx NtAllocateVirtualMemory": 1,
-            "NtEnumerateKey NtReleaseWorkerFactoryWorker": 1,
-            "NtOpenThreadToken NtReleaseWorkerFactoryWorker": 1,
-            "NtReleaseWorkerFactoryWorker NtWaitForSingleObject": 1
+            "NtQueryInformationThread NtClose": 2,
+            "NtQueryInformationToken NtAlpcConnectPortEx": 2
         },
         "3": {
-            "NtAllocateVirtualMemory NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket": 1,
-            "NtAlpcConnectPortEx NtAllocateVirtualMemory NtAlpcSendWaitReceivePort": 1,
-            "NtEnumerateKey NtReleaseWorkerFactoryWorker NtEnumerateKey": 1,
-            "NtOpenThreadToken NtReleaseWorkerFactoryWorker NtOpenProcessToken": 1,
-            "NtReleaseWorkerFactoryWorker NtWaitForSingleObject NtProtectVirtualMemory": 1
+            "NtQueryInformationThread NtClose NtOpenProcess": 2,
+            "NtQueryInformationToken NtAlpcConnectPortEx NtAlpcQueryInformation": 2
         },
         "4": {
-            "NtAllocateVirtualMemory NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket NtQueryVirtualMemory": 1,
-            "NtAlpcConnectPortEx NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtCreateEvent": 1,
-            "NtEnumerateKey NtReleaseWorkerFactoryWorker NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenThreadToken NtReleaseWorkerFactoryWorker NtOpenProcessToken NtWaitForSingleObject": 1,
-            "NtReleaseWorkerFactoryWorker NtWaitForSingleObject NtProtectVirtualMemory NtOpenFile": 1
+            "NtQueryInformationThread NtClose NtOpenProcess NtQueryInformationProcess": 2,
+            "NtQueryInformationToken NtAlpcConnectPortEx NtAlpcQueryInformation NtAllocateVirtualMemory": 2
         },
         "5": {
-            "NtAllocateVirtualMemory NtCreateWaitCompletionPacket NtAssociateWaitCompletionPacket NtQueryVirtualMemory NtProtectVirtualMemory": 1,
-            "NtAlpcConnectPortEx NtAllocateVirtualMemory NtAlpcSendWaitReceivePort NtCreateEvent NtAllocateVirtualMemory": 1,
-            "NtEnumerateKey NtReleaseWorkerFactoryWorker NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtOpenThreadToken NtReleaseWorkerFactoryWorker NtOpenProcessToken NtWaitForSingleObject NtQueryInformationToken": 1,
-            "NtReleaseWorkerFactoryWorker NtWaitForSingleObject NtProtectVirtualMemory NtOpenFile NtProtectVirtualMemory": 1
+            "NtQueryInformationThread NtClose NtOpenProcess NtQueryInformationProcess NtReadVirtualMemory": 2,
+            "NtQueryInformationToken NtAlpcConnectPortEx NtAlpcQueryInformation NtAllocateVirtualMemory NtAlpcSendWaitReceivePort": 2
         }
     }
 }

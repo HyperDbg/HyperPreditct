@@ -1,74 +1,44 @@
 {
     "NtQuerySystemInformation": {
         "-5": {
-            "NtClose NtQueryInformationToken NtOpenProcessToken NtOpenThreadToken NtClose": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtClose NtQueryValueKey NtSetInformationKey": 1,
-            "NtSetInformationFile NtSetInformationFile NtSetInformationFile NtQueryInformationFile NtSetInformationFile": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent NtSetInformationVirtualMemory NtApphelpCacheControl": 1,
-            "NtTraceControl NtUserGetThreadState NtUserGetClassName NtUserReleaseDC NtGdiExtGetObjectW": 1
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtQuerySystemInformation NtAllocateVirtualMemoryEx": 12,
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation": 12
         },
         "-4": {
-            "NtClose NtQueryInformationToken NtOpenProcessToken NtOpenThreadToken": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtClose NtQueryValueKey": 1,
-            "NtSetInformationFile NtSetInformationFile NtSetInformationFile NtQueryInformationFile": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent NtSetInformationVirtualMemory": 1,
-            "NtTraceControl NtUserGetThreadState NtUserGetClassName NtUserReleaseDC": 1
+            "NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 17,
+            "NtQuerySystemInformation NtQueryInformationProcess NtClose NtQueryValueKey": 12
         },
         "-3": {
-            "NtClose NtQueryInformationToken NtOpenProcessToken": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtClose": 1,
-            "NtSetInformationFile NtSetInformationFile NtSetInformationFile": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetEvent": 1,
-            "NtTraceControl NtUserGetThreadState NtUserGetClassName": 1
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 17,
+            "NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory": 17
         },
         "-2": {
-            "NtClose NtQueryInformationToken": 1,
-            "NtQuerySystemInformation NtTraceControl": 1,
-            "NtSetInformationFile NtSetInformationFile": 1,
-            "NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtTraceControl NtUserGetThreadState": 1
+            "NtQuerySystemInformation NtAllocateVirtualMemory": 18,
+            "NtQuerySystemInformation NtQueryInformationProcess": 17
         },
         "-1": {
-            "NtOpenKeyEx": 2,
-            "NtQuerySecurityAttributesToken": 5,
-            "NtSetInformationFile": 1,
-            "NtSetInformationProcess": 1,
-            "NtTraceControl": 1
+            "NtQueryInformationProcess": 24,
+            "NtQuerySystemInformation": 41
         },
         "1": {
-            "NtDuplicateObject": 1,
-            "NtOpenFile": 6,
-            "NtQueryObject": 2,
-            "NtQuerySecurityAttributesToken": 5,
-            "NtQueryVirtualMemory": 6
+            "NtQueryInformationProcess": 41,
+            "NtQuerySystemInformation": 41
         },
         "2": {
-            "NtDuplicateObject NtAlpcConnectPortEx": 1,
-            "NtQueryInformationProcess NtSetInformationProcess": 3,
-            "NtQueryInformationProcess NtSetInformationVirtualMemory": 1,
-            "NtQueryObject NtQueryKey": 2,
-            "NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 5
+            "NtQueryInformationProcess NtQuerySystemInformation": 12,
+            "NtQuerySystemInformation NtQueryInformationProcess": 17
         },
         "3": {
-            "NtQueryInformationProcess NtAllocateVirtualMemory NtQuerySystemInformation": 1,
-            "NtQueryInformationProcess NtQueryInformationProcess NtCreateSection": 1,
-            "NtQueryInformationProcess NtQuerySystemInformation NtDuplicateObject": 1,
-            "NtQueryInformationProcess NtSetInformationVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess NtSetInformationVirtualMemory": 1
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 12,
+            "NtQuerySystemInformation NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 12
         },
         "4": {
-            "NtQueryInformationProcess NtAllocateVirtualMemory NtQuerySystemInformation NtQuerySystemInformation": 1,
-            "NtQueryInformationProcess NtQueryInformationProcess NtCreateSection NtMapViewOfSection": 1,
-            "NtQueryInformationProcess NtSetInformationVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess NtAllocateVirtualMemory NtQuerySystemInformation": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess NtSetInformationVirtualMemory NtProtectVirtualMemory": 1
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 12,
+            "NtQuerySystemInformation NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 12
         },
         "5": {
-            "NtQueryInformationProcess NtQueryInformationProcess NtCreateSection NtMapViewOfSection NtQueryInformationToken": 1,
-            "NtQueryInformationProcess NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess NtSetInformationVirtualMemory": 1,
-            "NtQueryInformationProcess NtSetInformationVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess NtAllocateVirtualMemory NtQuerySystemInformation NtQuerySystemInformation": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess NtSetInformationVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtQuerySystemInformation": 12,
+            "NtQuerySystemInformation NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx NtAllocateVirtualMemoryEx": 12
         }
     }
 }

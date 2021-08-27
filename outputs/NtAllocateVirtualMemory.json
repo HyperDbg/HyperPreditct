@@ -1,74 +1,44 @@
 {
     "NtAllocateVirtualMemory": {
         "-5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess": 1,
-            "NtAllocateVirtualMemory NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtQueryDefaultLocale": 1,
-            "NtProtectVirtualMemory NtClose NtReleaseWorkerFactoryWorker NtWaitForWorkViaWorkerFactory NtClose": 1,
-            "NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess NtQueryInformationProcess NtQueryAttributesFile": 1
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 30,
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 3159
         },
         "-4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtQueryDefaultLocale NtQueryDefaultLocale": 1,
-            "NtAllocateVirtualMemory NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess": 1,
-            "NtClose NtProtectVirtualMemory NtReleaseWorkerFactoryWorker NtWaitForWorkViaWorkerFactory": 1,
-            "NtProtectVirtualMemory NtClose NtReleaseWorkerFactoryWorker NtWaitForWorkViaWorkerFactory": 1,
-            "NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess NtQueryInformationProcess": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 38,
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 3176
         },
         "-3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtQueryDefaultLocale": 1,
-            "NtAllocateVirtualMemory NtQueryDefaultLocale NtQueryDefaultLocale": 1,
-            "NtClose NtProtectVirtualMemory NtReleaseWorkerFactoryWorker": 1,
-            "NtProtectVirtualMemory NtClose NtReleaseWorkerFactoryWorker": 1,
-            "NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 73,
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 3176
         },
         "-2": {
-            "NtAllocateVirtualMemory NtQueryDefaultLocale": 1,
-            "NtProtectVirtualMemory NtClose": 1,
-            "NtQueryDefaultLocale NtQueryDefaultLocale": 1,
-            "NtReleaseWorkerFactoryWorker NtClose": 1,
-            "NtUserMessageCall NtGdiPolyPatBlt": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 111,
+            "NtFreeVirtualMemory NtAllocateVirtualMemory": 3249
         },
         "-1": {
-            "NtGdiGetDeviceCaps": 1,
-            "NtQueryDefaultLocale": 1,
-            "NtQuerySecurityObject": 1,
-            "NtUserGetKeyboardLayout": 1,
-            "NtWaitForWorkViaWorkerFactory": 1
+            "NtAllocateVirtualMemory": 241,
+            "NtFreeVirtualMemory": 3249
         },
         "1": {
-            "NtEnumerateKey": 1,
-            "NtSetInformationThread": 1,
-            "NtUserBuildHwndList": 1,
-            "NtUserNotifyWinEvent": 1,
-            "NtWaitForAlertByThreadId": 1
+            "NtAllocateVirtualMemory": 241,
+            "NtFreeVirtualMemory": 3262
         },
         "2": {
-            "NtClose NtQueryAttributesFile": 1,
-            "NtGdiHfontCreate NtGdiCreateCompatibleDC": 1,
-            "NtSetEvent NtSetInformationWorkerFactory": 1,
-            "NtSetInformationThread NtQueryObject": 1,
-            "NtUserGetClassInfoEx NtUserFindExistingCursorIcon": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 111,
+            "NtFreeVirtualMemory NtAllocateVirtualMemory": 3249
         },
         "3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtSetEvent": 1,
-            "NtQueryInformationThread NtQueryObject NtSetInformationThread": 1,
-            "NtQuerySecurityObject NtClose NtApphelpCacheControl": 1,
-            "NtSetEvent NtSetInformationWorkerFactory NtSetEvent": 1,
-            "NtSetInformationThread NtQueryObject NtOpenSection": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 73,
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 3176
         },
         "4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtQueryInformationProcess": 1,
-            "NtFreeVirtualMemory NtAllocateVirtualMemory NtSetEvent NtSetInformationWorkerFactory": 1,
-            "NtQueryInformationThread NtQueryObject NtSetInformationThread NtOpenSection": 1,
-            "NtSetInformationThread NtQueryObject NtOpenSection NtTestAlert": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 38,
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 3176
         },
         "5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1,
-            "NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtQueryInformationProcess": 1,
-            "NtQueryInformationThread NtQueryObject NtSetInformationThread NtOpenSection NtProtectVirtualMemory": 1,
-            "NtSetInformationThread NtQueryObject NtOpenSection NtTestAlert NtProtectVirtualMemory": 1
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 30,
+            "NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 3159
         }
     }
 }

@@ -1,74 +1,44 @@
 {
     "NtCreateEvent": {
         "-5": {
-            "NtAcceptConnectPort NtClose NtClose NtQueryValueKey NtOpenKeyEx": 1,
-            "NtAllocateVirtualMemory NtAlertThreadByThreadId NtWaitForAlertByThreadId NtAllocateVirtualMemory NtClose": 1,
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtClose NtSetInformationKey NtOpenKeyEx NtQueryKey NtQueryKey": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1
+            "NtClose NtDeviceIoControlFile NtCreateEvent NtClose NtDeviceIoControlFile": 29,
+            "NtQuerySystemInformation NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 12
         },
         "-4": {
-            "NtAcceptConnectPort NtClose NtClose NtQueryValueKey": 1,
-            "NtAllocateVirtualMemory NtAlertThreadByThreadId NtWaitForAlertByThreadId NtAllocateVirtualMemory": 1,
-            "NtClose NtSetInformationKey NtOpenKeyEx NtQueryKey": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtQueryObject NtQueryInformationToken NtMapViewOfSection NtCreateSection": 1
+            "NtClose NtDeviceIoControlFile NtCreateEvent NtClose": 29,
+            "NtQuerySystemInformation NtQuerySystemInformation NtAllocateVirtualMemory NtFreeVirtualMemory": 12
         },
         "-3": {
-            "NtAcceptConnectPort NtClose NtClose": 1,
-            "NtAllocateVirtualMemory NtAlertThreadByThreadId NtWaitForAlertByThreadId": 1,
-            "NtClose NtSetInformationKey NtOpenKeyEx": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtQueryObject NtQueryInformationToken NtMapViewOfSection": 1
+            "NtClose NtDeviceIoControlFile NtCreateEvent": 30,
+            "NtCreateEvent NtCreateEvent NtCreateEvent": 18
         },
         "-2": {
-            "NtAcceptConnectPort NtClose": 1,
-            "NtAllocateVirtualMemory NtAlertThreadByThreadId": 1,
-            "NtClose NtSetInformationKey": 1,
-            "NtEnumerateKey NtEnumerateKey": 1,
-            "NtQueryObject NtQueryInformationToken": 1
+            "NtClose NtDeviceIoControlFile": 32,
+            "NtCreateEvent NtCreateEvent": 25
         },
         "-1": {
-            "NtAcceptConnectPort": 1,
-            "NtAlpcSendWaitReceivePort": 1,
-            "NtAssociateWaitCompletionPacket": 1,
-            "NtCreateTimer": 1,
-            "NtEnumerateKey": 1
+            "NtClose": 43,
+            "NtCreateEvent": 49
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtEnumerateKey": 1,
-            "NtOpenKeyEx": 2,
-            "NtQueryInformationFile": 1,
-            "NtUserGetDC": 1
+            "NtCreateEvent": 49,
+            "NtDeviceIoControlFile": 35
         },
         "2": {
-            "NtDuplicateObject NtOpenThreadToken": 1,
-            "NtDuplicateObject NtReleaseWorkerFactoryWorker": 1,
-            "NtEnumerateKey NtDuplicateObject": 1,
-            "NtNotifyChangeKey NtClose": 1,
-            "NtQueryInformationFile NtLockFile": 1
+            "NtCreateEvent NtCreateEvent": 25,
+            "NtDeviceIoControlFile NtClose": 35
         },
         "3": {
-            "NtDuplicateObject NtOpenThreadToken NtReleaseWorkerFactoryWorker": 1,
-            "NtDuplicateObject NtReleaseWorkerFactoryWorker NtWaitForSingleObject": 1,
-            "NtEnumerateKey NtDuplicateObject NtEnumerateKey": 1,
-            "NtNotifyChangeKey NtClose NtQueryObject": 1,
-            "NtQueryLicenseValue NtUserGetKeyboardLayout NtAllocateVirtualMemory": 1
+            "NtCreateEvent NtCreateEvent NtCreateEvent": 18,
+            "NtDeviceIoControlFile NtClose NtCreateEvent": 30
         },
         "4": {
-            "NtDuplicateObject NtOpenThreadToken NtReleaseWorkerFactoryWorker NtOpenProcessToken": 1,
-            "NtDuplicateObject NtReleaseWorkerFactoryWorker NtWaitForSingleObject NtProtectVirtualMemory": 1,
-            "NtEnumerateKey NtDuplicateObject NtEnumerateKey NtReleaseWorkerFactoryWorker": 1,
-            "NtNotifyChangeKey NtClose NtQueryObject NtQueryKey": 1,
-            "NtQueryLicenseValue NtUserGetKeyboardLayout NtAllocateVirtualMemory NtGdiHfontCreate": 1
+            "NtCreateEvent NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile": 12,
+            "NtDeviceIoControlFile NtClose NtCreateEvent NtDeviceIoControlFile": 30
         },
         "5": {
-            "NtDuplicateObject NtOpenThreadToken NtReleaseWorkerFactoryWorker NtOpenProcessToken NtWaitForSingleObject": 1,
-            "NtDuplicateObject NtReleaseWorkerFactoryWorker NtWaitForSingleObject NtProtectVirtualMemory NtOpenFile": 1,
-            "NtEnumerateKey NtDuplicateObject NtEnumerateKey NtReleaseWorkerFactoryWorker NtEnumerateKey": 1,
-            "NtNotifyChangeKey NtClose NtQueryObject NtQueryKey NtQueryKey": 1,
-            "NtQueryLicenseValue NtUserGetKeyboardLayout NtAllocateVirtualMemory NtGdiHfontCreate NtGdiCreateCompatibleDC": 1
+            "NtCreateEvent NtProtectVirtualMemory NtProtectVirtualMemory NtOpenFile NtQueryVolumeInformationFile": 12,
+            "NtDeviceIoControlFile NtClose NtCreateEvent NtDeviceIoControlFile NtClose": 30
         }
     }
 }

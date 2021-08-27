@@ -1,74 +1,44 @@
 {
     "NtUserSystemParametersInfo": {
         "-5": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserSetProp": 1,
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtAddAtomEx NtUnmapViewOfSection": 1,
-            "NtUserSystemParametersInfo NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserGetProp NtUserGetProp NtUserGetProp": 1
+            "NtUserIsTopLevelWindow NtUserSetProp NtUserGetProp NtUserGetProp NtUserGetWindowDC": 5,
+            "NtUserIsTopLevelWindow NtUserSetProp NtUserGetProp NtUserGetProp NtUserSBGetParms": 11
         },
         "-4": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 1,
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtAddAtomEx": 1,
-            "NtUserSystemParametersInfo NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserGetProp NtUserGetProp": 1
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserSetProp NtUserGetProp": 4,
+            "NtUserIsTopLevelWindow NtUserSetProp NtUserGetProp NtUserGetProp": 16
         },
         "-3": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx": 1,
-            "NtUserSystemParametersInfo NtUserGetProp NtUserGetProp": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserGetProp": 1
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow NtUserSetProp": 4,
+            "NtUserIsTopLevelWindow NtUserSetProp NtUserGetProp": 16
         },
         "-2": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetProp NtUserGetProp": 1,
-            "NtUserRegisterWindowMessage NtAllocateVirtualMemory": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1,
-            "NtUserSystemParametersInfo NtUserGetProp": 1
+            "NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 5,
+            "NtUserIsTopLevelWindow NtUserSetProp": 16
         },
         "-1": {
-            "NtGdiExtGetObjectW": 1,
-            "NtOpenKeyEx": 1,
-            "NtProtectVirtualMemory": 1,
-            "NtUserGetProp": 1,
-            "NtUserRegisterWindowMessage": 2
+            "NtUserIsTopLevelWindow": 16,
+            "NtUserSystemParametersInfo": 6
         },
         "1": {
-            "NtClose": 1,
-            "NtGdiHfontCreate": 1,
-            "NtQueryInformationProcess": 1,
-            "NtQueryInformationThread": 1,
-            "NtQueryInformationToken": 1
+            "NtUserRemoveProp": 21,
+            "NtUserSystemParametersInfo": 6
         },
         "2": {
-            "NtGdiHfontCreate NtGdiHfontCreate": 1,
-            "NtQueryInformationProcess NtSetEvent": 1,
-            "NtQueryInformationThread NtQueryObject": 1,
-            "NtQueryInformationToken NtOpenKeyEx": 1,
-            "NtUserSystemParametersInfo NtQueryInformationThread": 1
+            "NtUserRemoveProp NtUserGetThreadDesktop": 21,
+            "NtUserSystemParametersInfo NtUserSystemParametersInfo": 4
         },
         "3": {
-            "NtGdiHfontCreate NtGdiHfontCreate NtUserGetWindowCompositionAttribute": 1,
-            "NtQueryInformationProcess NtSetEvent NtUserSBGetParms": 1,
-            "NtQueryInformationThread NtQueryObject NtOpenSection": 1,
-            "NtUserSystemParametersInfo NtQueryInformationThread NtQueryObject": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtQueryInformationThread": 1
+            "NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation": 21,
+            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo": 3
         },
         "4": {
-            "NtQueryInformationProcess NtSetEvent NtUserSBGetParms NtUserGetProp": 1,
-            "NtQueryInformationThread NtQueryObject NtOpenSection NtMapViewOfSection": 1,
-            "NtUserSystemParametersInfo NtQueryInformationThread NtQueryObject NtOpenSection": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtQueryInformationThread NtQueryObject": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo NtQueryInformationThread": 1
+            "NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation NtUserGetProp": 21,
+            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo": 2
         },
         "5": {
             "NtQueryInformationProcess NtSetEvent NtUserSBGetParms NtUserGetProp NtUserGetProp": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtQueryInformationThread NtQueryObject NtOpenSection": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo NtQueryInformationThread NtQueryObject": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo NtQueryInformationThread": 1,
-            "NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo NtUserSystemParametersInfo": 1
+            "NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation NtUserGetProp NtUserGetProp": 21
         }
     }
 }

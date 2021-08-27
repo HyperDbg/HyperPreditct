@@ -26,23 +26,19 @@
         },
         "2": {
             "NtUserBuildHwndList NtUserGetProp": 3,
-            "NtUserGetDCEx NtGdiExcludeClipRect": 2,
-            "NtUserGetDCEx NtProtectVirtualMemory": 1
+            "NtUserGetDCEx NtGdiExcludeClipRect": 2
         },
         "3": {
             "NtUserBuildHwndList NtUserGetProp NtUserIsTopLevelWindow": 3,
-            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn": 2,
-            "NtUserGetDCEx NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn": 2
         },
         "4": {
             "NtUserBuildHwndList NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 3,
-            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC": 2,
-            "NtUserGetDCEx NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExcludeClipRect": 1
+            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC": 2
         },
         "5": {
             "NtUserBuildHwndList NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled NtUserGetProp": 3,
-            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC NtContinueEx": 2,
-            "NtUserGetDCEx NtProtectVirtualMemory NtProtectVirtualMemory NtGdiExcludeClipRect NtGdiExtSelectClipRgn": 1
+            "NtUserGetDCEx NtGdiExcludeClipRect NtGdiExtSelectClipRgn NtUserReleaseDC NtContinueEx": 2
         }
     }
 }

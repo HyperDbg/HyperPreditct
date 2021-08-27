@@ -2,56 +2,42 @@
     "NtGdiEndPath": {
         "-5": {
             "NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 2,
-            "NtGdiEndPath NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess NtQueryInformationProcess": 1,
             "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtGdiBeginPath": 3
         },
         "-4": {
             "NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess NtQueryInformationProcess": 2,
-            "NtGdiEndPath NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess": 1,
             "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3
         },
         "-3": {
             "NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess": 2,
-            "NtGdiEndPath NtGdiBeginPath NtGdiStrokePath": 1,
             "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3
         },
         "-2": {
             "NtGdiBeginPath NtGdiStrokePath": 2,
-            "NtGdiEndPath NtGdiBeginPath": 1,
             "NtSetInformationProcess NtQueryInformationProcess": 3
         },
         "-1": {
             "NtGdiBeginPath": 2,
-            "NtGdiEndPath": 1,
             "NtSetInformationProcess": 3
         },
         "1": {
-            "NtGdiEndPath": 1,
             "NtGdiPolyPatBlt": 2,
             "NtQueryInformationProcess": 3
         },
         "2": {
-            "NtGdiEndPath NtQueryInformationProcess": 1,
             "NtGdiPolyPatBlt NtUserMessageCall": 2,
             "NtQueryInformationProcess NtSetInformationProcess": 3
         },
         "3": {
-            "NtGdiEndPath NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtGdiPolyPatBlt NtUserMessageCall NtAllocateVirtualMemory": 1,
             "NtGdiPolyPatBlt NtUserMessageCall NtQueryInformationThread": 1,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3
         },
         "4": {
-            "NtGdiEndPath NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtGdiPolyPatBlt NtUserMessageCall NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtGdiPolyPatBlt NtUserMessageCall NtQueryInformationThread NtQueryObject": 1,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3
         },
         "5": {
-            "NtGdiEndPath NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtGdiPolyPatBlt NtUserMessageCall NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtGdiPolyPatBlt NtUserMessageCall NtQueryInformationThread NtQueryObject NtOpenSection": 1,
-            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtGdiStrokeAndFillPath": 1,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtGdiStrokePath": 2
         }
     }

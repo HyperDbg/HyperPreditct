@@ -1,74 +1,44 @@
 {
     "NtUserGetClassInfoEx": {
         "-5": {
-            "NtAllocateVirtualMemory NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtGdiExtGetObjectW NtUserGetIconInfo": 1,
-            "NtCallbackReturn NtContinueEx NtUserShowWindow NtUserRedrawWindow NtUserReleaseDC": 1,
-            "NtGdiCreatePen NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn NtContinueEx": 1,
-            "NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtGdiExtGetObjectW NtUserReleaseDC NtGdiSelectBitmap": 1,
-            "NtUserGetClassInfoEx NtGdiCreatePen NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx NtUserShowWindow NtCallbackReturn NtContinueEx": 6,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 6
         },
         "-4": {
-            "NtAllocateVirtualMemory NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtGdiExtGetObjectW": 1,
-            "NtCallbackReturn NtContinueEx NtUserShowWindow NtUserRedrawWindow": 1,
-            "NtGdiCreatePen NtGdiGetTextMetricsW NtUserGetDC NtCallbackReturn": 1,
-            "NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtGdiExtGetObjectW NtUserReleaseDC": 1,
-            "NtUserGetClassInfoEx NtGdiCreatePen NtGdiGetTextMetricsW NtUserGetDC": 1
+            "NtCallbackReturn NtContinueEx NtUserShowWindow NtCallbackReturn": 6,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 11
         },
         "-3": {
-            "NtAllocateVirtualMemory NtGdiGetDeviceCaps NtGdiGetDeviceCaps": 1,
-            "NtGdiCreatePen NtGdiGetTextMetricsW NtUserGetDC": 1,
-            "NtUserGetClassInfoEx NtGdiCreatePen NtGdiGetTextMetricsW": 1,
-            "NtUserGetImeInfoEx NtUserQueryWindow NtUserNotifyIMEStatus": 1,
-            "NtUserGetThreadState NtCallbackReturn NtContinueEx": 1
+            "NtCallbackReturn NtContinueEx NtUserShowWindow": 8,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 11
         },
         "-2": {
-            "NtAllocateVirtualMemory NtGdiGetDeviceCaps": 1,
-            "NtGdiCreatePen NtGdiGetTextMetricsW": 1,
-            "NtUserGetClassInfoEx NtGdiCreatePen": 1,
-            "NtUserGetImeInfoEx NtUserQueryWindow": 1,
-            "NtUserGetThreadState NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx": 10,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 11
         },
         "-1": {
-            "NtAllocateVirtualMemory": 2,
-            "NtGdiCreatePen": 1,
-            "NtGdiGetDeviceCaps": 4,
-            "NtUserGetImeInfoEx": 1,
-            "NtUserGetThreadState": 1
+            "NtUserGetClassInfoEx": 14,
+            "NtUserRegisterWindowMessage": 11
         },
         "1": {
-            "NtContinueEx": 7,
-            "NtUserCreateWindowEx": 1,
-            "NtUserFindExistingCursorIcon": 13,
             "NtUserGetClassInfoEx": 14,
             "NtUserRegisterClassExWOW": 30
         },
         "2": {
-            "NtUserCreateWindowEx NtContinueEx": 1,
-            "NtUserFindExistingCursorIcon NtProtectVirtualMemory": 5,
-            "NtUserRegisterClassExWOW NtAllocateVirtualMemory": 5,
-            "NtUserRegisterClassExWOW NtUserFindExistingCursorIcon": 1,
-            "NtUserRegisterClassExWOW NtUserGetClassInfoEx": 5
+            "NtUserGetClassInfoEx NtUserRegisterClassExWOW": 14,
+            "NtUserRegisterClassExWOW NtUserGetAtomName": 14
         },
         "3": {
-            "NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetClassName": 1,
-            "NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 1,
-            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetAtomName": 3,
-            "NtUserRegisterClassExWOW NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 1
+            "NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserGetAtomName": 14,
+            "NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx": 14
         },
         "4": {
-            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetClassName NtUserRemoveProp": 1,
-            "NtUserCreateWindowEx NtContinueEx NtCallbackReturn NtUserGetIconSize": 1,
-            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx": 3,
-            "NtUserRegisterClassExWOW NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserCreateWindowEx": 1
+            "NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx": 14,
+            "NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx NtContinueEx": 14
         },
         "5": {
-            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetClassName NtUserRemoveProp NtUserGetThreadDesktop": 1,
-            "NtUserCreateWindowEx NtContinueEx NtCallbackReturn NtUserGetIconSize NtUserGetIconInfo": 1,
-            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx NtContinueEx": 3,
-            "NtUserRegisterClassExWOW NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserCreateWindowEx NtQueryInformationThread": 1
+            "NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx NtContinueEx": 14,
+            "NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 14
         }
     }
 }

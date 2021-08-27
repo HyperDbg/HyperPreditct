@@ -1,74 +1,44 @@
 {
     "NtQueryLicenseValue": {
         "-5": {
-            "NtApphelpCacheControl NtClose NtQueryValueKey NtSetInformationKey NtOpenKeyEx": 1,
-            "NtClose NtQueryValueKey NtOpenKeyEx NtQueryInformationToken NtQueryKey": 1,
-            "NtEnumerateKey NtEnumerateKey NtCreateFile NtEnumerateKey NtEnumerateKey": 1,
-            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtQuerySecurityObject NtQuerySecurityObject": 1,
-            "NtTraceControl NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtQuerySecurityObject": 1
+            "NtAllocateVirtualMemory NtOpenKeyEx NtQueryInformationProcess NtClose NtApphelpCacheControl": 6,
+            "NtQuerySystemInformation NtMapViewOfSection NtCreateSection NtQueryInformationFile NtQueryInformationFile": 6
         },
         "-4": {
-            "NtApphelpCacheControl NtClose NtQueryValueKey NtSetInformationKey": 1,
-            "NtClose NtQueryValueKey NtOpenKeyEx NtQueryInformationToken": 1,
-            "NtEnumerateKey NtEnumerateKey NtCreateFile NtEnumerateKey": 1,
-            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtQuerySecurityObject": 1,
-            "NtTraceControl NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 1
+            "NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue": 12,
+            "NtQuerySystemInformation NtMapViewOfSection NtCreateSection NtQueryInformationFile": 6
         },
         "-3": {
-            "NtApphelpCacheControl NtClose NtQueryValueKey": 1,
-            "NtClose NtQueryValueKey NtOpenKeyEx": 1,
-            "NtEnumerateKey NtEnumerateKey NtCreateFile": 1,
-            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 1,
-            "NtTraceControl NtSetInformationVirtualMemory NtApphelpCacheControl": 1
+            "NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue": 18,
+            "NtQuerySystemInformation NtMapViewOfSection NtCreateSection": 6
         },
         "-2": {
-            "NtApphelpCacheControl NtClose": 1,
-            "NtClose NtQueryValueKey": 1,
-            "NtEnumerateKey NtEnumerateKey": 1,
-            "NtSetInformationVirtualMemory NtApphelpCacheControl": 1,
-            "NtTraceControl NtSetInformationVirtualMemory": 1
+            "NtQueryLicenseValue NtQueryLicenseValue": 24,
+            "NtQueryLicenseValue NtQueryValueKey": 12
         },
         "-1": {
-            "NtApphelpCacheControl": 1,
-            "NtCreateSemaphore": 5,
-            "NtEnumerateKey": 1,
-            "NtSetInformationVirtualMemory": 1,
-            "NtTraceControl": 1
+            "NtQueryLicenseValue": 42,
+            "NtQueryValueKey": 12
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtEnumerateKey": 1,
-            "NtOpenThreadToken": 1,
-            "NtQueryObject": 1,
-            "NtSetEvent": 1
+            "NtQueryLicenseValue": 42,
+            "NtTraceControl": 7
         },
         "2": {
-            "NtEnumerateKey NtSetEvent": 1,
-            "NtOpenThreadToken NtOpenProcessToken": 1,
-            "NtSetEvent NtProtectVirtualMemory": 1,
-            "NtTraceControl NtTraceControl": 1,
-            "NtUserGetKeyboardLayout NtAllocateVirtualMemory": 1
+            "NtQueryLicenseValue NtQueryLicenseValue": 24,
+            "NtTraceControl NtClose": 6
         },
         "3": {
-            "NtEnumerateKey NtSetEvent NtEnumerateKey": 1,
-            "NtOpenThreadToken NtOpenProcessToken NtQueryInformationToken": 1,
-            "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtTraceControl NtTraceControl NtTraceControl": 1,
-            "NtUserGetKeyboardLayout NtAllocateVirtualMemory NtGdiHfontCreate": 1
+            "NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue": 18,
+            "NtTraceControl NtClose NtOpenProcess": 6
         },
         "4": {
-            "NtEnumerateKey NtSetEvent NtEnumerateKey NtProtectVirtualMemory": 1,
-            "NtOpenThreadToken NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken": 1,
-            "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 1,
-            "NtUserGetKeyboardLayout NtAllocateVirtualMemory NtGdiHfontCreate NtGdiCreateCompatibleDC": 1
+            "NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue": 12,
+            "NtTraceControl NtClose NtOpenProcess NtOpenProcessToken": 6
         },
         "5": {
-            "NtEnumerateKey NtSetEvent NtEnumerateKey NtProtectVirtualMemory NtEnumerateKey": 1,
-            "NtOpenThreadToken NtOpenProcessToken NtQueryInformationToken NtQueryInformationToken NtQueryInformationToken": 1,
-            "NtSetEvent NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtTraceControl NtTraceControl NtTraceControl NtTraceControl NtTraceControl": 1,
-            "NtUserGetKeyboardLayout NtAllocateVirtualMemory NtGdiHfontCreate NtGdiCreateCompatibleDC NtUserGetDC": 1
+            "NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue NtQueryLicenseValue": 6,
+            "NtTraceControl NtClose NtOpenProcess NtOpenProcessToken NtQueryInformationToken": 6
         }
     }
 }

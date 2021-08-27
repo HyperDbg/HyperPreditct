@@ -1,74 +1,44 @@
 {
     "NtSetInformationProcess": {
         "-5": {
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtAlertThreadByThreadId NtWaitForAlertByThreadId": 1,
-            "NtQueryInformationProcess NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1,
-            "NtQueryInformationProcess NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess NtSetEvent": 1,
-            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory NtQuerySection": 1,
-            "NtWaitForAlertByThreadId NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter NtProtectVirtualMemory": 1
+            "NtQueryInformationProcess NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess NtQueryDefaultLocale": 327,
+            "NtQueryInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess NtQueryInformationProcess": 327
         },
         "-4": {
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtAlertThreadByThreadId NtProtectVirtualMemory": 1,
-            "NtQueryInformationProcess NtGdiEndPath NtGdiEndPath NtGdiBeginPath": 1,
-            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory": 1,
-            "NtWaitForAlertByThreadId NtProtectVirtualMemory NtProtectVirtualMemory NtQueryPerformanceCounter": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtAlertThreadByThreadId NtProtectVirtualMemory": 1
+            "NtQueryInformationProcess NtQueryAttributesFile NtSetInformationProcess NtQueryInformationProcess": 330,
+            "NtQueryInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale NtSetInformationProcess": 327
         },
         "-3": {
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtAlertThreadByThreadId": 1,
-            "NtQueryInformationProcess NtGdiEndPath NtGdiEndPath": 1,
-            "NtQueryPerformanceCounter NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtWaitForAlertByThreadId NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtAlertThreadByThreadId": 1
+            "NtQueryInformationProcess NtQueryAttributesFile NtSetInformationProcess": 330,
+            "NtQueryInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale": 327
         },
         "-2": {
-            "NtQueryInformationProcess NtGdiStrokeAndFillPath": 1,
-            "NtQueryInformationProcess NtUserCallHwndLock": 1,
-            "NtQueryPerformanceCounter NtProtectVirtualMemory": 1,
-            "NtWaitForAlertByThreadId NtQueryPerformanceCounter": 1,
-            "NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory": 1
+            "NtQueryInformationProcess NtQueryAttributesFile": 332,
+            "NtQueryInformationProcess NtQueryDefaultLocale": 327
         },
         "-1": {
-            "NtClose": 1,
-            "NtQueryPerformanceCounter": 1,
-            "NtQueryWnfStateData": 1,
-            "NtWaitForWorkViaWorkerFactory": 1,
-            "NtWriteVirtualMemory": 1
+            "NtProtectVirtualMemory": 32,
+            "NtQueryInformationProcess": 789
         },
         "1": {
-            "NtGdiPolyPatBlt": 1,
-            "NtGdiStrokeAndFillPath": 1,
-            "NtQuerySystemInformation": 1,
-            "NtUserSetWindowPos": 1,
-            "NtWaitForAlertByThreadId": 1
+            "NtQueryAttributesFile": 331,
+            "NtQueryDefaultLocale": 328
         },
         "2": {
-            "NtGdiEndPath NtGdiPolyPatBlt": 1,
-            "NtGdiPolyPatBlt NtQueryObject": 1,
-            "NtGdiStrokeAndFillPath NtQueryInformationProcess": 1,
-            "NtQuerySystemInformation NtQueryInformationProcess": 1,
-            "NtWaitForAlertByThreadId NtAlertThreadByThreadId": 1
+            "NtQueryAttributesFile NtQueryInformationProcess": 330,
+            "NtQueryDefaultLocale NtQueryDefaultLocale": 328
         },
         "3": {
-            "NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtReleaseWorkerFactoryWorker": 1,
-            "NtQueryDefaultLocale NtQueryDefaultLocale NtAllocateVirtualMemory": 1,
-            "NtWaitForAlertByThreadId NtAlertThreadByThreadId NtProtectVirtualMemory": 1
+            "NtQueryAttributesFile NtQueryInformationProcess NtSetInformationProcess": 330,
+            "NtQueryDefaultLocale NtQueryDefaultLocale NtQueryInformationProcess": 327
         },
         "4": {
-            "NtGdiStrokePath NtGdiBeginPath NtGdiEndPath NtGdiPolyPatBlt": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtReleaseWorkerFactoryWorker": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtReleaseWorkerFactoryWorker NtClose": 1,
-            "NtQueryDefaultLocale NtQueryDefaultLocale NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtWaitForAlertByThreadId NtAlertThreadByThreadId NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory": 1
+            "NtQueryAttributesFile NtQueryInformationProcess NtSetInformationProcess NtQueryDefaultLocale": 328,
+            "NtQueryDefaultLocale NtQueryDefaultLocale NtQueryInformationProcess NtSetInformationProcess": 327
         },
         "5": {
-            "NtGdiStrokePath NtGdiBeginPath NtGdiEndPath NtGdiPolyPatBlt NtUserMessageCall": 1,
-            "NtProtectVirtualMemory NtAlertThreadByThreadId NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtSetInformationProcess": 1,
-            "NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory NtReleaseWorkerFactoryWorker NtClose": 1,
-            "NtQueryDefaultLocale NtQueryDefaultLocale NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtWaitForAlertByThreadId NtAlertThreadByThreadId NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory NtProtectVirtualMemory": 1
+            "NtQueryAttributesFile NtQueryInformationProcess NtSetInformationProcess NtQueryDefaultLocale NtQueryDefaultLocale": 328,
+            "NtQueryDefaultLocale NtQueryDefaultLocale NtQueryInformationProcess NtSetInformationProcess NtQueryAttributesFile": 327
         }
     }
 }

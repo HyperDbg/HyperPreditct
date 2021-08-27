@@ -1,74 +1,44 @@
 {
     "NtClose": {
         "-5": {
-            "NtMapViewOfSection NtSetInformationThread NtMapViewOfSection NtQueryInformationThread NtQuerySystemInformationEx": 1,
-            "NtProtectVirtualMemory NtTestAlert NtSetInformationThread NtQueryInformationThread NtClose": 1,
-            "NtReleaseWorkerFactoryWorker NtWaitForWorkViaWorkerFactory NtClose NtWorkerFactoryWorkerReady NtClose": 1,
-            "NtTestAlert NtClose NtMapViewOfSection NtSetInformationThread NtMapViewOfSection": 1,
-            "NtWorkerFactoryWorkerReady NtClose NtProtectVirtualMemory NtTestAlert NtSetInformationThread": 1
+            "NtOpenKeyEx NtQueryKey NtQueryObject NtSetInformationKey NtOpenKeyEx": 149,
+            "NtReadFile NtReadFile NtReadFile NtCreateFile NtClose": 2390
         },
         "-4": {
-            "NtMapViewOfSection NtSetInformationThread NtMapViewOfSection NtQueryInformationThread": 1,
-            "NtProtectVirtualMemory NtTestAlert NtSetInformationThread NtQueryInformationThread": 1,
-            "NtReleaseWorkerFactoryWorker NtWaitForWorkViaWorkerFactory NtClose NtWorkerFactoryWorkerReady": 1,
-            "NtTestAlert NtClose NtMapViewOfSection NtSetInformationThread": 1,
-            "NtWorkerFactoryWorkerReady NtClose NtProtectVirtualMemory NtTestAlert": 1
+            "NtOpenKeyEx NtQueryKey NtQueryObject NtSetInformationKey": 149,
+            "NtReadFile NtReadFile NtReadFile NtCreateFile": 2398
         },
         "-3": {
-            "NtMapViewOfSection NtSetInformationThread NtMapViewOfSection": 1,
-            "NtProtectVirtualMemory NtTestAlert NtSetInformationThread": 1,
-            "NtReleaseWorkerFactoryWorker NtWaitForWorkViaWorkerFactory NtClose": 1,
-            "NtTestAlert NtClose NtMapViewOfSection": 1,
-            "NtWorkerFactoryWorkerReady NtClose NtProtectVirtualMemory": 1
+            "NtOpenKeyEx NtQueryKey NtQueryObject": 428,
+            "NtReadFile NtReadFile NtReadFile": 2398
         },
         "-2": {
-            "NtMapViewOfSection NtSetInformationThread": 1,
-            "NtProtectVirtualMemory NtTestAlert": 1,
-            "NtSetInformationThread NtQueryInformationThread": 1,
-            "NtWorkerFactoryWorkerReady NtClose": 1,
-            "NtWorkerFactoryWorkerReady NtProtectVirtualMemory": 1
+            "NtOpenKeyEx NtQueryKey": 439,
+            "NtReadFile NtReadFile": 2398
         },
         "-1": {
-            "NtCreateFile": 1,
-            "NtNotifyChangeKey": 1,
-            "NtOpenThreadToken": 1,
-            "NtQueryInformationFile": 1,
-            "NtWaitForSingleObject": 1
+            "NtOpenKeyEx": 442,
+            "NtReadFile": 2398
         },
         "1": {
-            "NtAcceptConnectPort": 1,
-            "NtDeviceIoControlFile": 1,
-            "NtQueryInformationFile": 1,
-            "NtUnmapViewOfSectionEx": 1,
-            "NtUserSetWindowPos": 1
+            "NtClose": 358,
+            "NtCreateFile": 2415
         },
         "2": {
-            "NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtProtectVirtualMemory NtWorkerFactoryWorkerReady": 1,
-            "NtTestAlert NtProtectVirtualMemory": 1,
-            "NtWaitForWorkViaWorkerFactory NtReleaseWorkerFactoryWorker": 1,
-            "NtWorkerFactoryWorkerReady NtClose": 1
+            "NtCreateFile NtReadFile": 2390,
+            "NtQueryValueKey NtQueryValueKey": 143
         },
         "3": {
-            "NtProtectVirtualMemory NtAllocateVirtualMemory NtSetInformationThread": 1,
-            "NtProtectVirtualMemory NtWorkerFactoryWorkerReady NtWaitForWorkViaWorkerFactory": 1,
-            "NtWaitForWorkViaWorkerFactory NtReleaseWorkerFactoryWorker NtClose": 1,
-            "NtWorkerFactoryWorkerReady NtClose NtWaitForWorkViaWorkerFactory": 1,
-            "NtWorkerFactoryWorkerReady NtQueryWnfStateData NtQueryWnfStateData": 1
+            "NtCreateFile NtReadFile NtReadFile": 2390,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey": 138
         },
         "4": {
-            "NtProtectVirtualMemory NtAllocateVirtualMemory NtSetInformationThread NtQueryObject": 1,
-            "NtQueryInformationThread NtSetInformationThread NtTestAlert NtProtectVirtualMemory": 1,
-            "NtWaitForWorkViaWorkerFactory NtReleaseWorkerFactoryWorker NtClose NtProtectVirtualMemory": 1,
-            "NtWorkerFactoryWorkerReady NtClose NtWaitForWorkViaWorkerFactory NtReleaseWorkerFactoryWorker": 1,
-            "NtWorkerFactoryWorkerReady NtQueryWnfStateData NtQueryWnfStateData NtWaitForWorkViaWorkerFactory": 1
+            "NtCreateFile NtReadFile NtReadFile NtReadFile": 2390,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey": 134
         },
         "5": {
-            "NtProtectVirtualMemory NtAllocateVirtualMemory NtSetInformationThread NtQueryObject NtOpenSection": 1,
-            "NtQueryInformationThread NtSetInformationThread NtTestAlert NtProtectVirtualMemory NtClose": 1,
-            "NtTestAlert NtClose NtWorkerFactoryWorkerReady NtQueryWnfStateData NtQueryWnfStateData": 1,
-            "NtWaitForWorkViaWorkerFactory NtReleaseWorkerFactoryWorker NtClose NtProtectVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtWorkerFactoryWorkerReady NtClose NtWaitForWorkViaWorkerFactory NtReleaseWorkerFactoryWorker NtClose": 1
+            "NtCreateFile NtReadFile NtReadFile NtReadFile NtClose": 2390,
+            "NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey NtQueryValueKey": 134
         }
     }
 }

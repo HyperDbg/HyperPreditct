@@ -1,73 +1,44 @@
 {
     "NtUserQueryInputContext": {
         "-5": {
-            "NtAlpcSendWaitReceivePort NtUserNotifyWinEvent NtOpenEvent NtQueryObject NtQueryWnfStateData": 1,
             "NtUserCallHwndParam NtUserGetImeInfoEx NtOpenKeyEx NtQueryKey NtQueryKey": 1,
-            "NtUserGetKeyboardLayout NtUserQueryInputContext NtUserQueryInputContext NtAlpcSendWaitReceivePort NtUserNotifyWinEvent": 1,
-            "NtUserQueryInputContext NtAlpcSendWaitReceivePort NtUserNotifyWinEvent NtOpenEvent NtQueryObject": 1,
             "NtUserSetFocus NtUserGetThreadState NtUserGetThreadState NtCallbackReturn NtContinueEx": 1
         },
         "-4": {
-            "NtAlpcSendWaitReceivePort NtUserNotifyWinEvent NtOpenEvent NtQueryObject": 1,
             "NtUserCallHwndParam NtUserGetImeInfoEx NtOpenKeyEx NtQueryKey": 1,
-            "NtUserGetKeyboardLayout NtUserQueryInputContext NtUserQueryInputContext NtAlpcSendWaitReceivePort": 1,
-            "NtUserQueryInputContext NtAlpcSendWaitReceivePort NtUserNotifyWinEvent NtOpenEvent": 1,
             "NtUserSetFocus NtUserGetThreadState NtUserGetThreadState NtCallbackReturn": 1
         },
         "-3": {
-            "NtAlpcSendWaitReceivePort NtUserNotifyWinEvent NtOpenEvent": 1,
             "NtUserCallHwndParam NtUserGetImeInfoEx NtOpenKeyEx": 1,
-            "NtUserGetKeyboardLayout NtUserQueryInputContext NtUserQueryInputContext": 1,
-            "NtUserQueryInputContext NtAlpcSendWaitReceivePort NtUserNotifyWinEvent": 1,
             "NtUserSetFocus NtUserGetThreadState NtUserGetThreadState": 1
         },
         "-2": {
-            "NtAlpcSendWaitReceivePort NtUserNotifyWinEvent": 1,
             "NtUserCallHwndParam NtUserGetImeInfoEx": 1,
-            "NtUserGetKeyboardLayout NtUserQueryInputContext": 1,
-            "NtUserQueryInputContext NtAlpcSendWaitReceivePort": 1,
             "NtUserSetFocus NtUserGetThreadState": 1
         },
         "-1": {
-            "NtAlpcSendWaitReceivePort": 1,
             "NtUserCallHwndParam": 1,
-            "NtUserGetKeyboardLayout": 1,
-            "NtUserQueryInputContext": 1,
             "NtUserSetFocus": 1
         },
         "1": {
-            "NtProtectVirtualMemory": 1,
             "NtUserAssociateInputContext": 1,
-            "NtUserGetKeyboardLayout": 2,
-            "NtUserQueryInputContext": 1
+            "NtUserGetKeyboardLayout": 2
         },
         "2": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtUserAssociateInputContext NtUserGetImeInfoEx": 1,
-            "NtUserGetKeyboardLayout NtOpenThreadTokenEx": 1,
-            "NtUserGetKeyboardLayout NtUserQueryInputContext": 1,
-            "NtUserQueryInputContext NtUserGetKeyboardLayout": 1
+            "NtUserGetKeyboardLayout NtOpenThreadTokenEx": 1
         },
         "3": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject": 1,
             "NtUserAssociateInputContext NtUserGetImeInfoEx NtContinueEx": 1,
-            "NtUserGetKeyboardLayout NtOpenThreadTokenEx NtOpenProcessTokenEx": 1,
-            "NtUserGetKeyboardLayout NtUserQueryInputContext NtProtectVirtualMemory": 1,
-            "NtUserQueryInputContext NtUserGetKeyboardLayout NtUserQueryInputContext": 1
+            "NtUserGetKeyboardLayout NtOpenThreadTokenEx NtOpenProcessTokenEx": 1
         },
         "4": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject NtQueryKey": 1,
             "NtUserAssociateInputContext NtUserGetImeInfoEx NtContinueEx NtCallbackReturn": 1,
-            "NtUserGetKeyboardLayout NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken": 1,
-            "NtUserGetKeyboardLayout NtUserQueryInputContext NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserQueryInputContext NtUserGetKeyboardLayout NtUserQueryInputContext NtProtectVirtualMemory": 1
+            "NtUserGetKeyboardLayout NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken": 1
         },
         "5": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject NtQueryKey NtQueryKey": 1,
             "NtUserAssociateInputContext NtUserGetImeInfoEx NtContinueEx NtCallbackReturn NtUserInvalidateRect": 1,
-            "NtUserGetKeyboardLayout NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken NtClose": 1,
-            "NtUserGetKeyboardLayout NtUserQueryInputContext NtProtectVirtualMemory NtProtectVirtualMemory NtQueryObject": 1,
-            "NtUserQueryInputContext NtUserGetKeyboardLayout NtUserQueryInputContext NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtUserGetKeyboardLayout NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken NtClose": 1
         }
     }
 }

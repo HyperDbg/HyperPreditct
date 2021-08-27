@@ -1,74 +1,44 @@
 {
     "NtOpenFile": {
         "-5": {
-            "NtAllocateVirtualMemory NtWaitForWorkViaWorkerFactory NtSetEvent NtProtectVirtualMemory NtWaitForWorkViaWorkerFactory": 1,
-            "NtQueryAttributesFile NtQueryAttributesFile NtQueryValueKey NtSetInformationKey NtWaitForWorkViaWorkerFactory": 1,
-            "NtQueryInformationProcess NtClose NtDeviceIoControlFile NtDeviceIoControlFile NtCreateFile": 1,
-            "NtQueryInformationProcess NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory NtClose": 1,
-            "NtWaitForSingleObject NtClose NtQueryAttributesFile NtClose NtAllocateVirtualMemory": 1
+            "NtApphelpCacheControl NtClose NtQuerySecurityObject NtQuerySecurityObject NtOpenFile": 77,
+            "NtClose NtQuerySecurityObject NtQuerySecurityObject NtOpenFile NtClose": 17
         },
         "-4": {
-            "NtAllocateVirtualMemory NtWaitForWorkViaWorkerFactory NtSetEvent NtProtectVirtualMemory": 1,
-            "NtEnumerateKey NtWaitForWorkViaWorkerFactory NtEnumerateKey NtSetEvent": 1,
-            "NtEnumerateKey NtWaitForWorkViaWorkerFactory NtEnumerateKey NtWorkerFactoryWorkerReady": 1,
-            "NtQueryInformationProcess NtClose NtDeviceIoControlFile NtDeviceIoControlFile": 1,
-            "NtQueryInformationProcess NtQueryInformationProcess NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtApphelpCacheControl NtClose NtQuerySecurityObject NtQuerySecurityObject": 77,
+            "NtQueryAttributesFile NtOpenSection NtQueryObject NtQueryInformationThread": 23
         },
         "-3": {
-            "NtAllocateVirtualMemory NtWaitForWorkViaWorkerFactory NtSetEvent": 1,
-            "NtEnumerateKey NtClose NtQueryVolumeInformationFile": 1,
-            "NtProtectVirtualMemory NtWaitForSingleObject NtReleaseWorkerFactoryWorker": 1,
-            "NtQueryInformationProcess NtClose NtDeviceIoControlFile": 1,
-            "NtQueryInformationProcess NtQueryInformationProcess NtProtectVirtualMemory": 1
+            "NtApphelpCacheControl NtClose NtQuerySecurityObject": 77,
+            "NtQueryAttributesFile NtOpenSection NtQueryObject": 23
         },
         "-2": {
-            "NtAllocateVirtualMemory NtWaitForWorkViaWorkerFactory": 1,
-            "NtEnumerateKey NtClose": 1,
-            "NtProtectVirtualMemory NtWaitForSingleObject": 1,
-            "NtQueryInformationProcess NtClose": 1,
-            "NtQueryInformationProcess NtQueryInformationProcess": 1
+            "NtApphelpCacheControl NtClose": 77,
+            "NtWaitForWorkViaWorkerFactory NtSetEvent": 28
         },
         "-1": {
-            "NtDeviceIoControlFile": 1,
-            "NtFreeVirtualMemory": 1,
-            "NtQueryInformationToken": 1,
-            "NtQueryKey": 1,
-            "NtQuerySecurityAttributesToken": 1
+            "NtApphelpCacheControl": 83,
+            "NtQueryAttributesFile": 51
         },
         "1": {
-            "NtOpenKeyEx": 1,
-            "NtOpenSymbolicLinkObject": 1,
-            "NtProtectVirtualMemory": 1,
-            "NtQueryInformationThread": 1,
-            "NtQuerySecurityAttributesToken": 1
+            "NtCreateSection": 58,
+            "NtQuerySecurityObject": 174
         },
         "2": {
-            "NtDeviceIoControlFile NtClose": 1,
-            "NtEnumerateKey NtDeviceIoControlFile": 1,
-            "NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtOpenSymbolicLinkObject": 1,
-            "NtQuerySecurityObject NtAllocateVirtualMemory": 1
+            "NtCreateSection NtMapViewOfSection": 56,
+            "NtQuerySecurityObject NtQuerySecurityObject": 171
         },
         "3": {
-            "NtDeviceIoControlFile NtClose NtCreateFile": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject": 1,
-            "NtQueryInformationFile NtQueryVolumeInformationFile NtClose": 1,
-            "NtQuerySecurityObject NtAllocateVirtualMemory NtQuerySecurityObject": 1
+            "NtCreateSection NtMapViewOfSection NtQuerySection": 41,
+            "NtQuerySecurityObject NtQuerySecurityObject NtClose": 171
         },
         "4": {
-            "NtDeviceIoControlFile NtClose NtCreateFile NtDeviceIoControlFile": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject NtEnumerateKey": 1,
-            "NtQueryInformationFile NtQueryVolumeInformationFile NtClose NtProtectVirtualMemory": 1,
-            "NtQuerySecurityObject NtAllocateVirtualMemory NtQuerySecurityObject NtClose": 1
+            "NtCreateSection NtMapViewOfSection NtQuerySection NtQueryVirtualMemory": 40,
+            "NtQuerySecurityObject NtQuerySecurityObject NtClose NtApphelpCacheControl": 142
         },
         "5": {
-            "NtDeviceIoControlFile NtClose NtCreateFile NtDeviceIoControlFile NtDeviceIoControlFile": 1,
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtOpenSymbolicLinkObject NtQuerySymbolicLinkObject NtEnumerateKey NtClose": 1,
-            "NtQueryInformationFile NtQueryVolumeInformationFile NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQuerySecurityObject NtAllocateVirtualMemory NtQuerySecurityObject NtClose NtApphelpCacheControl": 1
+            "NtQuerySecurityObject NtQuerySecurityObject NtClose NtApphelpCacheControl NtOpenFile": 77,
+            "NtQuerySecurityObject NtQuerySecurityObject NtClose NtApphelpCacheControl NtSetInformationVirtualMemory": 53
         }
     }
 }

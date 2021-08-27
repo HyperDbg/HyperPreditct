@@ -2,23 +2,19 @@
     "NtUserDeleteMenu": {
         "-5": {
             "NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 1,
-            "NtUserDeleteMenu NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 1,
-            "NtUserDeleteMenu NtUserDeleteMenu NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo": 1
+            "NtUserDeleteMenu NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 1
         },
         "-4": {
             "NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo NtUserThunkedMenuItemInfo": 1,
-            "NtUserDeleteMenu NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo": 1,
-            "NtUserDeleteMenu NtUserDeleteMenu NtCallbackReturn NtContinueEx": 1
+            "NtUserDeleteMenu NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo": 1
         },
         "-3": {
             "NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo": 1,
-            "NtUserDeleteMenu NtCallbackReturn NtContinueEx": 1,
-            "NtUserDeleteMenu NtUserDeleteMenu NtCallbackReturn": 1
+            "NtUserDeleteMenu NtCallbackReturn NtContinueEx": 1
         },
         "-2": {
             "NtCallbackReturn NtContinueEx": 1,
-            "NtUserDeleteMenu NtCallbackReturn": 1,
-            "NtUserDeleteMenu NtUserDeleteMenu": 1
+            "NtUserDeleteMenu NtCallbackReturn": 1
         },
         "-1": {
             "NtCallbackReturn": 1,
@@ -30,23 +26,19 @@
         },
         "2": {
             "NtUserDeleteMenu NtUserDeleteMenu": 1,
-            "NtUserDeleteMenu NtUserGetKeyboardLayoutList": 1,
-            "NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage": 1
+            "NtUserDeleteMenu NtUserGetKeyboardLayoutList": 1
         },
         "3": {
             "NtUserDeleteMenu NtUserDeleteMenu NtUserGetKeyboardLayoutList": 1,
-            "NtUserDeleteMenu NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage": 1,
-            "NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage NtAllocateVirtualMemory": 1
+            "NtUserDeleteMenu NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage": 1
         },
         "4": {
             "NtUserDeleteMenu NtUserDeleteMenu NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage": 1,
-            "NtUserDeleteMenu NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage NtAllocateVirtualMemory": 1,
-            "NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage NtAllocateVirtualMemory NtAllocateVirtualMemory": 1
+            "NtUserDeleteMenu NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage NtAllocateVirtualMemory": 1
         },
         "5": {
             "NtUserDeleteMenu NtUserDeleteMenu NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage NtAllocateVirtualMemory": 1,
-            "NtUserDeleteMenu NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1
+            "NtUserDeleteMenu NtUserGetKeyboardLayoutList NtUserRegisterWindowMessage NtAllocateVirtualMemory NtAllocateVirtualMemory": 1
         }
     }
 }

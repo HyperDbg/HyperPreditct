@@ -33,14 +33,11 @@
             "NtReleaseSemaphore NtClose NtReleaseMutant": 5
         },
         "4": {
-            "NtClose NtReleaseMutant NtClose NtProtectVirtualMemory": 1,
             "NtClose NtReleaseMutant NtClose NtTraceControl": 4,
             "NtReleaseSemaphore NtClose NtReleaseMutant NtClose": 5
         },
         "5": {
-            "NtClose NtReleaseMutant NtClose NtProtectVirtualMemory NtProtectVirtualMemory": 1,
             "NtClose NtReleaseMutant NtClose NtTraceControl NtTraceControl": 4,
-            "NtReleaseSemaphore NtClose NtReleaseMutant NtClose NtProtectVirtualMemory": 1,
             "NtReleaseSemaphore NtClose NtReleaseMutant NtClose NtTraceControl": 4
         }
     }

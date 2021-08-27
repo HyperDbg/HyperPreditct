@@ -2,17 +2,14 @@
     "NtUserGetScrollBarInfo": {
         "-5": {
             "NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow NtUserGetProp": 2,
-            "NtUserGetProp NtUserSBGetParms NtCallbackReturn NtContinueEx NtUserBuildHwndList": 1,
             "NtUserGetProp NtUserSBGetParms NtUserGetProp NtUserGetProp NtCallbackReturn": 21
         },
         "-4": {
             "NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled NtUserIsTopLevelWindow": 2,
-            "NtUserGetProp NtUserSBGetParms NtCallbackReturn NtContinueEx": 1,
             "NtUserGetProp NtUserSBGetParms NtUserGetProp NtUserGetProp": 21
         },
         "-3": {
             "NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 2,
-            "NtUserGetProp NtUserSBGetParms NtCallbackReturn": 1,
             "NtUserGetProp NtUserSBGetParms NtUserGetProp": 21
         },
         "-2": {
@@ -37,7 +34,6 @@
         },
         "5": {
             "NtUserGetProp NtUserGetWindowDC NtUserGetProp NtUserReleaseDC NtUserGetProp": 8,
-            "NtUserGetProp NtUserGetWindowDC NtUserGetProp NtUserReleaseDC NtUserGetWindowDC": 1,
             "NtUserGetProp NtUserGetWindowDC NtUserGetProp NtUserReleaseDC NtUserSetWindowLongPtr": 15
         }
     }

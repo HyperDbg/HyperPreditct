@@ -22,28 +22,23 @@
         },
         "1": {
             "NtGdiDeleteObjectApp": 3,
-            "NtUserFindExistingCursorIcon": 4,
-            "NtUserGetClassInfoEx": 1
+            "NtUserFindExistingCursorIcon": 4
         },
         "2": {
             "NtGdiDeleteObjectApp NtQueryInformationProcess": 3,
-            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 4,
-            "NtUserGetClassInfoEx NtUserGetClassInfoEx": 1
+            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW": 4
         },
         "3": {
             "NtGdiDeleteObjectApp NtQueryInformationProcess NtSetInformationProcess": 3,
-            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx": 4,
-            "NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW": 1
+            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx": 4
         },
         "4": {
             "NtGdiDeleteObjectApp NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 3,
-            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx NtUserGetClassInfoEx": 4,
-            "NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserGetAtomName": 1
+            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx NtUserGetClassInfoEx": 4
         },
         "5": {
             "NtGdiDeleteObjectApp NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 3,
-            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW": 4,
-            "NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx": 1
+            "NtUserFindExistingCursorIcon NtUserRegisterClassExWOW NtUserGetClassInfoEx NtUserGetClassInfoEx NtUserRegisterClassExWOW": 4
         }
     }
 }

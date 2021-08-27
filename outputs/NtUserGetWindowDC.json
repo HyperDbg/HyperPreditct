@@ -1,32 +1,23 @@
 {
     "NtUserGetWindowDC": {
         "-5": {
-            "NtUserGetProp NtUserGetScrollBarInfo NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 2,
-            "NtUserGetProp NtUserGetScrollBarInfo NtUserGetProp NtUserSBGetParms NtCallbackReturn": 1,
-            "NtUserReleaseDC NtUserGetProp NtUserGetWindowDC NtUserGetProp NtUserGetScrollBarInfo": 1,
-            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 5,
-            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsNonClientDpiScalingEnabled": 1
+            "NtUserGetProp NtUserGetScrollBarInfo NtUserGetProp NtUserSBGetParms NtUserGetProp": 21,
+            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 5
         },
         "-4": {
-            "NtUserGetProp NtUserGetScrollBarInfo NtCallbackReturn NtContinueEx": 2,
             "NtUserGetProp NtUserGetScrollBarInfo NtUserGetProp NtUserSBGetParms": 22,
-            "NtUserReleaseDC NtUserGetProp NtUserGetWindowDC NtUserGetProp": 1,
             "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx": 6
         },
         "-3": {
-            "NtUserGetProp NtUserGetScrollBarInfo NtCallbackReturn": 2,
             "NtUserGetProp NtUserGetScrollBarInfo NtUserGetProp": 22,
-            "NtUserReleaseDC NtUserGetProp NtUserGetWindowDC": 1,
             "NtUserRemoveProp NtUserGetProp NtCallbackReturn": 6
         },
         "-2": {
             "NtUserGetProp NtUserGetScrollBarInfo": 24,
-            "NtUserReleaseDC NtUserGetProp": 1,
             "NtUserRemoveProp NtUserGetProp": 6
         },
         "-1": {
             "NtUserGetProp": 24,
-            "NtUserReleaseDC": 1,
             "NtUserRemoveProp": 6
         },
         "1": {
@@ -37,25 +28,16 @@
             "NtUserGetProp NtUserReleaseDC": 24
         },
         "3": {
-            "NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserGetProp NtUserGetProp NtUserSetProp": 6,
             "NtUserGetProp NtUserReleaseDC NtUserGetProp": 8,
-            "NtUserGetProp NtUserReleaseDC NtUserGetWindowDC": 1,
             "NtUserGetProp NtUserReleaseDC NtUserSetWindowLongPtr": 15
         },
         "4": {
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
             "NtUserGetProp NtUserGetProp NtUserSetProp NtUserIsTopLevelWindow": 6,
-            "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserIsTopLevelWindow": 2,
-            "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserReleaseDC": 6,
-            "NtUserGetProp NtUserReleaseDC NtUserGetWindowDC NtUserGetProp": 1
+            "NtUserGetProp NtUserReleaseDC NtUserSetWindowLongPtr NtContinueEx": 15
         },
         "5": {
-            "NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp NtUserGetProp": 1,
-            "NtUserGetProp NtUserGetProp NtUserSetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserReleaseDC NtContinueEx": 1,
-            "NtUserGetProp NtUserReleaseDC NtUserGetProp NtUserReleaseDC NtUserSetWindowPos": 1,
-            "NtUserGetProp NtUserReleaseDC NtUserGetWindowDC NtUserGetProp NtUserGetProp": 1
+            "NtUserGetProp NtUserGetProp NtUserSetProp NtUserIsTopLevelWindow NtUserSystemParametersInfo": 5,
+            "NtUserGetProp NtUserReleaseDC NtUserSetWindowLongPtr NtContinueEx NtCallbackReturn": 15
         }
     }
 }

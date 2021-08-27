@@ -2,12 +2,10 @@
     "NtYieldExecution": {
         "-5": {
             "NtDelayExecution NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtDelayExecution NtYieldExecution NtDelayExecution NtSetInformationProcess NtQueryInformationProcess": 1,
             "NtDelayExecution NtYieldExecution NtDelayExecution NtYieldExecution NtDelayExecution": 30
         },
         "-4": {
             "NtDelayExecution NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtDelayExecution NtYieldExecution NtDelayExecution NtSetInformationProcess": 1,
             "NtDelayExecution NtYieldExecution NtDelayExecution NtYieldExecution": 30
         },
         "-3": {
@@ -31,19 +29,15 @@
         },
         "3": {
             "NtDelayExecution NtYieldExecution NtDelayExecution": 30,
-            "NtDelayExecution NtYieldExecution NtQueryInformationProcess": 1,
-            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1
+            "NtDelayExecution NtYieldExecution NtQueryInformationProcess": 1
         },
         "4": {
             "NtDelayExecution NtYieldExecution NtDelayExecution NtYieldExecution": 30,
-            "NtDelayExecution NtYieldExecution NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1
+            "NtDelayExecution NtYieldExecution NtQueryInformationProcess NtSetInformationProcess": 1
         },
         "5": {
             "NtDelayExecution NtYieldExecution NtDelayExecution NtYieldExecution NtDelayExecution": 29,
-            "NtDelayExecution NtYieldExecution NtDelayExecution NtYieldExecution NtQueryInformationProcess": 1,
-            "NtDelayExecution NtYieldExecution NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtProtectVirtualMemory": 1
+            "NtDelayExecution NtYieldExecution NtDelayExecution NtYieldExecution NtQueryInformationProcess": 1
         }
     }
 }

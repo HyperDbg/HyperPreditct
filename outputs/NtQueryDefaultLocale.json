@@ -21,31 +21,22 @@
             "NtSetInformationProcess": 328
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
             "NtQueryDefaultLocale": 328,
             "NtQueryInformationProcess": 327
         },
         "2": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtQueryDefaultLocale NtAllocateVirtualMemory": 1,
             "NtQueryDefaultLocale NtQueryInformationProcess": 327,
             "NtQueryInformationProcess NtSetInformationProcess": 327
         },
         "3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtQueryDefaultLocale NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtQueryDefaultLocale NtQueryInformationProcess NtSetInformationProcess": 327,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryAttributesFile": 327
         },
         "4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1,
-            "NtQueryDefaultLocale NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtQueryDefaultLocale NtQueryInformationProcess NtSetInformationProcess NtQueryAttributesFile": 327,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryAttributesFile NtQueryInformationProcess": 327
         },
         "5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtQueryDefaultLocale NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 1,
             "NtQueryDefaultLocale NtQueryInformationProcess NtSetInformationProcess NtQueryAttributesFile NtQueryInformationProcess": 327,
             "NtQueryInformationProcess NtSetInformationProcess NtQueryAttributesFile NtQueryInformationProcess NtSetInformationProcess": 327
         }

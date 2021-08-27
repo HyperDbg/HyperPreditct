@@ -1,73 +1,44 @@
 {
     "NtFreeVirtualMemory": {
         "-5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtQueryDefaultLocale NtQueryDefaultLocale": 1,
-            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap NtUserSelectPalette NtGdiSetDIBitsToDeviceInternal": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 16,
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 3159
         },
         "-4": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtQueryDefaultLocale": 1,
-            "NtAllocateVirtualMemory NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtAllocateVirtualMemory NtSetInformationVirtualMemory NtSetInformationVirtualMemory NtOpenKeyEx": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap NtUserSelectPalette": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 30,
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 3159
         },
         "-3": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserRegisterWindowMessage": 1,
-            "NtAllocateVirtualMemory NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtAllocateVirtualMemory NtSetInformationVirtualMemory NtSetInformationVirtualMemory": 1,
-            "NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp NtGdiSelectBitmap": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 30,
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 3176
         },
         "-2": {
-            "NtAllocateVirtualMemory NtSetInformationProcess": 1,
-            "NtAllocateVirtualMemory NtUserReleaseDC": 5,
-            "NtClose NtQueryDirectoryFileEx": 2,
-            "NtFreeVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtGdiSelectBitmap NtGdiDeleteObjectApp": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 39,
+            "NtAllocateVirtualMemory NtFreeVirtualMemory": 3176
         },
         "-1": {
             "NtAllocateVirtualMemory": 3262,
-            "NtClose": 2,
-            "NtFreeVirtualMemory": 1,
-            "NtGdiSelectBitmap": 1
+            "NtClose": 2
         },
         "1": {
-            "NtFreeVirtualMemory": 1,
-            "NtGdiExtGetObjectW": 1,
-            "NtOpenFile": 1,
-            "NtUserCallTwoParam": 1,
-            "NtUserInvalidateRect": 1
+            "NtAllocateVirtualMemory": 3249,
+            "NtOpenDirectoryObject": 12
         },
         "2": {
-            "NtFreeVirtualMemory NtUserCallTwoParam": 1,
-            "NtGdiExtGetObjectW NtGdiGetBitmapDimension": 1,
-            "NtOpenFile NtQueryDirectoryFileEx": 1,
-            "NtUserCallTwoParam NtUserCallTwoParam": 1,
-            "NtUserInvalidateRect NtUserMessageCall": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 42,
+            "NtAllocateVirtualMemory NtFreeVirtualMemory": 3176
         },
         "3": {
-            "NtAllocateVirtualMemory NtSetEvent NtSetInformationWorkerFactory": 1,
-            "NtFreeVirtualMemory NtUserCallTwoParam NtUserCallTwoParam": 1,
-            "NtGdiExtGetObjectW NtGdiGetBitmapDimension NtSetEvent": 1,
-            "NtOpenFile NtQueryDirectoryFileEx NtCreateFile": 1,
-            "NtUserInvalidateRect NtUserMessageCall NtAllocateVirtualMemory": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 30,
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 3176
         },
         "4": {
-            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtQueryInformationProcess": 1,
-            "NtAllocateVirtualMemory NtSetEvent NtSetInformationWorkerFactory NtSetEvent": 1,
-            "NtGdiExtGetObjectW NtGdiGetBitmapDimension NtSetEvent NtUserMessageCall": 1,
-            "NtOpenFile NtQueryDirectoryFileEx NtCreateFile NtReadFile": 1,
-            "NtUserInvalidateRect NtUserMessageCall NtAllocateVirtualMemory NtAllocateVirtualMemory": 1
+            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 30,
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 3159
         },
         "5": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtQueryInformationProcess": 1,
-            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtAllocateVirtualMemory NtSetEvent NtSetInformationWorkerFactory NtSetEvent NtTestAlert": 1,
-            "NtOpenFile NtQueryDirectoryFileEx NtCreateFile NtReadFile NtReadFile": 1
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory": 16,
+            "NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory NtFreeVirtualMemory NtAllocateVirtualMemory": 3159
         }
     }
 }

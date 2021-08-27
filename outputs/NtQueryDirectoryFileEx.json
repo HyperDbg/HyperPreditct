@@ -1,74 +1,44 @@
 {
     "NtQueryDirectoryFileEx": {
         "-5": {
-            "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile NtUserReleaseDC": 1,
-            "NtOpenFile NtFreeVirtualMemory NtClose NtQueryDirectoryFileEx NtClose": 1,
-            "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtFlushInstructionCache NtWriteVirtualMemory": 1,
-            "NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile NtUserReleaseDC NtUserGetDC": 1,
-            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx NtAllocateVirtualMemory": 1
+            "NtAllocateVirtualMemory NtClose NtReadFile NtReadFile NtReadFile": 2,
+            "NtClose NtReadFile NtReadFile NtReadFile NtCreateFile": 6
         },
         "-4": {
-            "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile": 1,
-            "NtOpenFile NtFreeVirtualMemory NtClose NtQueryDirectoryFileEx": 1,
-            "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory NtFlushInstructionCache": 1,
-            "NtOpenFile NtUserMessageCall NtUserReleaseDC NtGdiDeleteObjectApp": 1,
-            "NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile NtUserReleaseDC": 1
+            "NtAllocateVirtualMemory NtClose NtReadFile NtReadFile": 2,
+            "NtClose NtReadFile NtReadFile NtReadFile": 6
         },
         "-3": {
-            "NtAllocateVirtualMemory NtQueryDirectoryFileEx NtOpenFile": 1,
-            "NtOpenFile NtFreeVirtualMemory NtClose": 1,
-            "NtOpenFile NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtOpenFile NtUserMessageCall NtUserReleaseDC": 1,
-            "NtQueryDirectoryFileEx NtOpenFile NtQueryAttributesFile": 1
+            "NtClose NtReadFile NtReadFile": 6,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 4
         },
         "-2": {
-            "NtAllocateVirtualMemory NtQueryDirectoryFileEx": 1,
-            "NtOpenFile NtFreeVirtualMemory": 1,
-            "NtOpenFile NtProtectVirtualMemory": 1,
-            "NtOpenFile NtUserMessageCall": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1
+            "NtClose NtReadFile": 6,
+            "NtQueryDirectoryFileEx NtOpenFile": 4
         },
         "-1": {
-            "NtAllocateVirtualMemory": 3,
             "NtClose": 6,
-            "NtOpenFile": 8,
-            "NtQueryDirectoryFileEx": 5,
-            "NtUserNotifyWinEvent": 4
+            "NtOpenFile": 8
         },
         "1": {
-            "NtAllocateVirtualMemory": 2,
             "NtClose": 8,
-            "NtCreateFile": 8,
-            "NtQueryDirectoryFileEx": 5,
-            "NtUserNotifyWinEvent": 3
+            "NtCreateFile": 8
         },
         "2": {
-            "NtAllocateVirtualMemory NtQueryDirectoryFileEx": 1,
-            "NtAllocateVirtualMemory NtUserNotifyWinEvent": 1,
-            "NtQueryDirectoryFileEx NtAllocateVirtualMemory": 1,
-            "NtQueryDirectoryFileEx NtClose": 1,
-            "NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1
+            "NtCreateFile NtReadFile": 8,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent": 3
         },
         "3": {
-            "NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
-            "NtClose NtFreeVirtualMemory NtOpenFile": 1,
-            "NtClose NtFreeVirtualMemory NtUserInvalidateRect": 1,
-            "NtClose NtUserSetScrollInfo NtUserGetProp": 1,
-            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent": 1
+            "NtCreateFile NtReadFile NtReadFile": 8,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 3
         },
         "4": {
-            "NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
-            "NtClose NtFreeVirtualMemory NtOpenFile NtQueryDirectoryFileEx": 1,
-            "NtClose NtFreeVirtualMemory NtUserInvalidateRect NtUserMessageCall": 1,
-            "NtClose NtUserSetScrollInfo NtUserGetProp NtUserIsTopLevelWindow": 1,
-            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent": 1
+            "NtCreateFile NtReadFile NtReadFile NtReadFile": 8,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx": 2
         },
         "5": {
-            "NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1,
-            "NtClose NtFreeVirtualMemory NtOpenFile NtQueryDirectoryFileEx NtCreateFile": 1,
-            "NtClose NtFreeVirtualMemory NtUserInvalidateRect NtUserMessageCall NtAllocateVirtualMemory": 1,
-            "NtClose NtUserSetScrollInfo NtUserGetProp NtUserIsTopLevelWindow NtUserIsChildWindowDpiMessageEnabled": 1,
-            "NtQueryDirectoryFileEx NtAllocateVirtualMemory NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent": 1
+            "NtCreateFile NtReadFile NtReadFile NtReadFile NtClose": 8,
+            "NtUserNotifyWinEvent NtUserNotifyWinEvent NtUserNotifyWinEvent NtQueryDirectoryFileEx NtClose": 2
         }
     }
 }

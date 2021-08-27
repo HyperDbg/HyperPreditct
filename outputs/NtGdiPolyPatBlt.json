@@ -2,71 +2,43 @@
     "NtGdiPolyPatBlt": {
         "-5": {
             "NtGdiEndPath NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtGdiEndPath NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtGdiIntersectClipRect NtUserGetDC NtCallbackReturn NtContinueEx NtUserCallHwndLockSafe": 1,
-            "NtGdiIntersectClipRect NtUserGetDC NtUserPeekMessage NtUserPeekMessage NtUserGetProp": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess NtGdiStrokeAndFillPath": 1
+            "NtGdiIntersectClipRect NtUserGetDC NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect": 4
         },
         "-4": {
             "NtGdiEndPath NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess": 1,
-            "NtGdiEndPath NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtGdiIntersectClipRect NtUserGetDC NtCallbackReturn NtContinueEx": 1,
-            "NtGdiIntersectClipRect NtUserGetDC NtUserPeekMessage NtUserPeekMessage": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess NtQueryInformationProcess": 1
+            "NtGdiIntersectClipRect NtUserGetDC NtUserReleaseDC NtGdiPolyPatBlt": 4
         },
         "-3": {
             "NtGdiEndPath NtGdiBeginPath NtGdiStrokePath": 1,
-            "NtGdiEndPath NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtGdiIntersectClipRect NtUserGetDC NtCallbackReturn": 1,
-            "NtGdiIntersectClipRect NtUserGetDC NtUserPeekMessage": 1,
-            "NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1
+            "NtGdiIntersectClipRect NtUserGetDC NtUserReleaseDC": 4
         },
         "-2": {
-            "NtGdiCreateSolidBrush NtUserBeginPaint": 1,
             "NtGdiEndPath NtGdiBeginPath": 1,
-            "NtGdiEndPath NtSetInformationProcess": 1,
-            "NtGdiIntersectClipRect NtUserGetDC": 7,
-            "NtSetInformationProcess NtQueryInformationProcess": 1
+            "NtGdiIntersectClipRect NtUserGetDC": 7
         },
         "-1": {
-            "NtGdiCreateSolidBrush": 1,
             "NtGdiEndPath": 2,
-            "NtGdiIntersectClipRect": 7,
-            "NtSetInformationProcess": 1
+            "NtGdiIntersectClipRect": 7
         },
         "1": {
-            "NtQueryObject": 1,
-            "NtUserEndPaint": 1,
             "NtUserMessageCall": 2,
             "NtUserReleaseDC": 7
         },
         "2": {
-            "NtQueryObject NtQueryKey": 1,
-            "NtUserMessageCall NtAllocateVirtualMemory": 1,
             "NtUserMessageCall NtQueryInformationThread": 1,
-            "NtUserReleaseDC NtUserInvalidateRect": 1,
-            "NtUserReleaseDC NtUserPostMessage": 1
+            "NtUserReleaseDC NtUserGetDC": 4
         },
         "3": {
-            "NtQueryObject NtQueryKey NtQueryKey": 1,
-            "NtUserMessageCall NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtUserMessageCall NtQueryInformationThread NtQueryObject": 1,
-            "NtUserReleaseDC NtUserInvalidateRect NtUserGetDC": 1,
-            "NtUserReleaseDC NtUserPostMessage NtUserPostMessage": 1
+            "NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect": 4
         },
         "4": {
-            "NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx": 1,
-            "NtUserMessageCall NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtUserMessageCall NtQueryInformationThread NtQueryObject NtOpenSection": 1,
-            "NtUserReleaseDC NtUserInvalidateRect NtUserGetDC NtGdiIntersectClipRect": 1,
-            "NtUserReleaseDC NtUserPostMessage NtUserPostMessage NtContinueEx": 1
+            "NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt": 4
         },
         "5": {
-            "NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx NtQueryInformationToken": 1,
-            "NtUserMessageCall NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
             "NtUserMessageCall NtQueryInformationThread NtQueryObject NtOpenSection NtQueryAttributesFile": 1,
-            "NtUserReleaseDC NtUserInvalidateRect NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt": 1,
-            "NtUserReleaseDC NtUserPostMessage NtUserPostMessage NtContinueEx NtCallbackReturn": 1
+            "NtUserReleaseDC NtUserGetDC NtGdiIntersectClipRect NtGdiPolyPatBlt NtUserReleaseDC": 4
         }
     }
 }

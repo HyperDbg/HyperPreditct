@@ -1,74 +1,44 @@
 {
     "NtUserMessageCall": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr NtCallbackReturn": 1,
-            "NtGdiPolyPatBlt NtGdiEndPath NtGdiBeginPath NtGdiStrokePath NtSetInformationProcess": 1,
-            "NtGdiPolyPatBlt NtGdiEndPath NtSetInformationProcess NtQueryInformationProcess NtSetInformationProcess": 1,
-            "NtUserInvalidateRect NtFreeVirtualMemory NtClose NtQueryDirectoryFileEx NtClose": 1,
-            "NtUserSetScrollInfo NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1
+            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr": 22,
+            "NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn NtContinueEx NtCallbackReturn": 29
         },
         "-4": {
-            "NtCallbackReturn NtContinueEx NtUserMessageCall NtUserSetWindowLongPtr": 1,
-            "NtGdiPolyPatBlt NtGdiEndPath NtGdiBeginPath NtGdiStrokePath": 1,
-            "NtGdiPolyPatBlt NtGdiEndPath NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtUserInvalidateRect NtFreeVirtualMemory NtClose NtQueryDirectoryFileEx": 1,
-            "NtUserSetScrollInfo NtCallbackReturn NtContinueEx NtCallbackReturn": 1
+            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx NtUserMessageCall": 44,
+            "NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn NtContinueEx": 29
         },
         "-3": {
-            "NtGdiPolyPatBlt NtGdiEndPath NtGdiBeginPath": 1,
-            "NtGdiPolyPatBlt NtGdiEndPath NtSetInformationProcess": 1,
-            "NtUserInvalidateRect NtFreeVirtualMemory NtClose": 1,
-            "NtUserMessageCall NtCallbackReturn NtContinueEx": 1,
-            "NtUserSetScrollInfo NtCallbackReturn NtContinueEx": 1
+            "NtUserSetWindowLongPtr NtCallbackReturn NtContinueEx": 51,
+            "NtUserSetWindowLongPtr NtUserSetWindowFNID NtCallbackReturn": 29
         },
         "-2": {
-            "NtUserInvalidateRect NtFreeVirtualMemory": 1,
-            "NtUserMessageCall NtCallbackReturn": 1,
-            "NtUserMoveWindow NtUserReleaseDC": 1,
-            "NtUserSetScrollInfo NtCallbackReturn": 1,
-            "NtUserSetWindowPos NtUserRemoveProp": 1
+            "NtCallbackReturn NtContinueEx": 41,
+            "NtUserSetWindowLongPtr NtCallbackReturn": 51
         },
         "-1": {
-            "NtUserInvalidateRect": 1,
-            "NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtUserNotifyWinEvent": 1,
-            "NtUserReleaseDC": 1,
-            "NtUserSetScrollInfo": 1
+            "NtCallbackReturn": 41,
+            "NtUserSetWindowLongPtr": 84
         },
         "1": {
-            "NtOpenFile": 1,
-            "NtQueryInformationThread": 1,
-            "NtUserFindWindowEx": 1,
-            "NtUserGetThreadState": 1,
-            "NtUserSetScrollInfo": 1
+            "NtContinueEx": 194,
+            "NtUserGetIconSize": 6
         },
         "2": {
-            "NtAllocateVirtualMemory NtDuplicateObject": 1,
-            "NtOpenFile NtQueryDirectoryFileEx": 1,
-            "NtQueryInformationThread NtQueryObject": 1,
-            "NtUserGetThreadState NtContinueEx": 1,
-            "NtUserSetScrollInfo NtUserSBGetParms": 1
+            "NtContinueEx NtCallbackReturn": 194,
+            "NtUserGetIconSize NtUserGetIconInfo": 6
         },
         "3": {
-            "NtContinueEx NtCallbackReturn NtUserGetThreadState": 1,
-            "NtContinueEx NtCallbackReturn NtUserInvalidateRect": 1,
-            "NtOpenFile NtQueryDirectoryFileEx NtQueryDirectoryFileEx": 1,
-            "NtQueryInformationThread NtQueryObject NtOpenSection": 1,
-            "NtUserSetScrollInfo NtUserSBGetParms NtUserGetProp": 1
+            "NtContinueEx NtCallbackReturn NtContinueEx": 57,
+            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr": 44
         },
         "4": {
-            "NtContinueEx NtCallbackReturn NtUserGetDC NtProtectVirtualMemory": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetThreadState NtContinueEx": 1,
-            "NtContinueEx NtCallbackReturn NtUserMessageCall NtUserMessageCall": 1,
-            "NtQueryInformationThread NtQueryObject NtOpenSection NtQueryAttributesFile": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetThreadState": 1
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 57,
+            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtUserMessageCall": 44
         },
         "5": {
-            "NtContinueEx NtCallbackReturn NtUserGetDC NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetThreadState NtContinueEx NtCallbackReturn": 1,
-            "NtContinueEx NtCallbackReturn NtUserMessageCall NtUserMessageCall NtContinueEx": 1,
-            "NtQueryInformationThread NtQueryObject NtOpenSection NtQueryAttributesFile NtQueryAttributesFile": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetThreadState NtContinueEx": 1
+            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 47,
+            "NtContinueEx NtCallbackReturn NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx": 44
         }
     }
 }

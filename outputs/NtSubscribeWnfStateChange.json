@@ -1,32 +1,20 @@
 {
     "NtSubscribeWnfStateChange": {
         "-5": {
-            "NtQueryWnfStateData NtAllocateVirtualMemory NtUserSetTimer NtUserCallHwndSafe NtProtectVirtualMemory": 1,
-            "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory NtAssociateWaitCompletionPacket": 1,
-            "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtTraceControl": 1,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook": 1,
-            "NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook NtQueryInformationProcess NtAlpcQueryInformation": 1
+            "NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket NtCreateEvent NtQueryWnfStateData": 6,
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket": 6
         },
         "-4": {
-            "NtQueryWnfStateData NtAllocateVirtualMemory NtUserSetTimer NtUserCallHwndSafe": 1,
-            "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory NtQueryVirtualMemory": 1,
-            "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 1,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtUserGetGUIThreadInfo": 1,
-            "NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook NtQueryInformationProcess": 1
+            "NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket NtCreateEvent": 6,
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent": 6
         },
         "-3": {
-            "NtQueryWnfStateData NtAllocateVirtualMemory NtUserSetTimer": 1,
-            "NtQueryWnfStateData NtProtectVirtualMemory NtProtectVirtualMemory": 2,
-            "NtQueryWnfStateData NtUserGetGUIThreadInfo NtUserSetWinEventHook": 1,
-            "NtQueryWnfStateData NtUserIsNonClientDpiScalingEnabled NtUserIsTopLevelWindow": 5,
-            "NtQueryWnfStateData NtUserReleaseDC NtGdiGetDeviceCaps": 1
+            "NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent NtCreateWaitCompletionPacket": 6,
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 16
         },
         "-2": {
-            "NtQueryWnfStateData NtAllocateVirtualMemory": 1,
-            "NtQueryWnfStateData NtProtectVirtualMemory": 2,
-            "NtQueryWnfStateData NtUserGetGUIThreadInfo": 1,
-            "NtQueryWnfStateData NtUserIsNonClientDpiScalingEnabled": 5,
-            "NtQueryWnfStateData NtUserReleaseDC": 1
+            "NtAssociateWaitCompletionPacket NtSetWnfProcessNotificationEvent": 6,
+            "NtQueryWnfStateData NtSubscribeWnfStateChange": 22
         },
         "-1": {
             "NtAssociateWaitCompletionPacket": 6,
@@ -37,28 +25,18 @@
         },
         "2": {
             "NtQueryWnfStateData NtQueryInformationToken": 6,
-            "NtQueryWnfStateData NtQueryObject": 4,
-            "NtQueryWnfStateData NtSetTimer2": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange": 22
         },
         "3": {
             "NtQueryWnfStateData NtQueryInformationToken NtQueryInformationToken": 6,
-            "NtQueryWnfStateData NtQueryObject NtCreateMutant": 4,
-            "NtQueryWnfStateData NtSetTimer2 NtQueryObject": 6,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 22
         },
         "4": {
-            "NtQueryWnfStateData NtQueryInformationToken NtQueryInformationToken NtQueryObject": 6,
-            "NtQueryWnfStateData NtQueryObject NtCreateMutant NtWaitForSingleObject": 4,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtQueryInformationToken": 6,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtQueryObject": 4,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 6
         },
         "5": {
-            "NtQueryWnfStateData NtQueryInformationToken NtQueryInformationToken NtQueryObject NtQueryKey": 6,
-            "NtQueryWnfStateData NtQueryObject NtCreateMutant NtWaitForSingleObject NtQueryObject": 4,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtQueryInformationToken NtQueryInformationToken": 6,
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtQueryObject NtCreateMutant": 4,
             "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 6
         }
     }

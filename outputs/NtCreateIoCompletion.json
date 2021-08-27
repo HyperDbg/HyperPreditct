@@ -2,21 +2,15 @@
     "NtCreateIoCompletion": {
         "-5": {
             "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation NtQuerySystemInformation": 6,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation": 6,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtQueryInformationThread NtAllocateVirtualMemory NtClose": 6
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation": 6
         },
         "-4": {
             "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent NtQuerySystemInformation": 6,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort NtAlpcSendWaitReceivePort": 2,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtQueryInformationThread NtAllocateVirtualMemory": 6
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6
         },
         "-3": {
             "NtQuerySystemInformationEx NtCreateWaitCompletionPacket NtCreateEvent": 6,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtAlpcSendWaitReceivePort": 2,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket": 6,
-            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtQueryInformationThread": 6
+            "NtQuerySystemInformationEx NtQuerySystemInformationEx NtCreateWaitCompletionPacket": 6
         },
         "-2": {
             "NtQuerySystemInformationEx NtCreateWaitCompletionPacket": 6,

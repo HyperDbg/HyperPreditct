@@ -1,74 +1,44 @@
 {
     "NtUserRegisterWindowMessage": {
         "-5": {
-            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtClose NtSetInformationProcess": 1,
-            "NtUserRegisterWindowMessage NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtClose": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtSetInformationVirtualMemory NtApphelpCacheControl": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtSetInformationVirtualMemory": 1
+            "NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtQueryInformationProcess NtTraceControl": 6,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 52
         },
         "-4": {
-            "NtAddAtomEx NtAddAtomEx NtUnmapViewOfSection NtClose": 1,
-            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose NtClose": 1,
-            "NtUserRegisterWindowMessage NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtSetInformationVirtualMemory NtApphelpCacheControl": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtSetInformationVirtualMemory": 1
+            "NtAddAtomEx NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 6,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 65
         },
         "-3": {
-            "NtAddAtomEx NtAddAtomEx NtUnmapViewOfSection": 1,
-            "NtSetInformationVirtualMemory NtApphelpCacheControl NtClose": 1,
-            "NtUserFindWindowEx NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtUserRegisterWindowMessage NtSetInformationVirtualMemory NtApphelpCacheControl": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtSetInformationVirtualMemory": 1
+            "NtAddAtomEx NtAddAtomEx NtUserRegisterWindowMessage": 6,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 83
         },
         "-2": {
-            "NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtSetInformationVirtualMemory NtApphelpCacheControl": 1,
-            "NtUserFindWindowEx NtSetInformationProcess": 1,
-            "NtUserRegisterWindowMessage NtSetInformationVirtualMemory": 1,
-            "NtUserRegisterWindowMessage NtTraceControl": 1
+            "NtUserCallTwoParam NtUserRegisterWindowMessage": 12,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 106
         },
         "-1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtSetInformationVirtualMemory": 1,
-            "NtUserFindExistingCursorIcon": 1,
-            "NtUserFindWindowEx": 1,
-            "NtUserGetKeyboardLayoutList": 1
+            "NtUserCallTwoParam": 12,
+            "NtUserRegisterWindowMessage": 132
         },
         "1": {
-            "NtAllocateVirtualMemory": 1,
-            "NtOpenProcess": 1,
-            "NtSetEvent": 1,
-            "NtTraceControl": 1,
-            "NtUserCallNoParam": 1
+            "NtUserCallTwoParam": 12,
+            "NtUserRegisterWindowMessage": 132
         },
         "2": {
-            "NtOpenProcess NtQueryInformationProcess": 1,
-            "NtTraceControl NtOpenFile": 1,
-            "NtUserRegisterWindowMessage NtTraceControl": 1,
-            "NtUserRegisterWindowMessage NtUserSystemParametersInfo": 1,
-            "NtUserSystemParametersInfo NtQueryInformationProcess": 1
+            "NtUserCallTwoParam NtUserRegisterWindowMessage": 12,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 106
         },
         "3": {
-            "NtTraceControl NtOpenFile NtCreateSection": 1,
-            "NtUserRegisterWindowMessage NtTraceControl NtOpenFile": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtTraceControl": 1,
-            "NtUserRegisterWindowMessage NtUserSystemParametersInfo NtQueryInformationProcess": 1,
-            "NtUserSystemParametersInfo NtQueryInformationProcess NtSetEvent": 1
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserGetClassInfoEx": 11,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 83
         },
         "4": {
-            "NtTraceControl NtOpenFile NtCreateSection NtMapViewOfSection": 1,
-            "NtUserRegisterWindowMessage NtTraceControl NtOpenFile NtCreateSection": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtTraceControl NtOpenFile": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtTraceControl": 1,
-            "NtUserRegisterWindowMessage NtUserSystemParametersInfo NtQueryInformationProcess NtSetEvent": 1
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserGetClassInfoEx": 11,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 65
         },
         "5": {
-            "NtTraceControl NtOpenFile NtCreateSection NtMapViewOfSection NtOpenKeyEx": 1,
-            "NtUserRegisterWindowMessage NtTraceControl NtOpenFile NtCreateSection NtMapViewOfSection": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtTraceControl NtOpenFile NtCreateSection": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtTraceControl NtOpenFile": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtTraceControl": 1
+            "NtUserCallTwoParam NtUserRegisterWindowMessage NtUserCallTwoParam NtUserRegisterWindowMessage NtContinueEx": 6,
+            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 52
         }
     }
 }

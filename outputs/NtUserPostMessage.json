@@ -1,33 +1,23 @@
 {
     "NtUserPostMessage": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtQuerySecurityAttributesToken": 1,
-            "NtUserPostMessage NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect NtUserGetDC": 1,
             "NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo NtGdiGetTextMetricsW": 4,
             "NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect NtUserGetDC NtCallbackReturn": 1
         },
         "-4": {
             "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 2,
-            "NtUserPostMessage NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect": 1,
-            "NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 4,
-            "NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect NtUserGetDC": 1
+            "NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 4
         },
         "-3": {
             "NtCallbackReturn NtContinueEx NtCallbackReturn": 2,
-            "NtUserPostMessage NtUserReleaseDC NtGdiPolyPatBlt": 1,
-            "NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 4,
-            "NtUserReleaseDC NtGdiPolyPatBlt NtGdiIntersectClipRect": 1
+            "NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 4
         },
         "-2": {
             "NtCallbackReturn NtContinueEx": 2,
-            "NtUserPostMessage NtUserReleaseDC": 1,
-            "NtUserReleaseDC NtGdiGetTextExtentExW": 4,
-            "NtUserReleaseDC NtGdiPolyPatBlt": 1
+            "NtUserReleaseDC NtGdiGetTextExtentExW": 4
         },
         "-1": {
             "NtCallbackReturn": 2,
-            "NtUserPostMessage": 1,
             "NtUserReleaseDC": 5
         },
         "1": {
@@ -39,23 +29,14 @@
             "NtUserPostMessage NtContinueEx": 1
         },
         "3": {
-            "NtContinueEx NtCallbackReturn NtQuerySecurityAttributesToken": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetProp": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetThreadState": 1,
             "NtContinueEx NtCallbackReturn NtUserSetWindowPos": 4,
             "NtUserPostMessage NtContinueEx NtCallbackReturn": 1
         },
         "4": {
-            "NtContinueEx NtCallbackReturn NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserIsTopLevelWindow": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetThreadState NtUserGetThreadState": 1,
             "NtContinueEx NtCallbackReturn NtUserSetWindowPos NtUserMessageCall": 4,
             "NtUserPostMessage NtContinueEx NtCallbackReturn NtQuerySecurityAttributesToken": 1
         },
         "5": {
-            "NtContinueEx NtCallbackReturn NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken NtContinueEx": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtContinueEx NtCallbackReturn NtUserGetThreadState NtUserGetThreadState NtUserGetKeyboardLayout": 1,
             "NtContinueEx NtCallbackReturn NtUserSetWindowPos NtUserMessageCall NtContinueEx": 4,
             "NtUserPostMessage NtContinueEx NtCallbackReturn NtQuerySecurityAttributesToken NtQuerySecurityAttributesToken": 1
         }

@@ -1,32 +1,20 @@
 {
     "NtGdiCreateCompatibleBitmap": {
         "-5": {
-            "NtGdiCreateCompatibleDC NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject": 1,
-            "NtUserGetDC NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserReleaseDC NtUserGetDC": 1,
-            "NtUserGetDC NtGdiCreateCompatibleDC NtGdiHfontCreate NtAllocateVirtualMemory NtUserGetKeyboardLayout": 1,
-            "NtUserGetDC NtProtectVirtualMemory NtProtectVirtualMemory NtGdiSelectBitmap NtGdiCreateCompatibleDC": 1,
-            "NtUserGetDC NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtProtectVirtualMemory": 1
+            "NtUserGetDC NtGdiCreateCompatibleDC NtGdiHfontCreate NtUserGetKeyboardLayout NtQueryLicenseValue": 4,
+            "NtUserGetDC NtUserFindExistingCursorIcon NtUserGetIconInfo NtUserGetIconSize NtUserMessageCall": 5
         },
         "-4": {
-            "NtGdiCreateCompatibleDC NtOpenKeyEx NtQueryKey NtQueryKey": 1,
-            "NtUserGetDC NtAllocateVirtualMemory NtAllocateVirtualMemory NtUserReleaseDC": 1,
-            "NtUserGetDC NtGdiCreateCompatibleDC NtGdiHfontCreate NtAllocateVirtualMemory": 1,
-            "NtUserGetDC NtProtectVirtualMemory NtProtectVirtualMemory NtGdiSelectBitmap": 1,
-            "NtUserGetDC NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp": 1
+            "NtUserGetDC NtGdiCreateCompatibleDC NtGdiHfontCreate NtUserGetKeyboardLayout": 4,
+            "NtUserGetDC NtUserFindExistingCursorIcon NtUserGetIconInfo NtUserGetIconSize": 6
         },
         "-3": {
-            "NtGdiCreateCompatibleDC NtOpenKeyEx NtQueryKey": 1,
-            "NtUserGetDC NtAllocateVirtualMemory NtAllocateVirtualMemory": 1,
-            "NtUserGetDC NtAllocateVirtualMemory NtCallbackReturn": 1,
-            "NtUserGetDC NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetDC NtUserSetCursorIconData NtUserCreateEmptyCursorObject": 1
+            "NtUserGetDC NtGdiCreateCompatibleDC NtGdiHfontCreate": 5,
+            "NtUserGetDC NtUserFindExistingCursorIcon NtUserGetIconInfo": 6
         },
         "-2": {
-            "NtGdiCreateCompatibleDC NtOpenKeyEx": 1,
-            "NtUserGetDC NtAllocateVirtualMemory": 2,
-            "NtUserGetDC NtGdiGetDIBitsInternal": 1,
-            "NtUserGetDC NtProtectVirtualMemory": 1,
-            "NtUserGetDC NtUserSetCursorIconData": 1
+            "NtUserGetDC NtGdiCreateCompatibleDC": 5,
+            "NtUserGetDC NtUserFindExistingCursorIcon": 11
         },
         "-1": {
             "NtGdiCreateCompatibleDC": 1,
@@ -38,29 +26,19 @@
         },
         "2": {
             "NtGdiSelectBitmap NtGdiStretchDIBitsInternal": 2,
-            "NtGdiSelectBitmap NtUserGetProp": 1,
             "NtUserReleaseDC NtGdiSelectBitmap": 19
         },
         "3": {
-            "NtGdiSelectBitmap NtGdiStretchDIBitsInternal NtGdiExtGetObjectW": 2,
-            "NtGdiSelectBitmap NtUserGetProp NtAllocateVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiSelectBitmap NtGdiDoPalette": 4,
             "NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap": 10,
             "NtUserReleaseDC NtGdiSelectBitmap NtGdiSelectBitmap": 5
         },
         "4": {
-            "NtGdiSelectBitmap NtGdiStretchDIBitsInternal NtGdiExtGetObjectW NtGdiGetBitmapBits": 2,
-            "NtGdiSelectBitmap NtUserGetProp NtAllocateVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiSelectBitmap NtGdiDoPalette NtAllocateVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiSelectBitmap NtGdiSelectBitmap NtAllocateVirtualMemory": 3,
-            "NtUserReleaseDC NtGdiSelectBitmap NtGdiSelectBitmap NtGdiGetTextMetricsW": 2
+            "NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap NtGdiSaveDC": 10,
+            "NtUserReleaseDC NtGdiSelectBitmap NtGdiSelectBitmap NtAllocateVirtualMemory": 3
         },
         "5": {
-            "NtGdiSelectBitmap NtGdiStretchDIBitsInternal NtGdiExtGetObjectW NtGdiGetBitmapBits NtGdiSelectBitmap": 2,
-            "NtGdiSelectBitmap NtUserGetProp NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiSelectBitmap NtGdiDoPalette NtAllocateVirtualMemory NtGdiStretchDIBitsInternal": 1,
-            "NtUserReleaseDC NtGdiSelectBitmap NtGdiSelectBitmap NtAllocateVirtualMemory NtGdiGetTextMetricsW": 3,
-            "NtUserReleaseDC NtGdiSelectBitmap NtGdiSelectBitmap NtGdiGetTextMetricsW NtProtectVirtualMemory": 2
+            "NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap NtGdiSaveDC NtGdiSelectBitmap": 10,
+            "NtUserReleaseDC NtGdiSelectBitmap NtGdiSelectBitmap NtAllocateVirtualMemory NtGdiGetTextMetricsW": 3
         }
     }
 }

@@ -1,74 +1,44 @@
 {
     "NtUserFindExistingCursorIcon": {
         "-5": {
-            "NtGdiGetTextFaceW NtProtectVirtualMemory NtProtectVirtualMemory NtGdiGetTextMetricsW NtGdiSelectBitmap": 1,
-            "NtUserCreateWindowEx NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo NtGdiGetRealizationInfo": 1,
-            "NtUserGetClassInfoEx NtAllocateVirtualMemory NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtGdiExtGetObjectW": 1,
-            "NtUserGetClassInfoEx NtCallbackReturn NtContinueEx NtUserShowWindow NtUserInvalidateRect": 1,
-            "NtUserGetClassInfoEx NtGdiGetDeviceCaps NtGdiGetDeviceCaps NtGdiExtGetObjectW NtUserReleaseDC": 1
+            "NtUserGetRequiredCursorSizes NtUserGetIconSize NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp": 7,
+            "NtUserRegisterClassExWOW NtProtectVirtualMemory NtProtectVirtualMemory NtAllocateVirtualMemory NtProtectVirtualMemory": 5
         },
         "-4": {
-            "NtGdiCreatePaletteInternal NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1,
-            "NtUserCreateWindowEx NtUserInheritWindowMonitor NtCallbackReturn NtContinueEx": 1,
-            "NtUserCreateWindowEx NtUserReleaseDC NtGdiGetTextExtentExW NtGdiGetRealizationInfo": 1,
-            "NtUserGetClassInfoEx NtAllocateVirtualMemory NtGdiGetDeviceCaps NtGdiGetDeviceCaps": 1,
-            "NtUserGetIconInfo NtUserGetIconSize NtCallbackReturn NtContinueEx": 1
+            "NtUserFindExistingCursorIcon NtUserGetThreadState NtProtectVirtualMemory NtProtectVirtualMemory": 6,
+            "NtUserGetRequiredCursorSizes NtUserGetIconSize NtUserSetCursorIconData NtUserCreateEmptyCursorObject": 7
         },
         "-3": {
-            "NtGdiCreatePaletteInternal NtUserReleaseDC NtUserGetDC": 1,
-            "NtUserCreateWindowEx NtUserInheritWindowMonitor NtCallbackReturn": 1,
-            "NtUserCreateWindowEx NtUserReleaseDC NtGdiGetTextExtentExW": 1,
-            "NtUserGetClassInfoEx NtAllocateVirtualMemory NtGdiGetDeviceCaps": 1,
-            "NtUserGetIconInfo NtUserGetIconSize NtCallbackReturn": 1
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 8,
+            "NtUserGetRequiredCursorSizes NtUserGetIconSize NtUserSetCursorIconData": 7
         },
         "-2": {
-            "NtGdiCreatePaletteInternal NtUserReleaseDC": 1,
-            "NtUserCreateWindowEx NtUserInheritWindowMonitor": 1,
-            "NtUserCreateWindowEx NtUserReleaseDC": 1,
-            "NtUserGetClassInfoEx NtAllocateVirtualMemory": 1,
-            "NtUserSystemParametersInfo NtCallbackReturn": 1
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 11,
+            "NtUserGetIconInfo NtUserGetIconSize": 8
         },
         "-1": {
-            "NtCallbackReturn": 2,
-            "NtGdiCreatePaletteInternal": 1,
-            "NtGdiExtGetObjectW": 1,
-            "NtUserCreateWindowEx": 2,
-            "NtUserSystemParametersInfo": 1
+            "NtUserFindExistingCursorIcon": 20,
+            "NtUserGetClassInfoEx": 13
         },
         "1": {
-            "NtAllocateVirtualMemory": 3,
-            "NtOpenFile": 1,
-            "NtUserCreateEmptyCursorObject": 1,
-            "NtUserGetKeyboardLayout": 1,
-            "NtUserRegisterWindowMessage": 1
+            "NtUserFindExistingCursorIcon": 20,
+            "NtUserRegisterClassExWOW": 31
         },
         "2": {
-            "NtOpenFile NtOpenFile": 1,
-            "NtUserCreateEmptyCursorObject NtUserSetCursorIconData": 1,
-            "NtUserFindExistingCursorIcon NtProtectVirtualMemory": 1,
-            "NtUserFindExistingCursorIcon NtUserGetDC": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1
+            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 11,
+            "NtUserGetDC NtGdiCreateCompatibleBitmap": 11
         },
         "3": {
-            "NtOpenFile NtOpenFile NtGdiExtGetObjectW": 1,
-            "NtUserCreateEmptyCursorObject NtUserSetCursorIconData NtContinueEx": 1,
-            "NtUserFindExistingCursorIcon NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtProtectVirtualMemory": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx": 1
+            "NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC": 11,
+            "NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx": 8
         },
         "4": {
-            "NtOpenFile NtOpenFile NtGdiExtGetObjectW NtGdiGetDIBitsInternal": 1,
-            "NtUserCreateEmptyCursorObject NtUserSetCursorIconData NtContinueEx NtCallbackReturn": 1,
-            "NtUserFindExistingCursorIcon NtProtectVirtualMemory NtProtectVirtualMemory NtGdiCreateCompatibleDC": 1,
-            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtUserRegisterWindowMessage": 1
+            "NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap": 11,
+            "NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx NtContinueEx": 8
         },
         "5": {
-            "NtOpenFile NtOpenFile NtGdiExtGetObjectW NtGdiGetDIBitsInternal NtUserGetDC": 1,
-            "NtUserCreateEmptyCursorObject NtUserSetCursorIconData NtContinueEx NtCallbackReturn NtAllocateVirtualMemory": 1,
-            "NtUserFindExistingCursorIcon NtProtectVirtualMemory NtProtectVirtualMemory NtGdiCreateCompatibleDC NtProtectVirtualMemory": 1,
-            "NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtProtectVirtualMemory NtProtectVirtualMemory NtGdiCreateCompatibleDC": 1,
-            "NtUserRegisterWindowMessage NtUserRegisterWindowMessage NtAddAtomEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1
+            "NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC NtGdiSelectBitmap NtGdiGetDCforBitmap": 8,
+            "NtUserRegisterClassExWOW NtUserGetAtomName NtUserCreateWindowEx NtContinueEx NtCallbackReturn": 8
         }
     }
 }

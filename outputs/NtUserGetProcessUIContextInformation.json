@@ -26,22 +26,18 @@
         },
         "2": {
             "NtOpenProcessToken NtDuplicateToken": 6,
-            "NtQueryInformationProcess NtOpenThreadTokenEx": 1,
             "NtQueryInformationProcess NtQueryInformationProcess": 1
         },
         "3": {
             "NtOpenProcessToken NtDuplicateToken NtAccessCheck": 6,
-            "NtQueryInformationProcess NtOpenThreadTokenEx NtOpenProcessTokenEx": 1,
             "NtQueryInformationProcess NtQueryInformationProcess NtUserGetThreadState": 1
         },
         "4": {
             "NtOpenProcessToken NtDuplicateToken NtAccessCheck NtClose": 6,
-            "NtQueryInformationProcess NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken": 1,
             "NtQueryInformationProcess NtQueryInformationProcess NtUserGetThreadState NtOpenThreadTokenEx": 1
         },
         "5": {
             "NtOpenProcessToken NtDuplicateToken NtAccessCheck NtClose NtClose": 6,
-            "NtQueryInformationProcess NtOpenThreadTokenEx NtOpenProcessTokenEx NtDuplicateToken NtClose": 1,
             "NtQueryInformationProcess NtQueryInformationProcess NtUserGetThreadState NtOpenThreadTokenEx NtOpenProcessTokenEx": 1
         }
     }

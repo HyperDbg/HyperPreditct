@@ -1,74 +1,44 @@
 {
     "NtUserGetGUIThreadInfo": {
         "-5": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetClassName NtUserGetClassName NtUserGetGUIThreadInfo": 1,
-            "NtUserGetGUIThreadInfo NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetClassName NtUserGetClassName": 1,
-            "NtUserGetInputLocaleInfo NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetKeyboardState": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo": 1,
+            "NtUserGetObjectInformation NtUserGetProcessWindowStation NtSetEvent NtAllocateVirtualMemory NtFreeVirtualMemory": 6,
             "NtUserSetWinEventHook NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx NtClose": 1
         },
         "-4": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetClassName NtUserGetClassName": 1,
-            "NtUserGetGUIThreadInfo NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetClassName": 1,
-            "NtUserGetInputLocaleInfo NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo": 1,
+            "NtUserGetObjectInformation NtUserGetProcessWindowStation NtSetEvent NtAllocateVirtualMemory": 6,
             "NtUserSetWinEventHook NtQueryInformationProcess NtAlpcQueryInformation NtAlpcConnectPortEx": 1
         },
         "-3": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetClassName": 1,
-            "NtUserGetGUIThreadInfo NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetInputLocaleInfo NtAllocateVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState": 1,
+            "NtUserGetObjectInformation NtUserGetProcessWindowStation NtSetEvent": 6,
             "NtUserSetWinEventHook NtQueryInformationProcess NtAlpcQueryInformation": 1
         },
         "-2": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetGUIThreadInfo NtProtectVirtualMemory": 1,
-            "NtUserGetGUIThreadInfo NtUserGetThreadState": 1,
-            "NtUserGetInputLocaleInfo NtAllocateVirtualMemory": 1,
-            "NtUserSetWinEventHook NtQueryInformationProcess": 1
+            "NtUserGetObjectInformation NtUserGetProcessWindowStation": 6,
+            "NtUserGetThreadState NtUserGetThreadState": 2
         },
         "-1": {
-            "NtProtectVirtualMemory": 1,
             "NtUserGetGUIThreadInfo": 2,
-            "NtUserGetInputLocaleInfo": 1,
-            "NtUserGetThreadState": 2,
-            "NtUserSetWinEventHook": 1
+            "NtUserGetObjectInformation": 6
         },
         "1": {
-            "NtQueryObject": 1,
-            "NtQueryWnfStateData": 1,
-            "NtUserGetClassName": 1,
-            "NtUserGetGUIThreadInfo": 2,
-            "NtUserGetThreadState": 2
+            "NtConnectPort": 6,
+            "NtUserGetGUIThreadInfo": 2
         },
         "2": {
-            "NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
-            "NtUserGetClassName NtUserGetClassName": 1,
-            "NtUserGetGUIThreadInfo NtUserGetThreadState": 1,
-            "NtUserGetThreadState NtUserGetKeyboardState": 1,
-            "NtUserGetThreadState NtUserGetThreadState": 1
+            "NtConnectPort NtRequestWaitReplyPort": 6,
+            "NtQueryWnfStateData NtSubscribeWnfStateChange": 1
         },
         "3": {
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 1,
-            "NtUserGetClassName NtUserGetClassName NtProtectVirtualMemory": 1,
-            "NtUserGetGUIThreadInfo NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtUserGetThreadState NtUserGetKeyboardState NtUserGetThreadState": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState": 1
+            "NtConnectPort NtRequestWaitReplyPort NtRequestWaitReplyPort": 6,
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 1
         },
         "4": {
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 1,
-            "NtUserGetClassName NtUserGetClassName NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetGUIThreadInfo NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtUserGetThreadState NtUserGetKeyboardState NtUserGetThreadState NtUserGetThreadState": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo": 1
+            "NtConnectPort NtRequestWaitReplyPort NtRequestWaitReplyPort NtQueryInformationToken": 6,
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange": 1
         },
         "5": {
-            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 1,
-            "NtUserGetClassName NtUserGetClassName NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetGUIThreadInfo": 1,
-            "NtUserGetGUIThreadInfo NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo": 1,
-            "NtUserGetThreadState NtUserGetKeyboardState NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo": 1,
-            "NtUserGetThreadState NtUserGetThreadState NtUserGetThreadState NtUserGetGUIThreadInfo NtUserGetThreadState": 1
+            "NtConnectPort NtRequestWaitReplyPort NtRequestWaitReplyPort NtQueryInformationToken NtOpenKeyEx": 6,
+            "NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData NtSubscribeWnfStateChange NtQueryWnfStateData": 1
         }
     }
 }

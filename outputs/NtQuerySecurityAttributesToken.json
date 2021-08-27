@@ -1,74 +1,44 @@
 {
     "NtQuerySecurityAttributesToken": {
         "-5": {
-            "NtClose NtOpenKeyEx NtQueryKey NtQueryObject NtOpenKeyEx": 1,
-            "NtClose NtQueryVolumeInformationFile NtQueryInformationToken NtClose NtProtectVirtualMemory": 1,
-            "NtOpenFile NtQuerySecurityAttributesToken NtClose NtQueryVolumeInformationFile NtQueryInformationToken": 1,
-            "NtQuerySecurityAttributesToken NtTraceControl NtTraceControl NtClose NtReleaseMutant": 1,
-            "NtTraceControl NtTraceControl NtClose NtReleaseMutant NtClose": 1
+            "NtQueryInformationToken NtQueryInformationToken NtOpenProcessToken NtOpenThreadToken NtOpenThreadToken": 88,
+            "NtQuerySecurityAttributesToken NtQueryInformationToken NtQueryInformationToken NtOpenProcessToken NtOpenThreadToken": 92
         },
         "-4": {
-            "NtClose NtOpenKeyEx NtQueryKey NtQueryObject": 1,
-            "NtClose NtQueryVolumeInformationFile NtQueryInformationToken NtClose": 1,
-            "NtOpenFile NtQuerySecurityAttributesToken NtClose NtQueryVolumeInformationFile": 1,
-            "NtQuerySecurityAttributesToken NtTraceControl NtTraceControl NtClose": 1,
-            "NtTraceControl NtTraceControl NtClose NtReleaseMutant": 1
+            "NtQueryInformationToken NtQueryInformationToken NtOpenProcessToken NtOpenThreadToken": 92,
+            "NtQuerySecurityAttributesToken NtQueryInformationToken NtQueryInformationToken NtOpenProcessToken": 92
         },
         "-3": {
-            "NtClose NtOpenKeyEx NtQueryKey": 1,
-            "NtClose NtQueryVolumeInformationFile NtQueryInformationToken": 1,
-            "NtOpenFile NtQuerySecurityAttributesToken NtClose": 1,
-            "NtQuerySecurityAttributesToken NtTraceControl NtTraceControl": 1,
-            "NtTraceControl NtTraceControl NtClose": 1
+            "NtQueryInformationToken NtQueryInformationToken NtOpenProcessToken": 92,
+            "NtQuerySecurityAttributesToken NtQueryInformationToken NtQueryInformationToken": 92
         },
         "-2": {
-            "NtClose NtOpenKeyEx": 1,
-            "NtClose NtQueryVolumeInformationFile": 1,
-            "NtOpenFile NtQuerySecurityAttributesToken": 1,
-            "NtQuerySecurityAttributesToken NtTraceControl": 1,
-            "NtTraceControl NtTraceControl": 1
+            "NtQueryInformationToken NtQueryInformationToken": 92,
+            "NtQuerySecurityAttributesToken NtQueryInformationToken": 93
         },
         "-1": {
-            "NtCreateEvent": 5,
-            "NtOpenFile": 1,
-            "NtQueryAttributesFile": 5,
-            "NtTraceControl": 1,
-            "NtUserCallNoParam": 1
+            "NtQueryInformationToken": 93,
+            "NtQuerySecurityAttributesToken": 168
         },
         "1": {
-            "NtContinueEx": 1,
-            "NtCreateEvent": 5,
-            "NtDeviceIoControlFile": 1,
-            "NtOpenFile": 1,
-            "NtQuerySystemInformation": 5
+            "NtOpenThreadToken": 87,
+            "NtQuerySecurityAttributesToken": 168
         },
         "2": {
-            "NtContinueEx NtCallbackReturn": 1,
-            "NtDeviceIoControlFile NtOpenThreadToken": 1,
-            "NtOpenFile NtQuerySecurityAttributesToken": 1,
-            "NtQueryObject NtOpenSection": 1,
-            "NtQuerySecurityAttributesToken NtContinueEx": 1
+            "NtOpenThreadToken NtQueryObject": 87,
+            "NtQuerySecurityAttributesToken NtOpenThreadToken": 87
         },
         "3": {
-            "NtDeviceIoControlFile NtOpenThreadToken NtClose": 1,
-            "NtOpenFile NtQuerySecurityAttributesToken NtDeviceIoControlFile": 1,
-            "NtQueryObject NtOpenSection NtMapViewOfSection": 1,
-            "NtQuerySecurityAttributesToken NtContinueEx NtCallbackReturn": 1,
-            "NtQuerySecurityAttributesToken NtQueryObject NtOpenSection": 1
+            "NtOpenThreadToken NtQueryObject NtQueryKey": 87,
+            "NtQuerySecurityAttributesToken NtOpenThreadToken NtQueryObject": 87
         },
         "4": {
-            "NtDeviceIoControlFile NtOpenThreadToken NtClose NtQueryObject": 1,
-            "NtOpenFile NtQuerySecurityAttributesToken NtDeviceIoControlFile NtOpenThreadToken": 1,
-            "NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject": 1,
-            "NtQuerySecurityAttributesToken NtContinueEx NtCallbackReturn NtContinueEx": 1,
-            "NtQuerySecurityAttributesToken NtQueryObject NtOpenSection NtMapViewOfSection": 1
+            "NtOpenThreadToken NtQueryObject NtQueryKey NtOpenKeyEx": 87,
+            "NtQuerySecurityAttributesToken NtOpenThreadToken NtQueryObject NtQueryKey": 87
         },
         "5": {
-            "NtDeviceIoControlFile NtOpenThreadToken NtClose NtQueryObject NtCreateFile": 1,
-            "NtOpenFile NtQuerySecurityAttributesToken NtDeviceIoControlFile NtOpenThreadToken NtClose": 1,
-            "NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject NtQueryKey": 1,
-            "NtQuerySecurityAttributesToken NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 1,
-            "NtQuerySecurityAttributesToken NtQueryObject NtOpenSection NtMapViewOfSection NtQueryObject": 1
+            "NtOpenThreadToken NtQueryObject NtQueryKey NtOpenKeyEx NtQueryObject": 87,
+            "NtQuerySecurityAttributesToken NtOpenThreadToken NtQueryObject NtQueryKey NtOpenKeyEx": 87
         }
     }
 }

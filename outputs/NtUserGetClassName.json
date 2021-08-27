@@ -1,74 +1,44 @@
 {
     "NtUserGetClassName": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtUserGetClassInfoEx NtUserRegisterWindowMessage NtUserRegisterWindowMessage": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtTraceControl NtTraceControl": 1,
-            "NtUserGetClassName NtUserGetGUIThreadInfo NtUserGetInputLocaleInfo NtAllocateVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetGUIThreadInfo NtUserGetInputLocaleInfo NtAllocateVirtualMemory NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiExtGetObjectW NtGdiGetDCObject NtUserGetDC NtClose": 1
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtCallbackReturn NtContinueEx": 8,
+            "NtUserGetClassName NtCallbackReturn NtContinueEx NtUserMessageCall NtCallbackReturn": 7
         },
         "-4": {
-            "NtCallbackReturn NtContinueEx NtUserGetClassInfoEx NtUserRegisterWindowMessage": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent NtTraceControl": 1,
-            "NtUserGetClassName NtUserGetGUIThreadInfo NtUserGetInputLocaleInfo NtAllocateVirtualMemory": 1,
-            "NtUserGetGUIThreadInfo NtUserGetInputLocaleInfo NtAllocateVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiExtGetObjectW NtGdiGetDCObject NtUserGetDC": 1
+            "NtCallbackReturn NtContinueEx NtUserMessageCall NtCallbackReturn": 8,
+            "NtUserGetClassName NtCallbackReturn NtContinueEx NtUserMessageCall": 14
         },
         "-3": {
-            "NtCallbackReturn NtContinueEx NtUserGetClassInfoEx": 1,
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtSetEvent": 1,
-            "NtUserGetClassName NtUserGetGUIThreadInfo NtUserGetInputLocaleInfo": 1,
-            "NtUserGetGUIThreadInfo NtUserGetInputLocaleInfo NtAllocateVirtualMemory": 1,
-            "NtUserReleaseDC NtGdiExtGetObjectW NtGdiGetDCObject": 1
+            "NtCallbackReturn NtContinueEx NtUserMessageCall": 15,
+            "NtUserGetClassName NtCallbackReturn NtContinueEx": 14
         },
         "-2": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetClassName NtCallbackReturn": 14,
-            "NtUserGetClassName NtUserGetGUIThreadInfo": 1,
-            "NtUserGetGUIThreadInfo NtUserGetInputLocaleInfo": 1,
-            "NtUserReleaseDC NtGdiExtGetObjectW": 1
+            "NtCallbackReturn NtContinueEx": 16,
+            "NtUserGetClassName NtCallbackReturn": 14
         },
         "-1": {
             "NtCallbackReturn": 16,
-            "NtProtectVirtualMemory": 1,
-            "NtUserGetClassName": 15,
-            "NtUserGetGUIThreadInfo": 1,
-            "NtUserReleaseDC": 1
+            "NtUserGetClassName": 15
         },
         "1": {
-            "NtProtectVirtualMemory": 1,
-            "NtQueryObject": 1,
-            "NtUserGetThreadState": 1,
-            "NtUserSetWindowCompositionAttribute": 1,
-            "NtUserSetWindowLongPtr": 3
+            "NtUserGetClassName": 15,
+            "NtUserRemoveProp": 12
         },
         "2": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtQueryObject NtQueryKey": 1,
-            "NtUserGetClassName NtProtectVirtualMemory": 1,
-            "NtUserGetThreadState NtTraceControl": 1,
-            "NtUserSetWindowCompositionAttribute NtUserSetWindowLongPtr": 1
+            "NtUserGetClassName NtUserRemoveProp": 11,
+            "NtUserRemoveProp NtUserGetThreadDesktop": 12
         },
         "3": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetGUIThreadInfo": 1,
-            "NtQueryObject NtQueryKey NtQueryKey": 1,
-            "NtUserGetClassName NtProtectVirtualMemory NtProtectVirtualMemory": 1,
-            "NtUserGetThreadState NtTraceControl NtQuerySystemInformation": 1,
-            "NtUserSetWindowCompositionAttribute NtUserSetWindowLongPtr NtUserMessageCall": 1
+            "NtUserGetClassName NtUserRemoveProp NtUserGetThreadDesktop": 11,
+            "NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation": 12
         },
         "4": {
-            "NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo": 1,
-            "NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx": 1,
-            "NtUserGetClassName NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetGUIThreadInfo": 1,
-            "NtUserGetThreadState NtTraceControl NtQuerySystemInformation NtQuerySystemInformation": 1,
-            "NtUserSetWindowCompositionAttribute NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx": 1
+            "NtUserGetClassName NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation": 11,
+            "NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation NtUserGetProp": 7
         },
         "5": {
-            "NtQueryObject NtQueryKey NtQueryKey NtOpenKeyEx NtQueryWnfStateData": 1,
-            "NtUserGetClassName NtProtectVirtualMemory NtProtectVirtualMemory NtUserGetGUIThreadInfo NtUserGetGUIThreadInfo": 1,
-            "NtUserGetThreadState NtTraceControl NtQuerySystemInformation NtQuerySystemInformation NtQueryInformationProcess": 1,
-            "NtUserSetWindowCompositionAttribute NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx NtCallbackReturn": 1,
-            "NtUserSetWindowLongPtr NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetImeInfoEx": 1
+            "NtUserGetClassName NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation NtUserGetProp": 6,
+            "NtUserRemoveProp NtUserGetThreadDesktop NtUserGetObjectInformation NtUserGetProp NtUserGetProp": 7
         }
     }
 }

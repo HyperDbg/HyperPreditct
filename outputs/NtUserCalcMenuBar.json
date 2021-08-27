@@ -33,8 +33,7 @@
         },
         "5": {
             "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserGetTitleBarInfo NtUserBuildHwndList": 2,
-            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserGetTitleBarInfo NtUserGetDCEx": 3,
-            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserMessageCall NtUserMessageCall": 1
+            "NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled NtUserGetTitleBarInfo NtUserGetDCEx": 3
         }
     }
 }

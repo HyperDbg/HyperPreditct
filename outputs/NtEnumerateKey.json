@@ -1,74 +1,44 @@
 {
     "NtEnumerateKey": {
         "-5": {
-            "NtEnumerateKey NtEnumerateKey NtSetInformationKey NtOpenKeyEx NtQueryKey": 1,
-            "NtEnumerateKey NtProtectVirtualMemory NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtSetInformationKey NtOpenKeyEx NtQueryKey NtQueryKey": 1,
-            "NtProtectVirtualMemory NtEnumerateKey NtEnumerateKey NtEnumerateKey NtSetInformationKey": 1,
-            "NtSetInformationKey NtOpenKeyEx NtQueryKey NtQueryKey NtQueryObject": 1
+            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 31,
+            "NtSetInformationKey NtOpenKeyEx NtOpenKeyEx NtClose NtQueryValueKey": 6
         },
         "-4": {
-            "NtClose NtReleaseWorkerFactoryWorker NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtEnumerateKey NtSetInformationKey NtOpenKeyEx": 1,
-            "NtEnumerateKey NtProtectVirtualMemory NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtSetInformationKey NtOpenKeyEx NtQueryKey": 1,
-            "NtSetInformationKey NtOpenKeyEx NtQueryKey NtQueryKey": 1
+            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 38,
+            "NtSetInformationKey NtOpenKeyEx NtOpenKeyEx NtClose": 6
         },
         "-3": {
-            "NtClose NtReleaseWorkerFactoryWorker NtEnumerateKey": 1,
-            "NtEnumerateKey NtEnumerateKey NtSetInformationKey": 1,
-            "NtEnumerateKey NtSetInformationKey NtOpenKeyEx": 1,
-            "NtSetInformationKey NtOpenKeyEx NtQueryKey": 1,
-            "NtWaitForSingleObject NtEnumerateKey NtClose": 1
+            "NtEnumerateKey NtEnumerateKey NtEnumerateKey": 46,
+            "NtSetInformationKey NtOpenKeyEx NtOpenKeyEx": 6
         },
         "-2": {
-            "NtClose NtReleaseWorkerFactoryWorker": 1,
-            "NtEnumerateKey NtOpenFile": 1,
-            "NtEnumerateKey NtSetInformationKey": 1,
-            "NtEnumerateKey NtWaitForSingleObject": 1,
-            "NtWaitForSingleObject NtEnumerateKey": 1
+            "NtEnumerateKey NtEnumerateKey": 58,
+            "NtSetInformationKey NtOpenKeyEx": 7
         },
         "-1": {
-            "NtApphelpCacheControl": 1,
-            "NtCreateEvent": 1,
-            "NtQueryLicenseValue": 1,
-            "NtSetInformationVirtualMemory": 1,
-            "NtWaitForSingleObject": 1
+            "NtClose": 13,
+            "NtEnumerateKey": 75
         },
         "1": {
-            "NtApphelpCacheControl": 1,
-            "NtCreateEvent": 1,
-            "NtDuplicateObject": 1,
-            "NtQueryLicenseValue": 1,
-            "NtSetInformationVirtualMemory": 1
+            "NtClose": 13,
+            "NtEnumerateKey": 75
         },
         "2": {
-            "NtEnumerateKey NtApphelpCacheControl": 1,
-            "NtEnumerateKey NtQuerySecurityObject": 1,
-            "NtEnumerateKey NtReleaseWorkerFactoryWorker": 1,
-            "NtReleaseWorkerFactoryWorker NtClose": 1,
-            "NtWaitForSingleObject NtEnumerateKey": 1
+            "NtEnumerateKey NtEnumerateKey": 58,
+            "NtQueryObject NtQueryKey": 6
         },
         "3": {
-            "NtEnumerateKey NtEnumerateKey NtReleaseWorkerFactoryWorker": 1,
-            "NtEnumerateKey NtReleaseWorkerFactoryWorker NtClose": 1,
-            "NtProtectVirtualMemory NtEnumerateKey NtSetEvent": 1,
-            "NtReleaseWorkerFactoryWorker NtClose NtEnumerateKey": 1,
-            "NtWaitForSingleObject NtEnumerateKey NtEnumerateKey": 1
+            "NtEnumerateKey NtEnumerateKey NtEnumerateKey": 46,
+            "NtQueryObject NtQueryKey NtOpenKeyEx": 6
         },
         "4": {
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtReleaseWorkerFactoryWorker": 1,
-            "NtEnumerateKey NtEnumerateKey NtReleaseWorkerFactoryWorker NtClose": 1,
-            "NtEnumerateKey NtProtectVirtualMemory NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtReleaseWorkerFactoryWorker NtClose NtEnumerateKey": 1,
-            "NtReleaseWorkerFactoryWorker NtClose NtEnumerateKey NtWaitForSingleObject": 1
+            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 38,
+            "NtQueryObject NtQueryKey NtOpenKeyEx NtQueryValueKey": 6
         },
         "5": {
-            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtReleaseWorkerFactoryWorker NtClose": 1,
-            "NtEnumerateKey NtEnumerateKey NtProtectVirtualMemory NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtEnumerateKey NtReleaseWorkerFactoryWorker NtClose NtEnumerateKey": 1,
-            "NtEnumerateKey NtProtectVirtualMemory NtEnumerateKey NtEnumerateKey NtEnumerateKey": 1,
-            "NtEnumerateKey NtReleaseWorkerFactoryWorker NtClose NtEnumerateKey NtWaitForSingleObject": 1
+            "NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey NtEnumerateKey": 31,
+            "NtQueryObject NtQueryKey NtOpenKeyEx NtQueryValueKey NtQueryValueKey": 6
         }
     }
 }

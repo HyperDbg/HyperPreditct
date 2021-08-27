@@ -1,37 +1,23 @@
 {
     "NtUserGetIconSize": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtUserCreateWindowEx NtUserGetClassInfoEx NtUserGetImeInfoEx": 1,
-            "NtUserMessageCall NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr NtCallbackReturn": 1,
-            "NtUserMessageCall NtSetEvent NtGdiGetBitmapDimension NtGdiExtGetObjectW NtFreeVirtualMemory": 1,
-            "NtUserSetClassLongPtr NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 1,
-            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtProtectVirtualMemory NtProtectVirtualMemory": 1
+            "NtUserMessageCall NtSetEvent NtCallbackReturn NtContinueEx NtUserShowWindow": 4,
+            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtGdiDeleteObjectApp NtGdiSelectBitmap": 6
         },
         "-4": {
-            "NtCallbackReturn NtContinueEx NtUserCreateWindowEx NtUserGetClassInfoEx": 1,
-            "NtUserMessageCall NtCallbackReturn NtContinueEx NtUserSetWindowLongPtr": 1,
-            "NtUserMessageCall NtSetEvent NtGdiGetBitmapDimension NtGdiExtGetObjectW": 1,
-            "NtUserSetClassLongPtr NtCallbackReturn NtContinueEx NtGdiDeleteObjectApp": 1,
-            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtProtectVirtualMemory": 1
+            "NtUserMessageCall NtSetEvent NtCallbackReturn NtContinueEx": 4,
+            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp NtGdiDeleteObjectApp": 6
         },
         "-3": {
-            "NtCallbackReturn NtContinueEx NtUserCreateWindowEx": 1,
-            "NtUserMessageCall NtCallbackReturn NtContinueEx": 1,
             "NtUserMessageCall NtSetEvent NtCallbackReturn": 4,
-            "NtUserMessageCall NtSetEvent NtGdiGetBitmapDimension": 1,
-            "NtUserSetClassLongPtr NtCallbackReturn NtContinueEx": 1
+            "NtUserSetCursorIconData NtUserCreateEmptyCursorObject NtGdiDeleteObjectApp": 7
         },
         "-2": {
-            "NtCallbackReturn NtContinueEx": 1,
-            "NtUserMessageCall NtCallbackReturn": 1,
             "NtUserMessageCall NtSetEvent": 5,
-            "NtUserSetClassLongPtr NtCallbackReturn": 1,
             "NtUserSetCursorIconData NtUserCreateEmptyCursorObject": 7
         },
         "-1": {
-            "NtCallbackReturn": 1,
             "NtUserMessageCall": 6,
-            "NtUserSetClassLongPtr": 1,
             "NtUserSetCursorIconData": 7
         },
         "1": {
@@ -43,24 +29,15 @@
             "NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon": 7
         },
         "3": {
-            "NtUserGetIconInfo NtUserFindExistingCursorIcon NtOpenFile": 1,
-            "NtUserGetIconInfo NtUserFindExistingCursorIcon NtUserCreateEmptyCursorObject": 1,
             "NtUserGetIconInfo NtUserFindExistingCursorIcon NtUserGetDC": 6,
-            "NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 2,
             "NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserGetDC": 5
         },
         "4": {
-            "NtUserGetIconInfo NtUserFindExistingCursorIcon NtOpenFile NtOpenFile": 1,
-            "NtUserGetIconInfo NtUserFindExistingCursorIcon NtUserCreateEmptyCursorObject NtUserSetCursorIconData": 1,
             "NtUserGetIconInfo NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateCompatibleBitmap": 6,
-            "NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 2,
             "NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateDIBitmapInternal": 5
         },
         "5": {
-            "NtUserGetIconInfo NtUserFindExistingCursorIcon NtOpenFile NtOpenFile NtGdiExtGetObjectW": 1,
-            "NtUserGetIconInfo NtUserFindExistingCursorIcon NtUserCreateEmptyCursorObject NtUserSetCursorIconData NtContinueEx": 1,
             "NtUserGetIconInfo NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateCompatibleBitmap NtUserReleaseDC": 6,
-            "NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon NtUserFindExistingCursorIcon": 2,
             "NtUserGetRequiredCursorSizes NtUserFindExistingCursorIcon NtUserGetDC NtGdiCreateDIBitmapInternal NtUserReleaseDC": 5
         }
     }

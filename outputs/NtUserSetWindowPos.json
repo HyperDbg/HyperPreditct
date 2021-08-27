@@ -1,39 +1,24 @@
 {
     "NtUserSetWindowPos": {
         "-5": {
-            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserBuildHwndList": 1,
-            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtUserMessageCall": 1,
-            "NtUserInvalidateRect NtUserShowWindow NtCallbackReturn NtContinueEx NtUserBuildHwndList": 1,
-            "NtUserInvalidateRect NtUserShowWindow NtUserReleaseDC NtUserGetDC NtUserReleaseDC": 1,
-            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx NtUserIsChildWindowDpiMessageEnabled": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 5,
+            "NtUserGetAncestor NtUserCallHwndParam NtCallbackReturn NtContinueEx NtUserThunkedMenuItemInfo": 5
         },
         "-4": {
-            "NtUserGetDC NtUserReleaseDC NtGdiGetTextFaceW NtUserGetDC": 1,
-            "NtUserInvalidateRect NtUserShowWindow NtCallbackReturn NtContinueEx": 1,
-            "NtUserInvalidateRect NtUserShowWindow NtUserReleaseDC NtUserGetDC": 1,
-            "NtUserRemoveProp NtUserGetProp NtCallbackReturn NtContinueEx": 1,
-            "NtUserShowWindow NtCallbackReturn NtContinueEx NtUserBuildHwndList": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 7,
+            "NtUserGetAncestor NtUserCallHwndParam NtCallbackReturn NtContinueEx": 5
         },
         "-3": {
-            "NtUserGetDC NtUserReleaseDC NtGdiGetTextFaceW": 1,
-            "NtUserInvalidateRect NtUserShowWindow NtCallbackReturn": 1,
-            "NtUserInvalidateRect NtUserShowWindow NtUserReleaseDC": 1,
-            "NtUserReleaseDC NtUserGetProp NtUserReleaseDC": 1,
-            "NtUserRemoveProp NtUserGetProp NtCallbackReturn": 1
+            "NtCallbackReturn NtContinueEx NtCallbackReturn": 7,
+            "NtUserGetAncestor NtUserCallHwndParam NtCallbackReturn": 5
         },
         "-2": {
-            "NtClose NtQueryVolumeInformationFile": 1,
-            "NtSetInformationProcess NtQueryInformationProcess": 1,
-            "NtUserGetDC NtUserReleaseDC": 1,
-            "NtUserReleaseDC NtUserGetProp": 1,
-            "NtUserRemoveProp NtUserGetProp": 1
+            "NtCallbackReturn NtContinueEx": 13,
+            "NtUserGetAncestor NtUserCallHwndParam": 5
         },
         "-1": {
-            "NtClose": 1,
-            "NtSetInformationProcess": 1,
-            "NtUserInvalidateRect": 2,
-            "NtUserReleaseDC": 1,
-            "NtUserRemoveProp": 1
+            "NtCallbackReturn": 13,
+            "NtUserGetAncestor": 6
         },
         "1": {
             "NtContinueEx": 12,
@@ -45,23 +30,15 @@
         },
         "3": {
             "NtContinueEx NtCallbackReturn NtContinueEx": 6,
-            "NtContinueEx NtCallbackReturn NtUserGetDC": 5,
-            "NtContinueEx NtCallbackReturn NtUserGetProp": 1,
             "NtUserMessageCall NtContinueEx NtCallbackReturn": 18
         },
         "4": {
             "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn": 6,
-            "NtContinueEx NtCallbackReturn NtUserGetDC NtGdiGetTextMetricsW": 5,
-            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserIsTopLevelWindow": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall": 2,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMoveWindow": 2
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetProp": 14
         },
         "5": {
-            "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtContinueEx": 1,
             "NtContinueEx NtCallbackReturn NtContinueEx NtCallbackReturn NtUserShowWindow": 5,
-            "NtContinueEx NtCallbackReturn NtUserGetProp NtUserIsTopLevelWindow NtUserIsNonClientDpiScalingEnabled": 1,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMessageCall NtContinueEx": 2,
-            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserMoveWindow NtUserMessageCall": 2
+            "NtUserMessageCall NtContinueEx NtCallbackReturn NtUserGetProp NtUserMessageCall": 14
         }
     }
 }
